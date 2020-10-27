@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>如如研創軟體機器人</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="LIB/css/themes/vue.css">
+<!--  <link rel="stylesheet" href="LIB/css/sidebar.css"> -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+</head>
+<body>
+  <div id="app">Please wait...</div>
+  <script src="LIB\js\docsify-edit-on-github/index.js"></script>
+  <script>
+    var prevurl = "";
+    var nowurl = "";
+
+    window.$docsify = {
+      autoHeader: true,
+      relativePath: true,
+      loadSidebar: true,
+      loadNavbar: false,
+      coverpage: true,
+      name: '',
+      repo: '',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Type to search',
+        // Localization
+        placeholder: {
+          '/': '搜尋'
+        },
+        noData: 'No Results!',
+        // Localization
+        noData: {
+          '/': '找不到结果'
+        },
+        depth: 6,
+        hideOtherSidebarContent: false,
+      },
+
+      plugins: [
+        function(hook, vm) {
+
+            hook.beforeEach(function(markdown) {                                     
+              var result = replaceUrl(markdown);
+              return result;
+            })
+
+            hook.doneEach(function() {
+                var sidebarLiEls = document.querySelectorAll('.sidebar-nav li');
+                prevurl = nowurl;
+                nowurl =  window.location.href;
+
+                sidebarLiEls.forEach(function(el) {
+                    el.style.cursor = 'pointer'
+                    if(el.children[0] && el.children[0].tagName == "A"){
+                      var result = replaceUrl(el.children[0].href);
+                      el.children[0].href = result;
+                    }
+
+                    el.addEventListener('click', function(e) {
+                      if( e.target.tagName != "A" ) {
+                          e.stopPropagation()
+                          clearActiveClass()
+                          el.classList.add('active')
+                          var targetEl = e.target.children[0] || e.target.nextElementSibling
+                          if (!targetEl) return
+                          if (targetEl.nodeName.toLowerCase() !== 'ul') return
+                          if (targetEl.style.display === 'none') {
+                              targetEl.style.display = 'block'
+                          } else {
+                              targetEl.style.display = 'none'
+                          }
+                      }
+                    }, false);
+
+                    if (el.querySelector("ul") != null) {
+                      el.style = "font-weight: bold;";
+                      var level = 0;
+                      var element = el.parentNode;
+                      while(element) {
+                        if (element.className=="sidebar-nav")
+                          break;
+                        if (element.tagName == "UL")
+                          level++;
+                        element = element.parentNode;
+                      }                   
+                      if (level >= 1)
+                        el.click();
+                    }
+
+                });
+
+                function clearActiveClass() {
+                    sidebarLiEls.forEach(function(el) {
+                        if (el.classList.contains('active')) {
+                            el.classList.remove('active')
+                        }
+                    })
+                }
+            })
+
+        }        
+      ],      
+
+    }
+
+    function replaceUrl(rStr){
+      //debugger;
+      var rx = /{([0-9]+)}/g;
+      var prx = /\/{p([0-9]+)}/g;
+      var result = rStr;
+
+      if(result.match(rx)){
+        if(result.match(rx).length > 0){      
+
+          var url = window.location.href;
+          url = url.substr(url.indexOf("#")+1,url.length);          
+          url = url.substr(0,url.lastIndexOf("/"));
+
+          var params= []; 
+          params.push(url);
+
+          var count = (url.match(/\//g) || []).length;
+          for(var i = count ; i > 0 ; i--){
+            url = url.substr(0,url.lastIndexOf("/"));
+            params.push(url);
+          }          
+          result = result.replace(rx,function($0,$1){return params[$1];});
+        }                
+      }
+
+      if(result.match(prx)){
+        if(result.match(prx).length > 0){          
+          
+          var purl = prevurl;
+          purl = purl.substr(purl.indexOf("#")+1, purl.length);          
+          purl = purl.substr(0, purl.lastIndexOf("/"));
+
+          var params= []; 
+          params.push(purl);
+
+          var count = (purl.match(/\//g) || []).length;
+          for(var i = count ; i > 0 ; i--){
+            purl = purl.substr(0,purl.lastIndexOf("/"));
+            params.push(purl);
+          }          
+          result = result.replace(prx,function($0,$1){debugger; return params[$1];});
+        }                
+      }
+      
+      return result;
+    }
+  </script>
+  <script src="LIB/js/docsify.min.js"></script>
+  <script src="LIB/js/plugins/search.min.js"></script>
+<!--  <script src="LIB/js/plugins/docsify-sidebar-collapse.min.js"></script>  -->
+</body>
+</html>
