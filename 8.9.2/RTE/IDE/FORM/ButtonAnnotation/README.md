@@ -9,7 +9,7 @@
 	| F11 | 編輯狀態下離開多筆表格跳至下一個元件 |
 	| CTRL + F2 |  |
 	| CTRL + F3 |  |
-	| CTRL + F0 |  |
+	| CTRL + F0 | test |
 	| CTRL + F5 |  |
 	| CTRL + F6 |  |
 	| CTRL + F7 |  |
