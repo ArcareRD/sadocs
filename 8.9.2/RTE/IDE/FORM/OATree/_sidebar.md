@@ -1,5 +1,5 @@
 # 樹狀控制
-* [回上頁](../README.md)
+* [上一頁](../README.md)
 * 類型
     * [表頭樹 (對應檔區=主檔區)](README.md#head)
         * [檔區座落](README.md#head-alias)

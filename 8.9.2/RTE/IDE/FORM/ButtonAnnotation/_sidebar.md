@@ -1,5 +1,5 @@
 # 基本設定
-* [回上頁](../README.md)
+* [上一頁](../README.md)
 * 加註項目
     * [對應熱鍵](README.md#hotkey)
     * [系統按鈕](README.md#sysbtn)
