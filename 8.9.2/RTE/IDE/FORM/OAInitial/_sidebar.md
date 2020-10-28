@@ -1,0 +1,14 @@
+# 預設給值
+* [上一頁](../README.md)
+* [IDE介面規格]()
+* 加註項目
+    * [給值時間點](README.md#opportunity)
+    * 資料來源
+        * [系統資訊](README.md#sysinfo)
+        * [登入資訊](README.md#login)
+        * [固定給值](README.md#fixvalue)
+        * [查表給值](README.md#query)
+        * [流水編碼](README.md#serialno)
+        * [單據編號](README.md#inno)
+* 案例
+* [History](history.md)
