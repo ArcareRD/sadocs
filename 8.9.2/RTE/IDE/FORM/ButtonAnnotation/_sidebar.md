@@ -11,7 +11,7 @@
     * [執行後續](README.md#pst)
     * [操作提示](README.md#hint)
     * [功能描述](README.md#description)
-* [History](history.md)
 * 案例
     * [((STD)按鍵加註_基本設定(Rita))](Example/FX999500001767.md)
     * [((RWD)按鍵加註_基本設定(Rita))](Example/FX999500001768.md)
+* [History](history.md)
