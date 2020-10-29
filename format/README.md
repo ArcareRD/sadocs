@@ -25,3 +25,17 @@
         * [((RWD)按鍵加註_基本設定(Rita))](Example/FX999500001768.md)
     * [History](history.md)
 
+# 超連結
+非`_sidebar.md`的md檔，固定將所有的超連結放在檔案的最後面。
+
+* 格式
+
+    [`超連結顯示文字`]:`超連結` "`hint`"
+
+* 範例
+
+        * Added rita 2019/05/24 :  擴充`游標可駐留` ([Trac#6737])
+        * Removed rita 2020/09/01 :  刪除`游標可駐留` ([Trac#9999])
+
+        [Trac#6737]:http://trac.uneec.com/trac/neco/ticket/6737 "#6737"
+        [Trac#9999]:http://trac.uneec.com/trac/neco/ticket/9999 "#9999"
