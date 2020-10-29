@@ -39,3 +39,7 @@
 
         [Trac#6737]:http://trac.uneec.com/trac/neco/ticket/6737 "#6737"
         [Trac#9999]:http://trac.uneec.com/trac/neco/ticket/9999 "#9999"
+
+# 錨點
+* 標題(#)自動會有錨點
+* 標題有符號的，請自行定義錨點
