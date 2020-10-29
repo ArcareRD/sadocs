@@ -6,4 +6,4 @@
 
 - IDE / RTE / MAE
 
-[Get Started](/README)
+[Get Started](README)
