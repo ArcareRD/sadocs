@@ -16,13 +16,10 @@
       * 是
       * 否
 
-  [Trac#6737]:http://trac.uneec.com/trac/neco/ticket/6737 "#6737"
-
+  
   ### <a id='v8_9_2'></a>8.9.2
   * Removed rita 2020/09/01 :  刪除`游標可駐留` ([Trac#9999])
       ### ~~<div id="focus">游標可駐留</div>~~
-
-  [Trac#9999]:http://trac.uneec.com/trac/neco/ticket/9999 "#9999"
 
   * Added rita 2020/09/04 :  Hotkey擴充可取代`系統專用Hotkey` ([Trac#8039])
 
@@ -43,8 +40,10 @@
       | F10 | (系統保留) |
       | F12 | 資料搜尋 |
 
-  <!--超連結引用ps.畫面上看不到-->
-  [Trac#8039]:http://trac.uneec.com/trac/neco/ticket/8039 "#8039"
+<!--超連結引用ps.畫面上看不到-->
+[Trac#6737]:http://trac.uneec.com/trac/neco/ticket/6737 "#6737"
+[Trac#9999]:http://trac.uneec.com/trac/neco/ticket/9999 "#9999"
+[Trac#8039]:http://trac.uneec.com/trac/neco/ticket/8039 "#8039"
 
 
 
