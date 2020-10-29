@@ -1,5 +1,4 @@
-- [8.8.3](8.8.3/README.md)
-- [8.9.1](8.9.1/README.md)
-- [8.9.2](8.9.2/README.md)
-- [文件撰寫工具教學](teaching/README.md)
-- [文件撰寫規範](format/README.md)
+- 版本
+    - [8.9.2](8.9.2/README.md)
+    - [8.9.1](8.9.1/README.md)
+    - [8.8.3](8.8.3/README.md)

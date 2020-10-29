@@ -17,15 +17,14 @@
   <div id="app">Please wait...</div>
   <script src="LIB\js\docsify-edit-on-github/index.js"></script>
   <script>
-    var prevurl = "";
-    var nowurl = "";
+    var prevPath = [];
 
-    window.$docsify = {
-      autoHeader: true,
+    window.$docsify = {      
       relativePath: true,
       loadSidebar: true,
-      loadNavbar: false,
+      loadNavbar: true,      
       coverpage: true,
+      onlyCover: true,
       name: '',
       repo: '',
       search: {
@@ -54,15 +53,14 @@
 
             hook.doneEach(function() {
                 var sidebarLiEls = document.querySelectorAll('.sidebar-nav li');
-                prevurl = nowurl;
-                nowurl =  window.location.href;
 
                 sidebarLiEls.forEach(function(el) {
                     el.style.cursor = 'pointer'
-                    if(el.children[0] && el.children[0].tagName == "A"){
-                      var result = replaceUrl(el.children[0].href);
-                      el.children[0].href = result;
-                    }
+                    el.querySelectorAll('a').forEach(function(e){                      
+                      if(e.href.indexOf("{back}") != -1){
+                        e.setAttribute("onclick","javascript:backpath(this)");  
+                      }
+                    });
 
                     el.addEventListener('click', function(e) {
                       if( e.target.tagName != "A" ) {
@@ -110,12 +108,17 @@
       ]
     }
 
+    /*頁內回指定目錄層連結    
+      依據目前資料夾層級
+      當下資料夾:{0}/[history]UI_Prj_Main.md
+      上層資料夾:{1}/TableList.md
+      上上層資料夾:{2}/README.md
+    */
     function replaceUrl(rStr){
-      //debugger;
+      
       var rx = /{([0-9]+)}/g;
-      var prx = /\/{p([0-9]+)}/g;
       var result = rStr;
-
+     
       if(result.match(rx)){
         if(result.match(rx).length > 0){      
 
@@ -134,27 +137,34 @@
           result = result.replace(rx,function($0,$1){return params[$1];});
         }                
       }
-
-      if(result.match(prx)){
-        if(result.match(prx).length > 0){          
-          
-          var purl = prevurl;
-          purl = purl.substr(purl.indexOf("#")+1, purl.length);          
-          purl = purl.substr(0, purl.lastIndexOf("/"));
-
-          var params= []; 
-          params.push(purl);
-
-          var count = (purl.match(/\//g) || []).length;
-          for(var i = count ; i > 0 ; i--){
-            purl = purl.substr(0,purl.lastIndexOf("/"));
-            params.push(purl);
-          }          
-          result = result.replace(prx,function($0,$1){debugger; return params[$1];});
-        }                
-      }
       
       return result;
+    }
+    
+    function backpath(e){      
+      var inx = prevPath.length-2;
+      if(inx < 0)
+        inx = 0;
+      if(prevPath[inx]){
+        var lastPath = prevPath[inx]+"/README?{back}";
+        prevPath.splice(inx, prevPath.length - inx);
+        e.setAttribute("href",lastPath);
+      }else{
+        e.setAttribute("href",window.location.origin);
+      }      
+    }
+
+    window.addEventListener('load', (event) => {      
+      prevPath = [];
+    });
+
+    window.onhashchange = function(event) {      
+      /*紀錄本頁*/               
+      var path = event.newURL;
+      var oldpath = event.oldURL;
+      if(prevPath[prevPath.length-1] != path.substr(0,path.lastIndexOf("/"))){
+        prevPath.push(path.substr(0,path.lastIndexOf("/")));
+      }
     }
   </script>
   <script src="LIB/js/docsify.min.js"></script>

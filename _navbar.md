@@ -1,4 +1,4 @@
-* Getting started
-  * [版本資訊](RELEASE/README.md)
-* [繁體中文](/)
-* [En](/)
+* [首頁](/README.md)
+* 文件撰寫
+  * [教學](/teaching/README)
+  * [規範](/format/README)
