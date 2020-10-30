@@ -2,7 +2,7 @@
 * 一般規則
     * 關鍵字
         * [IDE介面](README.md#tag_ide)
-        * [引擎常用語](README.md#tag_rte)
+        * [RTE常用語](README.md#tag_rte)
             * [清單](tag.md)
     * 特殊html tag
         * [注意事項](README.md#html_tag_ps)

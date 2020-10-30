@@ -14,11 +14,11 @@
 
     * `新增前` 會因預設給值的加註個數，決定在client端/server端執行。所以為了測試在Client端的部份，建議一張表單一個`預設給值`的加註，來測試於Client端的部份。
 
-### <div id="tag">引擎常用語 <path>(一般規則\關鍵字)</path></div>
+### <div id="tag">RTE常用語 <path>(一般規則\關鍵字)</path></div>
         <rte>關鍵字</rte>
 關鍵字，之後可用來搜尋。
 
-<ps>注意</ps> 請至[引擎常用語-清單](tag.md) 搜尋。
+<ps>注意</ps> 請至[RTE常用語-清單](tag.md) 搜尋。
 
 <ps>注意</ps> 若不存在於清單時，請 skype 通知 rita 登冊。
 
