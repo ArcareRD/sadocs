@@ -77,26 +77,33 @@
 * 根節點為0。
 
 
-### <div id="checkbox">判斷欄位 <path>(外觀\節點圖示)</path></div>
+### <div id="checkbox">致能勾選 <path>(資料控制)</path></div>
+樹節點是否出現checkbox。
+
+### <div id="checkbox-enable">限制條件 <path>(資料控制\致能勾選)</path></div>
+(可不設)checkbox致能條件。
+
+* 條件式_處理類別
+	* `無關資料庫` <ic>(FW0000006303)</ic>
+	* ~~`資料表`~~
+	* ~~`檢視表`~~
 
 
-            * [致能勾選](head.md#checkbox)
-                * [限制條件](head.md#checkbox-valid)
-                * [單項資料傳遞](head.md#checkbox-sourcefield)
+### <div id="checkbox-sourcefield">單項資料傳遞 <path>(資料控制\致能勾選)</path></div>
+checkbox顯示的內容為對應檔區裡的欄位。
+
+### <div id="checkbox-sourcefield">對應欄位 <path>(資料控制\致能勾選\單項資料傳遞)</path></div>
+樹節點上的checkbox對應的欄位。
+* <rte>欄位型態</rte>須為<rte>數字</rte>。
+
+
+
                     * [對應欄位](head.md#checkbox-sourcefield-field)
                     * [呼叫按鈕](head.md#checkbox-sourcefield-click)
                 * [多項資料傳遞](head.md#checkbox-mutitag)
                     * [資料行欄位](head.md#checkbox-mutitag-field)
 
 
-### <div id="head-datacontrol">資料控制</div>
-* **致能勾選** : 樹節點是否出現checkbox。
-	* `否`
-	* `是`
-		* **限制條件** : checkbox是否致能。
-			* `無關資料庫`：*`(FW0000006303)`*
-			* ~~`資料表`~~
-			* ~~`檢視表`~~
 		* **類型**	
 			* `單項資料傳遞` : checkbox顯示的內容為對應檔區裡的欄位。
 				* **對應欄位** : 樹節點上的checkbox對應的欄位(欄位型態須為數字)。	

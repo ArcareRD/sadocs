@@ -28,7 +28,7 @@
                 * [判斷欄位](head.md#icon-sourcefield)
         * 資料控制
             * [致能勾選](head.md#checkbox)
-                * [限制條件](head.md#checkbox-valid)
+                * [限制條件](head.md#checkbox-enable)
                 * [單項資料傳遞](head.md#checkbox-sourcefield)
                     * [對應欄位](head.md#checkbox-sourcefield-field)
                     * [呼叫按鈕](head.md#checkbox-sourcefield-click)
