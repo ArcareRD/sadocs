@@ -9,7 +9,8 @@
         * [開關標示](README.md#html_tag_ic)
         * [測試注意事項](README.md#html_tag_test)
         * [來源路徑](README.md#html_tag_path)
-* [IDE]()
+* IDE
+    * [撰寫規範](README.md#ide)
     * [條件式](README.md#ide_valid)
     * [運算式](README.md#ide_expr)
 * [RTE]()
