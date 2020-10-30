@@ -10,4 +10,6 @@
         * [測試注意事項](README.md#html_tag_test)
         * [來源路徑](README.md#html_tag_path)
 * [IDE]()
+    * [條件式](README.md#ide_valid)
+    * [運算式](README.md#ide_expr)
 * [RTE]()
