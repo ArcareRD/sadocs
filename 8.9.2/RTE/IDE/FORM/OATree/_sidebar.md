@@ -40,7 +40,7 @@
             * [呼叫按鈕](head.md#edit-btn)
             * [不成立訊息](head.md#edit-errmsg)
     * 表身樹 (對應檔區=表身檔區)
-         * 檔區座落
+        * 檔區座落
             * 單一檔區
                 * [檔區](body.md#alias)
                 * [父階](body.md#alias-parent)
