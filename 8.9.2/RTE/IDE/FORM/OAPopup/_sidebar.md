@@ -29,7 +29,7 @@
                     * [筆數](README.md#file_choosetype)
                     * [檔案儲存欄位](README.md#file_binary_ctrl)
                     * [縮圖](README.md#file_thumbnail)
-                        * [解析度](README.md#_thumbnail_resolution)
+                        * [解析度](README.md#file_thumbnail_resolution)
         * [調色盤](README.md#color)
 * 案例
 * [History](history.md)

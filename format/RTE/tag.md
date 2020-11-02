@@ -1,4 +1,7 @@
 # RTE常用語
+### 
+* <rte>Site資料庫設定</rte>
+    * <rte>共用資料夾實體路徑</rte>
 ### 表單相關
 * <rte>表單狀態</rte>
     * <rte>新增狀態</rte>
@@ -53,8 +56,9 @@
 * <rte>除能</rte>
 * <rte>駐留</rte>
 * <rte>檔區</rte>
-* <rte>多筆勾選<rte>
-* <rte>元件跳離<rte>
+* <rte>多筆勾選</rte>
+* <rte>元件跳離</rte>
+* <rte>雙擊</rte>
 
 
 ### 資料表
