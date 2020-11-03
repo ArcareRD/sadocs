@@ -10,7 +10,7 @@
 * 專案資源
     * [資料模版](Commodule)
     * [多語設定](Multilingual)
-    * [圖示設定](Icon)
+    * [圖示設定](Icon/README)
     * [交換格式](Exformat)
     * [排程設定](Schedule)
     * [報表條文](Clause)
