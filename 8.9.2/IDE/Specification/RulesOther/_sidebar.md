@@ -6,3 +6,4 @@
   * [按鍵熱鍵通則](README#ruleother3)
   * [挑選表單檔區通則](README#ruleother4)
   * [MAE加註儲存通則](README#ruleother5)
+  * [權限驗証通則](README#ruleother6)

@@ -1,5 +1,5 @@
 ## <p id="ruledialog1">操作條件式通則</p>
-![pic](attachment/ruledialog1.png)
+![pic][image_ruledialog1]
 * (1)條件欄位
     * 用途說明
     * 規格說明
@@ -10,7 +10,7 @@
     * 用途說明
     * 規格說明
         * 編輯狀態
-            * 開窗設定[條件式](), 回傳:條件ID, 及條件說明, 顯示條件說明
+            * 開窗設定[條件式](), 回傳:條件ID、條件說明, 顯示條件說明
             * 須指定加註類型
             * 當有限定不可查表, 或來源表格時, 條件式內的來源, 不允變動
         * 瀏覽狀態
@@ -26,7 +26,7 @@
     * 編輯存回，當條件清除時, 須連帶刪除該條件式的儲存內容
 
 ## <p id="ruledialog2">使用多語詞庫通則</p>
-![pic](attachment/ruledialog2.png)
+![pic][image_ruledialog2]
 * (1)名稱欄位
     * 用途說明
     * 規格說明
@@ -37,4 +37,10 @@
     * 用途說明
     * 規格說明
         * 編輯狀態
-            * 開窗設定[多語詞庫], 回傳:多語料號, 及多語名稱, 顯示多語名稱
+            * 開窗設定[多語詞庫](), 回傳:多語料號、多語名稱, 顯示多語名稱
+
+<!-- 圖示 -->
+[image_ruledialog1]:attachment/ruledialog1.png
+[image_ruledialog2]:attachment/ruledialog2.png
+
+<!-- 超連結 -->

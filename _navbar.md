@@ -5,3 +5,5 @@
   * [RTE規範](/format/RTE/README)
   * [IDE規範](/format/IDE/README)
   * [RTE常用語](/format/RTE/TAG)
+* 測試案例佈建
+  * [RTE注意事項](/test/RTE/README.md)
