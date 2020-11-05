@@ -1,7 +1,7 @@
 # 文字方塊
 * [上一頁](../README.md)
 * 版面相關
-    * [STD表單(傳統表單)](README.md#layout-std)
+    * [STD表單](README.md#layout-std)
     * [RWD表單](README.md#layout-rwd)
 * 行為
     * [受權限保護元件](README.md#behavior-protect)
