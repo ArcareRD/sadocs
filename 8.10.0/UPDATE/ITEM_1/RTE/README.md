@@ -1,7 +1,13 @@
+### <div id="user">規劃人員</div>
+* Rita
+
+### <div id="updatedate">規劃日期</div>
+* 2020/11/04
+
 ### <div id="trac">TRAC</div>
 * #8189
 
-### <div id="utl_1">表單.離線任務同步異動記錄 <path>(系統工具)</path></div>
+### <div id="utl_1">表單.離線任務同步異動記錄 <path>(規劃內容\系統工具)</path></div>
 * 擴充
 * 設計類型 : RWD表單
 * 表單種類 : 條件多筆 
