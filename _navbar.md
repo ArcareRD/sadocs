@@ -1,9 +1,9 @@
 * [首頁](/README.md)
 * 文件撰寫
-  * [教學](/teaching/README)
-  * [規範](/format/README)
-  * [RTE規範](/format/RTE/README)
-  * [IDE規範](/format/IDE/README)
-  * [RTE常用語](/format/RTE/TAG)
+  * [教學](/teaching/README.md)
+  * [規範](/format/README.md)
+  * [RTE規範](/format/RTE/README.md)
+  * [IDE規範](/format/IDE/README.md)
+  * [RTE常用語](/format/RTE/tag.md)
 * 測試案例佈建
   * [RTE注意事項](/test/RTE/README.md)
