@@ -10,30 +10,39 @@
 ### <div id="sitemanage_1">表單.推播通知管理 <path>(Site管理)</path></div>
 * 擴充
 * 規格說明
-    * 該表單用來管理使用者接收推播通知的能力
-    * 該表單僅系統管理員或企業管理員權限可開啟
-    * 若為系統管理員，表單開啟後，列出該系統管理員可管理的系統下所有使用者清單。<br><ps>注意</ps> : 因同一使用者可能會在多個系統出現，需去除重複的使用者，同一使用者在清單中僅出現一筆。
-    * 若為企業管理員，表單開啟後，列出該企業下所有使用者清單。
+    * 該表單用來管理裝置接收推播通知的能力
+    * 該表單僅企業管理員權限可開啟
+    * 若為企業管理員，表單開啟後，依據以下條件列出裝置清單
+        * 裝置為主要裝置，且使用者隸屬於企業管理員的企業。
+        * 裝置為共用裝置，最後使用者隸屬於企業管理員的企業。
 * 表單畫面
 
-    ![Alt sitemanage1](./img/sitemanage1.png)
+    ![Alt sitemanage1](./img/pushmessagemanage_view.png)
 * 畫面規格說明
-    * 欄位.部門單位 : 該使用者所屬的部門單位名稱
-    * 欄位.帳號 : 該使用者的帳號
-    * 欄位.使用者姓名 : 該使用者的姓名
-    * 按鈕.生效 : 點擊後將該使用者接收推播通知的功能生效，若為已生效的使用者紀錄，該按鈕除能。
-    * 按鈕.失效 : 點擊後將該使用者接收推播通知的功能失效，若為已失效的使用者紀錄，該按鈕除能。
+    * 欄位.裝置代號 : 該裝置的 IMEI，點擊欄位標題，依該欄位重新排序。
+    * 欄位.裝置名稱 : 該裝置的名稱，該欄位為預設排序欄位。點擊欄位標題，依該欄位重新排序。
+    * 欄位.使用者帳號 : 設定該裝置為主要裝置的使用者帳號，或該裝置為共用裝置，顯示最後登入的使用者帳號，若無上述資訊則顯示空白。點擊欄位標題，依該欄位重新排序。
+    * 欄位.使用者姓名 : 欄位.使用者帳號對應的使用者姓名，若欄位.帳號為空白，則顯示空白。點擊欄位標題，依該欄位重新排序。
+    * 按鈕.生效 : 點擊後將該裝置接收推播通知的功能生效，若為已生效的裝置紀錄，該按鈕除能。
+    * 按鈕.失效 : 點擊後將該裝置接收推播通知的功能失效，若為已失效的裝置紀錄，該按鈕除能。
+    * 按鈕.刪除 : 點擊後刪除該裝置的紀錄，權限等同失效。
 
 * 作業流程
     * 開啟畫面
 
-    ![Alt sitemanage2](./img/sitemanage2.png)
-    * 生效使用者接收推播通知
+    ![Alt pushmessagemanage_sa1](./img/pushmessagemanage_sa1.png)
+    * 生效裝置接收推播通知
 
-    ![Alt sitemanage3](./img/sitemanage3.png)
-    * 失效使用者接收推播通知
+    ![Alt pushmessagemanage_sa2](./img/pushmessagemanage_sa2.png)
+    * 失效裝置接收推播通知
 
-    ![Alt sitemanage4](./img/sitemanage4.png)
+    ![Alt pushmessagemanage_sa3](./img/pushmessagemanage_sa3.png)
+    * 刪除裝置
+
+    ![Alt pushmessagemanage_sa5](./img/pushmessagemanage_sa5.png)
+    * 點擊 欄位.裝置代號 / 欄位.裝置名稱 / 欄位.使用者帳號 / 欄位.使用者姓名 標題進行排序
+    
+    ![Alt pushmessagemanage_sa4](./img/pushmessagemanage_sa4.png)
 
 ### <div id="sitemanage_2">表單.其他參數 <path>(Site管理)</path></div>
 * 異動
@@ -42,9 +51,9 @@
     * 增加欄位.推播通知訊息保留天數，數字型態欄位，不可空白，不可輸入小於0的數字，若為0則不執行清除訊息，欄位預設值為30。
 * 表單畫面
 
-    ![Alt sitemanage5](./img/sitemanage5.png)   
+    ![Alt sitemanage5](./img/otherparameter_view.png)   
 * 作業流程
     * 儲存
 
-    ![Alt sitemanage6](./img/sitemanage6.png)
+    ![Alt sitemanage6](./img/otherparameter_sa1.png)
 ### <div id="rte_1">推播訊息 <path>(Site管理)</path></div>
