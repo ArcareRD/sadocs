@@ -3,8 +3,7 @@
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
-* [工作流程](README.md#workflow)
-* 規劃內容
+* [需求展開](README.md#requirement)
     * 按鍵加註
         * 推播通知(待補)
     * Site管理
