@@ -3,10 +3,13 @@
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
+* [工作流程](README.md#workflow)
 * 規劃內容
+    * 按鍵加註
+        * 推播通知(待補)
     * Site管理
-        * [表單.推播通知管理](README.md#sitemanage_1)
-        * [表單.其他參數](README.md#sitemanage_2)
-    * 表單功能
-        * [推播訊息](README.md#clienteng_1)
-        * [預約推播訊息](README.md#clienteng_2)
+        * [表單.推播通知管理](pushmessagemanage.md)
+        * [表單.其他參數](otherparameter.md)
+    * RTE首頁
+        * [表單.個人資料](pushmessagelog.md)
+        * [表單.推播通知明細](pushmessagedetail.md)
