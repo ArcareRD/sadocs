@@ -7,10 +7,10 @@
 ### <div id="trac">TRAC</div>
 * #8193 
 
-### <div id="flow">Work Flow</path></div>
+### <div id="flow">作業流程</path></div>
 ![pic][image_Workflow]
 
 
 
 <!-- 圖片 -->
-[image_Workflow]:attachment/IDE_MAENotice_Workflow.png
+[image_Workflow]:attachment/IDE_MAENotice.png

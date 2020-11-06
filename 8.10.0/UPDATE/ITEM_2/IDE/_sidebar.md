@@ -3,12 +3,16 @@
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
-* [Work Flow](README.md#flow)
-* 主修改內容
+* [作業流程](README.md#flow)
+* 修改內容
     * 按鍵加註
         * [按鍵行為選項](ButtonBehavior.md)
+            * [版面相關](ButtonBehavior.md#behavior-layout)
+            * [動作說明](ButtonBehavior.md#behavior-form-action)
+            * [欄位說明](ButtonBehavior.md#behavior-object-desc)
+            * [功能說明](ButtonBehavior.md#behavior-button-desc)
         * [推播通知](MAENotice.md)
-* 影響
+* 影響修改
     * [發行檢錯]()
     * [發行XML&XSD]()
     * [發行JSON]()

@@ -1,4 +1,7 @@
-## <div id="layout">版面相關</div>
+### <div id="trac">TRAC</div>
+* #8206 
+
+## <div id="behavior-layout">版面相關</div>
 * 版面
     * STD</br>
         ![pic][image_button_STD]
@@ -6,16 +9,22 @@
         * 同STD
     * MAE</br>
         ![pic][image_button_MAE]
+* [版面資訊通則][link_ruleother1]
+
+## <div id="behavior-form-action">動作說明</div>
+* 依規格定義-主畫面 結構清單駐留按鍵或隱藏按鍵, 執行按鍵.設定，進入本單
+* 作業流程
+    * ![pic][image_ButtonBehavior_Open]
 
 
-## <div id="object-desc">欄位說明</div>
+## <div id="behavior-object-desc">欄位說明</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本區塊</p>
 
     * STD</br>
         ![pic][image_fieldbreak1_STD]
     * MAE</br>
         ![pic][image_fieldbreak1_MAE]
-    * (1)行為選項
+    * `(1) 行為選項`    
         * 用途說明
         * 規格說明        
             * 選項:1.基本設定, 預設為true, 除能
@@ -26,6 +35,23 @@
 
 
 
+## <div id="behavior-button-desc">功能說明</div>
+* `儲存`
+    * 用途說明
+    * 規格說明
+        * 若駐留功能按鈕, 不存在行為選項:1.基本設定, 系統自動新增該行為選項
+        * 依駐留功能按鈕, 新增本次選取的行為選項
+    * 作業流程
+        * ![pic][image_ButtonBehavior_Save]
+* `重設`
+    * 用途說明
+    * 規格說明
+        * 除了基本設定, 清除所有行為選項勾項目
+    * 作業流程
+        * ![pic][image_ButtonBehavior_Reset]
+
+
+
 
 <!-- 圖片 -->
 [image_button_STD]:attachment/ButtonBehavior_STD.png
@@ -33,3 +59,10 @@
 [image_fieldbreak1_STD]:attachment/fieldbreak1_STD.png
 [image_fieldbreak1_MAE]:attachment/fieldbreak1_MAE.png
 [image_ButtonBehavior_Supper]:attachment/ButtonBehavior_Supper.png
+[image_ButtonBehavior_Save]:attachment/ButtonBehavior_Save.png
+[image_ButtonBehavior_Reset]:attachment/ButtonBehavior_Reset.png
+[image_ButtonBehavior_Open]:attachment/ButtonBehavior_Open.png
+
+
+<!-- 超連結 -->
+[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
