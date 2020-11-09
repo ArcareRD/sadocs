@@ -56,3 +56,6 @@
     * 將推播通知紀錄狀態設為已讀
 
     ![Alt pushmessagelog_sa7](./img/pushmessagelog_sa7.png)  
+    * 雙擊一筆推播通知紀錄，開啟表單.推播通知明細
+
+    ![Alt pushmessagelog_sa8](./img/pushmessagelog_sa8.png)  

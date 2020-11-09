@@ -5,7 +5,7 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
     * 按鍵加註
-        * 推播通知(待補)
+        * [推播通知](./buttonannotation/README.md)
     * Site管理
         * [表單.推播通知管理](pushmessagemanage.md)
         * [表單.其他參數](otherparameter.md)
