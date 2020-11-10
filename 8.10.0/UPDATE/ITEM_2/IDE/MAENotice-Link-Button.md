@@ -19,7 +19,10 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="form-action">動作說明</div>
-
+* 依 [按鍵加註-推播通知-主旨內文][link_MAENotice]`(13)連結內容`開啟, 顯示本單內容
+* 若前單推播通知來源與原設定不同時
+    * 須清除引用推播通知來源欄位
+    * 覆蓋原設定推播通知來源料號
 
 ## <div id="object-desc">欄位說明</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
@@ -28,11 +31,11 @@
     * `(1)表單名稱`
         * 用途說明
         * 規格說明
-            * 參照 [挑選開放按鍵表單], 回傳:表單料號
+            * 參照 [挑選開放按鍵表單][link_ruledialog6], 過濾:表單須存在[開放按鍵][link_ExternalCallButton], 回傳:表單料號
     * `(2)按鍵名稱`
         * 用途說明
         * 規格說明
-            * 參照 [挑選開放按鍵], 傳遞:按鍵料號
+            * 參照 [挑選開放按鍵][link_ruledialog13], 過濾:`(1)表單名稱`且按鍵須存在[開放按鍵][link_ExternalCallButton], 回傳:按鍵料號
     * `(3)通行碼`
         * 用途說明
         * 規格說明
@@ -60,7 +63,7 @@
         * 規格說明
             * 當`(6)執行後續_成功訊息`未設定時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇"成功訊息"。 / 按鍵: 確定】
                 * 確定: 關閉訊息盒 
-            * 當`(6)執行後續_成功訊息`有設定時, 開啟[訊息替代] , 限定: 替代來源=表單, 回傳: 訊息替代ID
+            * 當`(6)執行後續_成功訊息`有設定時, 開啟[訊息替代][link_Replace] , 限定: 替代來源=表單, 回傳: 訊息替代ID
     * `(8)執行後續_失敗訊息`
         * 用途說明
         * 規格說明
@@ -71,7 +74,7 @@
         * 規格說明
             * 當`(8)執行後續_失敗訊息`未設定時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇"失敗訊息"。 / 按鍵: 確定】
                 * 確定: 關閉訊息盒 
-            * 當`(8)執行後續_失敗訊息`有設定時, 開啟[訊息替代], 限定:替代來源=表單, 回傳:訊息替代ID
+            * 當`(8)執行後續_失敗訊息`有設定時, 開啟[訊息替代][link_Replace], 限定:替代來源=表單, 回傳:訊息替代ID
     * `(10)傳遞參數表格`
         * 用途說明
         * 規格說明 
@@ -128,12 +131,17 @@
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本區塊"
 [link_MAENotice_block3]:MAENotice.md#fieldbreak3 "按鍵加註-推播通知/主旨內文"
 
+[link_ExternalCallButton]:/8.10.0/IDE/Specification/ExternalCallButton/README "開放按鍵"
+[link_Replace]:/8.10.0/IDE/Specification/Replace/README "訊息替代"
+
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 
 [link_rulesbutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_其它/操作表格記錄通則"
 
 [link_ruledialog2]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
 [link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
 [link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
 [link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
+[link_ruledialog13]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選開放按鍵"
