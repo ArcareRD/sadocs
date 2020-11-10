@@ -5,9 +5,11 @@
 * [TRAC](README.md#trac)
 * 規劃內容
   * 推播通知
-    * [系統管理](README.md#notification_system)
-    * [表單連結](README.md#notification_form_link)
-    * [超連結](README.md#notification_hyperlink)
-    * [推播記錄](README.md#notification_log)
+    * [APP ICON Badge](notification_icon.md)
+    * [系統管理](notification_system.md)
+    * [表單連結](notification_formlink.md)
+    * [超連結](notification_hyperlink.md)
+    * [推播記錄](notification_record.md)
+    * [推播訊息](notification_message.md)
   * 按鍵加註
-    * [推播通知](README.md#attach_notification)
+    * [推播通知](notification_attach.md)
