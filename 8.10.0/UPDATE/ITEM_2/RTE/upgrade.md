@@ -18,7 +18,7 @@
             * 擴充表單.推播通知明細 : 新增系統表格。
 * 表單畫面
 
-    ![Alt sitedatabaseset_view](./img/sitedatabaseset.png)   
+    ![Alt sitedatabaseset](./img/SiteDatabaseSet.png)   
 * 畫面規格說明
     * 按鈕.重整資料庫
         * 執行
