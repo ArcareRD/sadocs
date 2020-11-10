@@ -3,3 +3,13 @@
 * 操作通則
   * [操作條件式通則](README#ruledialog1)
   * [使用多語詞庫通則](README#ruledialog2)
+  * [挑選資料表通則](README#ruledialog3)
+  * [挑選資料表元件通則](README#ruledialog5)
+  * [挑選檢視表通則](README#ruledialog4)
+  * [挑選檢視表元件通則](README#ruledialog8)
+  * [挑選表單通則](README#ruledialog6)
+  * [挑選表單元件通則](README#ruledialog7)
+  * [挑選表單參數通則](README#ruledialog9)  
+  * [挑選全域變數通則](README#ruledialog10)
+  * [設定按鍵執行條件表格通則](README#ruledialog11)
+  * [操作按鍵執行條件訊息通則](README#ruledialog12)
