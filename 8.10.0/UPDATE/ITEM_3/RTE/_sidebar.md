@@ -3,11 +3,11 @@
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
-* 規劃內容
+* [需求展開](README.md#requirement)
     * Site
-        * [升級轉資料](README.md#site_update)
+        * [表單.Site資料庫設定](README.md#site_update)
         * [表單.系統管理](README.md#site_projectnndex)
         * [表單.匯入系統](README.md#site_importobject)
-    * 系統工具
-        * [系統語言](README.md#utl_syslang)
+    * System
+        * [語言名稱](README.md#system_language_name)
 

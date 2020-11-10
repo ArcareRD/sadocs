@@ -7,7 +7,23 @@
 ### <div id="trac">TRAC</div>
 * #8194
 
-### <div id="site_update">升級轉資料 <path>(規劃內容\Site)</path></div>
+### <div id="requirement">需求展開</div>
+* 規格說明
+    * 安裝
+        * 預設以主要專案的專案名稱的多語詞庫內容作為RTE系統名稱的多語詞庫語系內容依據，異動時也是以[主要專案]做為比對依據來源。
+        * 不存在的語系新增、已存在的語系不覆蓋、被移除的語系則清除。
+        * 允許管理者以手動於[Site Manager]中更改[系統名稱]、 [分公司名稱]多語詞庫語系內容。
+        * 管理者設定系統名稱或是公司名稱時預設以站台預設語系為紀錄的語系。
+    * 語系名稱支援多語顯示
+        * 改以culture name方式顯示
+
+* 規劃項目展開
+    * Site管理異動以下項目 :
+        * 表單.Site資料庫設定 : 升級轉資料。
+        * 表單.系統管理 : 允許管理者以手動於[Site Manager]中更改[系統名稱]、 [分公司名稱]多語詞庫語系內容。
+        * 表單.匯入系統 :　預設以主要專案的專案名稱的多語詞庫內容作為RTE系統名稱的多語詞庫語系內容依據，異動時也是以[主要專案]做為比對依據來源。
+
+### <div id="site_update">Site資料庫設定 <path>(需求展開\Site)</path></div>
 * 異動
 * 表單畫面
 
@@ -41,7 +57,7 @@
 
         ![表單_Site資料庫設定_重整資料庫]
 
-### <div id="site_projectnndex">表單.系統管理 <path>(規劃內容\Site)</path></div>
+### <div id="site_projectnndex">表單.系統管理 <path>(需求展開\Site)</path></div>
 * 異動
 * 表單畫面
     * 專案名稱
@@ -159,7 +175,7 @@
         ![表單_系統管理_分公司節點_儲存]
 
 
-### <div id="site_importobject">表單.匯入系統 <path>(規劃內容\Site)</path></div>
+### <div id="site_importobject">表單.匯入系統 <path>(需求展開\Site)</path></div>
 * 異動
 * 表單畫面
 
@@ -183,16 +199,19 @@
 
         ![表單_匯入系統_匯入]
 
-### <div id="utl_syslang">系統語言 <path>(規劃內容\系統工具)</path></div>
-* 語言名稱
-    * (系統工具)TBL.UTL_SYSLANG(系統語言)的欄位[LANGNAME(語言名稱)]
-        * 欄位保留，但不再使用。(保留的原因是舊的安裝檔裡有用到。)
-        * 提供函數.取得語系名稱。
-        * 修正有引用到的表單，改透過函數取得
-            * 系統多語詞庫
-            * 系統多語編輯
-            * 系統語言一覽表
-            * 表單使用多語編輯
+### <div id="system_language_name">語言名稱 <path>(需求展開\System)</path></div>
+* 改以culture name方式顯示
+* 範圍
+    * 切換語系
+        * 首頁
+        * 首頁(行動裝置)
+    * 系統工具
+        * 系統多語詞庫
+        * 系統多語編輯
+        * 系統語言一覽表
+        * 表單使用多語編輯
+
+
 
 [表單_Site資料庫設定]:attachment/SiteDatabaseSet.png "表單_Site資料庫設定"
 [表單_Site資料庫設定_重整資料庫]:attachment/SiteDatabaseSet_RefreshDB.png "表單_Site資料庫設定_重整資料庫"
