@@ -1,3 +1,9 @@
+### <div id="user">規劃人員</div>
+* Prenkt
+
+### <div id="updatedate">規劃日期</div>
+* 2020/11/05
+
 ### <div id="trac">TRAC</div>
 * #8206 
 
@@ -24,7 +30,7 @@
         ![pic][image_fieldbreak1_STD]
     * MAE</br>
         ![pic][image_fieldbreak1_MAE]
-    * `(1) 行為選項`    
+    * `(1)行為選項`    
         * 用途說明
         * 規格說明        
             * 選項:1.基本設定, 預設為true, 除能
@@ -52,16 +58,15 @@
 
 
 
-
 <!-- 圖片 -->
 [image_button_STD]:attachment/ButtonBehavior_STD.png
 [image_button_MAE]:attachment/ButtonBehavior_MAE.png
 [image_fieldbreak1_STD]:attachment/fieldbreak1_STD.png
 [image_fieldbreak1_MAE]:attachment/fieldbreak1_MAE.png
 [image_ButtonBehavior_Supper]:attachment/ButtonBehavior_Supper.png
-[image_ButtonBehavior_Save]:attachment/ButtonBehavior_Save.png
-[image_ButtonBehavior_Reset]:attachment/ButtonBehavior_Reset.png
-[image_ButtonBehavior_Open]:attachment/ButtonBehavior_Open.png
+[image_ButtonBehavior_Save]:attachment/ButtonBehavior-Save.png
+[image_ButtonBehavior_Reset]:attachment/ButtonBehavior-Reset.png
+[image_ButtonBehavior_Open]:attachment/ButtonBehavior-Open.png
 
 
 <!-- 超連結 -->
