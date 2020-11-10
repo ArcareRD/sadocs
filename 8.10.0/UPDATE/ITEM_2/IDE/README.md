@@ -26,7 +26,7 @@
         * IDE_8.10.0_單元刪除
         * IDE_8.10.0_規格書
 * 作業流程
-    ![pic][imAge_Workflow]
+    * ![pic][imAge_Workflow]
 
 
 
