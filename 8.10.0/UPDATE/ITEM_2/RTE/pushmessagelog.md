@@ -50,6 +50,9 @@
     * 設定過濾條件.結束日期
 
     ![Alt pushmessagelog_sa5](./img/pushmessagelog_sa5.png)  
+    * 設定過濾條件.推播人
+
+    ![Alt pushmessagelog_sa9](./img/pushmessagelog_sa9.png)  
     * 過濾推播通知紀錄
 
     ![Alt pushmessagelog_sa6](./img/pushmessagelog_sa6.png)  
