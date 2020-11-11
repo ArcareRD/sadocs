@@ -19,7 +19,7 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="form-action">動作說明</div>
-* 依 [按鍵加註-推播通知-主旨內文][link_MAENotice_block5]`(2)推播儲存資訊`開啟, 顯示本單內容
+* 依 [按鍵加註-推播通知-推播資訊][link_MAENotice_fieldbreak5]`(2)推播儲存資訊`開啟, 顯示本單內容
 * 若前單推播通知來源與原設定不同時
     * 須清除引用推播通知來源欄位
     * 覆蓋原設定推播通知來源料號
@@ -31,23 +31,19 @@
     * `(1)寫資料表`
         * 用途說明
         * 規格說明
-            * 參照 [挑選實表通則], 回傳:表格料號, 顯示: 表格名稱, 除能
+            * 參照 [挑選資料表通則][link_ruledialog3], 從駐留專案中, 進行資料表挑選,  回傳並顯示: 表格名稱
     * `(2)推播發送結果`
         * 用途說明
         * 規格說明
-            * 參照 [挑選實表元件通則], 過濾:存入資料表料號 且 資料型態=bit
+            * 參照 [挑選資料表元件通則][link_ruledialog5], 限定使用`(1)寫入資料表` 且 欄位資料型態須為位元
     * `(3)額外寫入欄位表格`
         * 用途說明
         * 規格說明
-            * 參照 [操作一般表格通則]
-    * `(4)項次`
-        * 用途說明
-        * 規格說明 
-            * 依資料列顯示
+            * 參照 [操作一般表格通則][link_rulebutton3]
     * `(5)其他目的欄位`
         * 用途說明
         * 規格說明 
-            * 參照 [挑選實表元件通則] , 過濾:存入資料表料號
+            * 參照 [挑選資料表元件通則][link_ruledialog5], 限定使用`(1)寫入資料表`     
     * `(6)給值類別`
         * 用途說明
         * 規格說明
@@ -56,20 +52,21 @@
     * `(7)給值內容`
         * 用途說明
         * 規格說明
-            * 當`(6)給值類別`=推播來源欄位: [挑選邏表元件通則][link_ruledialog6], 限定:推播來源檢視表料號, 回傳:檢視表元件料號. 因查表來源暫不支援個資解密, 故不提供變色處理
-            * 當`(6)給值類別`=表單元件: [挑選表單元件通則][link_ruledialog7], 過濾:表單料號 回傳:表單元件料號. 若元件 (個資加密==true 且 個資解密=false ) 或 密碼處理=true, 則該元件顯示紅色字體
-            * 當`(6)給值類別`=表單參數: [挑選表單參數通則][link_ruledialog8], 過濾:表單料號 回傳:表單參數料號
-            * 當`(6)給值類別`=全域變數: [挑選全域變數通則][link_ruledialog9], 過濾:專案料號 回傳:全域變數料號
+            * 當`(6)給值類別`=表單元件: [挑選表單元件通則][link_ruledialog7], 從駐留表單中, 進行元件挑選, 回傳:表單元件 ; 若元件為 個資加密且已解密欄位 或 密碼欄位, 則該元件顯示紅色字體紅色字體
+            * 當`(6)給值類別`=推播來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [推播通知-主旨內文][link_MAENotice_fieldbreak3]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
+            * 當`(6)給值類別`=表單參數: [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
+            * 當`(6)給值類別`=全域變數: [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數    
     * `(8)確定`
         * 用途說明
         * 規格說明
             * 瀏覽模式下, 隱藏
-            * 將資料回傳前單暫存後關閉本單
+            * 將本次修改資料回傳前單後關閉本單
     * `(9)取消`
         * 用途說明
         * 規格說明
             * 瀏覽模式下, 隱藏
-            * 關閉表單
+            * 不做任何修改, 直接關閉本單
+
 
 ## <div id="save-action">確定檢控</div>
 * 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
@@ -86,9 +83,6 @@
 
 
 
-
-
-
 <!-- 圖片 -->
 [image_savenotice]:attachment/MAENotice-SaveNoticeInfo.png      
 [image_savenotice_block1]:attachment/MAENotice-SaveNoticeInfo-Block1.png
@@ -96,6 +90,14 @@
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-[link_MAENotice_block5]:MAENotice.md#fieldbreak2 "按鍵加註-推播通知/推播資訊"
+[link_MAENotice_fieldbreak5]:MAENotice.md#fieldbreak5 "按鍵加註-推播通知/推播資訊"
 
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+
+[link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
+[link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
+[link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
+[link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
+[link_ruledialog5]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog5 "共用通則_開啟單據/挑選資料表元件通則"
