@@ -10,7 +10,8 @@
 #### <div id="notification_hyperlink">超連結<path>(推播通知)</path></div>
 * 異動
 * 規格說明
-  * 以推播資料所包含的網址，轉導至瀏覧器開啟網頁
+  * 以推播資料所包含的網址，轉導至瀏覧器開啟網頁 `待討論:(一般網頁連結方式待討論)`
+  * 連結google行事曆
 * 作業流程
 
   ![Notification Hyperlink](./image/workflow_hyperlink.png)
