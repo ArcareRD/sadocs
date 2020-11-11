@@ -1,0 +1,14 @@
+# 檢視表優化\IDE\檢視表
+* [上一頁](../README.md)
+* [規劃人員](README.md#user)
+* [規劃日期](README.md#updatedate)
+* [TRAC](README.md#trac)
+* 加註項目
+  * [檢視表主頁](README.md#index)
+  * [結構展開](README.md#joinlist)
+    * [關聯條件](README.md#join)
+  * [欄位清單](README.md#column)
+  * [接收參數](README.md#parameter)
+  * [排序依據](README.md#orderby)
+  * [自動彙總](README.md#autogroupby)
+* [history](history)

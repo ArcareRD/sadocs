@@ -5,7 +5,7 @@
 * 2020/11/08
 
 ### <div id="trac">TRAC</div>
-* 待開 
+* #8213
 
 ## <div id="linkform-layout">版面相關</div>
 * 版面
@@ -19,7 +19,7 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="linkform-form-action">動作說明</div>
-* 依 [按鍵加註-推播通知-主旨內文][link_MAENotice]`(13)連結內容`開啟, 顯示本單內容
+* 依 [按鍵加註-推播通知-主旨內文][link_MAENotice_fieldbreak3]`(13)連結內容`開啟, 顯示本單內容
 * 若前單推播通知來源與原設定不同時
     * 須清除引用推播通知來源欄位
     * 覆蓋原設定推播通知來源料號
@@ -31,15 +31,16 @@
     * `(1)表單名稱`
         * 用途說明
         * 規格說明
-            * 參照 [挑選表單通則][link_ruledialog6], 回傳:表單料號、表單主檔區資料來源料號
+            * 參照 [挑選表單通則][link_ruledialog6], 依駐留表單設計類型, 進行表單挑選, 回傳並顯示: 表單料號
+                * 若駐留表單設計類型=APP, 僅可挑選非離線用表單
     * `(2)表單參數`
         * 用途說明
         * 規格說明
-            * 參照 [設定表單參數通則][link_parameter], 傳遞:連結表單料號
+            * 參照 [設定表單參數通則][link_parameter], 限定: 使用`(1)表單名稱`內容
     * `(3)過濾`
         * 用途說明
         * 規格說明 
-            * 參照 [操作條件式通則][link_ruledialog1], 限定:檢視表, 來源表格=連結表單檢視表, 回傳:條件ID
+            * 參照 [操作條件式通則][link_ruledialog1], 限定: 使用`(1)表單名稱`主資料區資料來源, 回傳並顯示: 條件說明
     * `(4)通行碼`
         * 用途說明
         * 規格說明
@@ -55,18 +56,18 @@
         * 用途說明
         * 規格說明
             * 單選選項: 要求登入 / 自動登入
-            * 帳號驗證: 預設為true
-                * 當`(5)有效次數`為一次性 且 `(6)執行系統`為要求登入，則帳號驗證預設為TRU，並唯讀       
+            * 帳號驗證: 預設為有勾選
+                * 當`(5)有效次數`為一次性 且 `(6)執行系統`為要求登入，則 **帳號驗證** 預設為有勾選，並唯讀       
     * `(7)確定`
         * 用途說明
         * 規格說明
             * 瀏覽模式下, 隱藏
-            * 將資料回傳前單暫存後關閉本單
+            * 將本次修改資料回傳前單後關閉本單
     * `(8)取消`
         * 用途說明
         * 規格說明
             * 瀏覽模式下, 隱藏
-            * 關閉表單
+            * 不做任何修改, 直接關閉本單
   
 ## <div id="save-action">確定檢控</div>
 * 以下檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
@@ -82,11 +83,9 @@
 
 
 <!-- 超連結 -->
-[link_MAENotice]:MAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
+[link_MAENotice_fieldbreak3]:MAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
-
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 
 [link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"

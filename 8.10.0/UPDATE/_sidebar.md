@@ -1,13 +1,17 @@
 # 本版異動
+
 * [上一頁](../README.md)
 * 1.MAE擴增離線功能
-    * [IDE](ITEM_1/IDE/README.md)
-    * [RTE](ITEM_1/RTE/README.md)
-    * [MAE](ITEM_1/MAE/README.md)
+  * [IDE](ITEM_1/IDE/README.md)
+  * [RTE](ITEM_1/RTE/README.md)
+  * [MAE](ITEM_1/MAE/README.md)
 * 2.MAE擴充推播通知
-    * [IDE](ITEM_2/IDE/README.md)
-    * [RTE](ITEM_2/RTE/README.md)
-    * [MAE](ITEM_2/MAE/README.md)
+  * [IDE](ITEM_2/IDE/README.md)
+  * [RTE](ITEM_2/RTE/README.md)
+  * [MAE](ITEM_2/MAE/README.md)
 * 3.多語規格修改
-    * [IDE](ITEM_3/IDE/README.md)
-    * [RTE](ITEM_3/RTE/README.md)
+  * [IDE](ITEM_3/IDE/README.md)
+  * [RTE](ITEM_3/RTE/README.md)
+* 4.檢視表優化
+  * [IDE](ITEM_4/IDE/README.md)
+  * [RTE](ITEM_4/RTE/README.md)
