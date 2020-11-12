@@ -1,4 +1,4 @@
-# 多語規格修改
+# 多語規格修改\IDE
 * [上一頁](../README.md)
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)

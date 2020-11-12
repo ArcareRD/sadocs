@@ -7,7 +7,7 @@
 ### <div id="trac">TRAC</div>
 * #8197
 
-### <div id="publish">發行 </div>
+### <div id="publish">版本發行<path>(需求展開\輔助工具)</path> </div>
 * 版面 
   * ![publish]
 * 欄位說明
