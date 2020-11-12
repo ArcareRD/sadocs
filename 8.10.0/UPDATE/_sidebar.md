@@ -9,6 +9,7 @@
   * [IDE](ITEM_2/IDE/README.md)
   * [RTE](ITEM_2/RTE/README.md)
   * [MAE](ITEM_2/MAE/README.md)
+  * [history](ITEM_2/history.md)
 * 3.多語規格修改
   * [IDE](ITEM_3/IDE/README.md)
   * [RTE](ITEM_3/RTE/README.md)

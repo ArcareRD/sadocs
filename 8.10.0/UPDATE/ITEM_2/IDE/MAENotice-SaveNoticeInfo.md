@@ -28,7 +28,7 @@
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
 
     * ![pic][image_savenotice_block1]
-    * `(1)寫資料表`
+    * `(1)寫入資料表`
         * 用途說明
         * 規格說明
             * 參照 [挑選資料表通則][link_ruledialog3], 從駐留專案中, 進行資料表挑選,  回傳並顯示: 表格名稱
