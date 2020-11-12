@@ -8,7 +8,6 @@
   * 待補
 
 #### <div id="notification_system">系統管理<path>(推播通知)</path></div>
-* 擴充
 * 規格說明
     * 裝置在背景/前景或未開啟的狀態下可接收系統收到的通知
     * 在點擊系統通知時處理相對應功能
@@ -48,6 +47,6 @@
   * 點擊
     * 點擊系統通知會呼叫MAE APP，APP啟動後會顯示通知內容及連結類型，點擊連結會依連結類型來處理相對應事件。
 
-* 作業流程
+* <p id="workflow">作業流程</>
 
   ![Notification System](./image/workflow_system.png)

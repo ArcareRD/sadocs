@@ -1,17 +1,9 @@
-# <div id="title">MAE擴增推播通知</div>
-
 ## <div id="user">規劃人員</div>
-
-    Andy
-
+  * Andy
 ## <div id="updatedate">規劃日期</div>
-
-    2020/11/06
-
+  * 2020/11/06
 ## <div id="trac">TRAC</div>
-
-    #8191
-
+  * #8191
 ### <div id="notification">推播通知</div>
 * 需求展開
   * 規格說明
@@ -40,5 +32,4 @@
   * 裝置
     * Android：5.0 或更高版本
     * iOS：10.0 或更高版本
-  * 大小
-    * 所有資訊合計不可超過4k bytes
+<!--  * 大小 * 所有資訊合計不可超過4k bytes -->

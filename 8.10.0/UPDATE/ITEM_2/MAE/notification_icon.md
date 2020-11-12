@@ -8,7 +8,6 @@
   * 待補
 
 #### [<div id="attach_notification">推播通知.APP ICON Badge<path>(首頁)</path></div>](README.md)
-* 異動
 * 規格說明
   * 當有通知時，顯示小圓點在APP ICON右上方
 * 限制

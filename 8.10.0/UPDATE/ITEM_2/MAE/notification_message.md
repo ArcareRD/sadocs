@@ -8,7 +8,6 @@
   * 待補
 
 #### [<div id="notification_log">推播通知.推播訊息<path>(首頁)</path></div>](README.md)
-* 異動
 * 規格說明
   * 推播訊息顯示
   * 畫面
