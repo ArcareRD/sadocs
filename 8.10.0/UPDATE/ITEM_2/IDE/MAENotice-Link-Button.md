@@ -57,7 +57,7 @@
         * 用途說明
         * 規格說明
             * 系統預設: 未勾選
-            * 當為有勾選時, 參照 [使用多語詞庫通則][link_ruledialog2], 依駐留專案, 連行訊息內容挑選, 回傳並顯示: 多語名稱
+            * 當為有勾選時, 參照 [使用多語詞庫通則][link_ruledialog17], 依駐留專案, 連行訊息內容挑選, 回傳並顯示: 多語名稱
     * `(7)執行後續_成功訊息_替代鍵`
         * 用途說明
         * 規格說明
@@ -68,7 +68,7 @@
         * 用途說明
         * 規格說明
             * 系統預設: 未勾選
-            * 當為有勾選時, 參照 [使用多語詞庫通則][link_ruledialog2], 依駐留專案, 進行訊息內容挑選, 回傳並顯示: 多語名稱
+            * 當為有勾選時, 參照 [使用多語詞庫通則][link_ruledialog17], 依駐留專案, 進行訊息內容挑選, 回傳並顯示: 多語名稱
     * `(9)執行後續_失敗訊息_替代鍵`
         * 用途說明
         * 規格說明
@@ -95,7 +95,7 @@
         * 用途說明
         * 規格說明 
             * 當`(12)傳遞類型`=表單元件: [挑選表單元件通則][link_ruledialog7], 從駐留表單中, 進行元件挑選, 回傳:表單元件 ; 若元件為 個資加密且已解密欄位 或 密碼欄位, 則該元件顯示紅色字體
-            * 當`(12)傳遞類型`=推播來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [推播通知-主旨內文][link_MAENotice_fieldbreak3]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
+            * 當`(12)傳遞類型`=推播來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [推播通知_主旨內文: 檢視表][link_conentviewno] 中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
             * 當`(12)傳遞類型`=表單參數: [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
             * 當`(12)傳遞類型`=全域變數: [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數  
     * `(14)確定`
@@ -130,6 +130,7 @@
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本區塊"
 [link_MAENotice_fieldbreak3]:MAENotice.md#fieldbreak3 "按鍵加註-推播通知/主旨內文"
+[link_conentviewno]:MAENotice.md#conentviewno "按鍵加註-推播通知/主旨內文/檢視表"
 
 [link_ExternalCallButton]:/8.10.0/IDE/Specification/ExternalCallButton/README "開放按鍵"
 [link_Replace]:/8.10.0/IDE/Specification/Replace/README "訊息替代"
@@ -137,7 +138,6 @@
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 
 [link_rulesbutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_其它/操作表格記錄通則"
-
 [link_ruledialog2]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
@@ -145,3 +145,4 @@
 [link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
 [link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
 [link_ruledialog13]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選表單按鍵通則"
+[link_ruledialog17]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog17 "共用通則_開啟單據/使用多語詞庫(含替代)通則"

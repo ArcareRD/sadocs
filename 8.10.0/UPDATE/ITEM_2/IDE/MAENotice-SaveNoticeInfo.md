@@ -53,7 +53,7 @@
         * 用途說明
         * 規格說明
             * 當`(6)給值類別`=表單元件: [挑選表單元件通則][link_ruledialog7], 從駐留表單中, 進行元件挑選, 回傳:表單元件 ; 若元件為 個資加密且已解密欄位 或 密碼欄位, 則該元件顯示紅色字體紅色字體
-            * 當`(6)給值類別`=推播來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [推播通知-主旨內文][link_MAENotice_fieldbreak3]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
+            * 當`(6)給值類別`=推播來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [推播通知_主旨內文: 檢視表][link_conentviewno] 中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
             * 當`(6)給值類別`=表單參數: [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
             * 當`(6)給值類別`=全域變數: [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數    
     * `(8)確定`
@@ -91,6 +91,7 @@
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
 [link_MAENotice_fieldbreak5]:MAENotice.md#fieldbreak5 "按鍵加註-推播通知/推播資訊"
+[link_conentviewno]:MAENotice.md#conentviewno "按鍵加註-推播通知/主旨內文/檢視表"
 
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
