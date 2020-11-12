@@ -100,8 +100,8 @@
   * `(3)參考來源表格`
     * 用途說明
     * 規格說明:
-      * 顯示方式為: 關聯類型對應圖示 + (來源代號.來源型態) + 來源表格名稱 + (別名) + [(過帳前暫存檔)] +  [(需傳入參數)]
-        * 過帳前暫存檔: 若[關聯條件](#join)`(3)過帳前暫存檔`有設定過帳前暫存檔時顯示
+      * 顯示方式為: 關聯類型對應圖示 + (來源代號.來源型態) + 來源表格名稱 + (別名) + [(暫存資料表)] +  [(需傳入參數)]
+        * 暫存資料表: 若[關聯條件_暫存資料表](#logalias_astemp)有設定過帳前暫存檔時顯示
         * 需傳入參數: 若參考來源有設定傳入參數時顯示
       |關聯類型 | 說明 | 對應圖示 |
       | ---- | --- | --- |
@@ -109,7 +109,7 @@
       |Left Join | 左外部連接 | ![join_type_left] |
       |Right Join | 右外部連接 | ![join_type_right] |
       |Full Join | 全部外部連接 | ![join_type_full] |
-      |Inner Join | 內部連接 | ![join_type_inner] | 
+      |Inner Join | 內部連接 | ![join_type_inner] |
       |Cross Join | 交叉連接 | ![join_type_cross] |
       |Union | 聯集 | ![join_type_union] |
       |Sub Select| 子查詢| ![join_type_subselect] |
@@ -267,7 +267,7 @@
   * `(6)關聯條件區塊`  
     * 用途說明
     * 規格說明: 
-  * `(8)過帳前暫存檔`
+  * <t id="logalias_astemp">(8)暫存資料表</t>
     * 用途說明
     * 規格說明: 
     | 單據狀態 | 控制 | 預設值 |
@@ -289,7 +289,13 @@
   
 * 作業流程
   * 執行按鈕.開啟來源表格
+  
+  ![join_sourcetable_io]
+
   * 執行按鈕.開啟傳遞參數
+
+  ![join_param_io]
+  
   * 執行按鈕.執行儲存
   
 <!-- 圖片-->
@@ -314,7 +320,10 @@
 [show_logical]:attachment/show_logical.png "檢視表無設定UNION"
 [show_logical_union]:attachment/show_logical_union.png "檢視表有設定UNION"
 [join_logical]:attachment/join_logical.png "關聯條件"
+[join_sourcetable_io]:attachment/join_sourcetable_io.png "[作業流程]關聯條件開啟表格"
+[join_param_io]:attachment/join_param_io.png "[作業流程]關聯條件開啟傳遞參數"
 <!--Link-->
 [link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
 [link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
+
 [link_Parameter]: "傳遞參數" "共用通則_開啟單據/傳遞參數"
