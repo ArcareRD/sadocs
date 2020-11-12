@@ -23,6 +23,11 @@
 * 依規格定義-主畫面 結構清單駐留元件及指定加註條件, 顯示本單內容
 * 依規格定義-主畫面 工具列.編修鍵, 進入本單的編輯模式
 
+
+## <div id="other-desc">設計注意事項說明</div>
+* 推播訊息所有資料大小合計不可超過4k bytes (含系統保留大小: 500 bytes)，若超過限制，可能發送失敗 
+
+
 ## <div id="object-desc">欄位說明</div>
 
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
@@ -51,7 +56,7 @@
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">推播人</p>  
 
     * ![pic][image_Annotation_Notice_Block2]
-    * `(1)推播人`
+    * <t id="sender">(1)推播人</t>
         * 用途說明
         * 規格說明
             * 單選選項: 管理者 / 使用者
@@ -60,7 +65,7 @@
 * <p id="fieldbreak3" style="color:blue;font-weight:bold">主旨內文</p>  
 
     * ![pic][image_Annotation_Notice_Block3]
-    * `(1)來源`
+    * <t id="replacetype">(1)來源</t>
         * 用途說明
             * 意指 推播來源類別
         * 規格說明
@@ -71,18 +76,18 @@
                 * 取消: 關閉訊息盒
         * 作業流程
             * <ps>待補</ps> 
-    * `(2)檢視表`
+    * <t id="conentviewno">(2)檢視表</t>
         * 用途說明
             * 意指 推播來源檢視表
         * 規格說明
             * 當`(1)來源`=查表時 致能
             * 參照 [指定檢視表通則][link_ruledialog4], 從本專案中, 挑選檢視表, 回傳並顯示:檢視表名稱
             * 內容異動時, 顯示訊息盒【標題: 系統訊息 / 異動推播來源類別將清除[相關欄位]，是否繼續。 / 按鍵:確定、取消】 
-                * 確定: 清除欄位:`(3)推播來源檢視表參數`及加註中引用類別的選項為*推播來源欄位*的欄位, 並關閉訊息盒
+                * 確定: 清除欄位:`(3)推播來源檢視表參數`及加註中引用類別的選項為 **推播來源欄位** 的欄位, 並關閉訊息盒
                 * 取消: 關閉訊息盒
         * 作業流程 
             * <ps>待補</ps>   
-    * `(4)過濾`
+    * <t id="contentparameterid">(4)過濾</t>
         * 用途說明
             * 意指 推播來源檢視表過濾條件
         * 規格說明
@@ -129,7 +134,7 @@
     * `(12)連結類別`
         * 用途說明
         * 規格說明
-            * 下拉選項: 超連結表單 / 超連結按鍵 / 超連結Google行事曆
+            * 下拉選項: 超連結表單 / 超連結按鍵 / 超連結Google行事曆 / 超連結網址
             * 異動時, 清除欄位:`(13)連結內容`
         * 作業流程
             * <ps>待補</ps>
@@ -138,9 +143,10 @@
         * 規格說明
             * 當未設定時顯示: 尚未設定 灰色字體(#aaa)
             * 依下列規則超連結開啟對應的連結內容設定介面, 該單關閉後須依規則顯示內容
-                * 當`(12)連結類別`=超連結表單: 開啟:[連結內容_超連結表單][link_linkform] ; 顯示:*表單名稱*【過濾條件:*條件內容*】
-                * 當`(12)連結類別`=超連結按鍵: [連結內容_超連結按鍵][link_linkbutton] ; 顯示:*表單名稱* 按鍵.*按鍵名稱*
-                * 當`(12)連結類別`=超連結Google行事曆: [連結內容_超連結Google行事曆][link_linkgooglecalendar]； 顯示建立行事曆活動            
+                * 當`(12)連結類別`=超連結表單: 開啟 [連結內容_超連結表單][link_linkform] ; 顯示: *表單名稱*【過濾條件:*條件內容*】
+                * 當`(12)連結類別`=超連結按鍵: 開啟 [連結內容_超連結按鍵][link_linkbutton] ; 顯示: *表單名稱* 按鍵.*按鍵名稱*
+                * 當`(12)連結類別`=超連結Google行事曆: 開啟 [連結內容_超連結Google行事曆][link_linkgooglecalendar] ; 顯示: 建立行事曆活動 
+                * 當`(12)連結類別`=超連結網址:  開啟 [連結內容_超連結網址][link_linkurl] ; 顯示: *網址元件名稱*【網址參數:*運算式名稱*】
         * 作業流程
             * <ps>待補</ps> 
     * `(14)儲存連結資訊`
@@ -178,7 +184,7 @@
         * 規格說明
             * 當`(1)來源`=查表時, 致能
             * 參照 [操作條件式通則][link_ruledialog1], 限定: 使用`(2)檢視表`、上層表格=郵件來源、上層來源類別=1.郵件, 回傳並顯示: 條件說明
-    * `(5)使用者序號`
+    * `(5)使用者帳號`
         * 用途說明
         * 規格說明
             * 當`(1)來源`=固定對象: 自行輸入
@@ -191,12 +197,7 @@
 * <p id="fieldbreak5" style="color:blue;font-weight:bold">推播資訊</p>  
 
     * ![pic][image_Annotation_Notice_Block5]
-    * `(1)發送異常`
-        * 用途說明
-        * 規格說明
-            * 單選選項: 忽略 / 停止
-            * 系統預設: 停止
-    * `(2)儲存推播資訊`
+    * `(1)儲存推播資訊`
         * 用途說明
         * 規格說明
             * 系統預設: 未勾選
@@ -245,6 +246,7 @@
     * <ps>待補</ps>
 
 
+
 <!-- 圖片 -->
 [image_button_STD]:attachment/Annotation_Notice.png        
 [image_Annotation_Notice_Block1]:attachment/Annotation_Notice_Block1.png "基本"
@@ -263,6 +265,7 @@
 [link_linkform]:MAENotice-Link-Form.md "連結內容_超連結表單"
 [link_linkbutton]:MAENotice-Link-Button.md "連結內容_超連結按鍵"
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
+[link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
 
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
   

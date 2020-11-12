@@ -11,8 +11,10 @@
                 * [連結內容_超連結表單](MAENotice-Link-Form.md)
                 * [連結內容_超連結按鍵](MAENotice-Link-Button.md)
                 * [連結內容_超連結Google行事曆](MAENotice-Link-GoogleCalendar.md)
+                * [連結內容_超連結網址](MAENotice-Link-URL.md)
             * [推播通知-儲存連結資訊](MAENotice-SaveLinkInfo.md)
             * [推播通知-儲存推播資訊](MAENotice-SaveNoticeInfo.md)
+    * [運算式](Expression.md)
     * 影響修改
         * [發行檢錯](AffectModify.md#unit-detection)
         * [加註複製](AffectModify.md#annotation_copy)
