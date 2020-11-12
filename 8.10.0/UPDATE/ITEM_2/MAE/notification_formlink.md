@@ -10,5 +10,6 @@
 #### <div id="notification_form_link">表單連結<path>(推播通知)</path></div>
 * 規格說明
   * 以推播資料所包含的唯一號，和伺服器取得表單資訊，再經過驗證使用者無誤後，開啟相關表單
+  * 一次性表單在開啟後通知伺服器已開啟
 * 作業流程
   ![Notification form link](./image/workflow_formlink.png)
