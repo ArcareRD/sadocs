@@ -19,7 +19,7 @@
     * 點擊遮罩處
       * 關閉訊息
     * 點擊內文或ICON(`等UI/UX`)
-      * 啟動超連結/表單連結/按鍵連結
+      * 啟動超連結(含google行事曆連結)/表單連結/按鍵連結
 * 表單畫面
     
     ![Notification message](./image/notification_detail.png)

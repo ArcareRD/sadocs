@@ -11,6 +11,5 @@
 * 異動
 * 規格說明
   * 以推播資料所包含的唯一號，和伺服器取得按鍵資訊，再經過驗證使用者無誤後，呼叫相關API取得結果並顯示
-* 表單畫面：無
 * 作業流程
   ![Notification button link](./image/workflow_buttonlink.png)

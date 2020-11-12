@@ -19,8 +19,10 @@
       3. [超連結](notification_hyperlink.md)
         * 開啟對應網址
         * 連結 google 行事曆(需登入 google 帳號)
-      4. [推播訊息](notification_message.md)
-        * 顯示標題和內容
+      4. [推播記錄](notification_record.md)
+        * 顯示所有推播訊息
+      5. [推播訊息](notification_message.md)
+        * 顯示推播訊息
 * 通知畫面(系統)
   * Android
 
