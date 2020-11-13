@@ -36,5 +36,5 @@
 
 
 <!--圖片-->
-[publish]:attachment/publish.png "版本發行"
+[publish]:attachment/Publish.png "版本發行"
 [Publish_Diagram]:attachment/Publish_Diagram.png "[作業流程]發行"
