@@ -75,6 +75,7 @@
 * `超連結表單` : 點擊後開啟一張指定的MAE表單
 * `超連結按鍵` : 點擊後執行一個指定的功能按鍵
 * `超連結Google行事曆` : 點擊後開啟Google行事曆網頁
+* `超連結網址` : 點擊後開啟網頁網址
 
 ### <div id="pushmessage_content_link-body">連結內容 <path>(按鍵加註\推播通知\主旨內文)</path></div>
 超連結內容資訊
@@ -251,6 +252,41 @@ Google行事曆的活動地點內容值
 ### <div id="pushmessage_content_link-body_google_range_endtime">時間迄 <path>(按鍵加註\推播通知\主旨內文\連結內容\超連結Google行事曆\日期區間)</path></div>
 要增加到Google行事曆的活動，該活動的結束時間。
 
+### <div id="pushmessage_content_link-body_http">超連結網址 <path>(按鍵加註\推播通知\主旨內文\連結內容)</path></div>
+點擊後開啟網頁網址，開啟的網址等於`網址欄位`加上`網址參數`。
+
+如 : 
+`網址欄位`內容值為
+
+    https://www.google.com/search
+`網址參數`內容值為 
+
+    q=google
+
+開啟的超連結網址就為
+
+    https://www.google.com/search?q=google
+### <div id="pushmessage_content_link-body_http_url">網址欄位 <path>(按鍵加註\推播通知\主旨內文\連結內容\超連結網址)</path></div>
+設定超連結網址的URL設定
+
+### <div id="pushmessage_content_link-body_http_url_type">網址欄位類別 <path>(按鍵加註\推播通知\主旨內文\連結內容\超連結網址\網址欄位)</path></div>
+URL的來源類型
+* `推播來源欄位`
+* `表單元件`
+* `表單參數`
+* `全域變數`
+
+### <div id="pushmessage_content_link-body_http_url_value">網址欄位給值內容 <path>(按鍵加註\推播通知\主旨內文\連結內容\超連結網址\網址欄位)</path></div>
+URL的內容值
+* 依照`網址欄位類別`
+    * `推播來源欄位` : `主旨內文`資料來源的欄位值。
+    * `表單元件` : `表單元件` / `隱藏表單元件`。
+    * `表單參數` : `表單`的`接收參數`。
+    * `全域變數` : 系統`全域變數`。
+
+### <div id="pushmessage_content_link-body_http_param">網址參數 <path>(按鍵加註\推播通知\主旨內文\連結內容\超連結網址)</path></div>
+設定超連結網址的參數設定
+
 ### <div id="pushmessage_content_link-save">儲存連結資訊 <path>(按鍵加註\推播通知\主旨內文)</path></div>
 推播通知的超連結設定資訊可依此設定在執行此功能按鍵的時候，將超連結資訊儲存至資料表。
 
@@ -300,7 +336,7 @@ Google行事曆的活動地點內容值
 ### <div id="pushmessage_target_filter">過濾 <path>(按鍵加註\推播通知\通知對象)</path></div>
 當`來源`為`查表`，`檢視表`的過濾條件
 
-### <div id="pushmessage_target_userid">使用者序號 <path>(按鍵加註\推播通知\通知對象)</path></div>
+### <div id="pushmessage_target_userid">使用者帳號 <path>(按鍵加註\推播通知\通知對象)</path></div>
 紀錄通知對象的資料
 * 依照`來源`
     * `表單元件` : `表單元件` / `隱藏表單元件`。  
@@ -311,11 +347,6 @@ Google行事曆的活動地點內容值
 
 ### <div id="pushmessage_info">推播資訊 <path>(按鍵加註\推播通知)</path></div>
 提供額外寫入推播資訊的功能
-
-### <div id="pushmessage_info_error">發送異常 <path>(按鍵加註\推播通知\推播資訊)</path></div>
-發送推播訊息異常時，是否還繼續執行`推播儲存資訊` :
-* `忽略` : 忽略發送成功或失敗，繼續執行。
-* `停止` : 發送異常時停止執行。
 
 ### <div id="pushmessage_info_save">推播儲存資訊 <path>(按鍵加註\推播通知\推播資訊)</path></div>
 推播通知的推播資訊可依此設定在執行此功能按鍵的時候，將推播資訊儲存至資料表。
