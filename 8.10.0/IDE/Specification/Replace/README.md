@@ -17,10 +17,10 @@
             * 當前單未限定來源, 選項致能
             * 當前單有限定來源, 該選項點選, 除能
             * 切換選項時, 顯示詢問訊息盒【標題: 系統訊息 / 訊息內容: 不同來源將清空替代來源內容 / 按鍵: 確認、取消】
-            * 確認: 關閉訊息, 清除`(2)表格名稱`、`(3)過濾條件`、`(4)替代表格`內容
-            * 取消: 關閉訊息, 保留原內容
+                * 確認: 關閉訊息, 清除`(2)表格名稱`、`(4)過濾條件`、`(6)替換字表格`內容, 重顯`(2)表格名稱`、`(3)傳遞參數`、`(4)過濾條件`的除致能狀態
+                * 取消: 關閉訊息, 保留原內容
         * 作業流程    
-            * <ps>待補</ps>
+            * ![pic][image_fieldbreak1_flow1]
     * `(2)表格名稱`
         * 用途說明
         * 規格說明
@@ -58,7 +58,7 @@
             * 取得的前單訊息內容, 依空格區分字中, 擷取有 % 開頭的文字內容, 載入`(6)替換字表格`的`(8)替換字變數`中
                 * 當擷取文字不存在`(8)替換字變數`中, 則新增資料列
         * 作業流程    
-            * <ps>待補</ps>
+            * ![pic][image_fieldbreak1_flow7]
     * `(8)替換字變數`
         * 用途說明
         * 規格說明
@@ -72,7 +72,7 @@
             * 當`(5)上層表格`有值, 選項 上層欄位, 才顯示
             * 由[超連結內容_超連結按鍵]開啟, 才顯示
         * 作業流程    
-            * <ps>待補</ps>
+            * ![pic][image_fieldbreak1_flow9]
     * `(10)來源欄位`
         * 用途說明
         * 規格說明
@@ -86,15 +86,14 @@
             * `(9)來源類型`=全域變數: 參照 [挑選全域變數通則][link_ruledialog10], 進行全域變數挑選
             * `(9)來源類型`=上層欄位: 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(5)上層表格`中, 進行元件挑選
             * `(9)來源類型`=回傳參數: 參照 [挑選開放按鍵回傳參數通則][link_ruledialog16], 從前單按鍵中, 過濾型態不為二進位、備註, 進行參數挑選
-        * 作業流程    
-            * <ps>待補</ps>
     * `(11)儲存`
         * 用途說明
         * 規格說明
             * 前單為瀏覽狀態開啟本單, 除能
             * 參照 [權限驗証通則][link_ruleother6]
+            * 儲存完成, 關閉單據
         * 作業流程    
-            * <ps>待補</ps>
+            * ![pic][image_fieldbreak1_flow11]
 
 ## <div id="save-action">儲存檢控</div>
 * [存回不允空白檢控通則][link_ruleother7]
@@ -105,6 +104,10 @@
 <!-- 圖片 -->
 [image_replace]:attachment/Replace.png
 [image_fieldbreak1]:attachment/fieldbreak1.png
+[image_fieldbreak1_flow1]:attachment/fieldbreak1_flow1.png
+[image_fieldbreak1_flow7]:attachment/fieldbreak1_flow7.png
+[image_fieldbreak1_flow9]:attachment/fieldbreak1_flow9.png
+[image_fieldbreak1_flow11]:attachment/fieldbreak1_flow11.png
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "基本"
