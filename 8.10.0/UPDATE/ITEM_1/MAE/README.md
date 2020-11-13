@@ -1,59 +1,38 @@
-### <div id="user">規劃人員</div>
-* Andy
+## <div id="user">規劃人員</div>
+  * Andy
 
-### <div id="updatedate">規劃日期</div>
-* 2020/11/06
+## <div id="updatedate">規劃日期</div>
+  * 2020/11/09
 
-### <div id="trac">TRAC</div>
-* #8191
+## <div id="trac">TRAC</div>
+  * #8188
 
-### <div id="notification">表單.推播通知管理 <path>(Site管理)</path></div>
-* 擴充
-* 規格說明
-    * 該表單用來管理裝置接收推播通知的能力
-    * 該表單僅企業管理員權限可開啟
-    * 若為企業管理員，表單開啟後，依據以下條件列出裝置清單
-        * 裝置為主要裝置，且使用者隸屬於企業管理員的企業。
-        * 裝置為共用裝置，最後使用者隸屬於企業管理員的企業。
-* 表單畫面
-
-    ![Alt sitemanage1](./img/pushmessagemanage_view.png)
-* 畫面規格說明
-    * 欄位.裝置代號 : 該裝置的 IMEI，點擊欄位標題，依該欄位重新排序。
-    * 欄位.裝置名稱 : 該裝置的名稱，該欄位為預設排序欄位。點擊欄位標題，依該欄位重新排序。
-    * 欄位.使用者帳號 : 設定該裝置為主要裝置的使用者帳號，或該裝置為共用裝置，顯示最後登入的使用者帳號，若無上述資訊則顯示空白。點擊欄位標題，依該欄位重新排序。
-    * 欄位.使用者姓名 : 欄位.使用者帳號對應的使用者姓名，若欄位.帳號為空白，則顯示空白。點擊欄位標題，依該欄位重新排序。
-    * 按鈕.生效 : 點擊後將該裝置接收推播通知的功能生效，若為已生效的裝置紀錄，該按鈕除能。
-    * 按鈕.失效 : 點擊後將該裝置接收推播通知的功能失效，若為已失效的裝置紀錄，該按鈕除能。
-    * 按鈕.刪除 : 點擊後刪除該裝置的紀錄，權限等同失效。
-
-* 作業流程
-    * 開啟畫面
-
-    ![Alt pushmessagemanage_sa1](./img/pushmessagemanage_sa1.png)
-    * 生效裝置接收推播通知
-
-    ![Alt pushmessagemanage_sa2](./img/pushmessagemanage_sa2.png)
-    * 失效裝置接收推播通知
-
-    ![Alt pushmessagemanage_sa3](./img/pushmessagemanage_sa3.png)
-    * 刪除裝置
-
-    ![Alt pushmessagemanage_sa5](./img/pushmessagemanage_sa5.png)
-    * 點擊 欄位.裝置代號 / 欄位.裝置名稱 / 欄位.使用者帳號 / 欄位.使用者姓名 標題進行排序
-    
-    ![Alt pushmessagemanage_sa4](./img/pushmessagemanage_sa4.png)
-
-### <div id="sitemanage_2">表單.其他參數 <path>(Site管理)</path></div>
-* 異動
-* 規格說明
-    * 增加推播訊息相關設定，用來管理推播訊息的保存時間。
-    * 增加欄位.推播通知訊息保留天數，數字型態欄位，不可空白，不可輸入小於0的數字，若為0則不執行清除訊息，欄位預設值為30。
-* 表單畫面
-
-    ![Alt sitemanage5](./img/otherparameter_view.png)   
-* 作業流程
-    * 儲存
-
-    ![Alt sitemanage6](./img/otherparameter_sa1.png)
-### <div id="rte_1">推播訊息 <path>(Site管理)</path></div>
+### <div id="notification">離線功能</div>
+* 目的說明
+  * 為了使APP在無法連接到伺服器時可以使用離線表單
+* 需求展開
+  * 連線功能
+    * [離線](offlinemodeoffline.md)
+      * 在連線狀態下預載離線資料
+  * 離線功能
+    * [登入](offlinemodelogin.md)
+      * 在離線狀態下確保使用者相同
+    * [連線](offlinemodeonline.md)
+      * 在離線狀態下恢復連線並上傳離線時所 新增/修改/刪除 的資料
+    * [資料傳輸](offlinemodedatatransfer.md)
+      * 下載離線資料
+      * 上傳離線狀態時 新增/修改/刪除 的資料
+    * [表單處理](offlinemodeform.md)
+      * 離線模式下顯示表單資料
+      * 需連線使用的資料皆不可使用
+    * [加註處理](offlinemodeattach.md)
+      * 離線模式下執行元件加註/按鍵加註
+      * 需連線使用的加註或設定皆不可使用
+  * 資料庫功能
+    * [資料交易](offlinemodedatabase.md)
+      * 離線模式下使用本地資料庫
+      * 所有異動皆使用本地資料庫
+  * 限制
+    1. 需先下載離線用表單及資料
+    2. 所有和網路有關的加註及動作和資料均無法使用(例如開網頁或地圖)
+    3. 離線時所新增的資料在上傳後需手動同步(表單)後才能在連線後使用
