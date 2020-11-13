@@ -45,8 +45,6 @@
         * 用途說明
         * 規格說明
             * 參照 [挑選參數通則][link_ruledialog9], 依`(3)類別名稱`指定的表單中, 進行參數挑選, 回傳: 參數型態
-        * 作業流程    
-            * <ps>待補</ps>
     * `(8)資料型態`
         * 用途說明
         * 規格說明
@@ -87,20 +85,15 @@
             * <ps>待補</ps>
 
 ## <div id="save-action">儲存檢控</div>
-* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(7)參數名稱`、`(10)給值內容`, 不允空白
-    * 作業流程    
-        * <ps>待補</ps>        
-* 其它檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未通過驗證 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(7)參數名稱`, 不允重複
-    * 作業流程    
-        * <ps>待補</ps>
+* [存回不允空白檢控通則][link_ruleother7]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(7)參數名稱`、`(10)給值內容`, 不允空白
+* [存回其它檢控通則][link_ruleother8]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(7)參數名稱`, 不允重複
+                * 訊息內容: 參數不可重覆
 
 ## <div id="tag-desc">註解說明</div>
 * <div id="tag1">註1</div>
@@ -147,5 +140,7 @@
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開單操作/挑選全域變數通則"
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開單操作/挑選檢視表元件通則"
 [link_ruledialog16]:../RulesDialog/README#ruledialog16 "共用通則_開單操作/挑選函數通則"
+[link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_開單操作/存回不允空白檢控通則"
+[link_ruleother8]:../RulesOther/README#ruleother8 "共用通則_開單操作/存回其它檢控通則"
 [link_Logical]:../Logical/README "檢視表"
 [link_FormAnnotation]:../FormAnnotation/README "表單加註_基本設定"

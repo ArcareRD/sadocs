@@ -34,6 +34,20 @@
     * 架構節點, 依登入帳號角色, 判斷顯示 / 隱藏</br>
         ![pic][image_nodeAuthority]
 
+## <p id="ruleother7">存回不允空白檢控通則</p>
+* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
+    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
+        * 確定: 關閉訊息盒
+    * 作業流程    
+        * <ps>待補</ps>
+
+## <p id="ruleother8">存回其它檢控通則</p>
+* 其它檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
+    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未通過驗證 *錯誤訊息內容* / 按鍵: 確定】
+        * 確定: 關閉訊息盒
+    * 作業流程    
+        * <ps>待補</ps>
+
 <!-- 圖示 -->
 [image_editAuthority1]:attachment/editAuthority1.png
 [image_editAuthority2]:attachment/editAuthority2.png

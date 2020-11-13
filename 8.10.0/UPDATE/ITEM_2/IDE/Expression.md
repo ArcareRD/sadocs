@@ -25,13 +25,13 @@
     * 規格說明
         * 以 Like %`(1)關鍵字`% 的語法, 比對`(1)上層表格`中的檢視表元件,  將符合條件的檢視表元件載入`(6)元件清單`
     * 作業流程    
-        * <ps>待補</ps>
+        * ![pic][image_expression_search]
 * `(5)引用鍵`
     * 用途說明
     * 規格說明
         * 依駐留的檢視表元件, 新增至`(7)自定運算式`或`(8)引用函數運算式`中
     * 作業流程    
-        * <ps>待補</ps>
+        * ![pic][image_expression_quote]
 
 <!-- 圖片 -->
 [image_expression]:attachment/Expression.png

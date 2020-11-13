@@ -97,13 +97,10 @@
             * <ps>待補</ps>
 
 ## <div id="save-action">儲存檢控</div>
-* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(8)替換字變數`、`(9)來源類型`、`(10)來源欄位`, 不允空白
-    * 作業流程    
-        * <ps>待補</ps>
+* [存回不允空白檢控通則][link_ruleother7]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(8)替換字變數`、`(9)來源類型`、`(10)來源欄位`, 不允空白
 
 <!-- 圖片 -->
 [image_replace]:attachment/Replace.png
@@ -124,3 +121,4 @@
 [link_ruledialog5]:../RulesDialog/README#ruledialog5 "共用通則_開單操作/挑選資料表元件通則"
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開單操作/挑選檢視表元件通則"
 [link_ruledialog16]:../RulesDialog/README#ruledialog16 "共用通則_開單操作/挑選開放按鍵回傳參數通則"
+[link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_開單操作/存回不允空白檢控通則"
