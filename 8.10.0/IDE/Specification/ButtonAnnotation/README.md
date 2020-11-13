@@ -35,8 +35,8 @@
     * (4)對應熱鍵
         * 用途說明
         * 規格說明
-            * (3)按鈕類型=工具列選單/工具列按鈕 時, 下拉: [按鍵熱鍵通則][link_ruleother3], 過濾: 功能類別=1.自定鍵
-            * (3)按鈕類型=選單內選項 時, 下拉: [按鍵熱鍵通則][link_ruleother3], 過濾: 功能類別=2.小選單_選項
+            * (3)按鈕類型=工具列選單/工具列按鈕 時, 下拉熱鍵主檔, 取得功能類別=1.自定鍵的項目
+            * (3)按鈕類型=選單內選項 時, 下拉熱鍵主檔, 取得功能類別=2.小選單_選項的項目
             * (3)按鈕類型=工具列選單/工具列按鈕 and (3)按鈕類型<>選單內選項 時, 本欄位, 除能;
             * 當 [新增表單/報表][link_AddFormReport_fieldbreak1](n)設計類型=APP，隱藏
     * (17)系統按鈕
@@ -217,7 +217,6 @@
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本區塊"
 [link_fieldbreak3]:#fieldbreak3 "欄位說明/執行後續區塊"
 [link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother3]:../RulesOther/README#ruleother3 "共用通則_其它/按鍵熱鍵通則"
 [link_ruleother4]:../RulesOther/README#ruleother4 "共用通則_其它/挑選表單檔區通則"
 [link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"

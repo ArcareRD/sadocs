@@ -18,3 +18,4 @@
   * [挑選報表元件通則](README#ruledialog15)
   * [挑選函數通則](README#ruledialog16)
   * [挑選開放按鍵回傳參數通則](README#ruledialog16)
+  * [操作多語訊息及替代通則](README#ruledialog17)

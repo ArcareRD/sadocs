@@ -35,6 +35,8 @@
                 * 當接收參數不存在`(7)參數名稱`中, 則新增資料列
                 * 當接收參數已存在`(7)參數名稱`中, 則保留資料列
                 * 當`(7)參數名稱`, 存在無效的接收參數, 則刪除資料列
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow5]
     * `(6)參數表格`
         * 用途說明
         * 規格說明
@@ -61,6 +63,8 @@
                 * 報表元件: 非報表加註、報表元件加註開啟, 隱藏
                 * 全域變數: 非表單加註_資料來源開啟, 隱藏
                 * 上層欄位: 當`(4)上層表格`有值, 才顯示
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow9]
     * `(10)給值內容`
         * 用途說明
         * 規格說明
@@ -77,18 +81,20 @@
         * 規格說明
             * 前單為瀏覽狀態開啟本單, 除能
             * 參照 [權限驗証通則][link_ruleother6]
+            * 儲存完成, 關閉單據, 顯示訊息【標題: 系統訊息 / 訊息內容: 參數儲存完成"加註或是引用參數的功能"請記得儲存。】, 自動關閉: 1秒
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow11]
 
 ## <div id="save-action">儲存檢控</div>
-* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(7)參數名稱`、`(10)給值內容`, 不允空白
-* 其它檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未通過驗證 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(7)參數名稱`, 不允重複
+* [存回不允空白檢控通則][link_ruleother7]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(7)參數名稱`、`(10)給值內容`, 不允空白
+* [存回其它檢控通則][link_ruleother8]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(7)參數名稱`, 不允重複
+                * 訊息內容: 參數不可重覆
 
 ## <div id="tag-desc">註解說明</div>
 * <div id="tag1">註1</div>
@@ -121,6 +127,9 @@
 <!-- 圖片 -->
 [image_parameter]:attachment/Parameter.png
 [image_fieldbreak1]:attachment/fieldbreak1.png
+[image_fieldbreak1_flow5]:attachment/fieldbreak1_flow5.png
+[image_fieldbreak1_flow9]:attachment/fieldbreak1_flow9.png
+[image_fieldbreak1_flow11]:attachment/fieldbreak1_flow11.png
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "基本"
@@ -135,5 +144,7 @@
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開單操作/挑選全域變數通則"
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開單操作/挑選檢視表元件通則"
 [link_ruledialog16]:../RulesDialog/README#ruledialog16 "共用通則_開單操作/挑選函數通則"
+[link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_開單操作/存回不允空白檢控通則"
+[link_ruleother8]:../RulesOther/README#ruleother8 "共用通則_開單操作/存回其它檢控通則"
 [link_Logical]:../Logical/README "檢視表"
 [link_FormAnnotation]:../FormAnnotation/README "表單加註_基本設定"

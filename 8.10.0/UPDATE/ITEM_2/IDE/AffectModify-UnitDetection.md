@@ -55,13 +55,13 @@
                     * 當`(7)替換類別`=表單元件: `(13)時間起`、`(14)時間迄`須存在該表單中
                     * 當`(7)替換類別`=推播來源欄位: `(13)時間起`、`(14)時間迄`須存在 [推播通知_主旨內文: 檢視表][link_conentviewno] 中
                     * 當`(7)替換類別`=表單參數: `(13)時間起`、`(14)時間迄`須存在該表單的接收參數中
-                    * 當`(7)替換類別`=全域變數: `(13)時間起`、`(14)時間迄`須存在專案中                
+                    * 當`(7)替換類別`=全域變數: `(13)時間起`、`(14)時間迄`須存在專案中
             * [連結內容_超連結網址][link_linkurl]
                * 當`(1)網址欄位_類別`有設定時, `(2)網址欄位_給值內容`的資料型態須為文字型態, 並進行下列檢查
                     * 當`(1)網址欄位_類別`=表單元件: `(2)網址欄位_給值內容`須存在該表單中
                     * 當`(1)網址欄位_類別`=推播來源欄位: `(2)網址欄位_給值內容`須存在 [推播通知_主旨內文: 檢視表][link_conentviewno] 中
                     * 當`(1)網址欄位_類別`=表單參數: `(2)網址欄位_給值內容`須存在該表單的接收參數中
-                    * 當`(1)網址欄位_類別`=全域變數: `(2)網址欄位_給值內容`須存在專案中 
+                    * 當`(1)網址欄位_類別`=全域變數: `(2)網址欄位_給值內容`須存在專案中
             * [儲存連結資訊][link_savelinkinfo]
                 * `(1)寫入資料表`有設定時, 須存在專案中 且 不支援外部資料庫的資料表
                 * `(2)通行碼`有設定時, 須存在`(1)寫入資料表`中 且 其資料型態須為全唯碼型態
@@ -71,7 +71,7 @@
                         * 當`(5)給值類別`=表單元件: `(7)給值內容`須存在該表單中
                         * 當`(5)給值類別`=推播來源欄位: `(7)給值內容`須存在 [推播通知_主旨內文: 檢視表][link_conentviewno] 中
                         * 當`(5)給值類別`=表單參數: `(7)給值內容`須存在該表單的接收參數中
-                        * 當`(5)給值類別`=全域變數: `(7)給值內容`須存在專案中            
+                        * 當`(5)給值類別`=全域變數: `(7)給值內容`須存在專案中
         * [通知對象][link_MAENotice_fieldbreak4]
             * 當`(1)來源`=查表時, 則`(2)檢視表`的設定須存在專案中
             * 當`(5)使用者序號`有設定時, 其對應的資料型態須為文字型態, 並進行下列檢查
@@ -89,30 +89,7 @@
                     * 當`(6)給值類別`=表單元件: `(7)給值內容`須存在該表單中
                     * 當`(6)給值類別`=推播來源欄位: `(7)給值內容`須存在 [推播通知_主旨內文: 檢視表][link_conentviewno] 中
                     * 當`(6)給值類別`=表單參數: `(7)給值內容`須存在該表單的接收參數中
-                    * 當`(6)給值類別`=全域變數: `(7)給值內容`須存在專案中     
-
-
-
-## <div id="annotation_copy">加註複製</div>
-
-
-
-## <div id="specification_output">規格書產出</div>
-* 支援本次新增加註: [按鍵加註-推播通知][link_MAENotice]
-    * 按鍵說明_規格定義中, 增加 **推播通知** 加註內容, 格式範例如下:
-    | 順序       | 按鍵名稱    | 規格描述                              | 規格定義  |
-    | ---------- |----------- | -----------------------------------  | --------- |
-    | 依資料排序  | *按鍵名稱*  | 取得該按鍵[規格備註]的**規格描述**內容 | (推播通知)【推播人：[推播人選項](#1)】【郵件來源：([來源類別](#2))[檢視表名稱](#3) (過濾)[條件說明](#4)】【主旨內文：(主旨)*註5*：元件】【寄件人：管理者】【收件對象：(指定)】 |
-
-    * <t id="1">推播人選項</t>: 取得 [按鍵加註_推播通知:推播人](link_sender) 已勾選的選項內容
-    * <t id="2">來源類別</t>: 取得 [按鍵加註_主旨內文:來源](link_replacetype) 已選取的選項內容
-    * <t id="3">檢視表名稱</t>: 取得 [按鍵加註_主旨內文:檢視表](link_conentviewno) 的檢視表名稱
-    * <t id="4">條件說明</t>: 取得 [按鍵加註_主旨內文:過濾](link_contentparameterid) 的過濾條件說明
-
-
-
-
-
+                    * 當`(6)給值類別`=全域變數: `(7)給值內容`須存在專案中
 
 <!-- 超連結 -->
 [link_MAENotice]:MAENotice.md "按鍵加註-推播通知"
@@ -122,16 +99,20 @@
 [link_conentviewno]:MAENotice.md#conentviewno "按鍵加註-推播通知/主旨內文/檢視表"
 [link_replacetype]:MAENotice.md#replacetype "按鍵加註-推播通知/主旨內文/來源"
 [link_contentparameterid]:MAENotice.md#contentparameterid "按鍵加註-推播通知/主旨內文/過濾"
-[link_sender]:MAENotice.md#sender "按鍵加註-推播通知/推播人"
+[link_keynote]:MAENotice.md#keynote "按鍵加註-推播通知/主旨內文/主旨"
+[link_content]:MAENotice.md#content "按鍵加註-推播通知/主旨內文/內容"
 
-[link_MAENotice_fieldbreak4]: MAENotice.md#fieldbreak4 "欄位說明/通知對象"
-[link_savelinkinfo]:MAENotice.md#MAENotice-SaveLinkInfo.md "儲存連結資訊"
-[link_savenoticeinfo]:MAENotice.md#MAENotice-SaveNoticeInfo.md "儲存推播資訊"
-[link_ExternalCallButton]:/8.10.0/IDE/Specification/ExternalCallButton/README "開放按鍵"
+[link_MAENotice_fieldbreak4]: MAENotice.md#fieldbreak4 "按鍵加註-推播通知/通知對象"
+[link_noticertype]:MAENotice.md#noticertype "按鍵加註-推播通知/通知對象/來源"
+[link_useraccount]:MAENotice.md#useraccount "按鍵加註-推播通知/通知對象/使用者帳號"
+[link_sender]:MAENotice.md#sender "按鍵加註-推播通知/推播人"
 
 [link_linkform]:MAENotice-Link-Form.md "連結內容_超連結表單"
 [link_linkbutton]:MAENotice-Link-Button.md "連結內容_超連結按鍵"
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
+[link_savelinkinfo]:MAENotice.md#MAENotice-SaveLinkInfo.md "儲存連結資訊"
+[link_savenoticeinfo]:MAENotice.md#MAENotice-SaveNoticeInfo.md "儲存推播資訊"
 
-
+[link_ExternalCallButton]:/8.10.0/IDE/Specification/ExternalCallButton/README.md "開放按鍵"
+[link_SpecificationsRemarks]:/8.10.0/IDE/Specification/SpecificationsRemarks/README.md "規格備註"

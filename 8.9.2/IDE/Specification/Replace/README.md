@@ -17,8 +17,10 @@
             * 當前單未限定來源, 選項致能
             * 當前單有限定來源, 該選項點選, 除能
             * 切換選項時, 顯示詢問訊息盒【標題: 系統訊息 / 訊息內容: 不同來源將清空替代來源內容 / 按鍵: 確認、取消】
-            * 確認: 關閉訊息, 清除`(2)表格名稱`、`(3)過濾條件`、`(4)替代表格`內容
-            * 取消: 關閉訊息, 保留原內容
+                * 確認: 關閉訊息, 清除`(2)表格名稱`、`(4)過濾條件`、`(6)替換字表格`內容, 重顯`(2)表格名稱`、`(3)傳遞參數`、`(4)過濾條件`的除致能狀態
+                * 取消: 關閉訊息, 保留原內容
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow1]
     * `(2)表格名稱`
         * 用途說明
         * 規格說明
@@ -55,6 +57,8 @@
         * 規格說明
             * 取得的前單訊息內容, 依空格區分字中, 擷取有 % 開頭的文字內容, 載入`(6)替換字表格`的`(8)替換字變數`中
                 * 當擷取文字不存在`(8)替換字變數`中, 則新增資料列
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow7]
     * `(8)替換字變數`
         * 用途說明
         * 規格說明
@@ -67,6 +71,8 @@
             * `(1)替代來源`=資料表、檢視表, 選項 表單元件, 隱藏
             * 當`(5)上層表格`有值, 選項 上層欄位, 才顯示
             * 由[超連結內容_超連結按鍵]開啟, 才顯示
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow9]
     * `(10)來源欄位`
         * 用途說明
         * 規格說明
@@ -85,17 +91,23 @@
         * 規格說明
             * 前單為瀏覽狀態開啟本單, 除能
             * 參照 [權限驗証通則][link_ruleother6]
+            * 儲存完成, 關閉單據
+        * 作業流程    
+            * ![pic][image_fieldbreak1_flow11]
 
 ## <div id="save-action">儲存檢控</div>
-* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒
-    * [基本][link_fieldbreak1]
-        * `(8)替換字變數`、`(9)來源類型`、`(10)來源欄位`, 不允空白
+* [存回不允空白檢控通則][link_ruleother7]
+    * 檢控範圍
+        * [基本][link_fieldbreak1]
+            * `(8)替換字變數`、`(9)來源類型`、`(10)來源欄位`, 不允空白
 
 <!-- 圖片 -->
 [image_replace]:attachment/Replace.png
 [image_fieldbreak1]:attachment/fieldbreak1.png
+[image_fieldbreak1_flow1]:attachment/fieldbreak1_flow1.png
+[image_fieldbreak1_flow7]:attachment/fieldbreak1_flow7.png
+[image_fieldbreak1_flow9]:attachment/fieldbreak1_flow9.png
+[image_fieldbreak1_flow11]:attachment/fieldbreak1_flow11.png
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "基本"
@@ -112,3 +124,4 @@
 [link_ruledialog5]:../RulesDialog/README#ruledialog5 "共用通則_開單操作/挑選資料表元件通則"
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開單操作/挑選檢視表元件通則"
 [link_ruledialog16]:../RulesDialog/README#ruledialog16 "共用通則_開單操作/挑選開放按鍵回傳參數通則"
+[link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_開單操作/存回不允空白檢控通則"

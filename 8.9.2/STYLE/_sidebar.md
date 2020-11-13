@@ -1,16 +1,16 @@
 # 單元樣式
 * [上一頁](../README.md)
 * IDE介面
-	* 樣式名稱
-	* 元件類型
-	* 狀態樣式
+	* [樣式名稱](README.md#stylename)
+	* [元件類型](README.md#styletype)
+	* [狀態樣式](README.md#statustype)
 	* 常用樣式
-		* 底色
+		* [底色](README.md#background)
 			* 顏色
 			* 透明度
 			* 漸層色
 			* 漸層方向
-		* 內容
+		* [內容](README.md#content)
 			* 字型大小
 			* 水平
 			* 垂直
@@ -25,7 +25,7 @@
 			* 超連結
 				* 點擊前
 				* 點擊後			
-		* 框線
+		* [框線](README.md#border)
 			* 線條
 			* 圓角
 			* 上框線
@@ -41,23 +41,23 @@
 				* 寬度
 				* 顏色
 		* 邊界				
-			* 內間距
+			* [內間距](README.md#padding)
 				* 上
 				* 下
 				* 左
 				* 右
-			* 外邊距
+			* [外邊距](README.md#margin)
 				* 上
 				* 下
 				* 左
 				* 右
 	* 進階樣式	
-		* 列底色
+		* [列底色](README.md#grid_row_background)
 			* 標題列
 			* 資料列
 				* 單數
 				* 雙數
-		* 內框線
+		* [內框線](README.md#content_border)
 			* 線條
 			* 圓角
 			* 上框線
@@ -72,7 +72,7 @@
 			* 右框線
 				* 寬度
 				* 顏色
-		* 光棒
+		* [光棒](README.md#focusbar)
 			* 線條
 			* 上框線
 				* 寬度
@@ -91,7 +91,7 @@
 				* 透明度
 				* 漸層色
 				* 漸層方向
-		* 圖示設定
+		* [圖示設定](README.md#icon)
 * 類型支援
 	* 舊版首頁
 		* [(舊版首頁)主選單](hMainMenu.md#hmainmenu)
