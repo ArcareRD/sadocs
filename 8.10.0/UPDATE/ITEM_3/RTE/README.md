@@ -293,7 +293,7 @@
     * 系統工具
         * 公司用戶清單 : 公司名稱
         * 用戶帳號維護 : 公司名稱
-        * 公司基本資料 : 公司名稱
+        * 公司基本資料 : 公司名稱(改為可以多語系修改)
 
 [表單_Site資料庫設定]:attachment/SiteDatabaseSet.png "表單_Site資料庫設定"
 [表單_Site資料庫設定_重整資料庫]:attachment/SiteDatabaseSet_RefreshDB.png "表單_Site資料庫設定_重整資料庫"
