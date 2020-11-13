@@ -16,7 +16,7 @@
             * [推播通知-儲存推播資訊](MAENotice-SaveNoticeInfo.md)
     * [運算式](Expression.md)
     * 影響修改
-        * [發行檢錯](AffectModify.md#unit-detection)
-        * [加註複製](AffectModify.md#annotation_copy)
-        * [規格書](AffectModify.md#specification_output)
-* [history](history.md)    
+        * [發行檢錯](AffectModify-UnitDetection.md)
+        * [規格書](AffectModify-Specification.md)
+        * [加註複製](AffectModify-CopyButtonAnnotationForm.md)
+* [history](history.md)
