@@ -7,18 +7,18 @@
 ## <div id="trac">TRAC</div>
   * 待補
 
-#### <div id="offline_mode_online">連線<path>(離線功能)</path></div>
+#### <div id="offline_mode_online">連線<path>(系統功能)</path></div>
 * 規格說明
-  * 在離線作業時，要結束離線作業並返回連線狀態
-  * 可上傳離線作業期間所異動的資料
-  * 可直接結束離線作業並返回連線狀態
-  * 須手動同步離線作業期間所異動的資料
+  * 在離線模式下，可結束離線模式並返回連線模式[(表單畫面 連線)](#online_button)
+  * 可上傳離線模式期間所異動的資料
+  * 可直接結束離線模式並返回連線模式
+  * 可設計同步表單來同步離線模式期間所異動的資料[(表單畫面 同步資料)](#online_sync)
 * 表單畫面
-  * 連線
+  * <p id=online_button>連線</>
   
     ![Offline Mode Online](./image/offlinemodeonline.png)
 
-  * 同步資料
+  * <p id=online_sync>同步資料(設計者設計)</p>
   
     ![Offline Mode Online](./image/offlinemodeonlinesync.png)
 

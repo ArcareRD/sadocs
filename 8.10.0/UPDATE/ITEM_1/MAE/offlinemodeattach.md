@@ -7,11 +7,11 @@
 ## <div id="trac">TRAC</div>
   * 待補
 
-#### <div id="offline_mode_attach">加註處理<path>(離線功能)</path></div>
+#### <div id="offline_mode_attach">加註處理<path>(資料處理)</path></div>
 * 規格說明
-    * 離線時的加註處理
-    * 需查詢伺服器的資料皆轉向本地資料庫
-    * 需使用網路的部份一律不處理
+    * 離線模式時的加註處理
+    * 所有連線資料皆轉查本地資料
+    * 所有連線功能皆無法使用
 * 作業流程
 
   ![Offline Mode Attach](./image/workflow_attach.png)
