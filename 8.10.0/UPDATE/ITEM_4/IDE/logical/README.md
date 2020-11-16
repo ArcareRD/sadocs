@@ -297,7 +297,77 @@
   ![join_param_io]
   
   * 執行按鈕.執行儲存
+   
+  ![join_save_io]
+
+### <div id="logcols">欄位清單<path>(需求展開\檢視表)</path></div>
+* 版面(非UNION)
+    
+  ![logcols]
+* 欄位說明
+  * <t>(1)IsNull</t>
+    * 用途說明: 快速建立IsNull函數
+    * 規格說明: 可設定勾選的項目如下
+
+    | 型態 | 控制 |
+    | ---- | --- |
+    |位元 | 致能 |
+    |文字 | 致能 |
+    |整數 | 致能 |
+    |數字 | 致能 |
+    |日期 | 致能 |
+    |日期時間 | 致能 |
+    |備註 | 致能 |
+    |二進位 | 致能 |
+    |全唯碼 | 除能 |
+
+  * <t>(2)特定處理</t>
+    * 用途說明
+    * 規格說明: 
+      * 擴充群組彙總(GROUP BY)、平均值(AVG)
+  * <t>(3)輸出欄位清單</t>
+    * 用途說明
+    * 規格說明:
+      * 顯示方式為: [特定處理圖示] + 欄位名
+      * 特定處理對應圖示<ps>(對應圖是為示意圖 待補)</ps>
+
+      | 特定處理 | 對應圖示 |
+      | --- | --- |
+      | 無 | -- |
+      | 計數(COUNT) | ![icon_other] |
+      | 總和(SUM) | ![icon_other] |
+      | 最大值(MAX) | ![icon_other] |
+      | 最小值(MIN) | ![icon_other] |
+      | 平均值(AVG) | ![icon_other] |
+      | 群組彙總(GROUP BY) | ![icon_group] |
+      | 特殊語法 | -- |
+  * <t>(4)儲存</t>
+    * 用途說明
+    * 規格說明:
+      * 重顯欄位清單
+
+    
+*  版面(UNION)  
   
+  ![logcols_union]
+* 欄位說明
+  * `(1)資料內容區塊`
+    * 用途說明
+    * 規格說明: 
+      * 依據UNION表格數自動產生n筆資料
+  * `(2)別名`
+    * 用途說明: 顯示別名資訊
+    * 規格說明: 
+  * `(3)資料內容`
+    * 用途說明
+    * 規格說明: 開啟開窗[運算式][link_expression], 限定:無查表功能
+  * <t>(4)儲存</t>
+    * 用途說明: 
+    * 規格說明: 
+      * 檢查資料內容都必須有值
+      
+  
+
 <!-- 圖片-->
 [open_logical]:attachment/open_logical.png "開啟檢視表"
 [open_logical_io]:attachment/open_logical_io.png "[作業流程]開啟檢視表"
@@ -322,8 +392,14 @@
 [join_logical]:attachment/join_logical.png "關聯條件"
 [join_sourcetable_io]:attachment/join_sourcetable_io.png "[作業流程]關聯條件開啟表格"
 [join_param_io]:attachment/join_param_io.png "[作業流程]關聯條件開啟傳遞參數"
+[join_save_io]:attachment/join_save_io.png "[作業流程]關聯條件存回"
+[logcols]:attachment/logcols.png "欄位清單"
+[logcols_union]:attachment/logcols_union.png "欄位清單 union"
+[icon_group]:attachment/colsspecific_icon_group.png "Group by icon"
+[icon_other]:attachment/colsspecific_icon_other.png "Group by icon"
+
 <!--Link-->
 [link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
 [link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
-
-[link_Parameter]: "傳遞參數" "共用通則_開啟單據/傳遞參數"
+[link_expression]:/8.10.0/IDE/Specification/運算式 "共用通則_開啟運算式"
+[link_Parameter]: "傳遞參數" "共用通則_開啟傳遞參數"

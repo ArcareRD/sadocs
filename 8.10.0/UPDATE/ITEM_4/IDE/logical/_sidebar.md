@@ -7,7 +7,7 @@
   * [檢視表主頁](README.md#index)
   * [結構展開](README.md#joinlist)
     * [關聯條件](README.md#join)
-  * [欄位清單](README.md#column)
+  * [欄位清單](README.md#logcols)
   * [接收參數](README.md#parameter)
   * [排序依據](README.md#orderby)
   * [自動彙總](README.md#autogroupby)
