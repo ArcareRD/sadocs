@@ -82,7 +82,7 @@
 
 
 <!-- 超連結 -->
-[link_MAENotice_fieldbreak3]:MAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
+[link_MAENotice_fieldbreak3]:BAMAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"

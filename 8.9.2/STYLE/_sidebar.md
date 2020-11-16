@@ -6,22 +6,22 @@
 	* [狀態樣式](README.md#statustype)
 	* 常用樣式
 		* [底色](README.md#background)
-			* 顏色
-			* 透明度
-			* 漸層色
-			* 漸層方向
+			* [顏色](README.md#background_color)
+			* [透明度](README.md#background_transparent)
+			* [漸層色](README.md#background_gradient_color)
+			* [漸層方向](README.md#background_gradient_direction)
 		* [內容](README.md#content)
-			* 字型大小
-			* 水平
-			* 垂直
-			* 文字顏色
-			* 透明度
-			* 字型
+			* [文字顏色](README.md#content_color)
+			* [透明度](README.md#content_transparent)
+			* [字型](README.md#content_font)
+			* [字型大小](README.md#content_fontsize)
+			* [水平](README.md#content_horz)
+			* [垂直](README.md#content_vert)
 			* 字型樣式
-				* 粗體
-				* 料體
-				* 底線
-				* 刪除線
+				* [粗體](README.md#content_bold)
+				* [斜體](README.md#content_italic)
+				* [底線](README.md#content_underline)
+				* [刪除線](README.md#content_linethrough)
 			* 超連結
 				* 點擊前
 				* 點擊後			
