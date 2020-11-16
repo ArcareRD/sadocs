@@ -6,7 +6,7 @@
 * [需求展開](README.md#requirement)
     * 按鍵加註
         * [按鍵行為選項](ButtonBehavior.md)
-        * [推播通知](MAENotice.md)
+        * [推播通知](BAMAENotice.md)
             * 推播通知-連結內容
                 * [連結內容_超連結表單](MAENotice-Link-Form.md)
                 * [連結內容_超連結按鍵](MAENotice-Link-Button.md)

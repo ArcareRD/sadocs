@@ -22,9 +22,9 @@
 
 
 <!-- 超連結 -->
-[link_fieldbreak3]:MAENotice.md#fieldbreak3 "欄位說明/主旨內文"
-[link_fieldbreak4]:MAENotice.md#fieldbreak4 "欄位說明/通知對象"    
-[link_fieldbreak5]:MAENotice.md#fieldbreak5 "欄位說明/推播資訊"
+[link_fieldbreak3]:BAMAENotice.md#fieldbreak3 "欄位說明/主旨內文"
+[link_fieldbreak4]:BAMAENotice.md#fieldbreak4 "欄位說明/通知對象"    
+[link_fieldbreak5]:BAMAENotice.md#fieldbreak5 "欄位說明/推播資訊"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
 [link_expression]:Expression.md "運算式"
 
