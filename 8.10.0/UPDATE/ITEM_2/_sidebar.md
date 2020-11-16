@@ -1,4 +1,4 @@
-# MAE擴增離線功能
+# MAE擴增推播通知功能
 * [上一頁](../README.md)
 * [IDE](IDE/README.md)
 * [RTE](RTE/README.md)
