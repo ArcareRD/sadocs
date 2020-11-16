@@ -47,10 +47,11 @@
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本區塊"
 
-[link_MAENotice]:MAENotice.md "按鍵加註-推播通知"
+[link_MAENotice]:BAMAENotice.md "按鍵加註-推播通知"
 [link_linkform]:MAENotice-Link-Form.md "連結內容_超連結表單"
 [link_linkbutton]:MAENotice-Link-Button.md "連結內容_超連結按鍵"
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
-[link_savelinkinfo]:MAENotice.md#MAENotice-SaveLinkInfo.md "儲存連結資訊"
-[link_savenoticeinfo]:MAENotice.md#MAENotice-SaveNoticeInfo.md "儲存推播資訊"
+[link_savelinkinfo]:BAMAENotice.md#MAENotice-SaveLinkInfo.md "儲存連結資訊"
+[link_savenoticeinfo]:BAMAENotice.md#MAENotice-SaveNoticeInfo.md "儲存推播資訊"
+``

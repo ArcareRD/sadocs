@@ -22,6 +22,8 @@
 
 * 依規格定義-主畫面 結構清單駐留元件及指定加註條件, 顯示本單內容
 * 依規格定義-主畫面 工具列.編修鍵, 進入本單的編輯模式
+* 作業流程
+    * ![pic][image_Open]
 
 
 ## <div id="other-desc">設計注意事項說明</div>
@@ -49,9 +51,7 @@
         * 用途說明
         * 規格說明
             * 參照 [設定按鍵執行條件表格通則][link_ruledialog11]
-        * 作業流程
-            * <ps>待補</ps> 
-            
+              
 
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">推播人</p>  
 
@@ -75,7 +75,7 @@
                 * 確定: 清除欄位:`(3)推播來源檢視表參數`、加註中引用類別為 **推播來源欄位** 的欄位, 並關閉訊息盒
                 * 取消: 關閉訊息盒
         * 作業流程
-            * <ps>待補</ps> 
+            * ![pic][image_NoticeSourceType]
     * <t id="conentviewno">(2)檢視表</t>
         * 用途說明
             * 意指 推播來源檢視表
@@ -85,16 +85,12 @@
             * 內容異動時, 顯示訊息盒【標題: 系統訊息 / 異動推播來源類別將清除[相關欄位]，是否繼續。 / 按鍵:確定、取消】 
                 * 確定: 清除欄位:`(3)推播來源檢視表參數`及加註中引用類別的選項為 **推播來源欄位** 的欄位, 並關閉訊息盒
                 * 取消: 關閉訊息盒
-        * 作業流程 
-            * <ps>待補</ps>   
     * <t id="contentparameterid">(4)過濾</t>
         * 用途說明
             * 意指 推播來源檢視表過濾條件
         * 規格說明
             * 當`(1)來源`=查表時, 致能
             * 參照 [操作條件式通則][link_ruledialog1], 限定:檢視表須同`(2)檢視表`已設定的檢視表, 回傳並顯示:條件說明
-        * 作業流程
-            * <ps>待補</ps>
     * <t id="keynote">(5)主旨</t>
         * 用途說明
         * 規格說
@@ -126,9 +122,9 @@
         * 規格說明
             * 當`(9)類別`=表單元件: 參照 [挑選表單元件通則][link_ruledialog7], 從駐留表單中, 進行元件挑選, 回傳:表單元件 ; 若元件為 個資加密且已解密欄位 或 密碼欄位, 則該元件顯示紅色字體
             * 當`(9)類別`=推播來源欄位: 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件. 因查表來源暫不支援個資解密, 故不提供變色處理
-            * 當`(9)類別`=表單參數: [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
-            * 當`(9)類別`=全域變數: [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數
-            * 當`(9)類別`=通知來源欄位: [挑選檢視表元件通則][link_ruledialog8], 從 [通知對象][link_fieldbreak4]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件料號. 因查表來源暫不支援個資解密, 故不提供變色處理
+            * 當`(9)類別`=表單參數: 參照 [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
+            * 當`(9)類別`=全域變數: 參照 [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數
+            * 當`(9)類別`=通知來源欄位: 參照 [挑選檢視表元件通則][link_ruledialog8], 從 [通知對象][link_fieldbreak4]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件料號. 因查表來源暫不支援個資解密, 故不提供變色處理
         * 作業流程
             * <ps>待補</ps>
     * `(12)連結類別`
@@ -157,9 +153,9 @@
             * 當`(12)連結類別`=超連結表單或超連結按鍵時, 才致能 ; 否則除能
             * 當有勾選時, 
                 * 儲存連結資訊區塊 未設定時, 顯示:尚未設定 灰色字體(#aaa)
-                * 可超連結開啟[儲存連結資訊][link_savelinkinfo], 關單後顯示: *表格名稱*
+                * 可超連結開啟[儲存連結資訊][link_savelinkinfo], 關單後顯示: *資料表名稱*
         * 作業流程
-            * <ps>待補</ps>
+            * ![pic][image_OpenSaveLinkInfo]
 
 * <p id="fieldbreak4" style="color:blue;font-weight:bold">通知對象</p>  
 
@@ -210,15 +206,15 @@
 * 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
     * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 </n> *錯誤欄位名* / 按鍵: 確定】
         * 確定: 關閉訊息盒 
-    * [主旨內文][image_Annotation_Notice_Block3]
+    * [主旨內文][link_fieldbreak3]
         * `(5)主旨`、`(6)內文`、`(12)連結字變數`、`(13)連結類別`、`(14)連結內容`, 不允空白
         * 當`(9)替換字變數` 有值時, 則`(10)類別`、`(11)來源欄位`, 不允空白
-    * [通知對象][image_Annotation_Notice_Block4]
+    * [通知對象][link_fieldbreak4]
         * `(1)來源`, 不允空白
         * 當`(1)來源`=查表時, 則`(2)檢視表`, 不允空白
 * 其它檢控
-    * [基本][image_Annotation_Notice_Block1]的`(3)優先序`: 同一按鍵的各加註內容順序不允重複; 錯誤時提示訊息
-    * [推播人][image_Annotation_Notice_Block2]的`(1)推播人`: 選項必須有值
+    * [基本][link_fieldbreak1]的`(3)優先序`: 同一按鍵的各加註內容順序不允重複; 錯誤時提示訊息
+    * [推播人][link_fieldbreak2]的`(1)推播人`: 選項必須有值
     * 檢查下列加註介面中引用推播來源是否與本單推播來源不同
         * 連結內容
             * [連結內容_超連結表單][link_linkform]
@@ -226,7 +222,7 @@
             * [連結內容_超連結Google行事曆][link_linkgooglecalendar]
         * [儲存推播資訊][link_savenoticeinfo]
         * [儲存連結資訊][link_savelinkinfo]
-    * [主旨內文][image_Annotation_Notice_Block3]
+    * [主旨內文][link_fieldbreak3]
         * 若`(13)連結類別`不等於超連結表單或超連結按鍵 且 `(15)儲存連結資訊`有設定時, 跳出詢問盒【標題: 系統訊息 / 訊息內容: 當未設定超連結表單與超連結資訊不支援寫入儲存連結資訊，是否清除? / 按鍵: 確定、取消】
             * 確定: 清除欄位:`(14)儲存連結資訊`, 並關閉訊息盒
             * 取消: 關閉訊息盒
@@ -242,7 +238,7 @@
     * 當下列[條件式]來源與引用條件式的來源檢視表不同時，於後端覆寫條件式來源表格，條件式明細不異動
     * 當下列[條件式]上層表格與郵件來源表格不同時，於後端覆寫條件式上層表格，條件式明細不異動
 * 作業流程
-    * <ps>待補</ps>
+    * ![pic][image_Save]
 
 
 
@@ -253,10 +249,15 @@
 [image_Annotation_Notice_Block3]:attachment/Annotation_Notice_Block3.png "主旨內文"
 [image_Annotation_Notice_Block4]:attachment/Annotation_Notice_Block4.png "通知對象"
 [image_Annotation_Notice_Block5]:attachment/Annotation_Notice_Block5.png "推播資訊"
+[image_Open]:attachment/BAMAENotice-Open.png "推播通知-開啟"
+[image_NoticeSourceType]:attachment/BAMAENotice-NoticeSourceType.png "推播通知-主旨內文.來源"
+[image_OpenSaveLinkInfo]:attachment/BAMAENotice-OpenSaveLinkInfo.png "推播通知-主旨內文.儲存連結資訊"
+[image_Save]:attachment/BAMAENotice-Save.png "推播通知-儲存"
 
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
+[link_fieldbreak2]: #fieldbreak2 "欄位說明/推播人"
 [link_fieldbreak3]: #fieldbreak3 "欄位說明/主旨內文"
 [link_fieldbreak4]: #fieldbreak4 "欄位說明/通知對象"
 [link_savelinkinfo]:MAENotice-SaveLinkInfo.md "儲存連結資訊"
