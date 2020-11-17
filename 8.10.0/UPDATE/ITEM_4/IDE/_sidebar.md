@@ -6,9 +6,6 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
  * 檢視表
-   * [表單.檢視表](./logical/README)   
- * 複製工具
-   * [表單.規格複製]
-   * [表單.跨專案複製]
- * 發行檢錯
-   * [表單.版本發行]
+   * [表單.檢視表](./logical/README)
+ * 影響修改
+   * [單元檢錯](UnitDetection.md)
