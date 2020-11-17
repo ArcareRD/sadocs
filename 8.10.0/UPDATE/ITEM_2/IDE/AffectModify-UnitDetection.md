@@ -11,9 +11,9 @@
 ## <div id="unit-detection">單元檢錯</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">按鍵加註</p>
 
-    * 離線用APP表單, 不支援[按鍵加註-推播通知](link_MAENotice)
-    * [按鍵加註-推播通知](link_MAENotice)
-        *  [主旨內文](link_MAENotice_fieldbreak3)
+    * 離線用APP表單, 不支援[按鍵加註-推播通知][link_MAENotice]
+    * [按鍵加註-推播通知][link_MAENotice]
+        *  [主旨內文][link_MAENotice_fieldbreak3]
             * 當`來源`=查表時, 則`檢視表`必須設定設定且存在專案中
             * 當 `替代變數表格`的`類別`有設定時, 進行下列檢查
                 * 當`類別`=表單元件: `來源欄位`須存在該表單中
