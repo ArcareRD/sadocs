@@ -5,7 +5,7 @@
     * [報表]()
 * 資料表格
     * [資料表](Physical)
-    * [檢視表](Logical)
+    * [檢視表](Logical/README)
     * [資料交易](Positing)
 * 專案資源
     * [資料模版](Commodule)
