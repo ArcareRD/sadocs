@@ -25,19 +25,19 @@
 * 通知畫面(系統)
   * Android
 
-    ![Notification android](./image/notification_android.jpg)
+    ![Notification android](./image/notification_android.png)
   
   * iOS
   
     ![Notification ios](./image/notification_ios.png)
 
 * 畫面說明
-  * 標題(藍色框表示)：通知的標題。
+  * 主旨(藍色框表示)：通知的主旨。
     * 超過長度則顯示省略符號...
       * ios約34個字以上
       * android約41個字以上
       * 實際長度依裝置不同會有不同字數
-  * 內容(紅色框表示)：通知的內容。
+  * 內文(紅色框表示)：通知的內容。
     * 超過長度則顯示省略符號...
       * ios約147個字以上
       * android
