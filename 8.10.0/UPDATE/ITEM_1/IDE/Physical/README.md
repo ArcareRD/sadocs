@@ -4,8 +4,6 @@
 ### <div id="updatedate">規劃日期</div>
 * 2020/11/16
 
-### <div id="trac">TRAC</div>
-* 待開 
 
 ## <div id="layout">版面相關</div>
 * 版面
