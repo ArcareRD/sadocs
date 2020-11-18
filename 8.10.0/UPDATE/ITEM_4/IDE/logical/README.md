@@ -8,7 +8,7 @@
 * <ps>待開</ps>
 
 ### <div id="index">檢視表主頁<path>(需求展開\檢視表)</path></div>
-* 版面
+* 版面  
   ![open_logical]
 * 欄位說明
   * `(1)修改檢視表`
@@ -69,6 +69,8 @@
 * 作業流程
   * 執行按鈕.開啟檢視表
   * ![open_logical_io]
+  * 建立檢視表操作流程
+  * ![logical_overview_io]
 
 ### <div id="joinlist">結構展開<path>(需求展開\檢視表)</path></div>
 * 版面
@@ -561,6 +563,7 @@
   ![autogroupby_cancel_io]
 
 <!-- 圖片-->
+[logical_overview_io]:attachment/Logical_overview_Diagram.png "[作業流程]建立檢視表操作概觀"
 [open_logical]:attachment/open_logical.png "開啟檢視表"
 [open_logical_io]:attachment/open_logical_io.png "[作業流程]開啟檢視表"
 [join_logicallist]:attachment/join_logicallist.png "結構展開"
