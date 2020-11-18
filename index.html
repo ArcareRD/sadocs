@@ -84,6 +84,7 @@
 
             hook.doneEach(function() {
                 var sidebarLiEls = document.querySelectorAll('.sidebar-nav li');
+                var imgLiEls = document.querySelectorAll('img');
 
                 sidebarLiEls.forEach(function(el) {
                     el.style.cursor = 'pointer'
@@ -94,7 +95,7 @@
                     });
 
                     el.addEventListener('click', function(e) {
-                      if( e.target.tagName != "A" ) {
+                      if( e.target.tagName != "A" ) {                        
                           e.stopPropagation()
                           clearActiveClass()
                           el.classList.add('active')
@@ -125,6 +126,11 @@
                     }
 */
                 });
+                /*雙擊圖片可彈出視窗顯示*/
+                imgLiEls.forEach(function(el){
+                  var sPicURL = el.getAttribute( "src" );
+                  el.addEventListener("dblclick", function(){window.open( sPicURL,"","resizable=1,height=auto,width=auto"); });
+                })
 
                 function clearActiveClass() {
                     sidebarLiEls.forEach(function(el) {
