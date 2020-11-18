@@ -4,9 +4,6 @@
 ### <div id="updatedate">規劃日期</div>
 * 2020/11/16
 
-### <div id="trac">TRAC</div>
-* 待開 
-
 ## <div id="layout">版面相關</div>
 * 版面
     * ![pic][image_OfflinePosting]
@@ -79,6 +76,7 @@
     * `(6)刪除`
         * 用途說明
         * 規格說明
+            *  
     * `(7)取消`
         * 用途說明
         * 規格說明
