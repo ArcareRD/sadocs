@@ -5,7 +5,7 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
     * Site
-        * [訊息](README.md#site_message_rename)
+        * [多語詞庫](README.md#site_message_rename)
         * [表單.Site資料庫設定](README.md#site_sitedatabaseset)
         * [表單.系統管理](README.md#site_projectnndex)
         * [表單.建立新帳務](README.md#site_sysbranchadd)
@@ -25,13 +25,12 @@
         * [表單.申請系統](README.md#site_sysuserapply)
         * [表單.系統清單](README.md#site_syslist)
     * System
-        * [訊息](README.md#system_message_rename)
         * [舊版首頁](README.md#system_brainwork)
         * [新版首頁](README.md#system_brainworknew)
         * [行動裝置版首頁](README.md#system_brainwork_mobile)
         * [表單.個人資料_登入操作紀錄](README.md#system_useroperationlogindex)
     * 系統工具
-        * [訊息](README.md#utl_message_rename)
+        * [多語詞庫](README.md#utl_message_rename)
         * [表單.~~公司基本資料~~帳務基本資料](README.md#utl_fx999800000081)
         * [表單.~~公司用戶清單~~帳務用戶清單](README.md#utl_fx000000004194)
         * [表單.用戶帳號維護](README.md#utl_fx000000000404)

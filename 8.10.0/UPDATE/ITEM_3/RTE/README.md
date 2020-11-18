@@ -38,7 +38,7 @@
         | 公司 | 帳務 |
         | 組裝專案代號 | 主專案(組裝代號) |
 
-### <div id="site_message_rename">訊息 <path>(需求展開\Site)</path></div>
+### <div id="site_message_rename">多語詞庫 <path>(需求展開\Site)</path></div>
 * 所有的警告訊息、錯誤訊息、...等。
     * [專案]更名為[系統]
     * [分公司]更名為[帳務]
@@ -561,15 +561,6 @@
                 * 1145 : español
 
 
-### <div id="system_message_rename">訊息 <path>(需求展開\System)</path></div>        
-* 所有的警告訊息、錯誤訊息、...等。
-    * [專案]更名為[系統]
-    * [分公司]更名為[帳務]
-    * [公司]更名為[帳務]
-    * [組裝專案代號]更名為[組裝代號]
-        * 例外狀況
-            * 於[表單.系統管理]內的部份，更名為[主系統(組裝代號)]。
-
 ### <div id="system_brainwork">舊版首頁 <path>(需求展開\System)</path></div>
 * 異動
 * 表單畫面
@@ -706,7 +697,7 @@
         * #顯示系統名稱
             * 依登入語系顯示。
 
-### <div id="utl_message_rename">訊息 <path>(需求展開\系統工具)</path></div>
+### <div id="utl_message_rename">多語詞庫 <path>(需求展開\系統工具)</path></div>
 * 所有的警告訊息、錯誤訊息、...等。
     * [專案]更名為[系統]
     * [分公司]更名為[帳務]
