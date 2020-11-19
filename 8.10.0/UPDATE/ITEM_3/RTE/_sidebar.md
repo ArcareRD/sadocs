@@ -42,4 +42,4 @@
         * [表單.系統多語編輯](README.md#utl_fx000000000428)
         * [表單.表單使用多語編輯](README.md#utl_fx000000001873)
         * [表單.系統語言一覽表](README.md#utl_fx000000000618)
-* [SD展開](README.md#sd_list)
+* [SD額外項目](README.md#sd_list)
