@@ -79,22 +79,7 @@
 ### <div id="function">函數異動 <path>(需求展開)</path></div>
 * GetCorpId()
     * 原名為[取得公司序號]，更名為[取得帳務序號]。
-* GetLanguageName(languageId) : (擴充)
-
-    取得語言名稱。
-
-    * 參數
-        * languageId : (int)
-            
-            語言代碼。
-
-    * 回傳 : (String)
-
-        依代碼回傳語言名稱(當地名稱)。
-        * 437 : English
-        * 950 : 中文(繁體)
-        * 936 : 中文(简体)
-        * 1145 : español            
+          
 
 ### <div id="sd_list">SD額外項目</div>
 * MAE API 修正 

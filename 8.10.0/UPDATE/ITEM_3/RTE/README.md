@@ -716,6 +716,7 @@
 * GetLanguageName(languageId) : (擴充)
 
     取得語言名稱。
+    <ps>注意</ps> 因只有系統工具會用到，所以IDE不須提供此函數。且MAE也不提供。
 
     * 參數
         * languageId : (int)
