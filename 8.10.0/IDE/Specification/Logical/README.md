@@ -28,94 +28,100 @@
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_search]
     * <t>(2)帶回</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_return]
     * <t>(3)新增</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_create]
     * <t>(4)檢視表清單</t>
       * 用途說明
-      * 規格說明
-      * 作業流程
+      * 規格說明      
     * <t>(5)檢視表頁籤</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(6)修改</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_modify]
     * <t>(7)存回</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_save]
     * <t>(8)取消</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_cancel]
     * <t>(9)刪除</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_delete]
     * <t>(10)檢錯</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_debugger]
     * <t>(11)表格欄位清單</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_tablefieldlist]
     * <t>(12)描述</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_remarks]
     * <t>(13)打樣</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_prototyping]
     * <t>(14)打樣狀態查詢</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_prototypingstatus]
     * <t>(15)表格名稱</t>
       * 用途說明
       * 規格說明
-      * 作業流程
+      * 作業流程      
     * <t>(16)料號</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(17)DISTINCT</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(18)TOP</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(19)TOP筆數</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(20)SubSelect</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(21)XML PATH</t>
       * 用途說明
       * 規格說明
-      * 作業流程
     * <t>(22)排序依據</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_orderby]
     * <t>(23)接收參數</t>
       * 用途說明
       * 規格說明
       * 作業流程
+        * ![log_param]
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">結構展開</p>
 
     ![fieldbreak_m2]
@@ -532,5 +538,20 @@
 [fieldbreak_m8]:attachment/mark_ini_autogroupby.png "[欄位說明]自動彙總"
 <!-- 圖示_作業流程 -->
 [flow_overview]:attachment/Diagram_Logical_overview.png "[作業流程]檢視表操作總覽"
+[log_cancel]:attachment/Diagram_Log_cancel.png "[作業流程]檢視表取消"
+[log_create]:attachment/Diagram_Log_create.png "[作業流程]檢視表新增"
+[log_debugger]:attachment/Diagram_Log_debugger.png "[作業流程]單元檢錯"
+[log_delete]:attachment/Diagram_Log_delete.png "[作業流程]檢視表刪除"
+[log_modify]:attachment/Diagram_Log_modify.png "[作業流程]檢視表修改"
+[log_orderby]:attachment/Diagram_Log_orderby.png "[作業流程]排序依據"
+[log_param]:attachment/Diagram_Log_param.png "[作業流程]接收參數"
+[log_prototyping]:attachment/Diagram_Log_Prototyping.png "[作業流程]打樣"
+[log_prototypingstatus]:attachment/Diagram_Log_PrototypingStatus.png "[作業流程]打樣狀態查詢"
+[log_remarks]:attachment/Diagram_Log_Remarks.png "[作業流程]描述"
+[log_return]:attachment/Diagram_Log_return.png "[作業流程]帶回"
+[log_save]:attachment/Diagram_Log_save.png "[作業流程]檢視表儲存"
+[log_search]:attachment/Diagram_Log_search.png "[作業流程]搜尋"
+[log_tablefieldlist]:attachment/Diagram_Log_TableFieldList.png "[作業流程]表單欄位清單"
+
 
 <!-- 超連結 -->
