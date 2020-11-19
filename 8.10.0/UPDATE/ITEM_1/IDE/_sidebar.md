@@ -4,16 +4,9 @@
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
-    * 首頁
-        * [首頁架構樹]
-        * [新增表單/報表]
-    * 版面設計
-        * [表單設計版面]
-        * [表單版面生成表格]
-        * [表格生成表單版面]
-        * [表單精靈]
-    * 表單加註
-        * [資料區]
+    * [首頁](Home/README)
+    * [版面設計](FormDesign/README)
+    * [表單加註](FormAnnotation/README)
     * 元件加註
         * [預設給值]
         * [選項清單]
