@@ -5,7 +5,7 @@
   * [IDE](ITEM_1/IDE/README.md)
   * [RTE](ITEM_1/RTE/README.md)
   * [MAE](ITEM_1/MAE/README.md)
-* 2.MAE擴充推播通知
+* [2.MAE擴充推播通知](ITEM_2/README.md)
   * [IDE](ITEM_2/IDE/README.md)
   * [RTE](ITEM_2/RTE/README.md)
   * [MAE](ITEM_2/MAE/README.md)
