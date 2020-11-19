@@ -5,7 +5,7 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
     * Site
-        * [多語詞庫](README.md#site_message_rename)
+        * [多語詞庫(名詞異動)](README.md#site_message_rename)
         * [表單.Site資料庫設定](README.md#site_sitedatabaseset)
         * [表單.系統管理](README.md#site_projectnndex)
         * [表單.建立新帳務](README.md#site_sysbranchadd)
@@ -31,7 +31,7 @@
         * [表單.個人資料_登入操作紀錄](README.md#system_useroperationlogindex)
         * [函數異動](README.md#function)
     * 系統工具
-        * [多語詞庫](README.md#utl_message_rename)
+        * [多語詞庫(名詞異動)](README.md#utl_message_rename)
         * [表單.公司基本資料](README.md#utl_fx999800000081)
         * [表單.公司用戶清單](README.md#utl_fx000000004194)
         * [表單.用戶帳號維護](README.md#utl_fx000000000404)
