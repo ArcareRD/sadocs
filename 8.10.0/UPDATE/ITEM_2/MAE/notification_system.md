@@ -9,6 +9,7 @@
 
 #### <div id="notification_system">系統管理<path>(推播通知)</path></div>
 * 規格說明
+  * 需求展開
     * 裝置在背景/前景或未開啟的狀態下可接收系統收到的通知
     * 在點擊系統通知時處理相對應功能
       1. [表單連結](notification_formlink.md)
@@ -22,13 +23,13 @@
         * 顯示所有推播訊息
       5. [推播訊息](notification_message.md)
         * 顯示推播訊息
-   * 注意事項
-     * 裝置唯一號 IMEI
-       * 用來記錄裝置未重覆
-       * 只有包含ＳＩＭ卡的裝置才有
-       * WIFI版處理方式
-         * IOS 使用 identifier，APP移除後會被再安裝會取到不同的唯一碼，因此會視為不同裝置
-         * Android 使用 mar address，必需要取得網路授權且必需要連接wifi後才能取得
+  * 注意事項
+    * 裝置唯一號 IMEI
+      * 用來記錄裝置未重覆
+      * 只有包含ＳＩＭ卡的裝置才有
+      * WIFI版處理方式
+        * IOS 使用 identifier，APP移除後會被再安裝會取到不同的唯一碼，因此會視為不同裝置
+        * Android 使用 mar address，必需要取得網路授權且必需要連接wifi後才能取得
 * 通知畫面(系統)
   * Android
 

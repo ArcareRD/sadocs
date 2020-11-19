@@ -10,28 +10,29 @@
 ### <div id="notification">離線功能</div>
 * 目的說明
   * 為了使APP在無法連接到伺服器時可以使用離線表單
-* 需求展開
-  * 系統功能
-    * [離線](offlinemodeoffline.md)
-      * 在連線模式下預載離線資料
-    * [登入](offlinemodelogin.md)
-      * 在離線模式下核對登入的使用者相同
-    * [連線](offlinemodeonline.md)
-      * 在離線模式下恢復連線並上傳離線模式時所異動的資料
-  * 資料處理
-    * [資料傳輸](offlinemodedatatransfer.md)
-      * 下載離線模式時會使用的資料
-      * 上傳離線模式時異動的資料
-    * [表單處理](offlinemodeform.md)
-      * 離線模式下的 表單資料 處理
-      * 需連線使用的資料或設定皆不可使用
-    * [加註處理](offlinemodeattach.md)
-      * 離線模式下的 元件加註/按鍵加註 處理
-      * 需連線使用的加註或設定皆不可使用
-    * [資料交易](offlinemodedatabase.md)
-      * 離線模式下的 資料處理
-      * 所有異動皆使用本地資料庫
-      * 
+* 規格說明
+  * 需求展開
+    * 系統功能
+      * [離線](offlinemodeoffline.md)
+        * 在連線模式下預載離線資料
+      * [登入](offlinemodelogin.md)
+        * 在離線模式下核對登入的使用者相同
+      * [連線](offlinemodeonline.md)
+        * 在離線模式下恢復連線並上傳離線模式時所異動的資料
+    * 資料處理
+      * [資料傳輸](offlinemodedatatransfer.md)
+        * 下載離線模式時會使用的資料
+        * 上傳離線模式時異動的資料
+      * [表單處理](offlinemodeform.md)
+        * 離線模式下的 表單資料 處理
+        * 需連線使用的資料或設定皆不可使用
+      * [加註處理](offlinemodeattach.md)
+        * 離線模式下的 元件加註/按鍵加註 處理
+        * 需連線使用的加註或設定皆不可使用
+      * [資料交易](offlinemodedatabase.md)
+        * 離線模式下的 資料處理
+        * 所有異動皆使用本地資料庫
+        * 
   * 注意事項
     * 裝置唯一號 IMEI
       * 用來記錄裝置未重覆
