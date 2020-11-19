@@ -31,6 +31,14 @@
     * [資料交易](offlinemodedatabase.md)
       * 離線模式下的 資料處理
       * 所有異動皆使用本地資料庫
+      * 
+  * 注意事項
+    * 裝置唯一號 IMEI
+      * 用來記錄裝置未重覆
+      * 只有包含ＳＩＭ卡的裝置才有
+      * WIFI版處理方式
+        * IOS 使用 identifier，APP移除後會被再安裝會取到不同的唯一碼，因此會視為不同裝置
+        * Android 使用 mar address，必需要取得網路授權且必需要連接wifi後才能取得
   * <font style="color:red;">限制</font>
     1. <font style="color:red;">需先下載離線用表單及資料</font>
     2. <font style="color:red;">所有和網路有關的加註及動作和資料均無法使用(例如開網頁或地圖)</font>
