@@ -226,8 +226,11 @@
     * <t>(17)取消</t>
       * 用途說明
       * 規格說明
-      * 作業流程
-      
+      * 作業流程      
+    * <t id="menu1">右鍵選單1</t>
+      * ![fieldbreak_m3_1]
+    * <t id="menu2">右鍵選單2</t>
+      * ![fieldbreak_m3_2]
 * <p id="fieldbreak4" style="color:blue;font-weight:bold">欄位結構</p>
     
     ![fieldbreak_m4]  
@@ -531,6 +534,8 @@
 [fieldbreak_m1]:attachment/mark_ini_index.png "[欄位說明]檢視表主頁"
 [fieldbreak_m2]:attachment/mark_ini_logjoinview.png "[欄位說明]結構展開"
 [fieldbreak_m3]:attachment/mark_ini_logjoin.png "[欄位說明]關聯條件"
+[fieldbreak_m3_1]:attachment/ini_logjoin_menu1.png "[欄位說明]關聯條件_右鍵選單1"
+[fieldbreak_m3_2]:attachment/ini_logjoin_menu2.png "[欄位說明]關聯條件_右鍵選單2"
 [fieldbreak_m4]:attachment/mark_ini_logjoin_phydata.png "[欄位說明]結構欄位"
 [fieldbreak_m5]:attachment/mark_ini_logcols.png "[欄位說明]欄位清單"
 [fieldbreak_m6]:attachment/mark_ini_orderby.png "[欄位說明]排序依據"
