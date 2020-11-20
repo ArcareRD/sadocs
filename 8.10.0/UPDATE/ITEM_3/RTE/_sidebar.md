@@ -32,6 +32,7 @@
         * [函數異動](README.md#function)
     * 系統工具
         * [多語詞庫(名詞異動)](README.md#utl_message_rename)
+        * [資料表(名詞異動)](README.md#utl_table_rename)        
         * [表單.公司基本資料](README.md#utl_fx999800000081)
         * [表單.公司用戶清單](README.md#utl_fx000000004194)
         * [表單.用戶帳號維護](README.md#utl_fx000000000404)
@@ -43,3 +44,4 @@
         * [表單.表單使用多語編輯](README.md#utl_fx000000001873)
         * [表單.系統語言一覽表](README.md#utl_fx000000000618)
 * [SD額外項目](README.md#sd_list)
+    * IDE系統資料表(名詞異動)
