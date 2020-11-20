@@ -14,6 +14,7 @@
                 * [連結內容_超連結網址](MAENotice-Link-URL.md)
             * [推播通知-儲存連結資訊](MAENotice-SaveLinkInfo.md)
             * [推播通知-儲存推播資訊](MAENotice-SaveNoticeInfo.md)
+        * [案例說明](DesignCaseDesc.md)
     * [運算式](Expression.md)
     * 影響修改
         * [發行檢錯](AffectModify-UnitDetection.md)

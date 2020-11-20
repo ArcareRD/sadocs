@@ -37,8 +37,8 @@
         * 用途說明
         * 規格說明
             * 當`(2)頁籤`顯示項目=P.推播通知, 取得下列欄位名稱資料顯示
-                * 顯示 [按鍵加註-推播通知][link_MAENotice]的主旨內文、通知對象、推播通知中, 加註中有使用表單元件、表單接收參數的元件
-                * 顯示 [連結內容_超連結表單][link_linkform]、[連結內容_超連結按鍵][link_linkbutton]、[連結內容_超連結Google行事曆][link_linkgooglecalendar]、[連結內容_超連結網址][link_linkurl]、[儲存連結資訊][link_savelinkinfo]、[儲存推播資訊][link_savenoticeinfo], 加註中有使用表單元件、表單接收參數的元件
+                * 顯示 [按鍵加註-推播通知][link_MAENotice]的推播內容、通知對象、推播通知中, 加註中有使用表單元件、表單接收參數的元件
+                * 顯示 [超連結表單][link_linkform]、[超連結按鍵][link_linkbutton]、[超連結Google行事曆][link_linkgooglecalendar]、[超連結網址][link_linkurl]、[儲存連結資訊][link_savelinkinfo]、[儲存推播資訊][link_savenoticeinfo], 加註中有使用表單元件、表單接收參數的元件
 
 <!-- 圖片 -->
 [image_copybtnannotation]:attachment/CopyButtonAnnotationForm.png
