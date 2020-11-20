@@ -1,4 +1,4 @@
-# 多語規格修改\RTE (第二版)
+# 多語規格修改\RTE (第三版)
 * [上一頁](../../README.md)
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
