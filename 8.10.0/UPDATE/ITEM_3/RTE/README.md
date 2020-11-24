@@ -954,6 +954,7 @@
 
 ### <div id="sd_list">SD額外項目</div>
 * IDE系統資料表(名詞異動)
+* 噴碼_專案建立 : TBL.UTL_SYSLANG 部份
 
 [表單_Site資料庫設定]:attachment/SiteDatabaseSet.png "表單_Site資料庫設定"
 [表單_Site資料庫設定_重整資料庫]:attachment/SiteDatabaseSet_RefreshDB.png "表單_Site資料庫設定_重整資料庫"
