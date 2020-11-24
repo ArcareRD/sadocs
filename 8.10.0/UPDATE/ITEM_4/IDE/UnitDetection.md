@@ -15,7 +15,10 @@
   * [欄位清單][link_logcols]
     * 當[欄位清單](/8.10.0/UPDATE/ITEM_4/IDE/logical/README.md#colsspecific)`特定處理`, 有設定除了無以外的設定時, 所有欄位都不可設定為無
     * `資料內容區塊` 必須設定
+  * [排序依據][link_orderby]
+    * 當TOP有設定勾選時, 排序依據至少設定一筆
 
 
 [link_logjoin]:/8.10.0/UPDATE/ITEM_4/IDE/logical/README.md#join "關聯條件"
 [link_logcols]:/8.10.0/UPDATE/ITEM_4/IDE/logical/README.md#logcols "欄位清單"
+[link_orderby]:/8.10.0/UPDATE/ITEM_4/IDE/logical/README.md#orderby "排序依據"
