@@ -10,8 +10,6 @@
 #### [<div id="notification_log">推播通知.推播訊息<path>(首頁)</path></div>](README.md)
 * 規格說明
   * 推播訊息顯示
-  * 畫面
-    * 右上角顯示連結類型的ICON，只會顯示一個
   * 功能
     * 點擊關閉
       * 關閉訊息
