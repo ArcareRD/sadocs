@@ -45,7 +45,7 @@
     * 資料表格
         * [資料表](Physical/README.md)
         * [檢視表]
-        * [資料交易]
+        * [資料交易](DataTable/README)
         * [離線資料交易](OfflinePosting/README.md)
     * 專案資源
         * [離線任務設定]

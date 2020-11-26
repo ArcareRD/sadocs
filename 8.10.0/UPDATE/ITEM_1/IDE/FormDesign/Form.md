@@ -11,7 +11,7 @@
 ![pic][image_Form]
 
 ## <div id="object-desc">欄位說明</div>
-* `(2)離線用`
+* `(1)離線用`
     * 用途說明
     * 規格說明    
         * 當[新增表單/報表][link_AddFormReport]的`設計類型`=APP, 致能; 否則隱藏
