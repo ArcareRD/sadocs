@@ -85,7 +85,7 @@
           * 單一頁籤, 頁籤刪除鍵隱藏
     * <t>(6)修改</t>
       * 用途說明: 改變單據狀態
-      * 規格說明
+      * 規格說明:[頁面鎖定通則][link_other4]
         * 檢查檢視表是否被鎖定
           * 被鎖定: 彈出詢問訊息:發生多用戶衝突
             * 重試: 再次檢查檢視表是否被鎖定
@@ -95,27 +95,26 @@
         * ![log_modify]
     * <t>(7)存回</t>
       * 用途說明: 儲存檢視表主頁資訊
-      * 規格說明:
+      * 規格說明:[頁面鎖定通則][link_other4]
         * 檢查檢視表是否被鎖定
           * 被鎖定(本次操作): 
             * 執行[儲存檢控](#save-action)
             * 將本次資料儲存
             * 單據進入瀏覽模式並解除檢視表鎖定
           * 無鎖定、被鎖定(非本次操作): 
-            * 彈出錯誤訊息:該單據已被解除鎖定，無法存回。
+            * 彈出錯誤訊息:該單據已被解除鎖定，無法執行。
       * 作業流程
         * ![log_save]
     * <t>(8)取消</t>
       * 用途說明
-      * 規格說明* 單據進入瀏覽模式並解除檢視表鎖定
-        * 重新載入檢視表資料
+      * 規格說明:[頁面鎖定通則][link_other4]
         * 單據進入瀏覽模式並解除檢視表鎖定
         * 重新載入檢視表資料
       * 作業流程
         * ![log_cancel]
     * <t>(9)刪除</t>
       * 用途說明
-      * 規格說明
+      * 規格說明: [頁面鎖定通則][link_other4]
         * 檢查檢視表是否被鎖定
           * 被鎖定: 彈出詢問訊息:發生多用戶衝突
             * 重試: 再次檢查檢視表是否被鎖定
@@ -248,7 +247,7 @@
 
 ## <div id="save-action">儲存檢控</div>
 * 以下欄位不允空白檢控 [動作通則][link_other2]
-* 其他檢控
+* 其他檢控 [動作通則][link_other3]
   * 當`(18)TOP`勾選時, `(19)TOP筆數`必須大於0
   * `(15)表格名稱` 不允與同專案下檢視表格名稱重覆
       * 錯誤訊息: 此表格名稱已經使用，請重新命名
@@ -278,9 +277,12 @@
 [log_tablefieldlist]:attachment/Diagram_Log_TableFieldList.png "[作業流程]表單欄位清單"
 
 <!-- 超連結 -->
+[link_other1]:../RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
+[link_other2]:../RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
+[link_other3]:../RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
+[link_other4]:../RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
+[link_other5]:../RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
 [O1]:../README "單元檢錯"
-[link_other1]:../RulesOther/README?id=ruleother9 "打樣通則"
-[link_other2]:../RulesOther/README?id=p-idruleother7存回不允空白檢控通則 "儲存檢控_不允空白"
 [O2]:../README "表格欄位清單"
 [O3]:../README "規格備註"
 [O4]:../README "打樣狀態查詢"
