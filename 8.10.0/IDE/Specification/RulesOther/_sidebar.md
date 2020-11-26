@@ -9,3 +9,5 @@
   * [存回不允空白檢控通則](README#ruleother7)
   * [存回其它檢控通則](README#ruleother8)
   * [打樣流程通則](README#ruleother9)
+  * [使用頁面鎖定通則](README#ruleother10)
+  * [個資加密提示通則](README#ruleother11)
