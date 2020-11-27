@@ -455,7 +455,7 @@
   * `(18)長度`必須大於`(19)小數位`
   * 若為UNION檢視表, `(1)UNION資料內容區塊`必須全部設定
 <!-- 圖示_介面 -->
-[ini]:attachment/ini_logcols.png "[介面]欄位清單"
+[ini]:/attachment/ini_logcols.png "[介面]欄位清單"
 [ini-1]:attachment/ini_logcols_union.png "[介面]欄位清單(UNION)"
 [fieldbreak_m5]:attachment/mark_ini_logcols.png "[欄位說明]欄位清單"
 [fieldbreak_m5-1]:attachment/mark_ini_logcols_union.png "[欄位說明]欄位清單(UNION)"

@@ -151,7 +151,7 @@
       * 規格說明: 
         * 執行限制
           * 若為範本專案除能
-        * 執行[打樣][link_other2]
+        * 執行[打樣][link_other1]
       * 作業流程
         * ![log_prototyping]
     * <t>(14)打樣狀態查詢</t>
@@ -277,11 +277,11 @@
 [log_tablefieldlist]:attachment/Diagram_Log_TableFieldList.png "[作業流程]表單欄位清單"
 
 <!-- 超連結 -->
-[link_other1]:../RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
-[link_other2]:../RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
-[link_other3]:../RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
-[link_other4]:../RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
-[link_other5]:../RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
+[link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
+[link_other2]:{4}/RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
+[link_other3]:{4}/RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
+[link_other4]:{4}/RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
+[link_other5]:{4}/RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
 [O1]:../README "單元檢錯"
 [O2]:../README "表格欄位清單"
 [O3]:../README "規格備註"
