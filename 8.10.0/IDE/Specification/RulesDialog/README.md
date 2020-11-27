@@ -11,7 +11,6 @@
         * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)條件欄位`有值 時, 致能
         * 開窗[條件式][link_Condoper]
         * 回傳: 條件說明
-        * 須指定加註類型、限定可否查表、來源表格
     * 作業流程
         * <ps>待補</ps> 
 * `(3)清除鍵`
@@ -403,6 +402,24 @@
 * 其它說明
     * 編輯存回, 當訊息替代清除時, 須連帶刪除該訊息替代的儲存內容
 
+## <p id="ruledialog18">操作運算式通則</p>
+![pic][image_ruleDialog2]
+* `(1)運算說明`
+    * 用途說明
+    * 規格說明
+        * 顯示運算式名稱
+        * 不須輸入, 唯讀
+* `(2)開窗鍵`
+    * 用途說明
+    * 規格說明
+        * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)運算說明`有值 時, 致能
+        * 開窗[運算式][link_Expression]
+        * 回傳: 運算說明
+    * 作業流程
+        * <ps>待補</ps>        
+* 其它說明
+    * 編輯存回, 當條件清除時, 須連帶刪除該條件式的儲存內容
+
 <!-- 圖示 -->
 [image_ruleDialog1]:attachment/ruleDialog1.png
 [image_ruleDialog2]:attachment/ruleDialog2.png
@@ -412,6 +429,7 @@
 
 <!-- 超連結 -->
 [link_Condoper]:../Condoper/README "條件式"
+[link_Expression]:../Expression/README "運算式"
 [link_Multilingual]:../Multilingual/README "多語詞庫"
 [link_Quick]:../Quick/README "快顯選單"
 [link_Physical]:../Physical/README "資料表"
