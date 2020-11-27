@@ -1,14 +1,18 @@
-## <div id="user">規劃人員</div>
+#### <div id="notification">功能項目名稱</div>
+  * 推播記錄
+
+#### <div id="user">規劃人員</div>
   * Andy
 
-## <div id="updatedate">規劃日期</div>
-  * 2020/11/06
+#### <div id="version">版本記錄</div>
+  |日期|版本|備註|
+  |---|---|---|
+  |2020/11/06|v1|初始化|
 
-## <div id="trac">TRAC</div>
-  * 待補
+#### <div id="trac">TRAC</div>
+  * [#8191](http://trac.uneec.com/trac/neco/ticket/8191)
 
-#### [<div id="notification_log">推播通知.推播記錄<path>(首頁)</path></div>](README.md)
-* 規格說明
+#### <div id="specification">規格說明</div>
   * 列入系統功能
   * 畫面顯示[(表單畫面 推播記錄)](#image_record)
     * 上方工具列
@@ -46,18 +50,20 @@
         * 查看訊息內文
       * 長按(未讀訊息)
         * 勾選未讀訊息並進入多選模式
-* 表單畫面
-  * <p id="image_record">推播記錄</p>
-  
-    ![Notification](./image/notification.png)
 
-  * <p id="image_selected">選取模式</p>
-  
-    ![Notification Filter](./image/notification_filter_selected.png)
-  * <p id="image_filter">過濾條件</p>
-  
-    ![Notification Filter](./image/notification_filter.png)
+#### <div id="photo">畫面</div>
+  * 表單畫面
+    * <p id="image_record">推播記錄</p>
+    
+      ![Notification](./image/notification.png)
 
-* <p id="workflow">作業流程</p>
+    * <p id="image_selected">選取模式</p>
+    
+      ![Notification Filter](./image/notification_filter_selected.png)
+    * <p id="image_filter">過濾條件</p>
+    
+      ![Notification Filter](./image/notification_filter.png)
+
+#### <div id="workflow">作業流程</div>
 
   ![Notification Record](./image/workflow_record.png)

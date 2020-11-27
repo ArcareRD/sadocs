@@ -1,7 +1,7 @@
-# MAE擴增推播通知
+# [MAE擴增推播通知](README.md)
 * [上一頁](../../README.md)
 * [規劃人員](README.md#user)
-* [規劃日期](README.md#updatedate)
+* [版本記錄](README.md#version)
 * [TRAC](README.md#trac)
 * 需求展開
   * 推播通知

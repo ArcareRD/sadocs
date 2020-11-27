@@ -1,14 +1,18 @@
-## <div id="user">規劃人員</div>
+#### <div id="notification">功能項目名稱</div>
+  * 系統管理
+
+#### <div id="user">規劃人員</div>
   * Andy
 
-## <div id="updatedate">規劃日期</div>
-  * 2020/11/06
+#### <div id="version">版本記錄</div>
+  |日期|版本|備註|
+  |---|---|---|
+  |2020/11/06|v1|初始化|
 
-## <div id="trac">TRAC</div>
-  * 待補
+#### <div id="trac">TRAC</div>
+  * [#8191](http://trac.uneec.com/trac/neco/ticket/8191)
 
-#### <div id="notification_system">系統管理<path>(推播通知)</path></div>
-* 規格說明
+#### <div id="specification">規格說明</div>
   * 需求展開
     * 裝置在背景/前景或未開啟的狀態下可接收系統收到的通知
     * 在點擊系統通知時處理相對應功能
@@ -23,6 +27,8 @@
         * 顯示所有推播訊息
       5. [推播訊息](notification_message.md)
         * 顯示推播訊息
+
+#### <div id="photo">畫面</div>
 * 通知畫面(系統)
   * Android
 
@@ -48,6 +54,6 @@
   * 點擊
     * 點擊系統通知會呼叫MAE APP，APP啟動後會顯[推播通知訊息](notification_message.md)，點擊連結會開啟相對應連結。
 
-* <p id="workflow">作業流程</>
+#### <div id="workflow">作業流程</div>
 
   ![Notification System](./image/workflow_system.png)
