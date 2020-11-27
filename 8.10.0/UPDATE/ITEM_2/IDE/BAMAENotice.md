@@ -22,7 +22,7 @@
 
 * 依規格定義-主畫面 結構清單駐留元件及指定加註條件, 顯示本單內容
 * 依規格定義-主畫面 工具列.編修鍵, 進入本單的編輯模式
-* 參照 [單據異動資料按鍵操作通則][link_ruleother2]
+* 參照 [單據異動資料按鍵操作通則][link_rulebutton2]
     * 下列欄位, 除規格說明中有額外說明, 否則所有欄位在瀏覽狀態: 除能 ; 編輯狀態: 致能
 * 作業流程
     * ![pic][image_Open]
@@ -287,8 +287,10 @@
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
-  
+
+[link_rulebutton2]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
 [link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_ruleother2]:/8.10.0/IDE/Specification/RulesDialog/README#ruleother7 "共用通則_其它/按鍵加註-執行條件表格通則"
 [link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
