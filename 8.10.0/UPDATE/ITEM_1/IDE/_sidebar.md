@@ -11,11 +11,7 @@
     * [按鍵加註](ButtonAnnotation/README)
     * [報表加註]
     * [報表元件加註]
-    * 資料表格
-        * [資料表](Physical/README.md)
-        * [檢視表]
-        * [資料交易](DataTable/README)
-        * [離線資料交易](OfflinePosting/README.md)
+    * [資料表格](DataTable/README)
     * 專案資源
         * [離線任務設定]
     * 輔助工具
