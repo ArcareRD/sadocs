@@ -11,5 +11,6 @@
     * [目的欄位](README.md#fieldbreak4)
     * [接收參數](README.md#fieldbreak5)
 * [各頁籤儲存檢控](README.md#save-action)
-
+* 其他頁面
+    * [新增離線資料交易](AddOfflinePosting.md)
 * [history](history.md)
