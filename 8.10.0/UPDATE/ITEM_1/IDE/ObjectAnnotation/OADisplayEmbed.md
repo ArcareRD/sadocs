@@ -34,9 +34,8 @@
     * ![pic][image_OADisplayEmbed_chart]
     * `(2)來源內容`
         * 用途說明
-        * 規格說明    
-            * `(1)來源類型`=資料表, [挑選資料表通則][link_ruledialog3], 取得`離線資料上傳用`未勾選的資料表
-            * `(1)來源類型`=檢視表, [挑選檢視表通則][link_ruledialog4], 取得`離線用`為未勾選的檢視表
+        * 規格說明
+            * [操作邏輯函數表格通則][link_ruledialog18]
 
 * <p id="fieldbreak4" style="color:blue;font-weight:bold">系統內表單</p>
 
@@ -72,7 +71,7 @@
 
 * <p id="fieldbreak6" style="color:blue;font-weight:bold">行事曆</p>
 
-    * ![pic][image_OADisplayEmbed_fileContainer]
+    * ![pic][image_OADisplayEmbed_calendar]
     * `(2)來源表格`
         * 用途說明
         * 規格說明
@@ -99,4 +98,5 @@
 [link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
 [link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
 [link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
+[link_ruledialog18]:../RulesDialog/README#ruledialog18 "共用通則_開啟單據/操作邏輯函數表格通則"
 [link_AddFormReport]:../Home/AddFormReport "新增表單/報表"

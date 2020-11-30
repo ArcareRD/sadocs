@@ -22,5 +22,4 @@
 
 <!-- 超連結 -->
 [link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
-[link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_AddFormReport]:../Home/AddFormReport "新增表單/報表"
