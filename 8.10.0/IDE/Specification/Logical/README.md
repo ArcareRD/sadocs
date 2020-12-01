@@ -134,7 +134,7 @@
         * ![log_debugger]
     * <t>(11)表格欄位清單</t>
       * 用途說明
-      * 規格說明: 
+      * 規格說明:
         * 開啟[表格欄位清單][O2]
         * 開啟後預設載入類別為檢視表、檢視表名稱
       * 作業流程
@@ -210,15 +210,11 @@
     * <t>(24)頁籤.欄位清單</t>
       * 用途說明
       * 規格說明
-        * 超連結開啟[接收參數](#fieldbreak7)
-        * 未設定時顯示: 尚未設定
-        * 已設定時顯示: (參數型態)參數名稱1、(參數型態)參數名稱2...
+        * 單擊切換頁面[欄位清單][columns]
     * <t>(25)頁籤.結構展開</t>
       * 用途說明
       * 規格說明
-        * 超連結開啟[接收參數](#fieldbreak7)
-        * 未設定時顯示: 尚未設定
-        * 已設定時顯示: (參數型態)參數名稱1、(參數型態)參數名稱2...
+        * 單擊切換頁面[結構展開][joinlist]
 * <p id="fieldbreak8" style="color:blue;font-weight:bold">新增檢視表</p>
     
     ![fieldbreak_m8]  
@@ -277,6 +273,8 @@
 [log_tablefieldlist]:attachment/Diagram_Log_TableFieldList.png "[作業流程]表單欄位清單"
 
 <!-- 超連結 -->
+[columns]:columns "欄位清單"
+[joinlist]:joinlist "結構展開"
 [link_other1]:../RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
 [link_other2]:../RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
 [link_other3]:../RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
