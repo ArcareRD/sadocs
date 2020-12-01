@@ -11,7 +11,6 @@
         * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)條件欄位`有值 時, 致能
         * 開窗[條件式][link_Condoper]
         * 回傳: 條件說明
-        * 須指定加註類型、限定可否查表、來源表格
     * 作業流程
         * <ps>待補</ps> 
 * `(3)清除鍵`
@@ -403,15 +402,102 @@
 * 其它說明
     * 編輯存回, 當訊息替代清除時, 須連帶刪除該訊息替代的儲存內容
 
+## <p id="ruledialog18">操作運算式通則</p>
+![pic][image_ruleDialog2]
+* `(1)運算說明`
+    * 用途說明
+    * 規格說明
+        * 顯示運算式名稱
+        * 不須輸入, 唯讀
+* `(2)開窗鍵`
+    * 用途說明
+    * 規格說明
+        * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)運算說明`有值 時, 致能
+        * 開窗[運算式][link_Expression]
+        * 回傳: 運算說明
+    * 作業流程
+        * <ps>待補</ps>
+* 其它說明
+    * 編輯存回, 當條件清除時, 須連帶刪除該條件式的儲存內容
+
+## <p id="ruledialog19">操作邏輯函數表格通則</p>
+![pic][image_ruleDialog6]
+* `(2)參數名稱`
+    * 用途說明
+    * 規格說明
+        * 顯示, 依`(1)函數名稱`至[邏輯函數][link_LogicalFunction], 取得對應的`參數名稱`; 唯讀
+* `(3)參數型態`
+    * 用途說明
+    * 規格說明
+        * 選項 空白/字串/數字/日期/邏輯/陣列/運算式/陣列運算式
+        * 顯示, 依`(1)函數名稱`至[邏輯函數][link_LogicalFunction], 取得對應的`參數型態`; 唯讀
+* `(4)對應父階`
+    * 用途說明
+    * 規格說明
+        * 當有本欄位, 顯示, 依`(1)函數名稱`至[邏輯函數][link_LogicalFunction], 取得對應的`對應父階`; 唯讀
+* `(5)空白`
+    * 用途說明
+    * 規格說明
+        * 顯示, 依`(1)函數名稱`至[邏輯函數][link_LogicalFunction], 取得對應的`可空白`; 唯讀
+* `(6)來源型態`
+    * 用途說明
+    * 規格說明
+        * 下拉選項來源為, 依`(1)函數名稱`、`(2)參數名稱`至[邏輯函數_來源類型][link_ParameterSourceType]的`變動選項`取得
+        * 若`(4)對應父階`有值但父階的`(6)來源型態`未設定, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 對應父階的來源型態尚未挑選 / 按鍵: 確認】
+            * 確認: 關閉訊息
+        * `(6)來源型態`=固定值, `(7)來源內容`顯示`(9)`
+        * `(6)來源型態`=檔區, `(7)來源內容`顯示`(10)`
+        * `(6)來源型態`=色盤, `(7)來源內容`顯示`(11)`
+        * `(6)來源型態`非上述, `(7)來源內容`顯示`(12)`
+    * 作業流程
+        * <ps>待補</ps>
+* `(7)來源內容`
+    * 用途說明
+    * 規格說明
+        * 若`(4)對應父階`有值但父階的`(6)來源型態`未設定, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 對應父階的來源型態尚未挑選 / 按鍵: 確認】
+            * 確認: 關閉訊息
+        * 若`(4)對應父階`有值但父階的`(7)來源內容`未設定, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 對應父階的來源內容尚未挑選 / 按鍵: 確認】
+            * 確認: 關閉訊息
+        * `(6)來源型態`=資料表: [挑選資料表通則][link_ruledialog3], 進行資料表挑選
+        * `(6)來源型態`=檢視表: [挑選檢視表通則][link_ruledialog4], 進行檢視表挑選
+        * `(6)來源型態`=元件: [挑選表單元件通則][link_ruledialog7], 依駐留表單中, 進行元件挑選; 若元件為 個資加密且已解密欄位 或 密碼欄位, 則該元件顯示紅色字體
+        * `(6)來源型態`=查表欄位: 
+            * 若`(4)對應父階`的`(6)來源型態`=資料表, [挑選資料表元件通則][link_ruledialog5], 依父階的`(7)來源內容`, 進行資料表元件挑選
+            * 若`(4)對應父階`的`(6)來源型態`=檢視表, [挑選檢視表元件通則][link_ruledialog8], 依父階的`(7)來源內容`, 進行檢視表元件挑選
+            * 因查表來源, 暫不支援個資解密, 故不提供變色
+        * `(6)來源型態`=參數: [挑選參數通則][link_ruledialog9], 依駐留表單中, 進行參數挑選
+        * `(6)來源型態`=函數: 開窗[快顯選單][link_Quick], 進行函數挑選並回傳函數名稱; 請參閱[系統函數][link_SystemFunction]的引用說明
+        * `(6)來源型態`=固定值: 由使用者自行輸入
+        * `(6)來源型態`=多語詞庫: [使用多語詞庫通則][link_ruledialog2]
+        * `(6)來源型態`=按鍵: [挑選表單按鍵通則][link_ruledialog13], 依駐留表單中, 進行按鍵挑選
+        * `(6)來源型態`=檔區: 下拉來源為, 依駐留表單取得本表單檔區清單
+        * `(6)來源型態`=選項: 開窗[快顯選單][link_Quick], 進行選項挑選並回傳選項內容; 選項來源為, 依`(1)函數名稱`、`(2)參數名稱`至[邏輯函數_來源類型][link_ParameterSourceType]的`固定選項`取得
+        * `(6)來源型態`=條件式: [操作條件式通則][link_ruledialog1], 依`(4)對應父階`的`(6)來源型態`、`(7)來源內容`限定資料表或檢視表名稱
+        * `(6)來源型態`=運算式: [操作運算式通則][link_ruledialog18], 限定`對應資料庫`為無
+        * `(6)來源型態`=頁籤名稱: [挑選表單元件通則][link_ruledialog7], 依駐留表單中, 限定頁籤元件的頁籤名稱, 進行元件挑選
+        * `(6)來源型態`=表單: [挑選表單通則][link_ruledialog6], 進行表單挑選
+        * `(6)來源型態`=欄位排序: 
+            * 若`(4)對應父階`的`(6)來源型態`=資料表, [挑選資料表元件通則][link_ruledialog5], 依父階的`(7)來源內容`, 進行資料表元件挑選
+            * 若`(4)對應父階`的`(6)來源型態`=檢視表, [挑選檢視表元件通則][link_ruledialog8], 依父階的`(7)來源內容`, 進行檢視表元件挑選
+            * 因查表來源, 暫不支援個資解密, 故不提供變色        
+        * `(6)來源型態`=色盤: 開窗色盤或可自行輸入色號
+        * `(6)來源型態`=面版名稱: [挑選表單元件通則][link_ruledialog7], 依駐留表單中, 限定動態面版的面版名稱, 進行元件挑選
+* `(8)排序`
+    * 用途說明
+    * 規格說明
+        * 當有本欄位, 選項 升冪/降冪; 預設 升冪; `(6)來源型態`=欄位排序, 致能, 否則清空除能
+
 <!-- 圖示 -->
 [image_ruleDialog1]:attachment/ruleDialog1.png
 [image_ruleDialog2]:attachment/ruleDialog2.png
 [image_ruleDialog3]:attachment/ruleDialog3.png
 [image_ruleDialog4]:attachment/ruleDialog4.png
 [image_ruleDialog5]:attachment/ruleDialog5.png
+[image_ruleDialog6]:attachment/ruleDialog6.png
 
 <!-- 超連結 -->
 [link_Condoper]:../Condoper/README "條件式"
+[link_Expression]:../Expression/README "運算式"
 [link_Multilingual]:../Multilingual/README "多語詞庫"
 [link_Quick]:../Quick/README "快顯選單"
 [link_Physical]:../Physical/README "資料表"
@@ -423,3 +509,16 @@
 [link_ruledialog12]:#ruledialog12 "操作按鍵執行條件訊息通則"
 [link_rulebutton3]:../RulesButton/README#rulebutton3 "共用通則_按鍵操作/操作表格記錄通則"
 [link_Replace]:../Replace/README "訊息替代"
+[link_LogicalFunction]:../LogicalFunction/README "邏輯函數"
+[link_ParameterSourceType]:../LogicalFunction/ParameterSourceType.md "邏輯函數_來源類型"
+[link_ruledialog2]:#ruledialog2 "使用多語詞庫通則"
+[link_ruledialog3]:#ruledialog3 "挑選資料表通則"
+[link_ruledialog4]:#ruledialog4 "挑選檢視表通則"
+[link_ruledialog5]:#ruledialog5 "挑選資料表元件通則"
+[link_ruledialog8]:#ruledialog8 "挑選檢視表元件通則"
+[link_ruledialog6]:#ruledialog6 "挑選表單通則"
+[link_ruledialog7]:#ruledialog7 "挑選表單元件通則"
+[link_ruledialog13]:#ruledialog13 "挑選表單按鍵通則"
+[link_ruledialog9]:#ruledialog9 "挑選參數通則"
+[link_ruledialog18]:#ruledialog18 "操作運算式通則"
+[link_SystemFunction]:../SystemFunction/README "系統函數"

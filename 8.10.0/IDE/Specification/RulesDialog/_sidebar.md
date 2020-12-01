@@ -19,3 +19,4 @@
   * [挑選函數通則](README#ruledialog16)
   * [挑選開放按鍵回傳參數通則](README#ruledialog16)
   * [操作多語訊息及替代通則](README#ruledialog17)
+  * [操作運算式通則](README#ruledialog18)

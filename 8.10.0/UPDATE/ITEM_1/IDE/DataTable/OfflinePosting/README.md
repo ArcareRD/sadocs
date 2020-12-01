@@ -29,29 +29,40 @@
         * 用途說明
         * 規格說明
             * 可依指定關鍵字, 搜索 相似於(like) 的資料交易名稱, 並顯示於`(5)清單`內
+        * 作業流程
+            * ![pic][img_flow_Block1Search]
     * `(3)回傳鍵`
         * 用途說明
         * 規格說明
             * 依`(5)清單`中駐留的資料交易, 回傳並顯示: 資料交易名稱給呼叫端. 並關閉表單. `(5)清單`內無記錄者, 隱藏
             * 由其它單據開啟, 且它單為編輯狀態, 則 致能, 否則 除能
+        * 作業流程
+            * ![pic][img_flow_Block1Return]
     * `(4)新增鍵`
         * 用途說明
         * 規格說明
-            * 開啟 [新增離線資料交易]
+            * 開啟 [新增離線資料交易][link_addofflineposting]
+                * 當接收的資料交易名稱不為空時, 在右方表格內容區塊中, 新增頁籤並將其排序在第一筆後, 駐留至該頁籤
+        * 作業流程
+            * ![pic][img_flow_Block1Insert]
     * `(5)清單`
         * 用途說明
         * 規格說明
             * 顯示: *資料交易名稱*
-            * 執行滑鼠雙擊, 於右方表格內容區塊, 以頁籤方式開啟, 並駐留該頁籤
+            * 駐留任一筆資料交易記錄, 並執行滑鼠雙擊, 於右方表格內容區塊, 以頁籤方式開啟, 並駐留該頁籤
                 * 若指定的資料交易未被開啟, 新增的頁籤, 排序須在第1個
                 * 若指定的資料交易已開啟, 則直接駐留至該頁籤
             * 當清單中，任一名稱長度超過顯示區時, 系統自動出現 橫向捲軸
             * 當清單中，記錄筆數超過顯示區時, 系統自動出現 垂直捲軸
+        * 作業流程
+            * ![pic][img_flow_Block1List]
     * `(6)隱藏/顯示搜尋區塊`
         * 用途說明
         * 規格說明
             * 當搜尋區塊顯示時, 單擊隱藏 搜尋區塊
             * 當搜尋區塊隱藏時, 單擊顯示 搜尋區塊
+        * 作業流程
+            * ![pic][img_flow_Block1HideShowSearch]
 
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">基本</p>
 
@@ -60,7 +71,8 @@
         * 用途說明
         * 規格說明
             * 頁籤標題: 顯示: *資料交易名稱*, 並提供 X 鍵, 關閉單一頁籤內容
-                * 當畫面只存在一個頁籤時，該頁籤隱藏 X 鍵
+                * 當畫面只存在一個頁籤時，該頁籤隱藏 X 鍵. 請參照下圖畫面
+                * ![pic][img_block2_bookmark]
     * `(2)資料交易名稱`
         * 用途說明
         * 規格說明
@@ -68,6 +80,7 @@
     * `(3)料號`
         * 用途說明
         * 規格說明
+            * 本欄唯讀
             * 顯示 系統產生的料號(料號識別碼: OD 離線資料交易: OD)
     * `(4)修改`
         * 用途說明
@@ -79,45 +92,51 @@
         * 規格說明
             * 當為編輯狀態, 則 致能, 否則 除能
             * 點擊時, 儲存駐留頁籤的資料交易規格定義內容
+        * 作業流程
+            * ![pic][img_flow_Block2Save]
     * `(6)刪除`
         * 用途說明
         * 規格說明
             * 執行後, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請確認刪除 / 按鍵: 確認、取消】
-                * 確認: 刪除駐留頁籤的資料交易相關記錄; 關閉訊息盒
+                * 確認: 刪除駐留頁籤的資料交易相關記錄, 並關閉相對應的頁籤; 關閉訊息盒
                 * 取消: 關閉訊息盒
+        * 作業流程
+            * ![pic][img_flow_Block2Delete]
     * `(7)取消`
         * 用途說明
         * 規格說明
             * 當為編輯狀態, 則 致能, 否則 除能
             * 點擊時, 回到瀏覽狀態
-    * `(8)複製`
-        * 用途說明
-        * 規格說明
-            * 當為瀏覽狀態，則致能, 否則 除能
-            * 開啟 [內容複製], 傳入: 目前駐留的資料交易名稱
     * `(9)單元檢錯`
         * 用途說明
         * 規格說明
             * 開啟 [單元檢錯], 傳入: 目前駐留的資料交易名稱
+        * 作業流程
+            * ![pic][img_flow_Block2UnitDetection]
     * `(10)描述`
         * 用途說明
         * 規格說明
             * 開啟 [規格備註], 傳入: 目前駐留的資料交易名稱
+        * 作業流程
+            * ![pic][img_flow_Block2SpecNote]
     * `(11)目的表格清單`
         * 用途說明
         * 規格說明
-            * 依駐留筆目的表格顯示, 內容: *目的表格名稱*
+            * 顯示該交易已設定的目的表格清單, 內容: *目的表格名稱*
             * 當清單中，任一名稱長度超過顯示區時, 系統自動出現 橫向捲軸
             * 當清單中，記錄筆數超過顯示區時, 系統自動出現 垂直捲軸
 
 * <p id="fieldbreak3" style="color:blue;font-weight:bold">目的表格</p>
 
     * ![pic][image_OfflinePosting_Block3]
+    * 切換頁籤說明
+        * 當資料交易尚未設定目的表格, 或在 [基本][link_fieldbreak2] 的`目的表格清單`未駐留任一筆記錄時, 顯示: 初始畫面
+        * 當本頁籤為新增狀態, 或在 [基本][link_fieldbreak2] 的`目的表格清單`已駐留任一筆記錄時, 顯示: 編輯畫面
     * `(1)新增`
         * 用途說明
         * 規格說明
             * 當為瀏覽狀態, 則 致能, 否則 除能
-            * 點擊時, 進入本頁籤新增模式
+            * 點擊時, 進入本頁籤新增狀態
     * `(2)修改`
         * 用途說明
         * 規格說明
@@ -130,11 +149,15 @@
             * 點擊時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請確認刪除 / 按鍵: 確認、取消】
                 * 確認: 刪除駐留筆目的表格 ; 關閉訊息盒
                 * 取消: 關閉訊息盒
+        * 作業流程
+            * ![pic][img_flow_Block3Delete]
     * `(4)儲存`
         * 用途說明
         * 規格說明
             * 當為編輯狀態時, 則 致能, 否則 致能
             * 點擊時, 儲存駐留筆目的表格規格定義內容
+        * 作業流程
+            * ![pic][img_flow_Block3Save]
     * `(5)取消`
         * 用途說明
         * 規格說明
@@ -182,6 +205,9 @@
 * <p id="fieldbreak4" style="color:blue;font-weight:bold">目的欄位</p>
 
     * ![pic][image_OfflinePosting_Block4]
+    * 切換頁籤說明
+        * 當在[基本][link_fieldbreak2]的`目的表格清單`未駐留任一筆記錄時, 本頁籤不可點選
+        * 本頁籤被選取時，預設不駐留`(7)影響欄位清單`任一筆記錄
     * `(1)修改`
         * 用途說明
         * 規格說明
@@ -192,6 +218,8 @@
         * 規格說明
             * 當為編輯狀態時, 則 致能, 否則 致能
             * 點擊時, 儲存駐留筆目的表格欄位規格定義內容
+        * 作業流程
+            * ![pic][img_flow_Block4Save]
     * `(3)取消`
         * 用途說明
         * 規格說明
@@ -201,7 +229,9 @@
         * 用途說明
         * 規格說明
             * 當為瀏覽狀態, 則 致能, 否則 除能
-            * 點擊時, 進入本頁籤新增模式
+            * 點擊時, 清空畫面上所有欄位, 並進入本頁籤編輯狀態
+        * 作業流程
+            * ![pic][img_flow_Block4Insert]
     * `(5)刪除`
         * 用途說明
         * 規格說明
@@ -209,14 +239,18 @@
             * 點擊時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請確認刪除 / 按鍵: 確認、取消】
                 * 確認: 刪除駐留筆目的欄位 ; 關閉訊息盒
                 * 取消: 關閉訊息盒
+        * 作業流程
+            * ![pic][img_flow_Block4Delete]
     * `(6)自動載入`
         * 用途說明
         * 規格說明
             * 依下列欄位載入條件, 取得目前駐留的目的表格, 將其對應的欄位清單載入至`(7)影響欄位清單`
                 * 當目的表格欄位名稱已存在`(7)影響欄位清單`, 不處理
                 * 當目的表格欄位名稱不存在`(7)影響欄位清單`, 將欄位載入至清單中, `(8)影響欄位`=目的欄位名稱, 並依下列原則給值
-                    * 當目的表格欄位名稱存在[接收參數]的`參數名`, 則`(12)接收參數`設為已勾選, 給值內容: [接收參數]的`參數名`
+                    * 當目的表格欄位名稱存在[接收參數][link_fieldbreak5]的`參數名`, 則`(12)接收參數`設為已勾選, 給值內容: [接收參數][link_fieldbreak5]的`參數名`
                     * 當不符合上述內容者, 則`(10)固定給值`設為已勾選
+        * 作業流程
+            * ![pic][img_flow_Block4AutoFieldLoad]
     * `(7)影響欄位清單`
         * 用途說明
         * 規格說明
@@ -286,6 +320,8 @@
         * 規格說明
             * 當為編輯狀態時, 則 致能, 否則 致能
             * 點擊時, 儲存駐留筆接收參數規格定義內容
+        * 作業流程
+            * ![pic][img_flow_Block5Save]
     * `(3)取消`
         * 用途說明
         * 規格說明
@@ -352,6 +388,24 @@
 [image_OfflinePosting_Block5]:attachment/OfflinePosting-Block5.png
 
 [img_flow_Open]: attachment/OfflinePosting-Open.png
+[img_flow_Block1HideShowSearch]: attachment/OfflinePosting-Block1-HideShowSearch.png
+[img_flow_Block1Insert]: attachment/OfflinePosting-Block1-Insert.png
+[img_flow_Block1List]: attachment/OfflinePosting-Block1-List.png
+[img_flow_Block1Return]: attachment/OfflinePosting-Block1-Return.png
+[img_flow_Block1Search]: attachment/OfflinePosting-Block1-Search.png
+[img_flow_Block2Delete]: attachment/OfflinePosting-Block2-Delete.png
+[img_flow_Block2Save]: attachment/OfflinePosting-Block2-Save.png
+[img_flow_Block2UnitDetection]: attachment/OfflinePosting-Block2-UnitDetection.png
+[img_flow_Block2SpecNote]: attachment/OfflinePosting-Block2-SpecNote.png
+[img_block2_bookmark]:attachment/OfflinePosting-Block2_bookmark.png
+[img_flow_Block3Save]:attachment/OfflinePosting-Block3-Save.png
+[img_flow_Block3Delete]:attachment/OfflinePosting-Block3-Delete.png
+[img_flow_Block4Save]:attachment/OfflinePosting-Block4-Save.png
+[img_flow_Block4Delete]:attachment/OfflinePosting-Block4-Delete.png
+[img_flow_Block4Insert]:attachment/OfflinePosting-Block4-Insert.png
+[img_flow_Block4AutoFieldLoad]:attachment/OfflinePosting-Block4-AutoFieldLoad.png
+[img_flow_Block5Save]:attachment/OfflinePosting-Block5-Save.png
+
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/搜尋區塊"
@@ -359,6 +413,8 @@
 [link_fieldbreak3]:#fieldbreak3 "欄位說明/目的表格"
 [link_fieldbreak4]:#fieldbreak4 "欄位說明/目的欄位"
 [link_fieldbreak5]:#fieldbreak5 "欄位說明/接收參數"
+
+[link_addofflineposting]:addOfflinePosting.md
 
 [link_expression]:/8.10.0/IDE/Specification/Expression/README.md "運算式"
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
