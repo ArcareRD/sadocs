@@ -14,7 +14,9 @@
 
 #### <div id="specification">規格說明</div>
   * 需求展開
-    * 裝置在背景/前景或未開啟的狀態下可接收系統收到的通知
+    * 設定主要裝置
+      * 可將目前登入的裝置設定為主要裝置
+    * 裝置在背景/前景或未開啟的狀態下(主要裝置)可接收系統收到的通知
     * 在點擊系統通知時處理相對應功能
       1. [表單連結](notification_formlink.md)
         * 開啟對應表單(需登入)
@@ -56,4 +58,9 @@
 
 #### <div id="workflow">作業流程</div>
 
-  ![Notification System](./image/workflow_system.png)
+  * 主要裝置設定
+  
+    ![Notification System MainDevice](./image/workflow_system_maindevice.png)
+
+  * 推播通知設定
+    ![Notification System](./image/workflow_system.png)

@@ -63,6 +63,10 @@
     * <p id="image_filter">過濾條件</p>
     
       ![Notification Filter](./image/notification_filter.png)
+  
+  * 系統推播記錄查看功能
+
+    ![Notification Record button](./image/notification_record_button.png)
 
 #### <div id="workflow">作業流程</div>
 
