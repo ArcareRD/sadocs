@@ -31,30 +31,34 @@
         * 顯示推播訊息
 
 #### <div id="photo">畫面</div>
-* 通知畫面(系統)
-  * Android
+  * 通知畫面(系統)
+    * Android
 
-    ![Notification android](./image/notification_android.png)
-  
-  * iOS
-  
-    ![Notification ios](./image/notification_ios.png)
+      ![Notification android](./image/notification_android.png)
+    
+    * iOS
+    
+      ![Notification ios](./image/notification_ios.png)
 
-* 畫面說明
-  * 主旨(藍色框表示)：通知的主旨。
-    * 超過長度則顯示省略符號...
-      * ios約34個字以上
-      * android約41個字以上
-      * 實際長度依裝置不同會有不同字數
-  * 內文(紅色框表示)：通知的內容。
-    * 超過長度則顯示省略符號...
-      * ios約147個字以上
-      * android
-        * 未展開約43個字以上
-        * 展開約611個字以上
-      * 實際長度依裝置不同會有不同字數
-  * 點擊
-    * 點擊系統通知會呼叫MAE APP，APP啟動後會顯[推播通知訊息](notification_message.md)，點擊連結會開啟相對應連結。
+    * 畫面說明
+      * 主旨(藍色框表示)：通知的主旨。
+        * 超過長度則顯示省略符號...
+          * ios約34個字以上
+          * android約41個字以上
+          * 實際長度依裝置不同會有不同字數
+      * 內文(紅色框表示)：通知的內容。
+        * 超過長度則顯示省略符號...
+          * ios約147個字以上
+          * android
+            * 未展開約43個字以上
+            * 展開約611個字以上
+          * 實際長度依裝置不同會有不同字數
+      * 點擊
+        * 點擊系統通知會呼叫MAE APP，APP啟動後會顯[推播通知訊息](notification_message.md)，點擊連結會開啟相對應連結。
+
+  * 主要裝置設定
+
+    ![Notification ios](./image/notification_system_device.png)
 
 #### <div id="workflow">作業流程</div>
 
