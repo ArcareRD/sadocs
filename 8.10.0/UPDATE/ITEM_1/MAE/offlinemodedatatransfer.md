@@ -14,6 +14,7 @@
 
 #### <div id="specification">規格說明</div>
   * 下載離線資料
+    * 下載前先顯示下載總容量[(表單畫面 下載估算)](#data_transfer_download_preview)
     * 顯示下載進度[(表單畫面 下載)](#data_transfer_download)
     * 目前無續傳
     * 成功下載後即為離線模式
@@ -25,6 +26,10 @@
 
 #### <div id="photo">畫面</div>
 * 表單畫面
+  * <p id=data_transfer_download_preview>下載估算</p>
+
+    ![Offline Mode Download Preview](./image/offlinemodedownloadpreview.png)
+
   * <p id=data_transfer_download>下載</p>
   
     ![Offline Mode Download](./image/offlinemodedownload.png)
