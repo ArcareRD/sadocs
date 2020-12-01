@@ -1,9 +1,9 @@
-# MAE擴增離線功能
+# [MAE擴增離線功能](README.md)
 * [上一頁](../../README.md)
 * [規劃人員](README.md#user)
-* [規劃日期](README.md#updatedate)
+* [版本記錄](README.md#version)
 * [TRAC](README.md#trac)
-* 需求展開
+* [需求展開](README.md#specification)
   * 系統功能
     * [離線](offlinemodeoffline.md)
     * [登入](offlinemodelogin.md)
@@ -13,3 +13,4 @@
     * [表單處理](offlinemodeform)
     * [加註處理](offlinemodeattach)
     * [資料交易](offlinemodedatabase)
+* [history](history.md)

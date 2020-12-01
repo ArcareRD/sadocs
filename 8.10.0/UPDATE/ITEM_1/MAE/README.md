@@ -1,16 +1,20 @@
-## <div id="user">規劃人員</div>
+#### <div id="notification">功能項目名稱</div>
+  * 離線功能
+
+#### <div id="user">規劃人員</div>
   * Andy
 
-## <div id="updatedate">規劃日期</div>
-  * 2020/11/09
+#### <div id="version">版本記錄</div>
+  |日期|版本|備註|
+  |---|---|---|
+  |2020/11/09|v1|初始化|
 
-## <div id="trac">TRAC</div>
-  * #8188
+#### <div id="trac">TRAC</div>
+  * [#8188](http://trac.uneec.com/trac/neco/ticket/8188)
 
-### <div id="notification">離線功能</div>
-* 目的說明
-  * 為了使APP在無法連接到伺服器時可以使用離線表單
-* 規格說明
+#### <div id="specification">規格說明</div>
+  * 目的說明
+    * 為了使APP在無法連接到伺服器時可以使用離線表單
   * 需求展開
     * 系統功能
       * [離線](offlinemodeoffline.md)
@@ -32,7 +36,8 @@
       * [資料交易](offlinemodedatabase.md)
         * 離線模式下的 資料處理
         * 所有異動皆使用本地資料庫
-        * 
+
+#### <div id="attachment">附件</div>
   * 注意事項
     * 裝置唯一號 IMEI
       * 用來記錄裝置未重覆
