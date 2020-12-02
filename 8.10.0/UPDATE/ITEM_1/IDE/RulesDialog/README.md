@@ -4,7 +4,7 @@
     * 用途說明
     * 規格說明
         * [操作條件式通則][link_ruledialog1]
-            * 操作單據, 依[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響條件式的相關操作
+            * 依操作單據, 在[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響條件式的相關操作
 
 ## <p id="ruledialog19">操作邏輯函數表格通則</p>
 ![pic][image_ruleDialog6]
@@ -22,3 +22,4 @@
 [link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
 [link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
+[link_AddFormReport]:../Home/AddFormReport "新增表單/報表"
