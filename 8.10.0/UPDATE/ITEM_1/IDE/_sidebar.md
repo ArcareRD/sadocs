@@ -9,17 +9,12 @@
     * [表單加註](FormAnnotation/README)
     * [元件加註](ObjectAnnotation/README)
     * [按鍵加註](ButtonAnnotation/README)
-    * [報表加註]
-    * [報表元件加註]
+    * [報表加註](ReportAnnotation/README)
     * [資料表格](DataTable/README)
     * 專案資源
         * [離線任務設定]
-    * 輔助工具
-        * [規格複製]
-        * [跨專案複製]
-        * [規格標註清單]
-    * 系統資源
-        * [系統函數]
+    * [輔助工具](AuxiliaryTools/README)
+    * [系統資源](SystemResource/README)
     * [共用單據](ShareForm/README)
     * 共用通則
         * [開啟單據](RulesDialog/README)

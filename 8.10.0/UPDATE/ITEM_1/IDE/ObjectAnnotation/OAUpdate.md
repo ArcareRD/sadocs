@@ -15,12 +15,12 @@
     * 用途說明
     * 規格說明
         * [操作條件式通則][link_ruledialog1]
-            * 操作單據, 依[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響條件式的相關操作
+            * 依操作單據, 在[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響條件式的相關操作
 * `(2)運算式`
     * 用途說明
     * 規格說明
         * [操作運算式通則][link_ruledialog18]
-            * 操作單據, 依[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響運算式的相關操作
+            * 依操作單據, 在[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響運算式的相關操作
 
 <!-- 圖片 -->
 [image_OAUpdate]:attachment/OAUpdate.png
