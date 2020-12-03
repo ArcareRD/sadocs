@@ -7,4 +7,4 @@
 * [被動更新](OAAddition)
 * [嵌入物件](OADisplayEmbed)
 * [樞紐設定](OAPivot)
-* [元件加註複製]
+* [元件加註複製](CopyObjectAnnotation)

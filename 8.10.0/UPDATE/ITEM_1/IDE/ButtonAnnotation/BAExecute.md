@@ -18,7 +18,7 @@
 * `(2)表單名稱`
     * 用途說明
     * 規格說明
-        * [挑選表單通則][link_ruledialog6], 取得在[新增表單/報表][link_AddFormReport]的`離線用`未勾選的表單
+        * [挑選表單通則][link_ruledialog6], 取得[新增表單/報表][link_AddFormReport]的`設計類型`為非APP的表單
 * `(3)URL來源`
     * 用途說明
     * 規格說明

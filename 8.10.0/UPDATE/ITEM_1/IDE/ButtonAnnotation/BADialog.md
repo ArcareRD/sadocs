@@ -21,11 +21,17 @@
         * [挑選表單通則][link_ruledialog6]
             * 依操作單據, 在[新增表單/報表][link_AddFormReport]的`離線用`為勾選, 則取得`離線用`為勾選的表單
             * 否則, 則為未勾選的表單
+* `(3)條件式`
+    * 用途說明
+    * 規格說明
+        * [操作條件式通則][link_ruledialog1]
+            * 依操作單據, 在[新增表單/報表][link_AddFormReport]的`離線用`是否勾選, 影響條件式的相關操作
 
 <!-- 圖片 -->
 [image_BADialog]:attachment/BADialog.png
 
 <!-- 超連結 -->
+[link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_ruledialog11]:../RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
 [link_AddFormReport]:../Home/AddFormReport "新增表單/報表"

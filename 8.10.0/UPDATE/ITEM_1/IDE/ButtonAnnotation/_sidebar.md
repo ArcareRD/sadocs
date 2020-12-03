@@ -22,4 +22,4 @@
 * [預存程序](BAStoreProcedure)
 * [裝置支援](BAMobile)
 * [推播通知](BAMAENotice)
-* [按鍵加註複製]
+* [按鍵加註複製](CopyButtonAnnotation)
