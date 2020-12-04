@@ -11,17 +11,12 @@
     * [按鍵加註](ButtonAnnotation/README)
     * [報表加註](ReportAnnotation/README)
     * [資料表格](DataTable/README)
-    * 專案資源
-        * [離線任務設定]
     * [輔助工具](AuxiliaryTools/README)
     * [系統資源](SystemResource/README)
     * [共用單據](ShareForm/README)
     * 共用通則
         * [開啟單據](RulesDialog/README)
     * 影響修改
-        * [單元檢錯]
-        * [加註複製]
-        * [規格書]
         * [升級轉資料]
         
 * [history](history.md)
