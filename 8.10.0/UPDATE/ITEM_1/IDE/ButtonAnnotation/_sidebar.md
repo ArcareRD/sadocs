@@ -6,7 +6,7 @@
 * [執行限制](BALimitation)
 * [開啟它單](BADialog)
 * [開啟報表](BAReport)
-* [資料交易]
+* [資料交易](BAPort)
 * [離線資料交易](BAOfflinePort/README)
 * [資料交換](BAExchange)
 * [郵件發送](BAMail)
