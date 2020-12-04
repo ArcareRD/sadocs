@@ -1,6 +1,7 @@
 # MAE擴增離線功能\IDE\按鍵加註
 * [上一頁](../README.md)
-* [按鍵行為選項]
+* [按鍵行為選項](ButtonBehavior)
+* [規格定義]
 * [基本設定](ButtonAnnotation)
 * [執行限制](BALimitation)
 * [開啟它單](BADialog)

@@ -28,7 +28,7 @@
     * `(4)執行`
         * 用途說明
         * 規格說明
-            * 依`(2)檢錯項目`為父階, 展開所有跟檢錯有關的單元階層, 進行檢錯. 將檢錯結果寫入`(6)結果`, 並針對錯誤的內容, 提供超連結的功能
+            * 依`(2)檢錯項目`為父階, 展開所有跟檢錯有關的單元階層, 並依[單元檢錯項目][link_UnitErrorDestectionItem]進行檢錯. 將檢錯結果寫入`(6)結果`, 並針對錯誤的內容, 提供超連結的功能
     * `(5)展開內容`
         * 用途說明
         * 規格說明
@@ -40,11 +40,10 @@
 
 
 
-
-
 <!-- 圖片 -->
 [image_UniteErrorDetection]:attachment/UniteErrorDetection.png
 
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
+[link_UnitErrorDestectionItem]:UnitErrorDestectionItem.md "單元檢錯項目"
