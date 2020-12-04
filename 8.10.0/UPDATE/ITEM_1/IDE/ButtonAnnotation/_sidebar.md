@@ -1,7 +1,7 @@
 # MAE擴增離線功能\IDE\按鍵加註
 * [上一頁](../README.md)
 * [按鍵行為選項](ButtonBehavior)
-* [規格定義]
+* [規格定義](SpecificationsView)
 * [基本設定](ButtonAnnotation)
 * [執行限制](BALimitation)
 * [開啟它單](BADialog)
@@ -11,7 +11,7 @@
 * [資料交換](BAExchange)
 * [郵件發送](BAMail)
 * [資料載入](BAImport)
-* [資料過濾]
+* [資料過濾](BAFilter)
 * [外部執行](BAExecute)
 * [溝通訊息](BATalk)
 * [表單特效](BAFormEffect)
