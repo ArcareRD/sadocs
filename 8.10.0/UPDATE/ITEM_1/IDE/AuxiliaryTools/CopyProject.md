@@ -35,11 +35,11 @@
                     * 資料表英文名: 去除"_OT"
                     * `離線資料上傳用`不勾選
                     * 系統欄位更名
-                    |系統欄位名 |更名 |
-                    |--------- |---- |
-                    |RURU_OT_BATCHNO |XRURU_OT_BATCHNO |
-                    |RURU_OT_SERIALNO |XRURU_OT_SERIALNO |
-                    |RURU_OT_STATUS |XRURU_OT_STATUS |
+                        |系統欄位名 |更名 |
+                        |--------- |---- |
+                        |RURU_OT_BATCHNO |XRURU_OT_BATCHNO |
+                        |RURU_OT_SERIALNO |XRURU_OT_SERIALNO |
+                        |RURU_OT_STATUS |XRURU_OT_STATUS |
             * 當父子表格不存在目的 且 父子表格皆存在複製範圍
                 * 同目前複製原則, 皆複製至目的端
             * 當父子表格存在目的
@@ -52,6 +52,7 @@
             * [新增表單/報表][link_AddFormReport]
             * [按鍵加註_資料交易][link_BAPort]
             * [按鍵加註_資料過濾][link_BAFilter]
+            * [離線任務設定]
 
 <!-- 圖片 -->
 [image_CopyProject]:attachment/CopyProject.png

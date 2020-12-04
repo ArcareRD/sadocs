@@ -1,9 +1,9 @@
 # MAE擴增離線功能\IDE\輔助工具
 * [上一頁](../README.md)
-* [料號對照]
+* [料號對照](PartNoComparison)
 * [結構追蹤]
 * [版本發行](Publish/README)
-* [待辦事項清單]
+* [待辦事項清單](ToDoList)
 * [除錯追蹤]
 * [規格複製](Copy)
 * [跨專案複製](CopyProject)
