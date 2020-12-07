@@ -44,7 +44,7 @@
 
   ![Offline Mode Workflow Offline](./image/workflow_offline.png)
 
-  * <p id=offline_error_in_inernet>離線任務錯誤(有網路)</p>
+  * <p id=offline_error_in_inernet>離線任務錯誤</p>
 
       ![Offline Mode offline error in internet](./image/workflow_offline_error.png)
 
