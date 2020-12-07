@@ -73,7 +73,7 @@
             * 下拉選項: 無 / 查表
             * 系統預設: 無
             * 當切換為無時, 顯示訊息盒【標題: 系統訊息 / 異動推播來源類別將清除[相關欄位]，是否繼續。 / 按鍵:確定、取消】
-                * 確定: 清除欄位:`(3)推播來源檢視表參數`、加註中引用類別為 **推播來源欄位** 的欄位, 並關閉訊息盒
+                * 確定: 清除欄位:`(3)推播來源檢視表參數`、加註中引用類別為 **推播來源欄位** 的欄位([註1][link_tag1]), 並關閉訊息盒
                 * 取消: 關閉訊息盒
         * 作業流程
             * ![pic][image_NoticeSourceType]
@@ -84,7 +84,7 @@
             * 當`(1)來源`=查表時 致能
             * 參照 [指定檢視表通則][link_ruledialog4], 從本專案中, 挑選檢視表, 回傳並顯示:檢視表名稱
             * 內容異動時, 顯示訊息盒【標題: 系統訊息 / 異動推播來源類別將清除[相關欄位]，是否繼續。 / 按鍵:確定、取消】
-                * 確定: 清除欄位:`(3)推播來源檢視表參數`及加註中引用類別的選項為 **推播來源欄位** 的欄位, 並關閉訊息盒
+                * 確定: 清除欄位:`(3)推播來源檢視表參數`及加註中引用類別的選項為 **推播來源欄位** 的欄位([註1][link_tag1]), 並關閉訊息盒
                 * 取消: 關閉訊息盒
     * <t id="contentparameterid">(4)過濾</t>
         * 用途說明
@@ -120,8 +120,6 @@
             * 意指 替換字的來源類別
         * 規格說明
             * 下拉選項: 推播來源欄位 / 表單元件 / 表單參數 / 全域變數 / 通知來源欄位 / 推播人
-            * 當`(1)來源`=無時, 選項:推播來源欄位, 隱藏
-            * 當 [通知對象]`(1)來源`<>查表時, 選項:通知來源欄位, 隱藏
             * 異動時清除欄位:`(11)來源欄位`
         * 作業流程
             * <ps>待補</ps>
@@ -133,7 +131,7 @@
             * 當`(9)類別`=表單參數: 參照 [挑選表單參數通則][link_ruledialog9], 從駐留表單中, 進行表單參數挑選, 回傳:表單參數
             * 當`(9)類別`=全域變數: 參照 [挑選全域變數通則][link_ruledialog10], 從駐留專案中, 進行全域變數挑選, 回傳:全域變數
             * 當`(9)類別`=通知來源欄位: 參照 [挑選檢視表元件通則][link_ruledialog8], 從 [通知對象][link_fieldbreak4]的`(2)檢視表`中, 進行檢視表元件挑選, 回傳:檢視表元件料號. 因查表來源暫不支援個資解密, 故不提供變色處理
-            * 當`(9)類別`=推播人: 設計者無須輸入內容, 運行時由系統依據 [推播通知_推播人][link_MAENotice_fieldbreak1] 設定的選項內容寫入
+            * 當`(9)類別`=推播人: 設計者無須輸入內容, 運行時由系統依據 [推播人][link_fieldbreak2] 設定的選項內容寫入
         * 作業流程
             * <ps>待補</ps>
     * `(12)連結類別`
@@ -182,7 +180,6 @@
         * 規格說明
             * 下拉選項: 表單元件 / 查表 / 推播來源欄位 / 表單參數 / 全域變數
             * 系統預設: 查表
-            * 當 [推播內容][link_fieldbreak3]的`(1)來源`=無時, 選項:推播來源欄位 隱藏
     * `(2)檢視表`
         * 用途說明
             * 意指 通知對象來源檢視表
@@ -241,6 +238,8 @@
             * [連結內容_超連結Google行事曆][link_linkgooglecalendar]
         * [儲存推播資訊][link_savenoticeinfo]
         * [儲存連結資訊][link_savelinkinfo]
+    * 檢查推播來源欄位是否已失聯(檢查範圍: [註1][link_tag1]), 顯示訊息盒【標題: 系統訊息 / 訊息內容: 引用推播來源欄位已失聯。 / 按鍵:確定】
+        * 確定: 關閉訊息盒
     * [推播內容][link_fieldbreak3]
         * 若`連結類別`不等於超連結表單或超連結按鍵 且 `儲存連結資訊`有設定時, 跳出詢問盒【標題: 系統訊息 / 訊息內容: 當未設定超連結表單與超連結資訊不支援寫入儲存連結資訊，是否清除? / 按鍵: 確定、取消】
             * 確定: 清除欄位:`儲存連結資訊`, 並關閉訊息盒
@@ -249,16 +248,40 @@
             * 確定: 關閉訊息盒
         * 若`類別`=通知來源欄位 且`檢視表`未設定時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇"通知來源未設定查表"。 / 按鍵:確定】
             * 確定: 關閉訊息盒
+    * [通知對象][link_fieldbreak4]
+        * 若[連結內容_超連結表單][link_linkform]/[連結內容_超連結按鍵][link_linkbutton]的`帳號驗證`為勾選 或 [連結內容_超連結表單][link_linkform]的`執行系統`=自動登入 且 `帳號`未設定時, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 若連結內容有設定帳號驗證或自動登入時，必須填寫帳號。 / 按鍵:確定】
+            * 確定: 關閉訊息盒
 * 作業流程
     * <ps>待補</ps>
 
 ## <div id="save-desc">儲存說明</div>
 * 規格說明
-    * 當下列[條件式]來源與引用條件式的來源檢視表不同時，於後端覆寫條件式來源表格，條件式明細不異動
-    * 當下列[條件式]上層表格與郵件來源表格不同時，於後端覆寫條件式上層表格，條件式明細不異動
+    * 當下列條件式來源與引用條件式的來源檢視表不同時，於後端覆寫條件式`來源表格`, 清空條件式明細中`運算元類別`=來源的`表單元件`、`運算元名稱`, 其餘不異動
+        * [推播內容][link_fieldbreak3]`過濾`
+        * [通知對象][link_fieldbreak4]`過濾`
+        * [連結內容_超連結表單][link_linkform]`過濾`
+    * 當下列條件式上層表格與推播來源表格不同時，於後端覆寫條件式`上層表格`, 清空條件式明細中`運算元類別`=上層欄位的`表單元件`、`運算元名稱`, 其餘不異動
+        * [通知對象][link_fieldbreak4]`過濾`
+        * [連結內容_超連結表單][link_linkform]`過濾`
+    * 當下列傳遞參數上層表格與推播來源表格不同時，於後端覆寫傳遞參數`上層表格`, 清空傳遞參數明細中`給值類別`=上層欄位的`給值內容`, 其餘不異動
+        * [連結內容_超連結表單][link_linkform]`傳遞參數`
+    * 當下列訊息替代上層表格與推播來源表格不同時，於後端覆寫訊息替代`上層表格`, 清空訊息替代明細中`來源類型`=上層欄位的`來源欄位`, 其餘不異動
+        * [連結內容_超連結按鍵][link_linkbutton]`成功訊息替代`、`失敗訊息替代`
+    * 當下列運算式上層表格與推播來源表格不同時，於後端覆寫運算式`上層表格`, 清空運算式內容中為上層欄位者, 其餘不異動
+        * [連結內容_超連結網址][link_linkurl]`網址參數`
 * 作業流程
     * ![pic][image_Save]
 
+
+<p id="tag1">註1: 推播來源欄位範圍</p>
+
+* [推播內容][link_fieldbreak3]: `來源欄位`
+* [通知對象][link_fieldbreak4]: `帳號`
+* [連結內容_超連結按鍵][link_linkbutton]: `傳遞內容`
+* [連結內容_超連結Google行事曆][link_linkgooglecalendar]: `標題給值內容`、`內容給值內容`、`地點給值內容`、`日期起`、`日期迄`、`時間起`、`時間迄`
+* [連結內容_超連結網址][link_linkurl]: `網址給值內容`
+* [儲存連結資訊][link_savelinkinfo]: `給值內容`
+* [儲存推播資訊][link_savenoticeinfo]: `給值內容`
 
 
 <!-- 圖片 -->
@@ -273,26 +296,25 @@
 [image_OpenSaveLinkInfo]:attachment/BAMAENotice-OpenSaveLinkInfo.png "推播通知-推播內容.儲存連結資訊"
 [image_Save]:attachment/BAMAENotice-Save.png "推播通知-儲存"
 
-
-
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-[link_fieldbreak2]: #fieldbreak2 "欄位說明/推播人"
-[link_fieldbreak3]: #fieldbreak3 "欄位說明/推播內容"
-[link_fieldbreak4]: #fieldbreak4 "欄位說明/通知對象"
+[link_fieldbreak2]:#fieldbreak2 "欄位說明/推播人"
+[link_fieldbreak3]:#fieldbreak3 "欄位說明/推播內容"
+[link_fieldbreak4]:#fieldbreak4 "欄位說明/通知對象"
 [link_savelinkinfo]:MAENotice-SaveLinkInfo.md "儲存連結資訊"
 [link_savenoticeinfo]:MAENotice-SaveNoticeInfo.md "儲存推播資訊"
 [link_linkform]:MAENotice-Link-Form.md "連結內容_超連結表單"
 [link_linkbutton]:MAENotice-Link-Button.md "連結內容_超連結按鍵"
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
-[link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
+[link_tag1]:#tag1 "註1"
 
 [link_rulebutton2]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
 [link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
 
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_ruleother2]:/8.10.0/IDE/Specification/RulesDialog/README#ruleother7 "共用通則_其它/按鍵加註-執行條件表格通則"
+
 [link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog2]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
@@ -301,5 +323,6 @@
 [link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
 [link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
 [link_ruledialog11]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
+[link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
 
 [link_case1]:DesignCaseDes.md#case1
