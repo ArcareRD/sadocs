@@ -5,6 +5,7 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
     * 按鍵加註
+        * [規格定義](SpecificationsView)
         * [按鍵行為選項](ButtonBehavior.md)
         * [推播通知](BAMAENotice.md)
             * 推播通知-連結內容
@@ -20,4 +21,8 @@
         * [發行檢錯](AffectModify-UnitDetection.md)
         * [規格書](AffectModify-Specification.md)
         * [加註複製](AffectModify-CopyButtonAnnotationForm.md)
+        * [規格複製](Copy)
+        * [跨專案複製](CopyProject)
+        * [規格標註清單](TemplateMark)
+        * [開放按鍵](ExternalCallButton)
 * [history](history.md)
