@@ -19,10 +19,11 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="linkform-form-action">動作說明</div>
-* 依 [按鍵加註-推播通知-推播內容][link_MAENotice_fieldbreak3]`(13)連結內容`開啟, 顯示本單內容
+* 依 [按鍵加註-推播通知-推播內容][link_MAENotice_fieldbreak3]`連結內容`開啟, 顯示本單內容
 * 若前單推播通知來源與原設定不同時
     * 須清除引用推播通知來源欄位
     * 覆蓋原設定推播通知來源料號
+* 本單據的編修、瀏覽模式, 依[按鍵加註_推播通知][link_BAMAENotice]判斷
 
 ## <div id="linkform-object-desc">欄位說明</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
@@ -96,6 +97,7 @@
 
 <!-- 超連結 -->
 [link_MAENotice_fieldbreak3]:BAMAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
+[link_BAMAENotice]:BAMAENotice "按鍵加註_推播通知"
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
