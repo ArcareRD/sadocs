@@ -11,6 +11,8 @@
         * [表單.稽核紀錄查詢](queryauditlog.md)
             * [表單.稽核紀錄內容](auditlogcontent.md)
         * [表單.稽核Log設定(作廢)](auditlogsetting.md)
+        * [表單.其他參數](parameterothersetting.md)
+        * [表單.服務中間台](middleserverindex.md)
         * [表單.激活](siteactive.md)
         * [升級轉資料](upgrade.md)
     * Site管理首頁

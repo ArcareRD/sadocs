@@ -48,11 +48,11 @@
 
     ![AuditLogEnvSetting_sa6]
 
-    <!--超連結引用ps.畫面上看不到-->
-    [AuditLogEnvSetting]:./img/AuditLogEnvSetting.jpg
-    [AuditLogEnvSetting_sa1]:./img/AuditLogEnvSetting_sa1.jpg
-    [AuditLogEnvSetting_sa2]:./img/AuditLogEnvSetting_sa2.jpg
-    [AuditLogEnvSetting_sa3]:./img/AuditLogEnvSetting_sa3.jpg
-    [AuditLogEnvSetting_sa4]:./img/AuditLogEnvSetting_sa4.jpg
-    [AuditLogEnvSetting_sa5]:./img/AuditLogEnvSetting_sa5.jpg
-    [AuditLogEnvSetting_sa6]:./img/AuditLogEnvSetting_sa6.jpg
+<!--超連結引用ps.畫面上看不到-->
+[AuditLogEnvSetting]:img/AuditLogEnvSetting.jpg
+[AuditLogEnvSetting_sa1]:img/AuditLogEnvSetting_sa1.jpg
+[AuditLogEnvSetting_sa2]:img/AuditLogEnvSetting_sa2.jpg
+[AuditLogEnvSetting_sa3]:img/AuditLogEnvSetting_sa3.jpg
+[AuditLogEnvSetting_sa4]:img/AuditLogEnvSetting_sa4.jpg
+[AuditLogEnvSetting_sa5]:img/AuditLogEnvSetting_sa5.jpg
+[AuditLogEnvSetting_sa6]:img/AuditLogEnvSetting_sa6.jpg
