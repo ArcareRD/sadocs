@@ -15,4 +15,6 @@
         * [表單.推播通知明細](pushmessagedetail.md)
     * 系統工具
         * [表單.系統參數設定](utl_sysparam.md)
+        * [表單.推播通知作業設定](utl_pashsetlist.md)
+        * [表單.推播通知設定](utl_pashset.md)
 * [history](history.md)   
