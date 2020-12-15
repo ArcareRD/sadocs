@@ -14,8 +14,10 @@
     * 按鈕.儲存 不須儲存處理稽核LOG中間台的設定
 
 * 表單畫面
+    | 原畫面 | 新畫面 |
+    | :-------: | :------: |
+    | ![ParameterOtherSetting(old)] | ![ParameterOtherSetting] |
 
-    ![ParameterOtherSetting]
 * 畫面規格說明
     * 欄位.處理稽核LOG中間台 : 移除該欄位
     * 按鈕.儲存 : 不須儲存處理稽核LOG中間台的設定
@@ -31,5 +33,6 @@
 
 <!--超連結引用ps.畫面上看不到-->
 [ParameterOtherSetting]:img/ParameterOtherSetting.jpg
+[ParameterOtherSetting(old)]:img/ParameterOtherSetting(old).jpg
 [ParameterOtherSetting_sa1]:img/ParameterOtherSetting_sa1.jpg
 [ParameterOtherSetting_sa2]:img/ParameterOtherSetting_sa2.jpg

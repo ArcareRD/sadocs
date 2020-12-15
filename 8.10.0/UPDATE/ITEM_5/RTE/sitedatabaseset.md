@@ -14,8 +14,11 @@
     * 按鈕.儲存 不須儲存稽核Log資料庫的設定
 
 * 表單畫面
+    | | 畫面 |
+    | ------- | :------: |
+    | 原</br>畫</br>面 | ![SiteDatabaseSet(old)] |
+    | 新</br>畫</br>面 | ![SiteDatabaseSet] |
 
-    ![SiteDatabaseSet]
 * 畫面規格說明
     * 欄位.稽核Log資料庫 : 移除該欄位
     * 按鈕.儲存 : 不須儲存稽核Log資料庫的設定
@@ -31,5 +34,6 @@
 
 <!--超連結引用ps.畫面上看不到-->
 [SiteDatabaseSet]:img/SiteDatabaseSet.jpg
+[SiteDatabaseSet(old)]:img/SiteDatabaseSet(old).jpg
 [SiteDatabaseSet_sa1]:img/SiteDatabaseSet_sa1.jpg
 [SiteDatabaseSet_sa2]:img/SiteDatabaseSet_sa2.jpg
