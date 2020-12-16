@@ -14,9 +14,8 @@
         * [表單.其他參數](parameterothersetting.md)
         * [表單.服務中間台](middleserverindex.md)
         * [表單.激活](siteactive.md)
-        * [升級轉資料](upgrade.md)
-    * Site管理首頁
-        * [Site稽核員首次登入須強制變更密碼](sitelogin.md)
+    * Site管理登入畫面
+        * [表單.Site管理登入畫面](sitelogin.md)
     * RTE啟動停止
         * [系統排程.備份稽核紀錄](backupauditlog.md)
     * 環境設定
