@@ -10,6 +10,7 @@
 ### <div id="publish">版本發行<path>(需求展開\輔助工具)</path> </div>
 * 版面 
   * ![publish]
+  
 * 欄位說明
   * <t id="btnpublish">(1)發行</t>
     * 用途說明: 建立該版本XML資訊並通知匯入程式進行匯入、噴碼
