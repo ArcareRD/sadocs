@@ -12,7 +12,7 @@
         * [表單.匯入系統](README.md#site_importobject)
         * [表單.企業資料](README.md#site_enterpriseindex)
         * [表單.匯入資料](README.md#site_importdata)
-        * [表單.稽核LOG設定](README.md#site_systemlogset)
+        * [表單.稽核LOG設定(#8264作廢該表單)](README.md#site_systemlogset)
         * [表單.系統自動備份設定](README.md#site_databasebackupset)
         * [表單.系統_管理員設定](README.md#site_sysmanagerindex)
         * [表單.系統_使用者設定](README.md#site_sysuserindex)

@@ -16,6 +16,8 @@
         * [表單.激活](siteactive.md)
     * Site管理登入畫面
         * [表單.Site管理登入畫面](sitelogin.md)
+    * Site管理首頁
+        * [Site管理首頁畫面](sitemanage.md)
     * RTE啟動停止
         * [系統排程.備份稽核紀錄](backupauditlog.md)
     * 環境設定
