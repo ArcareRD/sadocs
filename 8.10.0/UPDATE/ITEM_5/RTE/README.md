@@ -34,6 +34,14 @@
             * 表單.稽核紀錄環境設定
         * 需求相關規格可參考 <a href="./8.10.0/UPDATE/ITEM_5/RTE/attachment/AuditLog_Viewer-2020-12-09b.xlsx" download>附件</a>
     * 表單.稽核紀錄查詢可依查詢條件匯出CSV檔
+    * 增加以下稽核參數
+        * 表單名稱 : 站台管理表單名稱 / 應用系統表單名稱
+            * 紀錄語系
+                * Site表單 - 英語
+                * 系統表單 - 系統預設主要語系
+        * 增加動作類型，依SERVLETPATH區分是查詢或異動
+    * 附件 [[稽核項目清單]](https://docs.google.com/spreadsheets/d/1JVLJAa9XyQxCIEuPNR-z6Ex4F39gIEC9/edit#gid=29312194)中留存欄位為"X"的不做稽核紀錄的寫入
+
 * 規劃項目展開
     * Site管理進行以下調整 :
         * 新增表單.稽核紀錄環境設定 : 設定稽核紀錄資料庫以及月份檔案備份數量，僅【Site管理員】可使用。
