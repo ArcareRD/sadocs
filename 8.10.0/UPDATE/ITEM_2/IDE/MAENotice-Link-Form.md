@@ -36,11 +36,11 @@
     * `(2)表單參數`
         * 用途說明
         * 規格說明
-            * 參照 [設定表單參數通則][link_parameter], 限定: 使用`(1)表單名稱`內容
+            * 參照 [設定表單參數通則][link_parameter], 限定: 使用`(1)表單名稱`內容、上層表格= [推播通知_推播內容][link_conentviewno] 的`檢視表`
     * `(3)過濾`
         * 用途說明
         * 規格說明 
-            * 參照 [操作條件式通則][link_ruledialog1], 限定: 使用`(1)表單名稱`主資料區資料來源, 回傳並顯示: 條件說明
+            * 參照 [操作條件式通則][link_ruledialog1], 限定: 使用`(1)表單名稱`主資料區資料來源、上層表格= [推播通知_推播內容][link_conentviewno] 的`檢視表`, 回傳並顯示: 條件說明
     * `(4)通行碼`
         * 用途說明
             * 表示該超連結是否都用同一組通行碼
@@ -98,6 +98,7 @@
 <!-- 超連結 -->
 [link_MAENotice_fieldbreak3]:BAMAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
 [link_BAMAENotice]:BAMAENotice "按鍵加註_推播通知"
+[link_conentviewno]:BAMAENotice.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
 [link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
 [link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
