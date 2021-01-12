@@ -20,6 +20,10 @@
 
     ![Notification Badge](./image/notification_icon.png)
 
+#### <div id="workflow">作業流程</div>
+
+  ![Notification Work Flow Badge](./image/workflow_badge.png)
+
 #### <div id="attachment">附件</div>
 * 限制
   * 圖示會依裝置、系統版本會有不同顯示
