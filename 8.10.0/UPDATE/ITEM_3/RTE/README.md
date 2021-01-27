@@ -558,6 +558,22 @@
                 * 936 : 中文(简体)
                 * 1145 : español
 
+### <div id="site_otherparameter">表單.其他參數 <path>(需求展開\Site)</path></div>
+* 異動
+* 表單畫面
+
+    ![表單_其他參數]
+
+* 畫面規格說明
+    * 欄位.WebAD預設系統
+        * #顯示系統名稱
+            * 依[平台語系]顯示，若沒有該語系的名稱時，依此順序顯示。
+                * 437 : English
+                * 950 : 中文(繁體)
+                * 936 : 中文(简体)
+                * 1145 : español
+
+
 ### <div id="site_syslist">表單.系統清單 <path>(需求展開\Site)</path></div>
 * 異動
 * 表單畫面
@@ -714,6 +730,44 @@
                 * 936 : 中文(简体)
                 * 1145 : español
 
+### <div id="system_pushmessagelog">表單.個人資料_推播通知紀錄 <path>(需求展開\System)</path></div>
+* 異動
+* 表單畫面
+
+    ![表單_個人資料_推播通知紀錄]
+
+* 畫面規格說明
+    * 欄位.系統
+        * #顯示系統名稱
+            * 依[平台語系]顯示，若沒有該語系的名稱時，依此順序顯示。
+                * 437 : English
+                * 950 : 中文(繁體)
+                * 936 : 中文(简体)
+                * 1145 : español
+    * 表格.推播通知紀錄清單
+        * 欄位.系統
+            * #顯示系統名稱
+                * 依[平台語系]顯示，若沒有該語系的名稱時，依此順序顯示。
+                    * 437 : English
+                    * 950 : 中文(繁體)
+                    * 936 : 中文(简体)
+                    * 1145 : español
+
+### <div id="system_pushmessagedetail">表單.推播通知明細 <path>(需求展開\System)</path></div>
+* 異動
+* 表單畫面
+
+    ![表單_推播通知明細]
+
+* 畫面規格說明
+    * 欄位.系統
+        * #顯示系統名稱
+            * 依[平台語系]顯示，若沒有該語系的名稱時，依此順序顯示。
+                * 437 : English
+                * 950 : 中文(繁體)
+                * 936 : 中文(简体)
+                * 1145 : español
+                
 ### <div id="function">函數異動 <path>(需求展開\System)</path></div>
 * GetCorpId()
     * 原名為[取得公司序號]，更名為[取得組織序號]。
@@ -1019,9 +1073,11 @@
 [行動裝置版首頁_切換組織]:attachment/brainwork_mobile_change_corp.png "行動裝置版首頁_切換組織"
 [行動裝置版首頁]:attachment/brainwork_mobile.png "行動裝置版首頁"
 [表單_個人資料_登入操作紀錄]:attachment/UserOperationLogIndex.png "表單_個人資料_登入操作紀錄"
+[表單_個人資料_推播通知紀錄]:attachment/PushMessageLog.png "表單_個人資料_推播通知紀錄"
+[表單_推播通知明細]:attachment/PushMessageDetail.png "表單_推播通知明細"
 [表單_系統多語詞庫]:attachment/FX000000000427.png "表單_系統多語詞庫"
 [表單_系統多語編輯]:attachment/FX000000000428.png "表單_系統多語編輯"
 [表單_表單使用多語編輯]:attachment/FX000000001873.png "表單_表單使用多語編輯"
 [表單_系統語言一覽表]:attachment/FX000000000618.png "表單_系統語言一覽表"
-
+[表單_其他參數]:attachment/OtherParameter.png "表單_其他參數"
 
