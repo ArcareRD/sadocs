@@ -7,6 +7,7 @@
   * 推播通知
     * [APP ICON Badge](notification_icon.md)
     * [系統管理](notification_system.md)
+    * [打樣](notification_prototyping.md)
     * [表單連結](notification_formlink.md)
     * [按鍵連結](notification_buttonlink.md)
     * [超連結](notification_hyperlink.md)
