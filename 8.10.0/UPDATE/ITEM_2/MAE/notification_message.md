@@ -19,8 +19,8 @@
       * 關閉訊息
     * 點擊遮罩處
       * 關閉訊息
-    * 點擊內文超連結(執行按鍵/加入行事曆/內含連結/開啟表單)
-      * 啟動超連結(含google行事曆連結)/表單連結/按鍵連結
+    * 點擊超連結
+      * [開啟表單](notification_formlink.md)/[執行按鍵](notification_buttonlink.md)/[內含連結](notification_hyperlink.md)/[加入行事曆](notification_hyperlink.md)
 
 #### <div id="photo">畫面</div>
 
