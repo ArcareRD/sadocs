@@ -56,10 +56,35 @@
       * WIFI版處理方式
         * IOS 使用 identifier，APP移除後會被再安裝會取到不同的唯一碼，因此會視為不同裝置
         * Android 使用 mar address，必需要取得網路授權且必需要連接wifi後才能取得 -->
-    * APP通知圖示會依裝置、系統版本會有不同顯示
+    * APP通知圖示
+      * 會依裝置、系統版本會有不同顯示(顯示未讀數量或小圓點)
+        * Android 8 以上支援通知小圓點，但部份廠商的裝置未支援
+          * 在有未讀的訊息時，移除系統通知列中的通知，APP通知圖示會被系統清除
+        * IOS 2.0 以上支援未讀數量
+    * APP通知
+      * 部份裝置若有電源管理設定，需手動設定APP為自啟動，否則在APP未執行時無法接收到通知
+      * 設定範例：
+        * 裝置：ASUS ZenFone 3 ZE552KL
+        * Android 版本：8.0.0
+        * <p id="asus_all">Step 1: 開啟所有應該程式頁面 - 桌面往上滑</p>
+        * <p id="asus_all_apps">Step 1: 搜查電源管理程式 - 點擊查尋功能</p>
+        
+          ![Asus all apps](./image/asus_all_apps.jpg)
+        * <p id="asus_clever">Step 2: 查找並開啟 - 智能管家</p>
+        
+          ![Asus clever](./image/asus_searching_app.jpg)
+        * <p id="asus_clever_power">Step 3: 打開電力設定 - 電力逹人</p>
+        
+          ![Asus clever power](./image/asus_clever_power.jpg)
+        * <p id="asus_clever_power_battery">Step 4: 打開自啟動設定 - 自啟動管理</p>
+
+          ![Asus clever power battery](./image/asus_clever_power_battery.jpg)
+        * <p id="asus_clever_power_battery_restart">Step 5: 開啟APP的自啟動 - ruRU MAE</p>
+
+          ![Asus clever power battery restart](./image/asus_clever_power_battery_restart.jpg)
     * "登入是否詢問"只保留在裝置上，所以打樣不另外設定，此為共用設定，清除APP暫存或刪除APP時會被清除
   * 限制
     * 裝置
-      * Android：5.0 或更高版本
+      * Android：6.0 或更高版本
       * iOS：9.0 或更高版本
 <!--  * 大小 * 所有資訊合計不可超過4k bytes -->
