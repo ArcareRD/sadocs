@@ -1,0 +1,12 @@
+# 簽核功能
+* [上一頁](../README.md)
+* [架構介紹](README.md)
+* 功能清單
+    * [開啟表單](./MANUALSIGNOFF/README.md)
+    * [開啟報表後置](./OPENREPORTPST/README.md)
+    * [功能鍵執行條件](./FUNKEYCOND/README.md)
+    * [功能鍵後置](./FUNKEYPST/README.md)
+    * [送簽](./SIGNOFFADD/README.md)
+    * [刪除簽核](./SIGNOFFDEL/README.md)
+    * [簽核](./SIGNOFF/README.md)
+    * [催簽](./SIGNOFFURGE/README.md)
