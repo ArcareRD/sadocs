@@ -68,7 +68,7 @@
   * 表單畫面
     * <p id="image_record">推播記錄</p>
     
-      ![Notification](./image/notification.png)
+      ![Notification](./image/notification.jpg)
 
     * <p id="image_selected">選取模式</p>
     
