@@ -87,6 +87,4 @@
   ![Notification Record](./image/workflow_record.png)
 
 #### <div id="attachment">附件</div>
-  * 注意事項
-    * 推播記錄的排序為固定排序，依日期由近到遠
-    * 當發送人為管理員且未設定管理員名稱時，發送人會有空白選項
+  * [注意事項](Warning.md)

@@ -26,6 +26,5 @@
   ![Notification Work Flow Badge](./image/workflow_badge.png)
 
 #### <div id="attachment">附件</div>
-  * 注意事項
-    * APP通知圖示會依裝置、系統版本會有不同顯示
+  * [注意事項](Warning.md)
 

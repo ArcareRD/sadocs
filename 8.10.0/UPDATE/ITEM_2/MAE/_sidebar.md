@@ -15,4 +15,5 @@
     * [推播訊息](notification_message.md)
   * 按鍵加註
     * [推播通知](notification_attach.md)
+* [注意事項](Warning.md)
 * [history](history.md)
