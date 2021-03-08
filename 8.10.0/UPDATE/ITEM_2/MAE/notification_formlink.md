@@ -23,6 +23,12 @@
 
 #### <div id="workflow">作業流程</div>
 
+  * 超連結處理
+  
+  ![Notification form link](./image/workflow_hyperlink.png)
+
+  * 超連結表單處理
+  
   ![Notification form link](./image/workflow_formlink.png)
 
 #### <div id="attachment">附件</div>
