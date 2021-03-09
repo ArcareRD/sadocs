@@ -27,3 +27,7 @@
   * 表單畫面
     
     ![Notification message](./image/notification_detail.png)
+
+#### <div id="workflow">作業流程</div>
+
+  ![Notification Hyperlink](./image/workflow_hyperlink.png)

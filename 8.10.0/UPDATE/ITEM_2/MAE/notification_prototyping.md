@@ -25,6 +25,5 @@
   ![Notification Prototyping](./image/workflow_prototyping.png)
 
 #### <div id="attachment">附件</div>
-  * 注意事項
-    * "登入是否詢問"只保留在裝置上，所以打樣不另外設定，此為共用設定，清除APP暫存或刪除APP時會被清除
+  * [注意事項](Warning.md)
 

@@ -23,8 +23,13 @@
 
 #### <div id="workflow">作業流程</div>
 
+  * 超連結處理
+  
+  ![Notification form link](./image/workflow_hyperlink.png)
+
+  * 超連結表單處理
+  
   ![Notification form link](./image/workflow_formlink.png)
 
 #### <div id="attachment">附件</div>
-  * 注意事項
-    * "正常開啟表單"的定義為可以正常取得表單資料，而非表單可以正常執行或顯示
+  * [注意事項](Warning.md)
