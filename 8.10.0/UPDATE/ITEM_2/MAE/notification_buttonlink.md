@@ -28,4 +28,10 @@
 
 #### <div id="workflow">作業流程</div>
 
+  * 超連結處理
+  
+  ![Notification form link](./image/workflow_hyperlink.png)
+
+  * 超連結按鍵處理
+  
   ![Notification button link](./image/workflow_buttonlink.png)
