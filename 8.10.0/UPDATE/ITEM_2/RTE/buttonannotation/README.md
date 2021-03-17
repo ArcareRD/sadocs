@@ -5,13 +5,24 @@
 * 2020/11/09
 
 ### <div id="trac">TRAC</div>
-* 待開
+* #8192
 
 ### <div id="workflow">作業流程</div>
 
  ![Alt buttonannotation_pushmessage](./img/buttonannotation_pushmessage.png)
 ### <div id="pushmessage_1">推播通知 <path>(按鍵加註)</path></div>
 發送推播通知給MAE
+檢控按鍵執行失敗的項目如下 :
+* 查詢站台管理的實體，推播通知設定的資料查詢失敗
+* 查詢系統工具的實體，推播通知設定的資料不存在
+* 推播通知寄件人類別未設定
+* 推播通知主旨及內文未設定
+* 推播通知超連結為自動登入且通行碼相同時，不可有多位通知對象
+* 推播通知對象查詢失敗
+* 推播通知對象不存在於系統內
+
+發生上述情況時，視為功能鍵執行失敗，不推送訊息以及寫入Log紀錄。
+
 
 ### <div id="pushmessage_condition">執行條件 <path>(按鍵加註\推播通知)</path></div>
 以`執行內容`的結果來決定是否要執行該推播通知
