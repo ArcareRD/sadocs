@@ -21,3 +21,4 @@
   * [RTE](ITEM_4/RTE/README.md)
 * [5.AuditLog Viewer](ITEM_5/README.md)
   * [RTE](ITEM_5/RTE/README.md)
+* [6.開案授權與通知規格變更](ITEM_6/README.md)
