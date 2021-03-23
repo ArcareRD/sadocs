@@ -21,6 +21,10 @@
       * 關閉訊息
     * 點擊超連結
       * [開啟表單](notification_formlink.md)/[執行按鍵](notification_buttonlink.md)/[內含連結](notification_hyperlink.md)/[加入行事曆](notification_hyperlink.md)
+    * 重覆顯示訊息
+      * 一次只顯示一個，後單會關閉前單，包含前單開啟的提示訊息
+      * 在開啟表單連結的表單情形時可多開啟一個訊息
+        * 在點擊第二筆訊息的表單連結後顯示"表單連結不能重覆執行，請關閉前單再至側拉功能項「推播記錄」中開啟"
 
 #### <div id="photo">畫面</div>
 

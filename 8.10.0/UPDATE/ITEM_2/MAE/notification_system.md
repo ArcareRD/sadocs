@@ -75,7 +75,12 @@
     ![Notification System MainDevice](./image/workflow_system_maindevice.png)
 
   * 推播通知設定
+  
     ![Notification System](./image/workflow_system.png)
+
+  * 推播通知表單連結重覆點擊
+  
+    ![Notification System](./image/workflow_system_formlink.png)
 
 #### <div id="attachment">附件</div>
   * [注意事項](Warning.md)
