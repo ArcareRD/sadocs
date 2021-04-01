@@ -22,3 +22,5 @@
 * [5.AuditLog Viewer](ITEM_5/README.md)
   * [RTE](ITEM_5/RTE/README.md)
 * [6.開案授權與通知規格變更](ITEM_6/README.md)
+* [7.擴充檢錯後可直接發行功能](ITEM_7/README.md)
+  * [IDE](ITEM_7/IDE/README.md)
