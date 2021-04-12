@@ -25,3 +25,4 @@
 * [7.擴充檢錯後可直接發行功能](ITEM_7/README.md)
   * [IDE](ITEM_7/IDE/README.md)
 * [8.擴充邏輯函數.指定使用者至角色](ITEM_8/README.md)
+* [9.擴充MAE伺服器清單列表](ITEM_9/README.md)
