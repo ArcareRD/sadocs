@@ -26,17 +26,21 @@
       * 可記錄登入帳密及記錄勾選設定，一個伺服器只記錄一組
 
 #### <div id="photo">畫面</div>
-  * 新增伺服器
+  * 新增伺服器(紅框為伺服器清單)
   
     ![Servrer Add](./image/server_add.jpg)
 
-  * 伺服器清單
+  * 伺服器清單(紅框為修改名稱，藍框為刪除伺服器)
   
     ![Servrer List](./image/server_list.jpg)
 
   * 修改伺服器名稱
   
     ![Servrer Name](./image/server_name.jpg)
+
+  * 記錄登入帳密(紅框處)
+
+    ![Servrer Account Password](./image/server_account_password.jpg)
 
 #### <div id="workflow">作業流程</div>
   * 新增伺服器
