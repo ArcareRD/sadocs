@@ -44,9 +44,13 @@
   
     ![Servrer Add](./image/server_add.jpg)
 
-  * 設定伺服器(修改伺服器)
+  * 設定(修改伺服器)
   
     ![Servrer Edit](./image/server_edit.jpg)
+
+  * 設定伺服器(無伺服器被設定時)
+  
+    ![Servrer Set](./image/server_list_menu_not_set_set.jpg)
 
   * 更換伺服器
   
