@@ -17,40 +17,74 @@
 ### <div id="specification">功能說明</div>
   * 需求展開  
     * 新增伺服器
-      * 可新增可連線的伺服器
+      * 新增可連線的伺服器
+      * 預設名稱"未命名"
+      * 預設網址"https://xxxx.arcare-robot.com"
+        * 可手動輸入/QRCode輸入
+      * 預設未勾選"設定為使用中"
+      * 無使用中的伺服器的狀態下會直接顯示新增伺服器畫面
+    * 設定(修改伺服器)
+      * 可修改名稱/網址/使用中
+      * 正在使用中的伺服器不可取消使用中
+    * 更換伺服器/設定伺服器
+      * 可切換伺服器
+      * 正在使用中的伺服器無須切換
     * 刪除伺服器
       * 可刪除列表中的伺服器
-    * 伺服器名稱
-      * 可修改列表中的伺服器
+      * 正在使用中的伺服器不可刪除
     * 登入狀態記錄
       * 可記錄登入帳密及記錄勾選設定，一個伺服器只記錄一組
 
 #### <div id="photo">畫面</div>
-  * 新增伺服器(紅框為伺服器清單)
-  
-    ![Servrer Add](./image/server_add.jpg)
-
-  * 伺服器清單(紅框為修改名稱，藍框為刪除伺服器)
+  * 伺服器清單
   
     ![Servrer List](./image/server_list.jpg)
 
-  * 修改伺服器名稱
+  * 新增伺服器
   
-    ![Servrer Name](./image/server_name.jpg)
+    ![Servrer Add](./image/server_add.jpg)
+
+  * 設定伺服器(修改伺服器)
+  
+    ![Servrer Edit](./image/server_edit.jpg)
+
+  * 更換伺服器
+  
+    ![Servrer Change](./image/server_change.jpg)
+
+  * 刪除伺服器
+  
+    ![Servrer Delete](./image/server_delete.jpg)
+
+  * 功能項目(無設定伺服器)
+  
+    ![Servrer List Menu Not Set](./image/server_list_menu_not_set.jpg)
+
+  * 功能項目(已設定伺服器)
+  
+    ![Servrer List Menu Set](./image/server_list_menu_set.jpg)
+
+  * 功能項目(未設定伺服器)
+  
+    ![Servrer List Menu Unset](./image/server_list_menu_unset.jpg)
+
+  * 返回(無伺服器)
+  
+    ![Servrer List no data](./image/server_list_no_data.jpg)
+
+  * 返回(未設定伺服器)
+  
+    ![Servrer List not set](./image/server_list_not_set.jpg)
 
   * 記錄登入帳密(紅框處)
 
     ![Servrer Account Password](./image/server_account_password.jpg)
 
 #### <div id="workflow">作業流程</div>
-  * 新增伺服器
-  
-    ![Servrer Add](./image/workflow_server_add.png)
-
   * 伺服器清單
   
     ![Servrer List](./image/workflow_server_list.png)
 
-  * 修改伺服器名稱
+  * 伺服器清單功能
   
-    ![Servrer Name](./image/workflow_server_edit_name.png)
+    ![Servrer List Function](./image/workflow_server_list_function.png)
