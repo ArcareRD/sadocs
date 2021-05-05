@@ -16,12 +16,16 @@
     * [報表條文](Clause)
     * [啟動表單](StartupForm)
     * [外部程式](ExternalProgram)
-    * [開放按鍵](ExternalCallButton)
+    * [PR09.開放按鍵](ExternalCallButton/README)
     * [檔案櫃](FileCabinet)
     * [全域變數](GlobalVariable)
     * [單元樣式](UnitStyle)
     * [自定函數](CustomFunction)
 * 輔助工具
+    * [AT21.規格複製](Copy/README)
+    * [AT22.跨專案複製](CopyProject/README)
+    * [AT23.規格標註清單](TemplateMark/README)
+    * [AT31.規格書產出](Specification/README)
 * 專案管理
 * 團隊管理
 * 平台管理
@@ -29,7 +33,7 @@
 * 企業管理
 * 共用單據
     * [條件式]()
-    * [運算式]()
+    * [運算式](Expression/README)
     * [傳遞參數](Parameter/README)
     * [訊息替代](Replace/README)
     * [規格備註]()

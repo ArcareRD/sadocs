@@ -42,6 +42,7 @@
     * [特殊處理_檔案傳輸](BAAFileTransmission)
     * [預存程序](BASotreProcedure)
     * [裝置支援](BAMobile)
+    * [推播通知](../../Specification/BANotice/README.md)
 * 加註功能
     * [規格定義]()
     * [新增資料來源]()
@@ -49,6 +50,6 @@
     * [元件加註複製]()
     * [新增隱藏元件]()
     * [按鍵行為選項]()
-    * [按鍵加註複製]()
+    * [按鍵加註複製](../../Specification/CopyButtonAnnotationForm/README.md)
     * [新增隱藏按鍵]()
 * [history]()
