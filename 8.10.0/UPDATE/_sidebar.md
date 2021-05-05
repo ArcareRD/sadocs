@@ -1,7 +1,7 @@
 # 本版異動
 
 * [上一頁](../README.md)
-* 1.MAE擴增離線功能
+* 1.MAE擴增離線功能 (<font color="red">未施工</font>)
   * [IDE](ITEM_1/IDE/README.md)
   * [RTE](ITEM_1/RTE/README.md)
   * [MAE](ITEM_1/MAE/README.md)
@@ -16,9 +16,8 @@
   * [RTE](ITEM_3/RTE/README.md)
   * [MAE](ITEM_3/MAE/README.md)
   * [history](ITEM_3/history.md)
-* 4.檢視表優化
-  * [IDE](ITEM_4/IDE/README.md)
-  * [RTE](ITEM_4/RTE/README.md)
+* 4.檢視表優化 (<font color="red">未施工</font>)
+  * 相關資料已移至 8.10.1
 * [5.AuditLog Viewer](ITEM_5/README.md)
   * [RTE](ITEM_5/RTE/README.md)
 * [6.開案授權與通知規格變更](ITEM_6/README.md)
