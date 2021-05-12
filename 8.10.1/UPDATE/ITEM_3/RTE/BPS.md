@@ -97,7 +97,7 @@
     ![BPS_sa8]
 
 ## <div id="attachment">附件</div>
-* BPS錯誤代碼清冊 : <a href="{1}/ITEM_3/attachment/RTE/attachment/BPS錯誤異常_資料表內容-調整.xlsx" donwnload>下載</a> 
+* BPS錯誤代碼清冊 : <a href="{1}/RTE/attachment/BPS錯誤異常_資料表內容-調整.xlsx" donwnload>下載</a> 
 
 <!--超連結引用ps.畫面上看不到-->
 [BPS]:attachment/BPS.png
