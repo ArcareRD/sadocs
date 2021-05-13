@@ -19,7 +19,10 @@
     * `(1)報表名稱`
         * 用途說明
         * 規格說明
+            * 本欄位唯讀
             * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:報表名稱的多語內容並顯示
+        * 動作流程
+            * ![pic][image_flow_report_name]
     * `(2)料號`
         * 用途說明
         * 規格說明
@@ -54,6 +57,7 @@
         * 規格說明
             * 由使用者自行輸入
 
+
 ## <div id="save-action">儲存檢控</div>
 
 * 以下欄位符合條件時, 顯示訊息盒, 顯示規則參照 [存回不允空白檢控通則][link_ruleother7]
@@ -65,6 +69,8 @@
 <!-- 圖片 -->
 [image_report_annotation]:attachment/ReportAnnotation_Basic.png
 [image_report_annotation_block1]:attachment/ReportAnnotation_Basic_block1.png
+
+[image_flow_report_name]:attachment/ReportAnnotationFlow_report_name.png
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
