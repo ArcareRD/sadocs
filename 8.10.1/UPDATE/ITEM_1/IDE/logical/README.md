@@ -90,7 +90,7 @@
           * 被鎖定: 彈出詢問訊息:發生多用戶衝突
             * 重試: 再次檢查檢視表是否被鎖定
             * 取消: 關閉訊息盒
-          * 無鎖定: 表單進入編輯模式, 並將編輯中檢視表鎖定
+          * 無鎖定: 進入編輯模式, 並將編輯中檢視表鎖定
       * 作業流程
         * ![log_modify]
     * <t>(7)存回</t>
@@ -99,6 +99,7 @@
         * 檢查檢視表是否被鎖定
           * 被鎖定(本次操作): 
             * 執行[儲存檢控](#save-action)
+            * 當`(18)TOP`且`(20)SubSelect`未勾選時, 清除[排序依據][orderby]
             * 將本次資料儲存
             * 單據進入瀏覽模式並解除檢視表鎖定
           * 無鎖定、被鎖定(非本次操作): 
@@ -244,7 +245,8 @@
 ## <div id="save-action">儲存檢控</div>
 * 以下欄位不允空白檢控 [動作通則][link_other2]
 * 其他檢控 [動作通則][link_other3]
-  * 當`(18)TOP`勾選時, `(19)TOP筆數`必須大於0
+  * 當`(18)TOP`勾選時, `(19)TOP筆數`
+  * 當`(18)TOP`勾選時, [排序依據][orderby]須設定
   * `(15)表格名稱` 不允與同專案下檢視表格名稱重覆
       * 錯誤訊息: 此表格名稱已經使用，請重新命名
 
@@ -275,6 +277,8 @@
 <!-- 超連結 -->
 [columns]:columns "欄位清單"
 [joinlist]:joinlist "結構展開"
+[orderby]:orderby "排序依據"
+[join]:join "聯結設定"
 [link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
 [link_other2]:{4}/RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
 [link_other3]:{4}/RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
