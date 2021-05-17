@@ -9,6 +9,8 @@
 
 ### <div id="requirement">需求展開</div>
 * 規劃項目展開
+  * SITE管理
+    * 增加BPS錯誤代碼的初始資料
   * RTE表單
     * BPS介面進行以下修正:
       * 動作流程表格增加欄位:IDE位置
