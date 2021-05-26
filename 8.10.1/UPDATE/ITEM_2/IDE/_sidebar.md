@@ -10,6 +10,6 @@
     * 報表
         * [基本設定](ReportAnnotation/README)
         * [資料來源](RADataSource/README)
-        * [分頁模式](RAGroupBy/README)
+        * [分頁模式](RAGroup/README)
     * 報表元件
         * [基本設定](ReportObjectAnnotation/README)
