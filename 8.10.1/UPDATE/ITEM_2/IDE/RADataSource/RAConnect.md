@@ -6,6 +6,8 @@
 
 ## <div id="form-action">動作說明</div>
 * 駐留報表_資料來源, 執行按鍵: 對應元件開啟並顯示本單內容
+* 動作流程
+    * ![pic][image_flow_open]
 
 ## <div id="object-desc">欄位說明</div>
 
@@ -84,6 +86,7 @@
 [image_raconnect]:attachment/ReportAnnotation_RAConnect.png
 [image_raconnect_block1]:attachment/ReportAnnotation_RAConnect_block1.png
 
+[image_flow_open]:attachment/RAConnectFlow_open.png
 [image_flow_save]:attachment/RAConnectFlow_Save.png
 [image_flow_cancel]:attachment/RAConnectFlow_Cancel.png
 [image_flow_auto_mapping]:attachment/RAConnectFlow_auto_mapping.png

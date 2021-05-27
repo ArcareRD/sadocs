@@ -6,6 +6,8 @@
 
 ## <div id="form-action">動作說明</div>
 * 開啟後視窗寬高預設為 1100 * 700
+* 動作流程
+    * ![pic][image_flow_open]
 
 
 ## <div id="object-desc">欄位說明</div>
@@ -82,6 +84,7 @@
                 * 若駐留節點項目為【報表名稱_報表成品料號、基本設定、資料來源、分頁模式】, 開啟後傳入報表名稱、報表料號
                 * 若駐留節點項目為【報表元件名稱_元件料號】, 開啟後傳入報表元件名稱、報表元件料號
             * 依駐留節點類別+元件類別, 單擊開啟對應加註頁面, 顯示於`(9)加註頁面區塊`
+            * 節點: 報表元件名稱, 取得駐留筆報表, 且報表元件類型存在【rTP.文字標題、rTF.文字方塊、rTA.多行文字、rCB.核取方塊、rFrame.框線、rBC.條碼、rEChart.嵌入圖表、rImg.圖片、rLogo.企業標誌】的報表元件清單顯示
         * 動作流程
             * ![pic][image_flow_annotation]
     * `(9)加註頁面區塊`
@@ -96,6 +99,7 @@
 [image_report_annotation_start]:attachment/ReportAnnotation_Start.png
 [image_report_annotation_finish]:attachment/ReportAnnotation_Finish.png
 
+[image_flow_open]:attachment/SpecificationsReportFlow_open.png
 [image_flow_open_spec]:attachment/SpecificationsReportFlow_open_spec.png
 [image_flow_error_detection]:attachment/SpecificationsReportFlow_error_detection.png
 [image_flow_reflash]:attachment/SpecificationsReportFlow_reflash.png

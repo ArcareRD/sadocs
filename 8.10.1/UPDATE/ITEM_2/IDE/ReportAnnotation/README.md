@@ -5,11 +5,13 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="form-action">動作說明</div>
-* 依報表規格定義, 結構清單駐留元件及指定加註條件, 顯示本單內容
+
+* 依報表規格定義, 結構清單駐留節點: 基本設定, 顯示本單內容
 * 依報表規格定義, 工具列.編修鍵, 進入本單的編輯模式
 * 參照 [單據異動資料按鍵操作通則][link_rulebutton2]
     * 下列欄位, 除規格說明中有額外說明, 否則所有欄位在瀏覽狀態: 除能 ; 編輯狀態: 致能
-* 作業流程
+* 動作流程
+    * ![pic][image_flow_open]
 
 ## <div id="object-desc">欄位說明</div>
 
@@ -69,6 +71,7 @@
 [image_report_annotation]:attachment/ReportAnnotation_Basic.png
 [image_report_annotation_block1]:attachment/ReportAnnotation_Basic_block1.png
 
+[image_flow_open]:attachment/ReportAnnotationFlow_open.png
 [image_flow_report_name]:attachment/ReportAnnotationFlow_report_name.png
 
 <!-- 超連結 -->
