@@ -6,3 +6,5 @@
     * [圖表介面](rEchart)
     * [其餘類型介面](OtherWidget)
 * [儲存檢控](README#save-action)
+* 其他
+    * [欄位同值不列印排序](ReportObjectNoPrintSortingList)

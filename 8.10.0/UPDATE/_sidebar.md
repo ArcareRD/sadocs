@@ -25,3 +25,4 @@
   * [IDE](ITEM_7/IDE/README.md)
 * [8.擴充邏輯函數.指定使用者至角色](ITEM_8/README.md)
 * [9.擴充MAE伺服器清單列表](ITEM_9/README.md)
+* [10.因應國興案規格異動](ITEM_10/README.md)

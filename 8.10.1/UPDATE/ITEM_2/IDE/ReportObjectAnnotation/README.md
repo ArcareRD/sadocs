@@ -40,7 +40,7 @@
         * 規格說明
             * 依報表元件類型，將對應的規格頁面顯示在本區塊內
                 * 報表元件類型存在【rEChart.嵌入圖表】, 顯示: [圖表介面](rEchart)
-                * 報表元件類型存在【rTP.文字標題、rTF.文字方塊、rTA.多行文字、rCB.核取方塊、rBC.條碼、rImg.圖片、rLogo.企業標誌】, 顯示: [其餘類型介面](OtherWidget)
+                * 報表元件類型存在【rTP.文字標題、rTF.文字方塊、rTA.多行文字、rCB.核取方塊、rBC.條碼、rImg.圖片、rLogo.企業標誌】, 顯示: [非圖表介面](OtherWidget)
             * 當顯示內容高於本區塊最大高度, 則出現垂直捲軸
 
 ## <div id="save-action">儲存檢控</div>
