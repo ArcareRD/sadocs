@@ -27,3 +27,10 @@
 #### 跨頁面ID連結如下：
 
     [RTE](RTE/README#DEMO)
+
+#### 連結開窗方式
+
+    [Youtube](https://www.youtube.com/){:target='_blank'}
+
+
+[Youtube](https://www.youtube.com/){:target='_blank'}
