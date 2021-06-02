@@ -24,7 +24,7 @@
 * 按鍵加註
     * [基本設定](../../Specification/ButtonAnnotation/README.md)
     * [執行限制](BALimitation)
-    * [開啟它單](BADialog)
+    * [開啟它單](../../Specification/BADialog/README.md)
     * [開啟報表](BAReport)
     * [資料交易](BAPort)
     * [資料交換](BAExchange)

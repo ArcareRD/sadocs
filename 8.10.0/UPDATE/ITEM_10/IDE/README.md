@@ -9,3 +9,13 @@
 
 
 ### <div id="requirement">需求展開</div>
+* 因8.10.0已發行，請至完整文件查看:[按鍵加註_開啟它單][open_dialog]
+
+
+
+
+
+[open_dialog]:../../../IDE/Specification/BADialog/README.md "共用通則_其它/版面資訊通則"
+
+
+
