@@ -58,7 +58,13 @@
 ### <div id="updatevalue_queryupdate_field">欄位名稱 <path>(元件加註\更新給值\查表式更新\來源排序)</path></div>
 待補
 
-### <div id="updatevalue_queryupdate_field">欄位名稱 <path>(元件加註\更新給值\查表式更新\來源排序)</path></div>
+### <div id="updatevalue_queryupdate_asc">升/降冪 <path>(元件加註\更新給值\查表式更新\來源排序)</path></div>
+待補
+
+### <div id="updatevalue_updatechild">表身欄位更新 <path>(元件加註\更新給值)</path></div>
+待補
+
+### <div id="updatevalue_updatechild">表身欄位更新 <path>(元件加註\更新給值)</path></div>
 待補
 
 ### <div id="updatevalue_callfunc">呼叫按鈕功能 <path>(元件加註\更新給值)</path></div>

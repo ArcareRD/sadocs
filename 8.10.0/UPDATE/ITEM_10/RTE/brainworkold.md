@@ -18,7 +18,9 @@
     ![舊版首頁畫面]
    
 * 畫面規格異動說明
-    * 首頁 : 改由站台管理表單.企業資料設定，可依據不同企業設定不同主畫面圖片。
+    * 首頁 : 改由站台管理表單.企業資料設定，可依據不同企業設定不同主畫面圖片，如下圖紅框所示:
+
+        ![企業資料設定LOGO]
 
 * 異動作業流程
     * 登入舊版首頁_首頁處理流程
@@ -26,4 +28,5 @@
         ![登入舊版首頁]
 
 [舊版首頁畫面]:attachment/brainworkold.png "舊版首頁畫面"
+[企業資料設定LOGO]:attachment/enterprisedata_updatelogo.png "企業資料設定LOGO"
 [登入舊版首頁]:attachment/loginhomepageold.png "登入舊版首頁"
