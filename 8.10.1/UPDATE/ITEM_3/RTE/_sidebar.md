@@ -9,4 +9,5 @@
         * [表單.BPS介面](BPS.md)
     * 系統工具
         * [表單.異常提示單(作廢)](ExceptionPrompt.md)
+        * [表單.BPS錯誤異常資訊](BPSErrorInfo.md)
 
