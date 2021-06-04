@@ -17,7 +17,7 @@
     * 表單元件
         * [多筆瀏覽](gridlite.md)
     * 按鍵加註
-        * [按鍵加註](buttonannotation_openform.md)
+        * [開啟它單](buttonannotation_openform.md)
     * 元件加註
         * [更新給值](objectannotation_updatevalue.md)
 * [history](history.md)
