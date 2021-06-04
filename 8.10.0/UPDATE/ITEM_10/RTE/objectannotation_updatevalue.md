@@ -64,7 +64,28 @@
 ### <div id="updatevalue_updatechild">表身欄位更新 <path>(元件加註\更新給值)</path></div>
 待補
 
-### <div id="updatevalue_updatechild">表身欄位更新 <path>(元件加註\更新給值)</path></div>
+### <div id="updatevalue_updatechild_alias">檔區 <path>(元件加註\更新給值\表身欄位更新)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_cond">執行條件 <path>(元件加註\更新給值\表身欄位更新)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_deletelink">連結全刪除 <path>(元件加註\更新給值\表身欄位更新)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_deletelink_needconfirm">需要確認 <path>(元件加註\更新給值\表身欄位更新\連結全刪除)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_deletelink_needconfirm_message">確認訊息 <path>(元件加註\更新給值\表身欄位更新\連結全刪除\需要確認)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_updatefield">欄位值更新 <path>(元件加註\更新給值\表身欄位更新)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_updatefield_targetfield">目的欄位 <path>(元件加註\更新給值\表身欄位更新\欄位值更新)</path></div>
+待補
+
+### <div id="updatevalue_updatechild_updatefield_source">給值來源 <path>(元件加註\更新給值\表身欄位更新\欄位值更新)</path></div>
 待補
 
 ### <div id="updatevalue_callfunc">呼叫按鈕功能 <path>(元件加註\更新給值)</path></div>
@@ -74,4 +95,56 @@
 當`呼叫時機`成立時，要執行的功能鍵
 
 ### <div id="updatevalue_callfunc_time">呼叫時機 <path>(元件加註\更新給值\呼叫按鈕功能)</path></div>
-* 滑鼠雙擊 : 僅多筆表格與多筆瀏覽支援，表示滑鼠左鍵雙擊駐留資料列時成立。
+* 內容異動 : 待補
+* 資料行移動 : 表示移動駐留筆資料時成立，支援的元件類型如下:
+    * 多筆表格(wGrd)
+    * 多筆瀏覽(wGrdLite)
+    * 樹狀清單(wTree)
+* 滑鼠雙擊 : 表示滑鼠左鍵雙擊資料列時成立，支援的元件類型如下:
+    * 多筆表格(wGrd)
+    * 多筆瀏覽(wGrdLite)
+* 滑鼠單擊 : 待補
+* 滑鼠離開 : 待補
+* 自動完成 : 待補
+
+### <div id="updatevalue_gridupdate">網格更新 <path>(元件加註\更新給值)</path></div>
+待補
+
+### <div id="updatevalue_gridupdate_grid">網格元件名 <path>(元件加註\更新給值\網格更新)</path></div>
+待補
+
+### <div id="updatevalue_paramupdate">變數更新 <path>(元件加註\更新給值)</path></div>
+待補
+
+### <div id="updatevalue_paramupdate_globalvar">全域變數 <path>(元件加註\更新給值\變數更新)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate">自定函數更新 <path>(元件加註\更新給值)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_function">自定函數 <path>(元件加註\更新給值\自定函數更新)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_targetfield">目的欄位 <path>(元件加註\更新給值\自定函數更新)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_valuecontent">給值內容 <path>(元件加註\更新給值\自定函數更新)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_valuecontent_param">參數名稱 <path>(元件加註\更新給值\自定函數更新\給值內容)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_valuecontent_type">傳遞型態 <path>(元件加註\更新給值\自定函數更新\給值內容)</path></div>
+待補
+
+### <div id="updatevalue_functionupdate_valuecontent_value">傳遞內容 <path>(元件加註\更新給值\自定函數更新\給值內容)</path></div>
+待補
+
+### <div id="updatevalue_passwordupdate">密碼更新 <path>(元件加註\更新給值)</path></div>
+待補
+
+### <div id="updatevalue_passwordupdate_type">更新類型 <path>(元件加註\更新給值\密碼更新)</path></div>
+待補
+
+### <div id="updatevalue_passwordupdate_object">元件名稱 <path>(元件加註\更新給值\密碼更新)</path></div>
+待補
