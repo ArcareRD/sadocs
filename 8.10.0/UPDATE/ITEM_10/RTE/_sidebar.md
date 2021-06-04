@@ -10,10 +10,14 @@
     * Site管理首頁
         * [Site管理首頁](sitemanage.md)
     * RTE首頁
-        * [新版首頁]()
-        * [舊版首頁]()
+        * [新版首頁](brainworknew.md)
+        * [舊版首頁](brainworkold.md)
     * 系統工具
-        * [表單.系統參數設定]()
+        * [表單.系統參數設定](sysparam.md)
     * 表單元件
-        * [多筆瀏覽]()
+        * [多筆瀏覽](gridlite.md)
+    * 按鍵加註
+        * [按鍵加註](buttonannotation_openform.md)
+    * 元件加註
+        * [更新給值](objectannotation_updatevalue.md)
 * [history](history.md)

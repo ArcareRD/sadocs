@@ -9,7 +9,13 @@
 
 
 * Added Prenkt 2021/06/01: PRJ_國興案UX規格異動 ([Trac#8520])
-
+* Added 正傑 2021/06/02: RTE_因應國興案UX規格異動 ([Trac#8522])
+* Added 正傑 2021/06/02: AMS_因應國興案UX規格異動 ([Trac#8521])
+* Added 正傑 2021/06/02: UTL_因應首頁規格調整修改參數 ([Trac#8513])
+* Added 正傑 2021/06/02: RTE_新版首頁樣式規格更新 ([Trac#8512])
+* Added 正傑 2021/06/02: RTE_新增使用者資訊取得API ([Trac#8510])
+* Added 正傑 2021/06/02: RTE_系統列換單頁簽時之操作問題 ([Trac#8525])
+* Added 正傑 2021/06/02: RTE_功能鍵樣式: 框線無法取代 ([Trac#8528])
 
 <!-- 超連結 -->
 [Trac#8520]: http://trac.uneec.com/trac/neco/ticket/8520 "#8520"
