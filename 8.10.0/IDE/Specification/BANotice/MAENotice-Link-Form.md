@@ -93,12 +93,12 @@
 [image_LinkForm_Block1]:attachment/MAENotice-Link-Form-Block1.png "基本"
 
 <!-- 超連結 -->
-[link_MAENotice_fieldbreak3]:BAMAENotice.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
-[link_BAMAENotice]:BAMAENotice "按鍵加註_推播通知"
-[link_conentviewno]:BAMAENotice.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
+[link_MAENotice_fieldbreak3]:README.md#fieldbreak3 "按鍵加註-推播通知/欄位說明/主旨內容"
+[link_BAMAENotice]:README "按鍵加註_推播通知"
+[link_conentviewno]:README.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-[link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_parameter]:{1}/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
+[link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 
-[link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
-[link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
+[link_ruledialog1]:{1}/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
+[link_ruledialog6]:{1}/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
