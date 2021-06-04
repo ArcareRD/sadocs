@@ -85,17 +85,17 @@
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-[link_MAENotice_fieldbreak5]:BAMAENotice.md#fieldbreak5 "按鍵加註-推播通知/推播資訊"
-[link_conentviewno]:BAMAENotice.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
+[link_MAENotice_fieldbreak5]:README.md#fieldbreak5 "按鍵加註-推播通知/推播資訊"
+[link_conentviewno]:README.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
 
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother2]:/8.10.0/IDE/Specification/RulesOther/README#ruleother2 "共用通則_其它/單據異動資料按鍵操作通則"
+[link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother2]:{1}/RulesOther/README#ruleother2 "共用通則_其它/單據異動資料按鍵操作通則"
 
-[link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+[link_rulebutton3]:{1}/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
 
-[link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
-[link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
-[link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
-[link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
-[link_ruledialog3]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
-[link_ruledialog5]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog5 "共用通則_開啟單據/挑選資料表元件通則"
+[link_ruledialog7]:{1}/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
+[link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog9]:{1}/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
+[link_ruledialog10]:{1}/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
+[link_ruledialog3]:{1}/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
+[link_ruledialog5]:{1}/RulesDialog/README#ruledialog5 "共用通則_開啟單據/挑選資料表元件通則"

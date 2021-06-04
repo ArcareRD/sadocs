@@ -15,7 +15,7 @@
     * [選項清單](OAList)
     * [開窗參照](OAPopup)
     * [檢控限制](OAValidate)
-    * [更新給值](OAUpdate)
+    * [更新給值](../../Specification/OAUpdate/README.md)
     * [編輯能力](OAEdit)
     * [樹狀控制](OATree)
     * [被動更新](OAAddition)
@@ -24,7 +24,7 @@
 * 按鍵加註
     * [基本設定](../../Specification/ButtonAnnotation/README.md)
     * [執行限制](BALimitation)
-    * [開啟它單](BADialog)
+    * [開啟它單](../../Specification/BADialog/README.md)
     * [開啟報表](BAReport)
     * [資料交易](BAPort)
     * [資料交換](BAExchange)

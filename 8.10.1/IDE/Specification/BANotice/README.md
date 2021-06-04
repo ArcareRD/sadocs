@@ -315,20 +315,20 @@
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
 [link_tag1]:#tag1 "註1"
 
-[link_rulebutton2]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
-[link_rulebutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+[link_rulebutton2]:{1}/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
+[link_rulebutton3]:{1}/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
 
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother2]:/8.10.0/IDE/Specification/RulesDialog/README#ruleother7 "共用通則_其它/按鍵加註-執行條件表格通則"
+[link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother2]:{1}/RulesDialog/README#ruleother7 "共用通則_其它/按鍵加註-執行條件表格通則"
 
-[link_ruledialog1]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
-[link_ruledialog2]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
-[link_ruledialog4]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
-[link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
-[link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
-[link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
-[link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
-[link_ruledialog11]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
-[link_parameter]:/8.10.0/IDE/Specification/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
+[link_ruledialog1]:{1}/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
+[link_ruledialog2]:{1}/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruledialog4]:{1}/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
+[link_ruledialog7]:{1}/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
+[link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog9]:{1}/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
+[link_ruledialog10]:{1}/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
+[link_ruledialog11]:{1}/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
+[link_parameter]:{1}/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
 
 [link_case1]:DesignCaseDesc.md#case1

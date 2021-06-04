@@ -122,8 +122,8 @@
     * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未通過驗證 *錯誤訊息* / 按鍵: 確定】
         * 確定: 關閉訊息盒
     * [基本][link_fieldbreak1]
-        * `成功訊息替代`, 當`上層表格`與[推播通知][link_BAMAENotice]的`推播內容/檢視表`不相同 且 有引用上層欄位時, 顯示訊息內容: [ *按鍵名稱* ]推播來源已異動, 請重新設定
-        * `失敗訊息替代`, 當`上層表格`與[推播通知][link_BAMAENotice]的`推播內容/檢視表`不相同 且 有引用上層欄位時, 顯示訊息內容: [ *按鍵名稱* ]推播來源已異動, 請重新設定
+        * `成功訊息替代`, 當`上層表格`與[推播通知_推播內容][link_conentviewno]的`檢視表`不相同 且 有引用上層欄位時, 顯示訊息內容: [ *按鍵名稱* ]推播來源已異動, 請重新設定
+        * `失敗訊息替代`, 當`上層表格`與[推播通知_推播內容][link_conentviewno]的`檢視表`不相同 且 有引用上層欄位時, 顯示訊息內容: [ *按鍵名稱* ]推播來源已異動, 請重新設定
 
 <!-- 圖片 -->
 [image_linkbutton]:attachment/MAENotice-Link-Button.png
@@ -132,20 +132,20 @@
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本區塊"
-[link_MAENotice_fieldbreak3]:BAMAENotice.md#fieldbreak3 "按鍵加註-推播通知/推播內容"
-[link_conentviewno]:BAMAENotice.md#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
+[link_MAENotice_fieldbreak3]:README#fieldbreak3 "按鍵加註-推播通知/推播內容"
+[link_conentviewno]:README#conentviewno "按鍵加註-推播通知/推播內容/檢視表"
 
-[link_ExternalCallButton]:/8.10.0/IDE/Specification/ExternalCallButton/README "開放按鍵"
-[link_Replace]:/8.10.0/IDE/Specification/Replace/README "訊息替代"
+[link_ExternalCallButton]:{1}/ExternalCallButton/README "開放按鍵"
+[link_Replace]:{1}/Replace/README "訊息替代"
 
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 
-[link_rulesbutton3]:/8.10.0/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_其它/操作表格記錄通則"
-[link_ruledialog2]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
-[link_ruledialog6]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
-[link_ruledialog7]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
-[link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
-[link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
-[link_ruledialog10]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
-[link_ruledialog13]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選表單按鍵通則"
-[link_ruledialog17]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog17 "共用通則_開啟單據/使用多語詞庫(含替代)通則"
+[link_rulesbutton3]:{1}/RulesButton/README#rulebutton3 "共用通則_其它/操作表格記錄通則"
+[link_ruledialog2]:{1}/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruledialog6]:{1}/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
+[link_ruledialog7]:{1}/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
+[link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog9]:{1}/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
+[link_ruledialog10]:{1}/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
+[link_ruledialog13]:{1}/RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選表單按鍵通則"
+[link_ruledialog17]:{1}/RulesDialog/README#ruledialog17 "共用通則_開啟單據/使用多語詞庫(含替代)通則"
