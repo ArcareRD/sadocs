@@ -1,4 +1,4 @@
-# MAE擴增推播通知\RTE
+# 因應國興案規格異動\RTE
 * [上一頁](../../README.md)
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
@@ -6,7 +6,7 @@
 * [需求展開](README.md#requirement)
     * Site管理
         * [表單.系統自訂版面](customlayout.md)
-        * [表單.企業明細](enterprisedetail.md)
+        * [表單.企業資料](enterprisedetail.md)
     * Site管理首頁
         * [Site管理首頁](sitemanage.md)
     * RTE首頁
