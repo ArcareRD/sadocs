@@ -48,14 +48,42 @@
         * 刪除後清空欄位.LOGO
         * 刪除後清空欄位.預覽結果
 
-    * 欄位.設計規則：
-        * 上傳的圖片格式需依照此規格
+    * 欄位.預覽結果：顯示上傳圖片的預覽
+
+    * 欄位.設計規則：上傳的圖片格式需依照此規格
 
     * 多筆表格：
         * 表格寬度、欄位寬度縮小
         * 欄位.同時最大上線人數：標題改為 同時登入人數
         * 欄位.使用者維持登入時間(分鐘)：標題改為 閒置登出時間(分鐘)
 
+* 作業流程
+
+    * 由Site管理員開啟
+    
+    ![EnterpriseDetail_SA3]
+
+    * 由企業管理員開啟
+
+    ![EnterpriseDetail_SA4]
+    
+    * 執行功能鍵.上傳
+    
+    ![EnterpriseDetail_SA5]
+    
+    * 執行功能鍵.下載
+
+    ![EnterpriseDetail_SA6]
+    
+    * 執行功能鍵.恢復系統預設
+
+    ![EnterpriseDetail_SA7]
+    
 <!--超連結引用ps.畫面上看不到-->
 [EnterpriseDetail_SA1]:attachment/enterprisedetail_sa1.jpg
 [EnterpriseDetail_SA2]:attachment/enterprisedetail_sa2.jpg
+[EnterpriseDetail_SA3]:attachment/enterprisedetail_sa3.jpg
+[EnterpriseDetail_SA4]:attachment/enterprisedetail_sa4.jpg
+[EnterpriseDetail_SA5]:attachment/enterprisedetail_sa5.jpg
+[EnterpriseDetail_SA6]:attachment/enterprisedetail_sa6.jpg
+[EnterpriseDetail_SA7]:attachment/enterprisedetail_sa7.jpg
