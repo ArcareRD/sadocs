@@ -10,3 +10,5 @@
 * [3.BPS介面優化](ITEM_3/README.md)
   * [RTE](ITEM_3/RTE/README.md)
   * [history](ITEM_3/history.md)
+* 3.運算式優化
+  * [IDE](ITEM_4/IDE/README.md)
