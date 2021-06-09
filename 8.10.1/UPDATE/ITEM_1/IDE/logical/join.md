@@ -21,7 +21,7 @@
         * 下拉選項: Left Join / Right Join / Cross Join / Full Join / Inner Join / Union / Sub Select
         * 當檢視表為設定UNION, 則預設Union並除能, 否則預設 Left Join
       * 作業流程
-        * <ps>待補</ps>
+        * ![flow_joinType]
     * <t id="field2">(2)類別</t>
       * 用途說明
       * 規格說明:
@@ -31,6 +31,8 @@
             * `(3)暫存資料表`、`(4)來源表格`、`(5)傳遞參數`、`(14)自訂連結`
             * 當`(12)連結類別` 等於本表欄位時, 清除`(13)連結內容`
           * 取消: 關閉訊息盒
+      * 作業流程
+        * ![flow_tableType]
     * <t id='field3'>(3)暫存資料表</t>
       * 用途說明
       * 規格說明:
@@ -44,13 +46,11 @@
         * 依據`(2)類別`
           * 資料表: [挑選資料表通則][link_ruledialog3], 從本專案中, 挑選資料表, 回傳並顯示:資料表名稱
           * 檢視表: [挑選檢視表通則][link_ruledialog4], 從本專案中, 挑選檢視表, 回傳並顯示:檢視表名稱
-        * 當切換選項時, 顯示訊息盒【標題: 系統訊息 / 異動表格將清除相關欄位，是否繼續？ / 按鍵:確定、取消】
+        * 當切換表格時, 顯示訊息盒【標題: 系統訊息 / 異動表格將清除相關欄位，是否繼續？ / 按鍵:確定、取消】
           * 確定: 清除相關欄位, 並關閉訊息盒
             * `(5)傳遞參數`、`(14)自訂連結`
             * 當`(12)連結類別` 等於本表欄位時, 清除`(13)連結內容`
           * 取消: 關閉訊息盒
-      * 作業流程
-        * <ps>待補</ps>
     * <t>(6)別名</t>
       * 用途說明
       * 規格說明
@@ -81,6 +81,7 @@
           * 例: 本表的別名為C, 則下拉清單只有 A、B、C 三項下拉選項
         * 異動則清空`(10)連結欄位`
       * 作業流程
+        * ![flow_sourceType]
     * <t>(10)連結欄位</t>
       * 用途說明
       * 規格說明
@@ -102,6 +103,7 @@
         * 當`(10)連結欄位`為個資加密欄位, 下拉選項: 本表欄位
         * 異動則切換`(13)連結內容`
       * 作業流程
+        * ![flow_linkType]
     * <t>(13)連結內容</t>
       * 用途說明
       * 規格說明
@@ -114,12 +116,10 @@
         * 連結類別=參數, [挑選參數通則][link_ruledialog2], 依本檢視表, 進行參數挑選, 回傳:參數
         * 連結類別=固定值, 自行輸入
         * 連結類別=運算式, 開啟[運算式][link_expression], 限定:無查表功能
-      * 作業流程
     * <t>(14)自訂連結</t>
       * 用途說明
       * 規格說明
         * 開啟[運算式][link_expression], 限定:無查表功能
-      * 作業流程
     * <t>(15)儲存</t>
       * 用途說明
       * 規格說明: [頁面鎖定通則][link_other4]
@@ -145,11 +145,13 @@
             * 無鎖定、被鎖定(非本次操作):
               * 彈出錯誤訊息: 該單據已被解除鎖定，無法執行。
       * 作業流程
+        * ![flow_save]
     * <t>(17)取消</t>
       * 用途說明
       * 規格說明:
         * 關閉單據
       * 作業流程
+        * ![flow_cancel]
       
 ## <div id="save-action">儲存檢控</div>
 * 以下欄位不允空白檢控 [動作通則][link_other2]
@@ -163,11 +165,20 @@
     * `(10)條件` 必須為等於或不等於
   * 若`(9)連結欄位` 不為個資加密時
     * `(12)連結內容`不可為個資加密或密碼處理
+  * 過濾條件中的限定表格與`表格`是否相同
 
 <!-- 圖示_介面 -->
 [ini]:attachment/ini_logjoin.png "[介面]聯結設定"
 [fieldbreak_m3]:attachment/mark_ini_logjoin.png "[欄位說明]聯結設定"
 [fieldbreak_m4]:attachment/mark_ini_logjoin_phydata.png "[欄位說明]結構欄位"
+
+[flow_joinType]:attachment/Diagram_Join_joinType.png "聯結方式"
+[flow_tableType]:attachment/Diagram_Join_tableType.png "類別"
+[flow_sourceType]:attachment/Diagram_Join_sourceType.png "連結來源表格"
+[flow_linkType]:attachment/Diagram_Join_linkType.png "連結類別"
+[flow_save]:attachment/Diagram_Join_save.png "儲存"
+[flow_cancel]:attachment/Diagram_Join_cancel.png "取消"
+
 <!-- 超連結 -->
 [link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
 [link_other2]:{4}/IDE/Specification//RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"

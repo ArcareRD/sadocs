@@ -42,6 +42,8 @@
         * 單擊功能
           * 左側框架狀態為顯示時, 隱藏左側框架
           * 左側框架狀態為隱藏時, 顯示左側框架
+      * 作業流程
+        * ![log_showHideBar]
       
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">檢視表主頁</p>
 
@@ -75,6 +77,8 @@
           * 已存在, 則頁籤切換至相對表格中
           * 未存在, 則由頁籤區塊左邊增加頁籤項目
         * 單擊切換駐留選取欄位
+      * 作業流程
+        * ![log_viewQueryList]
     * <t if='field5'>(5)檢視表頁籤</t>
       * 用途說明
       * 規格說明:
@@ -163,7 +167,6 @@
     * <t id="field15">(15)表格名稱</t>
       * 用途說明
       * 規格說明: 顯示檢視表名稱
-      * 作業流程
     * <t>(16)料號</t>
       * 用途說明
       * 規格說明: 顯示檢視表料號
@@ -237,14 +240,13 @@
               * 錯誤訊息: 此表格名稱已經使用，請重新命名
         * 儲存完成後關閉單據
       * 作業流程
-        * <PS>待補</PS>
+        * ![log_createViewDecide]
     * <t>(3)取消</t>
       * 用途說明
       * 規格說明: 關閉單據
 
 ## <div id="save-action">儲存檢控</div>
-* 以下欄位不允空白檢控 [動作通則][link_other2]
-* 其他檢控 [動作通則][link_other3]
+* 其他檢控 [存回其它檢控通則][link_ruleother8]
   * 當`(18)TOP`勾選時, `(19)TOP筆數`
   * 當`(18)TOP`勾選時, [排序依據][orderby]須設定
   * `(15)表格名稱` 不允與同專案下檢視表格名稱重覆
@@ -273,6 +275,9 @@
 [log_save]:attachment/Diagram_Log_save.png "[作業流程]檢視表儲存"
 [log_search]:attachment/Diagram_Log_search.png "[作業流程]搜尋"
 [log_tablefieldlist]:attachment/Diagram_Log_TableFieldList.png "[作業流程]表單欄位清單"
+[log_showHideBar]:attachment/Diagram_Log_showHideBar.png "[作業流程]左側框架_顯示隱藏鍵"
+[log_viewQueryList]:attachment/Diagram_Log_viewQueryList.png "[作業流程]檢視表清單"
+[log_createViewDecide]:attachment/Diagram_Log_createViewDecide.png "[作業流程]新增檢視表/確定"
 
 <!-- 超連結 -->
 [columns]:columns "欄位清單"
@@ -280,10 +285,10 @@
 [orderby]:orderby "排序依據"
 [join]:join "聯結設定"
 [link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
-[link_other2]:{4}/RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
-[link_other3]:{4}/RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
-[link_other4]:{4}/RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
-[link_other5]:{4}/RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
+[link_ruleother7]:{4}/IDE/Specification//RulesOther/README?id=ruleother7 "共用通則_其他操作/存回不允空白檢控通則"
+[link_ruleother8]:{4}/IDE/Specification//RulesOther/README?id=ruleother8 "共用通則_其他操作/存回其它檢控通則"
+[link_other4]:{4}/IDE/Specification//RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
+[link_other5]:{4}/IDE/Specification//RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
 [O1]:../README "單元檢錯"
 [O2]:../README "表格欄位清單"
 [O3]:../README "規格備註"

@@ -19,42 +19,46 @@
       * 規格說明: 
         * 開啟[挑選檢視表元件通則][link_ruledialog8] 取得:未挑選順序、非個資加密、非密碼處理欄位, 帶回欄位名稱並附加到`(9)排序欄位清單`最後一筆
       * 作業流程
+        * ![flow_add]
     * <t>(2)移至頂端</t>
       * 用途說明
       * 規格說明:
         * 將目前鎖定的欄位移至最頂端；若有多個鎖定欄位，依鎖定欄位順序排序後，移至最頂端
       * 作業流程
+        * ![flow_top]
     * <t>(3)向上移動</t>
       * 用途說明
       * 規格說明:
         * 將目前鎖定的欄位向上移一個元件；若有多個鎖定欄位，依鎖定欄位順序排序後，取得鎖定欄位中最小順序向上移一個欄位(若最小順序已是第一個欄位則不再變動順序)
       * 作業流程
+        * ![flow_up]
     * <t>(4)向下移動</t>
       * 用途說明
       * 規格說明:
         * 將目前鎖定的欄位向下移一個元件；若有多個鎖定欄位，依鎖定欄位順序排序後，取得鎖定欄位中最大順序向下移一個欄位(若最大順序已是第後一個欄位則不再變動順序)
       * 作業流程
+        * ![flow_down]
     * <t>(5)移至最後</t>
       * 用途說明
       * 規格說明:
         * 將目前鎖定的欄位移至最底端；若有多個鎖定欄位，依鎖定欄位順序排序後，移至最底端
       * 作業流程
+        * ![flow_end]
     * <t>(6)取消鎖定</t>
       * 用途說明
       * 規格說明:
         * 將所有已鎖定的圖示，變動為未鎖定圖示
       * 作業流程
+        * ![flow_onlock]
     * <t>(7)排序欄位清單</t>
       * 用途說明
       * 規格說明:
         * 顯示排序欄位清單資訊
         * 排序資料依據排序順序顯示 
-      * 作業流程
     * <t>(8)順序</t>
       * 用途說明
       * 規格說明:
         * 顯示排序順序
-      * 作業流程
     * <t>(9)鎖定/解鎖鍵</t>
       * 用途說明
       * 規格說明:
@@ -62,6 +66,7 @@
         * 未鎖定圖示: ![orderby_unlock]
         * 已鎖定圖示: ![orderby_lock]
       * 作業流程
+        * ![flow_lockOnlock]
     * <t>(10)欄位名稱區塊</t>
       * 用途說明
       * 規格說明:
@@ -72,6 +77,7 @@
         * 滑鼠單擊可將欄位名稱區塊拖動到新位置；若有多個鎖定欄位，依鎖定欄位順序排序後移至新位置
         * 當欄位為個資加密或密碼處理欄位時, 須依據[加密規則][link_other5]顯示。
       * 作業流程
+        * ![flow_drag]
     * <t>(11)排序類型</t>
       * 用途說明: order by desc / asc
       * 規格說明:
@@ -79,11 +85,13 @@
         * 昇冪:將圖示改為降冪 ↓
         * 降冪:將圖示改為昇冪 ↑
       * 作業流程
+        * ![flow_set]
     * <t>(12)刪除</t>
       * 用途說明
       * 規格說明:
         * 刪除指定欄位
       * 作業流程
+        * ![flow_delete]
     * <t>(13)儲存</t>
       * 用途說明
       * 規格說明: [頁面鎖定通則][link_other4]
@@ -92,14 +100,16 @@
           * 被鎖定(本次操作):               
               * 將本次資料儲存
               * 關閉單據
-            * 無鎖定、被鎖定(非本次操作):
-              * 彈出錯誤訊息:該單據已被解除鎖定，無法存回。
+          * 無鎖定、被鎖定(非本次操作):
+            * 彈出錯誤訊息:該單據已被解除鎖定，無法存回。
       * 作業流程
+        * ![flow_save]
     * <t>(14)取消</t>
       * 用途說明
       * 規格說明:
         * 關閉單據
       * 作業流程
+        * ![flow_cancel]
       
 ## <div id="save-action">儲存檢控</div>
 * 以下欄位不允空白檢控 [動作通則][link_other2]
@@ -112,13 +122,24 @@
 [orderby_lock]:attachment/orderby_lock.png "已鎖定圖示"
 [orderby_move]:attachment/orderby_move.png "移動圖示"
 
+[flow_add]:attachment/Diagram_orderby_add.png "新增"
+[flow_top]:attachment/Diagram_orderby_top.png "置頂"
+[flow_up]:attachment/Diagram_orderby_up.png "上移"
+[flow_down]:attachment/Diagram_orderby_down.png "下移"
+[flow_end]:attachment/Diagram_orderby_end.png "置底"
+[flow_onlock]:attachment/Diagram_orderby_onlock.png "解除鎖定"
+[flow_lockOnlock]:attachment/Diagram_orderby_lockOnlock.png "鎖定/解除鎖定"
+[flow_drag]:attachment/Diagram_orderby_drag.png "拖曳欄位"
+[flow_set]:attachment/Diagram_orderby_set.png "排序設定"
+[flow_delete]:attachment/Diagram_orderby_delete.png "刪除"
+[flow_save]:attachment/Diagram_orderby_save.png "儲存"
+[flow_cancel]:attachment/Diagram_orderby_cancel.png "取消"
+
 <!-- 超連結 -->
 [link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"
 [link_other2]:{4}/IDE/Specification/RulesOther/README?id=ruleother7 "共用通則_其他操作/儲存檢控_不允空白"
 [link_other3]:{4}/IDE/Specification/RulesOther/README?id=ruleother8 "共用通則_其他操作/儲存檢控_其他"
 [link_other4]:{4}/IDE/Specification/RulesOther/README?id=ruleother10 "共用通則_其他操作/鎖定通則"
 [link_other5]:{4}/IDE/Specification/RulesOther/README?id=ruleother11 "共用通則_其他操作/個資加密通則"
-
 [link_ruledialog8]:{4}/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
-
 [index]:./README "檢視表主頁"

@@ -43,11 +43,13 @@
       * 規格說明:
         * 新增一筆空白紀錄於最末筆
       * 作業流程
+        * ![flow_add]
     * <t>(8)刪除</t>
       * 用途說明
       * 規格說明:
         * 刪除目前駐留筆紀錄
       * 作業流程
+        * ![flow_delete]
     * <t>(9)儲存</t>
       * 用途說明
       * 規格說明:[頁面鎖定通則][link_other4]
@@ -57,14 +59,16 @@
               * 執行[儲存檢控](#save-action)
               * 將本次資料儲存
               * 關閉單據
-            * 無鎖定、被鎖定(非本次操作):
-              * 彈出錯誤訊息:該單據已被解除鎖定，無法執行。
+          * 無鎖定、被鎖定(非本次操作):
+            * 彈出錯誤訊息:該單據已被解除鎖定，無法執行。
       * 作業流程
+        * ![flow_save]
     * <t>(10)取消</t>
       * 用途說明
       * 規格說明:
         * 關閉單據
       * 作業流程
+        * ![flow_cancel]
       
 ## <div id="save-action">儲存檢控</div>
 * 以下欄位不允空白檢控 [動作通則][link_other2]
@@ -76,6 +80,11 @@
 <!-- 圖示_介面 -->
 [ini]:attachment/ini_parameter.png "[介面]接收參數"
 [fieldbreak_m7]:attachment/mark_ini_parameter.png "[欄位說明]接收參數"
+
+[flow_add]:attachment/Diagram_parameter_add.png "新增"
+[flow_delete]:attachment/Diagram_parameter_delete.png "刪除"
+[flow_save]:attachment/Diagram_parameter_save.png "儲存"
+[flow_cancel]:attachment/Diagram_parameter_cancel.png "取消"
 
 <!-- 超連結 -->
 [link_other1]:{4}/IDE/Specification/RulesOther/README?id=ruleother9 "共用通則_其他操作/打樣通則"

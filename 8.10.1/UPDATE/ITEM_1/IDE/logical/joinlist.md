@@ -10,6 +10,7 @@
   * [單據異動資料按鍵操作通則](../RulesButton/README#rulebutton2)
   * []內的字串為特定條件下才會顯示
   * 單據編輯狀態請參照[檢視表][index]
+
 ## <div id="object-desc">欄位說明</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">結構展開</p>
  
@@ -36,6 +37,9 @@
         * 單擊: 無作用
         * 雙擊: 重載`(1)結構展開清單`
         * 右鍵: 開啟右鍵選單`右鍵選單1`
+    * 作業流程
+      * ![flow_iconClick]
+      * ![flow_nameDoubleClick]
   * <t id="field3">(3)參考來源表格</t>
     * 用途說明
     * 規格說明: 
@@ -61,6 +65,10 @@
         * 單擊: 重載 `(4)聯結設定區塊` 、`(5)資料過濾條件區塊`
         * 雙擊: 重載`結構展開清單`
         * 右鍵: 開啟右鍵選單`右鍵選單2`
+    * 作業流程
+      * ![flow_iconClick]
+      * ![flow_nameDoubleClick]
+      * ![flow_nameClick]
   * <t>(4)聯結設定區塊</t>
     * 用途說明
     * 規格說明
@@ -80,21 +88,25 @@
       * 規格說明:
         * 關閉選單清單
         * 開啟[聯結設定][join]
+    * 作業流程
+      * ![flow_addJoin]
     * <t>(2)設定UNION</t>
       * 執行限制:
         * 瀏覽模式 或 已設定UNION, 除能
       * 關聯條件中是否有不是UNION的關聯方式(ex. 有設定Left join、right join、inner join...)
-        * 無其他關聯方式:
+        * 無設定關聯設定:
           * 關閉選單清單, 並鎖定關聯條件僅可設定UNION
           * 重顯`(2)主檢視表` 預設圖示 + (5.檢視表) + 檢視表名稱 + (UNION)
-        * 有其他關聯方式:
+        * 有設定關聯設定:
           * 關閉選單清單
-          * 顯示訊息盒【標題: 系統訊息 / 設定UNION將清除所有參考來源，是否繼續。 / 按鍵:確定、取消】
+          * 顯示訊息盒【標題: 系統訊息 / 設定UNION將清除所有關聯條件，是否繼續。 / 按鍵:確定、取消】
             * 確定: 
               * 清除所有參考來源[`聯結設定`][join]的`聯結條件`, 並鎖定`聯結方式`僅可設定UNION
               * 保留所有[欄位清單][logcols]中的欄位, 清除非UNION的`資料內容`
               * 重顯`(2)主檢視表` 預設圖示 + (5.檢視表) + 檢視表名稱 + (UNION)
             * 取消: 關閉訊息盒
+      * 作業流程
+        * ![flow_setUnion]
     * <t>(3)解除UNION</t>
       * 執行限制:
         * 瀏覽模式 或 非設定UNION, 除能
@@ -113,6 +125,8 @@
               * 承上, 非UNION的`資料內容`預設給值 自訂欄位, 依`資料型態`預設給空值
               * 重顯`(2)主檢視表` 預設圖示 + (5.檢視表) + 檢視表名稱
             * 取消: 關閉訊息盒
+      * 作業流程
+        * ![flow_unUnion]
     
   * <t id="menu2">右鍵選單2</t>
     * ![fieldbreak_m3_2]
@@ -122,15 +136,21 @@
       * [聯結設定 `類別`][logalias_askind]
         * 檢視表: 由[檢視表 `檢視表頁籤`][log_tab]開啟
         * 資料表: 開啟[資料表][link_Physical]
+      * 作業流程
+        * ![flow_open]
     * <t>(2)設定聯結</t>      
       * 關閉選單清單
       * 開啟[聯結設定][join], 並載入參考來源表格聯結資訊
+      * 作業流程
+        * ![flow_setJoin]
     * <t>(3)刪除聯結</t>
       * 關閉選單清單
       * 顯示訊息盒【標題: 系統訊息 / 即將刪除參考來源，是否繼續。 / 按鍵:刪除、刪除但保留欄位、取消】
         * 刪除: 刪除聯結設定、過濾條件、參考來源引用該表格的欄位
         * 刪除但保留欄位: 刪除聯結設定、過濾條件；清除參考來源引用該表格的[欄位清單][logcols]`資料內容`
         * 取消: 關閉訊息盒
+      * 作業流程
+        * ![flow_deleteJoin]
  
 <!-- 圖示_介面 -->
 [ini]:attachment/ini_logjoinList.png "[介面]結構展開"
@@ -148,6 +168,17 @@
 [join_type_subselect]:attachment/join_type_sub.png "SubSelect"
 [join_type_cross]:attachment/join_type_cross.png "Cross Join"
 [join_type_union]:attachment/join_type_union.png "Union" 
+
+[flow_iconClick]:attachment/Diagram_Structure_iconClick.png "圖示單擊(開啟聯結設定)"
+[flow_nameClick]:attachment/Diagram_Structure_nameClick.png "名稱單擊(重載聯結設定區塊、資料過濾條件區塊)"
+[flow_nameDoubleClick]:attachment/Diagram_Structure_nameDoubleClick.png "名稱雙擊(重載結構展開清單)"
+[flow_addJoin]:attachment/Diagram_Structure_addJoin.png "右鍵/新增聯結"
+[flow_setJoin]:attachment/Diagram_Structure_setJoin.png "右鍵/設定聯結"
+[flow_setUnion]:attachment/Diagram_Structure_setUnion.png "右鍵/設定union"
+[flow_unUnion]:attachment/Diagram_Structure_unUnion.png "右鍵/解除union"
+[flow_deleteJoin]:attachment/Diagram_Structure_deleteJoin.png "右鍵/刪除聯結"
+[flow_open]:attachment/Diagram_Structure_open.png "右鍵/開啟表格"
+
 <!--連結-->
 [index]:./README.md "檢視表主頁"
 [join]:./join.md "聯結設定"

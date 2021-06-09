@@ -252,7 +252,8 @@
     * ![pic][image_fieldbreak4]
     * `(1)儲存`
         * 用途說明
-        * 規格說明    
+        * 規格說明
+            * 當來源端為瀏覽狀態開啟時, 除能
             * 若為新增時, 必須產生多語詞庫  
             * 若為修改時, 必須依專案語系異動多語詞庫
             * 儲存完成後, 顯示訊息盒【標題: 系統訊息 / 儲存完成 / 按鍵: 繼續編輯、關閉視窗】
@@ -266,15 +267,11 @@
             * 關閉視窗
 
 ## <div id="save-action">儲存檢控</div>
-* 不允空白檢控, 符合條件時, 顯示訊息盒, 並以紅框線標註錯誤的欄位
-    * 訊息盒:【標題: 執行存回，發生下列錯誤 / 訊息內容: 以下資料未填寫正確 *錯誤欄位名* / 按鍵: 確定】
-        * 確定: 關閉訊息盒 
+* 不允空白檢控 [存回不允空白檢控通則][link_ruleother7]
     * 檢控欄位如下
         * `說明`
         * `對應資料庫`不為無, `表格`不允空白
-* 其它檢控, 符合條件時, 顯示訊息盒
-    * 訊息盒【標題: 執行存回 / 訊息內容: 以下資料未通過驗證 / 按鍵:確定】
-        * 確定: 關閉訊息盒
+* 其他檢控 [存回其它檢控通則][link_ruleother8]
     * 檢控如下
         * 由 檢視表/欄位濾單/資料內容/運算公式 開啟
             * 只有一個條件項時, 不允設`條件式`
@@ -319,4 +316,6 @@
 [link_ruledialog1]:/8.10.1/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog3]:/8.10.1/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
 [link_ruledialog4]:/8.10.1/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
+[link_ruleother7]:{4}/IDE/Specification//RulesOther/README?id=ruleother7 "共用通則_其他操作/存回不允空白檢控通則"
+[link_ruleother8]:{4}/IDE/Specification//RulesOther/README?id=ruleother8 "共用通則_其他操作/存回其它檢控通則"
 [link_citation_operation]:CitationOperation.md "引用運算方式"
