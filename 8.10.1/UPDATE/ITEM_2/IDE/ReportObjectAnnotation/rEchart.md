@@ -5,7 +5,7 @@
     ![pic][image_rEchart]
 
 ## 欄位設定
-* <p id="fieldbreak1" style="color:blue;">圖表元件</p>
+* <p id="fieldbreak1" style="color:blue;">圖表類型區塊</p>
 
     * ![pic][image_rEchart_block1]
     * `(1)圖表類型函數選取`
