@@ -4,7 +4,7 @@
 * [動作說明](README#form-action)
 * [欄位說明](README#object-desc)
     * [圖表介面](rEchart)
-    * [其餘類型介面](OtherWidget)
+    * [非圖表介面](OtherWidget)
 * [儲存檢控](README#save-action)
 * 其他
     * [欄位同值不列印排序](ReportObjectNoPrintSortingList)

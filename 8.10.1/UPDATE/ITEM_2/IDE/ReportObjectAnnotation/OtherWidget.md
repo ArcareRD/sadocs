@@ -38,7 +38,7 @@
         * 用途說明
         * 規格說明
             * 當`元件類型`【rTF.文字方塊、rTA.多行文字】則 顯示, 否則隱藏
-            * 當`(4)與前行同值時`=省略, 則 致能, 否則 除能
+            * 當`(4)與前行同值時`=省略, 則 瀏覽及編輯狀態下皆致能, 否則 除能
             * 致能時, 執行開啟[欄位同值不列印排序][object_print_sorting_list]
     * `(6)資料超長`
         * 用途說明
@@ -53,7 +53,7 @@
             * 當`(6)資料超長`=折行固定行數, 則 致能, 否則 除能
             * 致能時, 使用者自行輸入
 
-* <p id="fieldbreak2" style="color:blue;">資料呈現</p>
+* <p id="fieldbreak2" style="color:blue;">數值處理</p>
 
     * ![pic][image_other_widget_block2]
     * `(1)數據累計`
@@ -77,11 +77,13 @@
     * `(5)初始值_內容`
         * 用途說明
         * 規格說明
+            * 本欄位唯讀
             * 當`(3)初始值_類別`=自訂, 由使用者自行輸入
-            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 回傳:檢視表元件.
-            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 回傳:資料表元件.
+            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 回傳:檢視表元件.
+            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 回傳:資料表元件.
             * 當`(3)初始值_類別`=元件, 參照 [挑選報表元件通則][link_ruledialog15], 從駐留報表中, 進行報表元件挑選, 回傳:報表元件
             * 當`(3)初始值_類別`=參數, [挑選報表參數通則][link_ruledialog9], 從駐留報表中, 進行報表參數挑選, 回傳:報表參數
+            * 變色顯示, 請參照 [個資加密提示通則][link_ruleother11]
     * `(6)零值顯示`
         * 用途說明
         * 規格說明
@@ -112,6 +114,106 @@
     * `(4)頁面資訊_條文`
         * 用途說明
         * 規格說明
+            * 當`(3)頁面資訊`=條文, 則 致能, 否則 除能
+    * `(5)操作者資料`
+        * 用途說明
+        * 規格說明
+            * 當`(1)給值內容`=操作者資料, 則 致能, 否則 除能
+            * 單一選項: 帳號 / 姓名 / 公司名稱 / 公司英文名稱
+    * `(6)來源給值`
+        * 用途說明
+        * 規格說明
+    * `(7)指定給值`
+        * 用途說明
+        * 規格說明
+            * 當`(1)給值內容`=來源給值, 則 致能, 否則 除能
+            * 下拉選項: 檔案資料 / 輸入參數 / 報表元件 
+    * `(8)指定給值_內容`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 當`(1)給值內容`=來源給值, 則 致能, 否則 除能
+            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
+            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選,    限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+            * 當`(7)指定給值`=輸入參數, 參照 [挑選報表參數通則][link_ruledialog9], 從駐留報表中, 進行報表參數挑選, 回傳: 報表參數
+            * 當`(7)指定給值`=報表元件, 參照 [挑選報表元件通則][link_ruledialog15], 從駐留報表中, 進行報表元件挑選, 回傳: 報表元件
+            * 變色顯示, 請參照 [個資加密提示通則][link_ruleother11]
+    * `(9)欄位組合`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 當`(1)給值內容`=欄位組合, 則 致能, 否則 除能
+            * 參照 [操作運算式通則][link_ruledialog18], 限定: 不允查表, 回傳: 運算式說明
+    * `(10)查表給值`
+        * 用途說明
+        * 規格說明
+    * `(11)查表給值_檔案篩選`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 當`(1)給值內容`=查表給值, 則 致能, 否則 除能
+            * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+    * `(12)給值欄位`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 當`(1)給值內容`=查表給值, 則 致能, 否則 除能
+            * 當`(10)查表給值_檔案篩選`無值, 或`(10)查表給值_檔案篩選`的處理類別=無, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇檔案篩選-來源表格 / 按鍵: 確定】
+                * 確定: 關閉訊息盒
+            * 當`(10)查表給值_檔案篩選`的處理類別=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+            * 當`(10)查表給值_檔案篩選`的處理類別=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
+    * `(13)代碼轉換`
+        * 用途說明
+        * 規格說明
+    * `(14)代碼轉換_檔案篩選`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 當`(1)給值內容`=代碼轉換, 則 致能, 否則 除能
+            * 當[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
+            * 當[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+    * `(15)代碼轉換表格`
+        * 用途說明
+        * 規格說明
+            * 當`(1)給值內容`=代碼轉換, 則 致能, 否則 除能
+            * 參照 [操作表格記錄通則][link_rulebutton3]
+			* 表格列數最高顯示**3**列, 超過出現垂直捲軸
+    * `(16)資料值`
+        * 用途說明
+        * 規格說明
+            * 使用者自行輸入
+    * `(17)對應詞庫碼`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示	
+    
+* <p id="fieldbreak4" style="color:blue;">附加條件</p>
+
+    * ![pic][image_other_widget_block4]
+    * `(1)顯示條件`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+    * `(2)變色條件表格`
+        * 用途說明
+        * 規格說明
+            * 參照 [操作表格記錄通則][link_rulebutton3]
+			* 表格列數最高顯示**3**列, 超過出現垂直捲軸
+    * `(3)條件內容`
+        * 用途說明
+        * 規格說明
+            * 本欄位唯讀
+            * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+    * `(4)前景字顏色`
+        * 用途說明
+        * 規格說明
+            * 開啟顏色選擇器(Picker)
+    * `(5)背景顏色`
+        * 用途說明
+        * 規格說明
+            * 開啟顏色選擇器(Picker)
 
 <!-- 圖片 -->
 [image_other_widget]:attachment/ReportObjectAnnotation_OtherWidget.png
@@ -122,8 +224,16 @@
 
 <!-- 超連結 -->
 [object_print_sorting_list]:ReportObjectNoPrintSortingList.md
+[link_RADataSouce]:{1}/RADataSource/README#fieldbreak1 "報表資料來源"
 
-[link_ruledialog19]:/8.10.1/IDE/Specification/RulesDialog/README#ruledialog19 "共用通則_開啟單據/操作邏輯函數表格通則"
-[link_ruledialog8]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
-[link_ruledialog9]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選報表參數通則"
-[link_ruledialog15]:/8.10.0/IDE/Specification/RulesDialog/README#ruledialog15 "共用通則_開啟單據/挑選報表元件通則"
+[link_ruledialog1]:{4}/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
+[link_ruledialog2]:{4}/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruledialog5]:{4}/IDE/Specification/RulesDialog/README#ruledialog5 "共用通則_開啟單據/挑選資料表元件通則"
+[link_ruledialog8]:{4}/IDE/Specification/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog9]:{4}/IDE/Specification/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選報表參數通則"
+[link_ruledialog15]:{4}/IDE/Specification/RulesDialog/README#ruledialog15 "共用通則_開啟單據/挑選報表元件通則"
+[link_ruledialog18]:{4}/IDE/Specification/RulesDialog/README#ruledialog18 "共用通則_開啟單據/操作運算式通則"
+
+[link_rulebutton3]:{4}/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+
+[link_ruleother11]:{4}/IDE/Specification/RulesOther/README#ruleother11 "共用通則_其它/個資加密提示通則"

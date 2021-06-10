@@ -31,10 +31,12 @@
         * 用途說明
         * 規格說明
             * 依平台語系顯示報表元件類型
+            * 本欄位除能, 不提供編輯
     * `(4)資料區`
         * 用途說明
         * 規格說明
             * 依平台語系顯示報表階層名稱
+            * 本欄位除能, 不提供編輯
     * `(5)規格定義區塊`
         * 用途說明
         * 規格說明
@@ -59,11 +61,11 @@
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother7]:/8.10.0/IDE/Specification/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
-[link_ruleother8]:/8.10.0/IDE/Specification/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
+[link_ruleother1]:{4}/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother7]:{4}/IDE/Specification/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
+[link_ruleother8]:{4}/IDE/Specification/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
 
-[link_rulebutton2]:/8.10.1/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
-[link_rulebutton3]:/8.10.1/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
+[link_rulebutton2]:{4}/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
+[link_rulebutton3]:{4}/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
 
-[link_ruledialog2]:/8.10.1/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruledialog2]:{4}/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
