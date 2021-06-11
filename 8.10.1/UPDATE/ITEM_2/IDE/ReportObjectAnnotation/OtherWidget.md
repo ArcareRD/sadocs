@@ -15,12 +15,16 @@
             * 下拉選項: 資料模版清單, 過濾: 駐留筆專案, 顯示: 模版名稱, 排序: 模版名稱(升冪)
             * 系統預設: 專案預設模版的模版名稱 
             * 當本次選取模版的`貨幣符號`未勾選時, 清空: `(2)貨幣欄位`
+        * 動作流程
+            * ![pic][image_flow_roaModCode]
     * `(2)貨幣欄位`
         * 用途說明
         * 規格說明
             * 當`元件類型`存在【rTF.文字方塊】則 顯示, 否則隱藏
             * 當`(1)模版`的`模版組成`=貨幣, 且`貨幣符號`為已勾選, 則 致能, 否則 除能
             * 參照 [挑選報表元件通則][link_ruledialog15], 從駐留報表中, 進行報表元件挑選, 回傳:報表元件
+        * 動作流程
+            * ![pic][image_flow_roaCurrencyFieldNo]
     * `(3)長度限制`
         * 用途說明
         * 規格說明
@@ -34,12 +38,16 @@
             * 系統預設: 打印
             * 當選項=打印時, 將駐留筆報表元件從[欄位同值不列印排序][object_print_sorting_list]中清除
             * 當選項=省略時, 將駐留筆報表元件新增至[欄位同值不列印排序][object_print_sorting_list]中
+        * 動作流程
+            * ![pic][image_flow_roaValue]
     * `(5)排序`
         * 用途說明
         * 規格說明
             * 當`元件類型`【rTF.文字方塊、rTA.多行文字】則 顯示, 否則隱藏
             * 當`(4)與前行同值時`=省略, 則 瀏覽及編輯狀態下皆致能, 否則 除能
             * 致能時, 執行開啟[欄位同值不列印排序][object_print_sorting_list]
+        * 動作流程
+            * ![pic][image_flow_roderby]
     * `(6)資料超長`
         * 用途說明
         * 規格說明
@@ -77,13 +85,14 @@
     * `(5)初始值_內容`
         * 用途說明
         * 規格說明
-            * 本欄位唯讀
             * 當`(3)初始值_類別`=自訂, 由使用者自行輸入
-            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 回傳:檢視表元件.
-            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 回傳:資料表元件.
+            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密未解密的欄位, 回傳:檢視表元件.
+            * 當`(3)初始值_類別`=欄位, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5], 從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳:資料表元件.
             * 當`(3)初始值_類別`=元件, 參照 [挑選報表元件通則][link_ruledialog15], 從駐留報表中, 進行報表元件挑選, 回傳:報表元件
-            * 當`(3)初始值_類別`=參數, [挑選報表參數通則][link_ruledialog9], 從駐留報表中, 進行報表參數挑選, 回傳:報表參數
+            * 當`(3)初始值_類別`=參數, 參照[挑選報表參數通則][link_ruledialog9], 從駐留報表中, 進行報表參數挑選, 回傳:報表參數
             * 變色顯示, 請參照 [個資加密提示通則][link_ruleother11]
+        * 動作流程
+            * ![pic][image_flow_roaStartValue]
     * `(6)零值顯示`
         * 用途說明
         * 規格說明
@@ -119,7 +128,9 @@
         * 用途說明
         * 規格說明
             * 當[基本][link_basic_fieldbreak1]的`元件類型`=rLogo.企業標誌, 則 顯示, 否則 隱藏 
-            * 開啟[圖示設定][link_icon], 回傳: 圖示名稱      
+            * 開啟[圖示設定][link_icon], 回傳: 圖示名稱
+        * 動作流程
+            * ![pic][image_flow_roaIconCode]      
     * `(6)操作者資料`
         * 用途說明
         * 規格說明
@@ -138,17 +149,21 @@
         * 規格說明
             * 本欄位唯讀
             * 當`(1)給值內容`=來源給值, 則 致能, 否則 除能
-            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
-            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選,    限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密未解密的欄位, 回傳: 檢視表元件.
+            * 當`(7)指定給值`=檔案資料, 且[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
             * 當`(7)指定給值`=輸入參數, 參照 [挑選報表參數通則][link_ruledialog9], 從駐留報表中, 進行報表參數挑選, 回傳: 報表參數
             * 當`(7)指定給值`=報表元件, 參照 [挑選報表元件通則][link_ruledialog15], 從駐留報表中, 進行報表元件挑選, 回傳: 報表元件
             * 變色顯示, 請參照 [個資加密提示通則][link_ruleother11]
+        * 動作流程
+            * ![pic][image_flow_roaAsignedValue]
     * `(10)欄位組合`
         * 用途說明
         * 規格說明
             * 本欄位唯讀
             * 當`(1)給值內容`=欄位組合, 則 致能, 否則 除能
             * 參照 [操作運算式通則][link_ruledialog18], 限定: 不允查表, 回傳: 運算式說明
+        * 動作流程
+            * ![pic][image_flow_roaExpressionID]
     * `(11)查表給值`
         * 用途說明
         * 規格說明
@@ -158,15 +173,19 @@
             * 本欄位唯讀
             * 當`(1)給值內容`=查表給值, 則 致能, 否則 除能
             * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+        * 動作流程
+            * ![pic][image_flow_roaCondID]
     * `(13)給值欄位`
         * 用途說明
         * 規格說明
             * 本欄位唯讀
             * 當`(1)給值內容`=查表給值, 則 致能, 否則 除能
-            * 當`(10)查表給值_檔案篩選`無值, 或`(10)查表給值_檔案篩選`的處理類別=無, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇檔案篩選-來源表格 / 按鍵: 確定】
+            * 當`(12)檔案篩選`無值, 或`(12)檔案篩選`的處理類別=無, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 請選擇檔案篩選-來源表格 / 按鍵: 確定】
                 * 確定: 關閉訊息盒
-            * 當`(10)查表給值_檔案篩選`的處理類別=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
-            * 當`(10)查表給值_檔案篩選`的處理類別=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
+            * 當`(12)檔案篩選`的處理類別=資料表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(12)檔案篩選`對應的資料表中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+            * 當`(12)檔案篩選`的處理類別=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(12)檔案篩選`對應的檢視表中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密未解密的欄位, 回傳: 檢視表元件.
+        * 動作流程
+            * ![pic][image_flow_7_roaSourceCode]
     * `(14)代碼轉換`
         * 用途說明
         * 規格說明
@@ -175,8 +194,10 @@
         * 規格說明
             * 本欄位唯讀
             * 當`(1)給值內容`=代碼轉換, 則 致能, 否則 除能
-            * 當[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密及個資加密已解密的欄位, 回傳: 檢視表元件.
+            * 當[報表_資料來源][link_RADataSouce]`資料來源_類別`=檢視表, 參照 [挑選檢視表元件通則][link_ruledialog8], 從`資料來源_內容`中, 進行檢視表元件挑選, 限定: 不為密碼處理, 且不為個資加密未解密的欄位, 回傳: 檢視表元件.
             * 當[報表_資料來源][link_RADataSouce]`資料來源_類別`=資料表, 參照 [挑選資料表元件通則][link_ruledialog5]，從`資料來源_內容`中, 進行資料表元件挑選, 限定: 不為密碼處理, 且不為個資加密的欄位, 回傳: 資料表元件.
+        * 動作流程
+            * ![pic][image_flow_8_roaSourceCode]
     * `(16)代碼轉換表格`
         * 用途說明
         * 規格說明
@@ -191,7 +212,9 @@
         * 用途說明
         * 規格說明
             * 本欄位唯讀
-            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示	
+            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示
+        * 動作流程
+            * ![pic][image_flow_roapThesaurusID]	
     
 * <p id="fieldbreak4" style="color:blue;">附加條件</p>
 
@@ -201,6 +224,8 @@
         * 規格說明
             * 本欄位唯讀
             * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+        * 動作流程
+            * ![pic][image_flow_roaDisplayConID]
     * `(2)變色條件表格`
         * 用途說明
         * 規格說明
@@ -211,6 +236,8 @@
         * 規格說明
             * 本欄位唯讀
             * 參照 [操作條件式通則][link_ruledialog1], 回傳: 條件說明
+        * 動作流程
+            * ![pic][image_flow_DiscolorationCondID]
     * `(4)前景字顏色`
         * 用途說明
         * 規格說明
@@ -226,6 +253,21 @@
 [image_other_widget_block2]:attachment/ReportObjectAnnotation_OtherWidget_block2.png
 [image_other_widget_block3]:attachment/ReportObjectAnnotation_OtherWidget_block3.png
 [image_other_widget_block4]:attachment/ReportObjectAnnotation_OtherWidget_block4.png
+
+[image_flow_roaValue]:attachment/OtherWidetFlow_roaValue.png
+[image_flow_roaStartValue]:attachment/OtherWidetFlow_roaStartValue.png
+[image_flow_roapThesaurusID]:attachment/OtherWidetFlow_roapThesaurusID.png
+[image_flow_roaModCode]:attachment/OtherWidetFlow_roaModCode.png
+[image_flow_roaIconCode]:attachment/OtherWidetFlow_roaIconCode.png
+[image_flow_roaExpressionID]:attachment/OtherWidetFlow_roaExpressionID.png
+[image_flow_roaDisplayConID]:attachment/OtherWidetFlow_roaDisplayCondID.png
+[image_flow_roaCondID]:attachment/OtherWidetFlow_roaCondID.png
+[image_flow_roaAsignedValue]:attachment/OtherWidetFlow_roaAsignedValue.png
+[image_flow_roderby]:attachment/OtherWidetFlow_orderby.png
+[image_flow_DiscolorationCondID]:attachment/OtherWidetFlow_DiscolorationCondID.png
+[image_flow_8_roaSourceCode]:attachment/OtherWidetFlow_8_roaSourceCode.png
+[image_flow_7_roaSourceCode]:attachment/OtherWidetFlow_7_roaSourceCode.png
+[image_flow_roaCurrencyFieldNo]:attachment/OtherWidetFlow_roaCurrencyFieldNo.png
 
 <!-- 超連結 -->
 [link_basic_fieldbreak1]:README#fieldbreak1 "報表元件/基本"

@@ -10,6 +10,8 @@
 * 依報表規格定義, 工具列.編修鍵, 進入本單的編輯模式
 * 參照 [單據異動資料按鍵操作通則][link_rulebutton2]
     * 下列欄位, 除規格說明中有額外說明, 否則所有欄位在瀏覽狀態: 除能 ; 編輯狀態: 致能
+* 動作流程
+    * ![pic][image_flow_open]
 
 ## <div id="object-desc">欄位說明</div>
 
@@ -21,6 +23,8 @@
         * 規格說明
 			* 本欄位唯讀
             * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示
+        * 動作流程
+            * ![pic][image_flow_widget_name]
     * `(2)料號`
         * 用途說明
         * 規格說明
@@ -91,6 +95,9 @@
 <!-- 圖片 -->
 [image_basic]:attachment/ReportObjectAnnotation_Basic.png
 [image_basic_block1]:attachment/ReportObjectAnnotation_Basic_block1.png
+[image_flow_open]:attachment/ReportWidgetAnnotationFlow_open.png
+[image_flow_widget_name]:attachment/ReportWidgetAnnotationFlow_widget_name.png
+
 
 
 <!-- 超連結 -->

@@ -15,30 +15,44 @@
         * 用途說明  
         * 規格說明
             * 執行時, 將本次駐留順序設定結果存回
+        * 動作流程
+            * ![pic][image_flow_save]
     * `(2)重載`
         * 用途說明  
         * 規格說明
             * 執行後, 將畫面恢復至上一次儲存的結果
+        * 動作流程
+            * ![pic][image_flow_reload]    
     * `(3)移至頂端`
         * 用途說明  
         * 規格說明
             * 執行後, 將目前鎖定的元件移至最頂端; 若有多個鎖定元件, 依鎖定元件順序排序後, 移至最頂端
+        * 動作流程
+            * ![pic][image_flow_move_top]
     * `(4)向上移動`
         * 用途說明  
         * 規格說明
             * 執行後, 將目前鎖定的元件向上移一個元件; 若有多個鎖定元件, 依鎖定元件順序排序後, 取得鎖定元件中最小順序向上移一個元件(若最小順序已是第一個元件則不再變動順序)
+        * 動作流程
+            * ![pic][image_flow_move_pre]
     * `(5)向下移動`
         * 用途說明  
         * 規格說明
             * 執行後, 將目前鎖定的元件向下移一個元件; 若有多個鎖定元件, 依鎖定元件順序排序後, 取得鎖定元件中最大順序向下移一個元件(若最大順序已是第後一個元件則不再變動順序)
+        * 動作流程
+            * ![pic][image_flow_move_next]
     * `(6)移至尾端`
         * 用途說明  
         * 規格說明
             * 執行後, 將目前鎖定的元件移至最底端; 若有多個鎖定元件, 依鎖定元件順序排序後, 移至最底端
+        * 動作流程
+            * ![pic][image_flow_move_tail]
     * `(7)解除鎖定`
         * 用途說明  
         * 規格說明
             * 執行後, 將所有已鎖定的元件，變動為未鎖定
+        * 動作流程
+            * ![pic][image_flow_unlock]
     * `(8)排序元件區塊`
         * 用途說明  
         * 規格說明
@@ -69,3 +83,11 @@
 [image_ReportObjectNoPrintSortingList_block1]:attachment/ReportObjectNoPrintSortingList_block1.png
 [image_ReportObjectNoPrintSortingList_MoveIn]:attachment/ReportObjectNoPrintSortingList_MouseIn.png
 [image_ReportObjectNoPrintSortingList_Click]:attachment/ReportObjectNoPrintSortingList_Locking.png
+
+[image_flow_move_next]:attachment/ReportObjectNoPrintSortingListFlow_move_next.png
+[image_flow_move_pre]:attachment/ReportObjectNoPrintSortingListFlow_move_prev.png
+[image_flow_move_tail]:attachment/ReportObjectNoPrintSortingListFlow_move_tail.png
+[image_flow_move_top]:attachment/ReportObjectNoPrintSortingListFlow_move_top.png
+[image_flow_reload]:attachment/ReportObjectNoPrintSortingListFlow_reload.png
+[image_flow_save]:attachment/ReportObjectNoPrintSortingListFlow_save.png
+[image_flow_unlock]:attachment/ReportObjectNoPrintSortingListFlow_unlock.png
