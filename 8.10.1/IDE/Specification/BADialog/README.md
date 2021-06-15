@@ -129,16 +129,23 @@
     * `(2)參數名`
         * 用途說明
         * 規格說明
-            * 參照 [挑選表單參數通則][link_ruledialog9], 從[開單內容][link_fieldbreak2]的`表單名稱`中, 進行表單參數挑選, 回傳:表單參數、型態
-    * `(3)資料型態`
+            * 參照 [挑選表單參數通則][link_ruledialog9], 從[開單內容][link_fieldbreak2]的`表單名稱`中, 進行表單參數挑選, 回傳: 表單參數名、參數型態
+    * `(3)載入`
+        * 用途說明
+        * 規格說明
+            * 從[開單內容][link_fieldbreak2]的`表單名稱`中, 載入該表單所有參數清單, 回傳: 表單參數名、參數型態
+                * 當參數名不存在表格內: 新增資料列
+                * 當參數名已存在表格內: 保留資料列
+                * `(1)傳遞參數表格`內存在無效的參數名: 刪除資料列     
+    * `(4)資料型態`
         * 用途說明
         * 規格說明
             * 依`(2)參數名`取得對應的型態顯示
-    * `(4)給值類別`
+    * `(6)給值類別`
         * 用途說明
         * 規格說明
             * 下拉選項: 元件 / 固定值 / 參數 / 運算
-    * `(5)給值內容`
+    * `(7)給值內容`
         * 用途說明
         * 規格說明
             * 當`(4)給值類別`=表單元件: 參照 [挑選表單元件通則][link_ruledialog7], 從駐留表單中, 進行元件挑選, 回傳: 表單元件
@@ -164,6 +171,7 @@
 [image_badialog_APP]:attachment/BADialog_APP.png
 [image_badialog_block1]:attachment/BADialog_block1.png
 [image_badialog_block2]:attachment/BADialog_block2.png
+[image_badialog_block3]:attachment/BADialog_block3.png
 
 <!-- 超連結 -->
 [link_fieldbreak1]:#fieldbreak1 "基本"
@@ -180,6 +188,7 @@
 [link_ruledialog1]:{1}/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog6]:{1}/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_ruledialog7]:{1}/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
+[link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/操作運算式通則"
 [link_ruledialog9]:{1}/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
 [link_ruledialog11]:{1}/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
 

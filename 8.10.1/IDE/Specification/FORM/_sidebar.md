@@ -49,7 +49,7 @@
     * [元件行為選項]()
     * [元件加註複製]()
     * [新增隱藏元件]()
-    * [按鍵行為選項]()
+    * [按鍵行為選項](../../Specification/ButtonBehavior/README.md)
     * [按鍵加註複製](../../Specification/CopyButtonAnnotationForm/README.md)
     * [新增隱藏按鍵]()
 * [history]()
