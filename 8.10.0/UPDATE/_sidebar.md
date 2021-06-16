@@ -37,6 +37,7 @@
   * [history](ITEM_12/history.md)
 * [13.擴充MAE系統功能鍵](ITEM_13/README.md)
   * [IDE](ITEM_13/IDE/README.md)
+  * [MAE](ITEM_13/MAE/README.md)
   * [history](ITEM_13/history.md)
 * [20.嵌入元件Google地圖支援點擊事件並回傳GPS經緯度](ITEM_20/README.md)
   * [IDE](ITEM_20/IDE/README.md)
