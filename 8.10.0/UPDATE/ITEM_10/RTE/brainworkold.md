@@ -21,12 +21,19 @@
     * 首頁 : 改由站台管理表單.企業資料設定，可依據不同企業設定不同主畫面圖片，如下圖紅框所示:
 
         ![企業資料設定LOGO]
+    
+    * 系統工具列 : 開啟報表時，不依照系統工具表單.系統參數設定勾選隱藏系統工具列，強制顯示系統工具列
 
 * 異動作業流程
     * 登入舊版首頁_首頁處理流程
 
         ![登入舊版首頁]
 
+    * 開啟報表
+
+        ![開啟報表]
+
 [舊版首頁畫面]:attachment/brainworkold.png "舊版首頁畫面"
 [企業資料設定LOGO]:attachment/enterprisedata_updatelogo.png "企業資料設定LOGO"
 [登入舊版首頁]:attachment/loginhomepageold.png "登入舊版首頁"
+[開啟報表]:attachment/openreportold.png "開啟報表"
