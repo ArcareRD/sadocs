@@ -8,13 +8,12 @@
 ***
 
 ### <a id='v8_10_0'></a>8.10.0
-* Added Prenkt 2021-06-15: 擴充MAE系統功能鍵 ([Trac#8550])
-* Added Andy 2021-06-16: 擴充MAE系統功能鍵 ([Trac#8550])
+* Added Andy 2021-06-16: 擴充帳號申請依據Site可以開啟隱藏 ([Trac#8554])
 
  
 <!-- 圖片 -->
 
 
 <!-- 超連結 -->
-[Trac#8550]:http://trac.uneec.com/trac/neco/ticket/8550 "#8550"
+[Trac#8554]:http://trac.uneec.com/trac/neco/ticket/8554 "#8554"
 

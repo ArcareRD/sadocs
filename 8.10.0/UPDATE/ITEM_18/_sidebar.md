@@ -1,5 +1,4 @@
-# # 擴充MAE系統功能鍵
+# # 擴充帳號申請依據Site可以開啟隱藏
 * [上一頁](../README.md)
-* [IDE](IDE/README.md)
 * [MAE](MAE/README.md)
 * [history](history.md)
