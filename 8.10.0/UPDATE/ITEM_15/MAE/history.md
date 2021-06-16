@@ -6,4 +6,4 @@
 
 ***
 ### <a id='v8_10_0'></a>8.10.0
-* Added Andy 2021/6/16: MAE設定主要裝置UIUX修改 ([Trac#8549])
+* Added Andy 2021/6/16: MAE設定主要裝置UIUX修改 ([Trac#8530])

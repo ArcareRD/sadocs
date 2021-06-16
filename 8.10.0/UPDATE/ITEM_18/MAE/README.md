@@ -1,4 +1,4 @@
-#### <div id="notification">功能項目名稱</div>
+#### <div id="item name">功能項目名稱</div>
   * 擴充帳號申請依據Site可以開啟隱藏
 
 #### <div id="user">規劃人員</div>

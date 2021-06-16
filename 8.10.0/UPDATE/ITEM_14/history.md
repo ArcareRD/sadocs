@@ -8,11 +8,12 @@
 ***
 
 ### <a id='v8_10_0'></a>8.10.0
-* Added Andy 2021-06-16: MAE系統選單開啟位置調整
+* Added Andy 2021-06-16: MAE系統選單開啟位置調整 ([Trac#8530])
 
  
 <!-- 圖片 -->
 
 
 <!-- 超連結 -->
+[Trac#8530]:http://trac.uneec.com/trac/neco/ticket/8530 "#8530"
 
