@@ -45,8 +45,8 @@
 
 <!--超連結引用ps.畫面上看不到-->
 [SiteManage]:attachment/sitemanage.jpg
-[SiteManage_sa1]:attachment/SiteManage_sa1.jpg
-[SiteManage_sa2]:attachment/SiteManage_sa2.jpg
-[SiteManage_sa3]:attachment/SiteManage_sa3.jpg
-[SiteManage_sa4]:attachment/SiteManage_sa4.jpg
-[SiteManage_sa5]:attachment/SiteManage_sa5.jpg
+[SiteManage_sa1]:attachment/sitemanage_sa1.jpg
+[SiteManage_sa2]:attachment/sitemanage_sa2.jpg
+[SiteManage_sa3]:attachment/sitemanage_sa3.jpg
+[SiteManage_sa4]:attachment/sitemanage_sa4.jpg
+[SiteManage_sa5]:attachment/sitemanage_sa5.jpg
