@@ -1,4 +1,4 @@
-# 按鍵加註_推播通知
+# 按鍵行為選項
 * [上一頁](../README.md)
 * [版面相關](README#layout)
 * [動作說明](README#form-action)
