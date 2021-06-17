@@ -17,4 +17,4 @@
     * * [元件加註_嵌入物件/地圖][link_map]
 
 
-[link_map]:../../../IDE/Specification/OADisplayEmbed/Map.md "元件加註_嵌入物件/地圖"	
+[link_map]:../../../IDE/Specification/OADisplayEmbed/MAP.md "元件加註_嵌入物件/地圖"	
