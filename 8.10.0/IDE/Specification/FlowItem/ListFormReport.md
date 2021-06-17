@@ -37,11 +37,7 @@
     * `(5)新增`
         * 用途說明
         * 規格說明
-            * 套用[權限驗証通則][link_ruleother6]
-            * 依前單限定類型
-                * 前單限定表單, 新增表單, 檢控表單名稱不允重覆
-                    * 由 流程表單/MAE表單 開啟, 表單類型預設給app, 其餘預設傳統表單
-                * 前單限定報表, 新增報表, 檢控報表名稱不允重覆
+            * 開啟[新增表單/報表]
 
 <!-- 圖片 -->
 [image_ListFormReport]:attachment/ListFormReport.png
@@ -49,5 +45,4 @@
 
 <!-- 超連結 -->
 [link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗証通則"
 [link_rulebutton1]:../RulesButton/README#rulebutton1 "共用通則_按鍵/搜尋區塊操作通則"

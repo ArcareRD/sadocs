@@ -16,5 +16,7 @@
 * 因8.10.0已發行，請至完整文件查看本次異動規格:
     * * [元件加註_嵌入物件/地圖][link_map]
 
+* 其它
+    * [發行檢錯](UnitDetection.md)
 
 [link_map]:../../../IDE/Specification/OADisplayEmbed/MAP.md "元件加註_嵌入物件/地圖"	

@@ -20,6 +20,8 @@
     * [單據報表清單][link_ListFormReport]
     * [單據流程][link_FlowItem]
 
+* 其它
+    * [發行檢錯](UnitDetection.md)
 
 [link_FlowForm]:../../../IDE/Specification/Home/FlowForm.md "流程表單"	
 [link_ListFormReport]:../../../IDE/Specification/FlowItem/ListFormReport.md "單據報表清單"	
