@@ -51,5 +51,5 @@
 <!-- 圖片 -->
 [image_button_STD]:attachment/ButtonBehavior_STD.png
 [image_button_MAE]:attachment/ButtonBehavior_MAE.png
-[image_fieldbreak1_STD]:attachment/ButtonBehavior_MAE_block1.png
-[image_fieldbreak1_MAE]:attachment/ButtonBehavior_STD_block1.png
+[image_fieldbreak1_STD]:attachment/ButtonBehavior_STD_block1.png
+[image_fieldbreak1_MAE]:attachment/ButtonBehavior_MAE_block1.png
