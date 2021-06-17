@@ -156,7 +156,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                            <td colspan='3'>表單元件(無元件隱藏該節點) </td>
+                            <td colspan='3'>表單元件 </td>
                             <td>1 </td>
                             <td> </td>
                             <td> </td>
@@ -193,7 +193,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                            <td colspan='3'>隱藏表單元件(無元件隱藏該節點) </td>
+                            <td colspan='3'>隱藏表單元件 </td>
                             <td>1 </td>
                             <td> </td>
                             <td> </td>
@@ -230,7 +230,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                            <td colspan='3'>按鍵(無按鍵隱藏該節點) </td>
+                            <td colspan='3'>按鍵 </td>
                             <td>1 </td>
                             <td> </td>
                             <td> </td>
@@ -277,7 +277,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                            <td colspan='3'>隱藏按鍵(無按鍵隱藏該節點) </td>
+                            <td colspan='3'>隱藏按鍵 </td>
                             <td>1 </td>
                             <td> </td>
                             <td> </td>
@@ -330,6 +330,7 @@
             * 滑鼠移入右邊框, 可調整區塊寬度, 規則如下:
                 * 調整後最小寬度不得低於**280px**; 最大寬度不得高於**500px**
                 * 規格定義視窗的寬度, 在調整過程中同比例增加寬度
+            * <font style='color:red;text-decoration:line-through;'>當表單設計類型=APP，則隱藏按鍵類型:開啟、退出 </font>
         * 動作流程
             * ![pic][image_flow_annotation]
     * `(13)加註頁面區塊`
