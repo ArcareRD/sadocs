@@ -6,12 +6,18 @@
 
 ### <div id="trac">TRAC</div>
 * #8502
+* #8522
+* #8556
 
 ### <div id="brainworknew">舊版首頁 <path>(RTE首頁)</path></div>
 * 異動
 * 規格說明
     * #8502
         * 新版首頁的Logo改從<企業設定>取得，依據登入人員所屬企業顯示左上角LOGO
+    * #8522
+        * 開啟報表需不論是否設定隱藏系統工具列，皆強制顯示系統工具列
+    * #8556
+        * 登入系統後選單根節點有設定流程表單，則使用者登入系統後預設開啟該流程表單
 
 * 表單畫面
 
@@ -28,7 +34,11 @@
     * 登入舊版首頁_首頁處理流程
 
         ![登入舊版首頁]
+    
+   * 登入系統_首頁處理流程
 
+        ![登入系統]
+        
     * 開啟報表
 
         ![開啟報表]
@@ -36,4 +46,5 @@
 [舊版首頁畫面]:attachment/brainworkold.png "舊版首頁畫面"
 [企業資料設定LOGO]:attachment/enterprisedata_updatelogo.png "企業資料設定LOGO"
 [登入舊版首頁]:attachment/loginhomepageold.png "登入舊版首頁"
+[登入系統]:attachment/loginsystemold.png "登入系統"
 [開啟報表]:attachment/openreportold.png "開啟報表"
