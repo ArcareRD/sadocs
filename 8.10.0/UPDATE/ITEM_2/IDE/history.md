@@ -29,6 +29,8 @@
     |按鍵加註/推播通知/推播資訊/連結內容/超連結表單, 增加欄位用途說明                            | [超連結按鍵][link_linkbutton] |
     |規格書, 修正寫法 ; 增加連結內容                                                          | [規格書][link_specification] |
 
+* Changed Prenkt 2021/06/18: #8533 APP:推播功能_超連結變更文字  ([Trac#8533])
+    異動內容: 增加連結內容的顯示名稱 [異動內容][link_show_name]
 
 
 
@@ -48,3 +50,5 @@
 
 [link_case1]:DesignCaseDes.md#case1
 [Trac#8193]:http://trac.uneec.com/trac/neco/ticket/8193 "#8193"
+[Trac#8533]:http://trac.uneec.com/trac/neco/ticket/8533#comment:2 "#8533"
+[link_show_name]:BAMAENotice#link_show_name
