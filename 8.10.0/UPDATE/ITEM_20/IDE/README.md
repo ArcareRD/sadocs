@@ -22,6 +22,6 @@
 
 * 其它
     * [發行檢錯](UnitDetection.md)
-    * [規格書][Specification.md]
+    * [規格書](Specification.md)
 
 [link_map]:../../../IDE/Specification/OADisplayEmbed/MAP.md "元件加註_嵌入物件/地圖"	

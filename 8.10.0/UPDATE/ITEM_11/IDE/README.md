@@ -23,7 +23,7 @@
 
 * 其它
     * [發行檢錯](UnitDetection.md)
-    * [規格書][Specification.md]
+    * [規格書](Specification.md)
 
 [link_FlowForm]:../../../IDE/Specification/Home/FlowForm.md "流程表單"	
 [link_FlowItem]:../../../IDE/Specification/FlowItem/README.md "單據流程"
