@@ -6,3 +6,4 @@
 * [需求展開](README.md#requirement)
     * [按鍵加註行為選項](ButtonBehavior.md)
     * [按鍵加註_表單特效](BAFormEffect.md)
+    * [規格書](Specification.md)
