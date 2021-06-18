@@ -12,10 +12,13 @@
     * RTE首頁
         * [新版首頁](brainworknew.md)
         * [舊版首頁](brainworkold.md)
+        * [行動裝置版首頁](brainworkmobile.md)
     * 系統工具
         * [表單.系統參數設定](sysparam.md)
     * 表單元件
         * [多筆瀏覽](gridlite.md)
+        * [多筆表格](browse.md)
+        * [文字方塊](textedit.md)
     * 按鍵加註
         * [開啟它單](buttonannotation_openform.md)
     * 元件加註
