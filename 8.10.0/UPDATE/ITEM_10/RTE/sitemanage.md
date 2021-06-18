@@ -13,40 +13,40 @@
     * 移除選單.預設國別資料
     * 計算表單大小若超出視窗時顯示ScrollBar
         * 計算時機:
-            * 露頭表單或其子表單(本版僅<企業資料>支援)開啟時
+            * 露頭表單或其子表單開啟時
             * 視窗大小異動時
             * 左側選單顯示/隱藏時
 
 * 表單畫面
 
-    ![SiteManage]
+    ![sitemanage]
     
 * 作業流程
     * 左側選單開啟表單
 
-    ![SiteManage_sa1]
+    ![sitemanage_sa1]
 
-    * 露頭表單開啟子表單(本版僅<企業資料>支援)
+    * 露頭表單開啟子表單
 
-    ![SiteManage_sa2]
+    ![sitemanage_sa2]
 
     * 視窗大小異動
 
-    ![SiteManage_sa3]
+    ![sitemanage_sa3]
 
     * 左側選單顯示
 
-    ![SiteManage_sa4]
+    ![sitemanage_sa4]
 
     * 左側選單隱藏
 
-    ![SiteManage_sa5]
+    ![sitemanage_sa5]
 
 
 <!--超連結引用ps.畫面上看不到-->
-[SiteManage]:attachment/sitemanage.jpg
-[SiteManage_sa1]:attachment/sitemanage_sa1.jpg
-[SiteManage_sa2]:attachment/sitemanage_sa2.jpg
-[SiteManage_sa3]:attachment/sitemanage_sa3.jpg
-[SiteManage_sa4]:attachment/sitemanage_sa4.jpg
-[SiteManage_sa5]:attachment/sitemanage_sa5.jpg
+[sitemanage]:attachment/sitemanage.jpg
+[sitemanage_sa1]:attachment/sitemanage_sa1.jpg
+[sitemanage_sa2]:attachment/sitemanage_sa2.jpg
+[sitemanage_sa3]:attachment/sitemanage_sa3.jpg
+[sitemanage_sa4]:attachment/sitemanage_sa4.jpg
+[sitemanage_sa5]:attachment/sitemanage_sa5.jpg
