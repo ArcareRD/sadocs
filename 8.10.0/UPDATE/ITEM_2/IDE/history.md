@@ -30,7 +30,7 @@
     |規格書, 修正寫法 ; 增加連結內容                                                          | [規格書][link_specification] |
 
 * Changed Prenkt 2021/06/18: #8533 APP:推播功能_超連結變更文字  ([Trac#8533])
-    異動內容: 增加連結內容的顯示名稱 [異動內容][link_show_name]
+    * 異動內容: 增加連結內容的顯示名稱 [異動內容][link_show_name]
 
 
 
