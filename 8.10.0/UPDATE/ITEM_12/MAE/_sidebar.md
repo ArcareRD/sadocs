@@ -4,6 +4,10 @@
 * [版本記錄](README.md#version)
 * [TRAC](README.md#trac)
 * [需求展開](README.md#specification)
-  * 表單特效
+  * [表單特效](README.md#specification)
+    * [關閉表單](README.md#specification)
+    * [更新欄位](README.md#specification)
+    * [啟動按鍵](README.md#specification)
+    * [更新變數](README.md#specification)
 * [注意事項](Warning.md)
 * [history](history.md)

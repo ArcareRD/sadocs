@@ -1,4 +1,4 @@
-#### <div id="item name">功能項目名稱</div>
+#### <div id="item">功能項目名稱</div>
   * 系統功能鍵
 
 #### <div id="user">規劃人員</div>
@@ -14,5 +14,19 @@
 
 #### <div id="specification">規格說明</div>
   * 需求展開
-    * MAE支援系統功能鍵[開啟/退出]
+    * 開啟
+      * 執行時機
+        * 表單資料載入後到表單顯示前
+    * 退出
+      * 執行時機
+        * 表單結束之前
+
+#### <div id="workflow">作業流程</div>
+
+  * 系統功能鍵
+  
+  ![system function](./image/workflow_system_function.png)
+
+#### <div id="attachment">附件</div>
+  * [注意事項](Warning.md)
 
