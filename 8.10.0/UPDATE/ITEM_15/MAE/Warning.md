@@ -1,4 +1,4 @@
-#### <div id="notification">功能項目名稱</div>
+#### <div id="item">功能項目名稱</div>
   * 注意事項
 
 #### <div id="user">規劃人員</div>
