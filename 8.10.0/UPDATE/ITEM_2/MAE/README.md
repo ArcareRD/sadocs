@@ -42,6 +42,8 @@
       * 使用者可以查看所有使用者的推播歷史記錄
     * [推播訊息](notification_message.md)
       * 使用者可以查看查看詳細訊息並可以執行相對應連結
+    * [推播連結名稱](notification_link_name.md)
+      * 依設計者設定可顯示推播連結的名稱
     * [按鍵加註](notification_buttonlink.md)
       * 點擊按鍵後依加註來傳送通知
 

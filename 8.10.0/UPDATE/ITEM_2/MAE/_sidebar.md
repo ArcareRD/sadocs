@@ -13,6 +13,7 @@
     * [超連結](notification_hyperlink.md)
     * [推播記錄](notification_record.md)
     * [推播訊息](notification_message.md)
+    * [超連結文字](notification_link_name.md)
   * 按鍵加註
     * [推播通知](notification_attach.md)
 * [注意事項](Warning.md)
