@@ -66,7 +66,7 @@
                 * 函數, 顯示 平台語系下的多語內容
                 * 段落, 顯示 段落流水序號.來源欄位名稱 (例: 001.客戶代號)
             * 當`編輯方法`=引用函數, 可駐留項目, 並拖拉至`結果`中
-                * 拖拉規則請參閱 <a href="attachment/ExpressionRA.xlsx" donwnload>運算式拖曳規則</a>
+                * 拖拉規則請參閱 <a href="/8.10.1/UPDATE/ITEM_4/IDE/Expression/attachment/ExpressionRA.xlsx" donwnload>運算式拖曳規則</a>
         * 動作流程
             * ![pic][image_flow_drag]
             * ![pic][image_flow_reside]
@@ -177,7 +177,7 @@
     * `(1)結果`
         * 用途說明
         * 規格說明
-            * 拖曳及編輯方式的規則請參閱 <a href="attachment/ExpressionRA.xlsx" donwnload>運算式拖曳規則</a>          
+            * 拖曳及編輯方式的規則請參閱 <a href="/8.10.1/UPDATE/ITEM_4/IDE/Expression/attachment/ExpressionRA.xlsx" donwnload>運算式拖曳規則</a>
             * 駐留函數, 重新載入參數至`(3)參數清單`中
                 * 若該參數內放置的是函數, 則表示駐留函數            
             * 駐留參數, 重新載入依附函數的參數至`(3)參數清單`中
