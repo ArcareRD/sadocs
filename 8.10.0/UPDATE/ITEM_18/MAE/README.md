@@ -14,5 +14,28 @@
 
 #### <div id="specification">規格說明</div>
   * 需求展開
-    * 擴充帳號申請依據Site可以開啟隱藏
+    * 依Site 顯示/隱藏 申請帳號
+      * 執行時機
+        * 設定為主要Site時
+        * 切換Site時
+
+#### <div id="photo">畫面</div>
+
+  * 顯示 帳號申請
+    
+    ![Account Apply show](./image/apply_account_display.png)
+
+  * 隱藏 帳號申請
+
+    ![Account Apply hide](./image/apply_account.png)
+
+#### <div id="workflow">作業流程</div>
+
+  * 顯示/隱藏 帳號申請
+  
+  ![show/hide_account_apply](./image/workflow_account_apply.png)
+
+<!--#### <div id="attachment">附件</div>
+  * [注意事項](Warning.md) -->
+
 

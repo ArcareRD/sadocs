@@ -4,6 +4,6 @@
 * [版本記錄](README.md#version)
 * [TRAC](README.md#trac)
 * [需求展開](README.md#specification)
-  * 擴充帳號申請依據Site可以開啟隱藏
-* [注意事項](Warning.md)
+  * [依Site 顯示/隱藏 申請帳號](README.md#specification)
+<!--* [注意事項](Warning.md)-->
 * [history](history.md)
