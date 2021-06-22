@@ -1,4 +1,4 @@
-#### <div id="notification">功能項目名稱</div>
+#### <div id="item">功能項目名稱</div>
   * 注意事項
 
 #### <div id="user">規劃人員</div>
@@ -10,4 +10,7 @@
   |2021/06/16|v1|初始化|
 
 #### <div id="specification">規格說明</div>
-  
+  * 系統側拉
+    * 打樣
+      * 設定
+        * 伺服器設定對打樣無作用
