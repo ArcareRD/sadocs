@@ -4,6 +4,6 @@
 * [版本記錄](README.md#version)
 * [TRAC](README.md#trac)
 * [需求展開](README.md#specification)
-  * 撥號功能於編輯階段仍可撥號
-* [注意事項](Warning.md)
+  * [撥號功能](README.md#specification)
+<!--* [注意事項](Warning.md)-->
 * [history](history.md)
