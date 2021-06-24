@@ -9,4 +9,5 @@
     * [舊版首頁](brainworkold.md)
     * [行動裝置版首頁](brainworkmobile.md)
 * 系統工具
-    * 權限選單建置作業
+    * [權限選單建置作業](README.md#UTL_FLOWINFO)
+
