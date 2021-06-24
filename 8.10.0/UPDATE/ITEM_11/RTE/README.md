@@ -21,4 +21,4 @@
     * 流程表單：開窗挑選非APP的表單
     * 流程表單(APP)：開窗挑選APP的表單
 
-    * <ps>注意</ps> TBL.SYS_CORP欄位結構有異動。
+    * <ps>注意</ps> TBL.UTL_FLOWINFO 欄位結構有異動。
