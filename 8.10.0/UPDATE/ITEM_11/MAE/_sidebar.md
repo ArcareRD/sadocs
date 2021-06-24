@@ -5,7 +5,7 @@
 * [TRAC](README.md#trac)
 * [需求展開](README.md#specification)
   * [系統功能鍵](README.md#specification)
-    * [開啟](README.md#specification)
-    * [退出](README.md#specification)
-* [注意事項](Warning.md)
+    * [流程表單](README.md#specification)
+    * [功能清單](README.md#specification)
+<!-- * [注意事項](Warning.md) -->
 * [history](history.md)
