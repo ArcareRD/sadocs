@@ -31,7 +31,7 @@
 
   * 系統登入側拉
     
-    ![Drawer right side open](./image/drawer_style_before.png)
+    ![Drawer right side open](./image/drawer_right_side_system.png)
 
   * 功能清單畫面
     
