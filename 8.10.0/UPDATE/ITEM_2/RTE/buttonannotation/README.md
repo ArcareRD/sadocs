@@ -92,6 +92,9 @@
 * `超連結Google行事曆` : 點擊後開啟Google行事曆網頁
 * `超連結網址` : 點擊後開啟網頁網址
 
+### <div id="pushmessage_content_link-name">顯示名稱 <path>(按鍵加註\推播通知\推播內容)</path></div>
+提供給MAE顯示推播通知超連結的名稱
+
 ### <div id="pushmessage_content_link-body">連結內容 <path>(按鍵加註\推播通知\推播內容)</path></div>
 超連結內容資訊
 

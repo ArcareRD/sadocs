@@ -20,6 +20,7 @@
             * [類別](README.md#pushmessage_content_replace_type)
             * [來源欄位](README.md#pushmessage_content_replace_source)
         * [連結類別](README.md#pushmessage_content_link-type)
+        * [顯示名稱](README.md#pushmessage_content_link-name)
         * [連結內容](README.md#pushmessage_content_link-body)
             * [超連結表單](README.md#pushmessage_content_link-body_form)
                 * [表單名稱](README.md#pushmessage_content_link-body_form_name)

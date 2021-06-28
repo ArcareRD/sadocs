@@ -7,6 +7,7 @@
 ***
 ### <a id='v8_10_0'></a>8.10.0
 * Added 正傑 2020/11/4: RTE_因應MAE擴充推播通知功能相關修改 ([Trac#8192])
+* Added 正傑 2021/06/28: 推播功能_超連結變更文字 ([Trac#8533])
 
 * Changed 正傑 2020/11/12: 第一版需求確認後，提出規格異動
     |異動內容 | 對應文件 |
@@ -33,6 +34,10 @@
 * Added ella 2020/12/15:系統工具增加以下表單:
     * 推播通知作業設定
     * 推播通知設定
+* Changed 正傑 2021/06/28: #8533異動內容
+    [link_fieldbreak4] |
+    |按鍵加註/推播通知/推播內容/ 增加顯示名稱   
+
 
 <!-- 超連結 -->
 [link_fieldbreak1]: otherparameter.md "表單.其他參數"
@@ -41,3 +46,4 @@
 [link_fieldbreak4]: ./buttonannotation/README.md "按鍵加註_推播通知"
 
 [Trac#8192]:http://trac.uneec.com/trac/neco/ticket/8192 "#8192"
+[Trac#8533]:http://trac.uneec.com/trac/neco/ticket/8533 "#8533"
