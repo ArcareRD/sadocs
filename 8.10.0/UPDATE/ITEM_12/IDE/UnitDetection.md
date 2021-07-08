@@ -13,7 +13,7 @@
 
     * [按鍵加註-表單特效][link_BAFormEffect]
         * 當[處理內容][link_fieldbreak2]=更新欄位, 增加下列檢控
-            * 當表單設計類型=STD、RWD, 則[按鍵加註-基本設定][Link_Button_annotation]的`致能時機`, 只能為修改
+            * 當表單設計類型=STD、RWD, 則[按鍵加註-基本設定][Link_Button_annotation]的`致能時機`, 只能為新增、修改
             * 當表單設計類型=APP, 則[表單加註-基本設定][Link_Form_annotation]的`表單種類`, 只允為過濾條件查詢(條件多筆) 或 指定條件執行(單改)
 
 
