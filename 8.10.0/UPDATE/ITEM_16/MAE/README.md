@@ -19,6 +19,8 @@
         * 編輯階段時點擊撥號
           * 儲存現在編輯資料
           * 依現在編輯資料撥打電話
+      * 撥號規則
+        * 資料內有不符合 "0-9*+#" 的資料或無資料時會顯示 "電話號碼不符合規則，無法撥打電話。"
 
 #### <div id="photo">畫面</div>
 
@@ -29,6 +31,22 @@
   * 編輯含撥號功能
     
     ![Phone call edit](./image/phone_call_when_edit.png)
+
+  * ios 撥號畫面
+
+    ![Phone call edit](./image/phone_call_ios_preview.png)
+
+    ![Phone call edit](./image/phone_call_ios.png)
+
+  * android 撥號畫面
+  
+    ![Phone call edit](./image/phone_call_android_preview.jpg)
+
+    ![Phone call edit](./image/phone_call_android.jpg)
+
+  * 電話號碼不符合規則
+
+    ![Phone call edit](./image/phone_call_when_error.jpg)
 
 #### <div id="workflow">作業流程</div>
 
