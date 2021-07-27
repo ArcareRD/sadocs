@@ -65,3 +65,6 @@
 * [21.規格書擴充下載打樣圖檔](ITEM_21/README.md)
   * [IDE](ITEM_21/IDE/README.md)
   * [history](ITEM_21/history.md)
+* [22.報表輸出類型擴充](ITEM_22/README.md)
+  * [RTE](ITEM_22/RTE/README.md)
+  * [history](ITEM_22/history.md)
