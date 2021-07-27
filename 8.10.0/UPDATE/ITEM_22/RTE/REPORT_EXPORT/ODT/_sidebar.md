@@ -1,5 +1,5 @@
 # 報表輸出ODT
-* [上一頁](../README.md)
+* [上一頁](../../README.md)
 * [報表](README.md#report)
     * [報表版面](README.md#report_layout)
         * [寬度](README.md#report_layout_width)
