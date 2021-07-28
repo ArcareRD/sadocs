@@ -24,27 +24,27 @@
     ![行動裝置版首頁2]
 
     * 如上圖紅框內所示, 依序增加以下報表系統按鍵
-        * 輸出ODT
-        * 輸出ODS
-        * 輸出DOCX
+        * 輸出ODT : 可用滑鼠點擊執行
+        * 輸出ODS : 可用滑鼠點擊執行
+        * 輸出DOCX : 可用滑鼠點擊執行
     
 
 * 異動作業流程
 
-   * 執行系統按鍵.輸出ODT
+   * 滑鼠點擊系統按鍵.輸出ODT
 
-        ![輸出ODT]
+        ![滑鼠點擊輸出ODT]
 
-   * 執行系統按鍵.輸出ODS
+   * 滑鼠點擊系統按鍵.輸出ODS
 
-        ![輸出ODS]
+        ![滑鼠點擊輸出ODS]
    
-   * 執行系統按鍵.輸出DOCX
+   * 滑鼠點擊系統按鍵.輸出DOCX
 
-        ![輸出DOCX]
+        ![滑鼠點擊輸出DOCX]
 
 [行動裝置版首頁1]:attachment/brainworkmobile1.png "行動裝置版首頁1"
 [行動裝置版首頁2]:attachment/brainworkmobile2.png "行動裝置版首頁2"
-[輸出ODT]:attachment/report_export_odt.png "輸出ODT"
-[輸出ODS]:attachment/report_export_ods.png "輸出ODS"
-[輸出DOCX]:attachment/report_export_docx.png "輸出DOCX"
+[滑鼠點擊輸出ODT]:attachment/report_export_odt_click.png "滑鼠點擊輸出ODT"
+[滑鼠點擊輸出ODS]:attachment/report_export_ods_click.png "滑鼠點擊輸出ODS"
+[滑鼠點擊輸出DOCX]:attachment/report_export_docx_click.png "滑鼠點擊輸出DOCX"
