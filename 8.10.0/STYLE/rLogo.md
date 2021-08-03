@@ -1,7 +1,7 @@
-### <div id="rta">多行文字 <path>(報表元件)</path></div>
-* 類型代碼 : rTA
+### <div id="rlogo">企業標誌 <path>(報表元件)</path></div>
+* 類型代碼 : rLogo
 
-### <div id="rta_enable">致能Enable <path>(報表元件\多行文字)</path></div>
+### <div id="rlogo_enable">致能Enable <path>(報表元件\企業標誌)</path></div>
 致能樣式。
 
 * 狀態代碼 : Enable
@@ -50,7 +50,7 @@
 	* ~~`光棒`~~
 	* ~~`圖示設定`~~
 
-### <div id="rta_title">標題Title <path>(報表元件\多行文字)</path></div>
+### <div id="rlogo_title">標題Title <path>(報表元件\企業標誌)</path></div>
 標題樣式。
 
 * 狀態代碼 : Title

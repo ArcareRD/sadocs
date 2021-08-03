@@ -3,6 +3,7 @@
 ## 版面相關
 * 版面</br>
     ![pic][image_flowForm]
+    * [版面資訊通則][link_ruleother1]
 
 ## 動作說明
 * 以Dailog on Top 的方式開啟
@@ -40,6 +41,7 @@
     * `(7)確定`
         * 用途說明
         * 規格說明
+            * 參照[權限驗證通則][link_ruleother6]
             * 寫入資料, 並關閉表單
     * `(8)取消`
         * 用途說明
@@ -52,3 +54,5 @@
 
 <!-- 超連結 -->
 [link_ListFormReport]:../FlowItem/ListFormReport.md "單據報表清單"
+[link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗證通則"
