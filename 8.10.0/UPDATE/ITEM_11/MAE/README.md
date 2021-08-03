@@ -25,6 +25,14 @@
           * 點擊節點/點擊文字(無流程表單時)
         * 開啟流程表單
           * 點擊文字
+    * 打樣(只顯示設定為主要裝置和問題回報)
+      * 功能清單
+        * 設定為主要裝置
+        * 版本
+      * 表單
+        * 問題回報
+        * 設定為主要裝置
+        * 版本
 
 #### <div id="photo">畫面</div>
 
@@ -51,6 +59,15 @@
   * 功能清單節點關閉
   
   ![system function](./image/function_close.png)
+
+
+  * 打樣-功能清單
+  
+  ![system function](./image/prototyping_function.jpg)
+
+  * 打樣-表單
+  
+  ![system function](./image/prototyping_form.jpg)
 
 #### <div id="workflow">作業流程</div>
 
