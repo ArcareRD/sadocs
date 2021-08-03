@@ -12,6 +12,7 @@
 * Changed how 2021-06-15: 流程表單擴充MAE表單設定 ([Trac#8548])
 * Changed how 2021-06-15: 嵌入元件Google地圖支援點擊事件並回傳GPS經緯度 ([Trac#8551])
 * Changed how 2021-06-22: 規格書擴充下載打樣圖檔 ([Trac#6373])
+* Changed how 2021-06-22: 擴充推播連結顯示文字 ([Trac#8533])
  
 <!-- 圖片 -->
 
@@ -21,3 +22,4 @@
 [Trac#8548]:http://trac.uneec.com/trac/neco/ticket/8548 "#8548"
 [Trac#8551]:http://trac.uneec.com/trac/neco/ticket/8193 "#8551"
 [Trac#6373]:http://trac.uneec.com/trac/neco/ticket/8193 "#6373"
+[Trac#8533]:http://trac.uneec.com/trac/neco/ticket/8533 "#8533"
