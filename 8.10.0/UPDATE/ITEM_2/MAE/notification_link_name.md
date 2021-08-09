@@ -14,6 +14,8 @@
 
 #### <div id="specification">規格說明</div>
   * 推播功能_超連結變更文字
+    * [IDE設定](../IDE/BAMAENotice.md#fieldbreak3)
+      * [第15項 顯示名稱](../IDE/BAMAENotice.md#link_show_name)
 
 #### <div id="photo">畫面</div>
   * 示意圖
