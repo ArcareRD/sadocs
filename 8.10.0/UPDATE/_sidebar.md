@@ -68,3 +68,6 @@
 * [22.報表輸出類型擴充](ITEM_22/README.md)
   * [RTE](ITEM_22/RTE/README.md)
   * [history](ITEM_22/history.md)
+* [23.選項清單挑選選項後直接跳離欄位](ITEM_23/README.md)
+  * [RTE](ITEM_23/RTE/README.md)
+  * [history](ITEM_23/history.md)
