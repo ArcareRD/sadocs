@@ -71,3 +71,9 @@
 * [23.選項清單挑選選項後直接跳離欄位](ITEM_23/README.md)
   * [RTE](ITEM_23/RTE/README.md)
   * [history](ITEM_23/history.md)
+* [25.八月擴充](ITEM_25/README.md)
+  * [IDE](ITEM_25/IDE/README.md)
+  * [MAE](ITEM_25/MAE/README.md)
+  * [RTE](ITEM_25/RTE/README.md)  
+  * [history](ITEM_25/history.md)
+
