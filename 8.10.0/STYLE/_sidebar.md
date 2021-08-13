@@ -1,5 +1,5 @@
 # 單元樣式
-* [上一頁](../README.md)
+* [上一頁]({back})
 * IDE介面
 	* [樣式名稱](README.md#stylename)
 	* [元件類型](README.md#styletype)
@@ -402,6 +402,8 @@
 			* [(RWD)致能Enable](row.md#row_mobile_enable)
 		* [欄](col.md#col)
 			* [(RWD)致能Enable](col.md#col_mobile_enable)
+		* [區塊](block.md#block)
+			* [(RWD)致能Enable](block.md#block_mobile_enable)
 	* 報表元件
 		* [文字標題](rTP.md#rtp)
 			* [致能Enable](rTP.md#rtp_enable)
