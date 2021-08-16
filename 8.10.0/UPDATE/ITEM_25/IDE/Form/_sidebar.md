@@ -5,5 +5,6 @@
 * [欄位說明](README#object-desc)
 * [儲存檢控](README#save-action)
 * 元件屬性設定
+    * [通用規則](GeneralRules)
     * [wCtnr.元件容器](WidgetBaseProperty_wCtnr)
 * [history](history)
