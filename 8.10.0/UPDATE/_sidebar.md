@@ -66,6 +66,7 @@
   * [IDE](ITEM_21/IDE/README.md)
   * [history](ITEM_21/history.md)
 * [22.報表輸出類型擴充](ITEM_22/README.md)
+  * [IDE](ITEM_22/IDE/README.md)
   * [RTE](ITEM_22/RTE/README.md)
   * [history](ITEM_22/history.md)
 * [23.選項清單挑選選項後直接跳離欄位](ITEM_23/README.md)
