@@ -1,0 +1,110 @@
+## <div id="layout">版面相關</div>
+* 版面
+    * STD <br>
+        ![pic][image_wCtnr_STD]
+    * RWD <br>
+        ![pic][image_wCtnr_RWDAPP]
+    * APP <br>
+        * 同RWD
+
+## <div id="attributes-object-desc">屬性欄位說明</div>
+* ![pic][image_wCtnr_attributes]
+* `(1)元件類型`
+    * 用途說明
+    * 規格說明
+        * 依平台語系取得元件類型名稱顯示, 除能, 不可修改
+* `(2)元件名稱`
+    * 用途說明
+    * 規格說明
+        * 系統預設: 依平台語系+元件類型, 取得對應的標題名稱顯示, 可修改. Hint: 當使用的多語料號存在, 顯示多語料號
+        * 若欄位內容為空值, 跳離欄位後, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 元件名稱不允為空值】, 系統回復上次修改內容
+        * 若有修改元件名稱內容, 跳離本欄位後, 異動 標題內容 同 元件名稱內容, 否則 不異動
+* `(3)X軸座標`
+    * 用途說明
+    * 規格說明
+        * [座標異動通則][]
+* `(4)X軸座標`
+    * 用途說明
+    * 規格說明
+        * [座標異動通則][]
+* `(5)高度`
+    * 用途說明
+    * 規格說明
+        * 參照 [元件寬高異動通則][link_width_and_height]
+* `(6)寬度`
+    * 用途說明
+    * 規格說明
+        * 參照 [元件寬高異動通則][link_width_and_height]
+* `(7)滑動方向`
+    * 用途說明
+    * 規格說明
+        * 下拉選項: 上下滑動 / 左右滑動 
+        * 系統預設: 上下滑動
+* `(8)多欄顯示`
+    * 用途說明
+    * 規格說明
+        * 當設計類型=APP 或 RWD, 則本欄位隱藏, 否則 顯示
+        * checkbox, 系統預設: false
+* `(9)資料間距`
+    * 用途說明
+    * 規格說明
+        * 當設計類型=APP 或 RWD, 則本欄位隱藏, 否則 顯示
+        * 系統預設 10, 可修改, 只允輸入數值型態內容, 且不允為負數
+        * 若欄位內容為空值, 欄位跳離後, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 資料間距不允為空值值】, 系統回復上次修改內容
+* `(10)區塊模式`
+    * 用途說明
+        * 容器的每一筆記錄為一資料區塊
+    * 規格說明
+        * 當設計類型=STD 則本欄位隱藏, 否則 顯示
+        * 下拉選項: 磚塊式 / 單列式
+        * 系統預設: 單元列
+* `(11)磚塊寬度`
+    * 用途說明
+    * 規格說明
+        * 當設計類型=STD 則本欄位隱藏, 否則 顯示
+        * 當`(9)區塊模式`=磚塊式, 則 致能，否則 除能
+
+
+## <div id="style-object-desc">樣式欄位說明</div>
+* ![pic][image_wCtnr_style]
+* `(1)自訂樣式`
+    * 用途說明
+    * 規格說明
+        * 參照 [挑選自訂樣式通則][link_style_select], 限定: 元件類型=元件容器
+* `(2)區塊樣式`
+    * 用途說明
+    * 規格說明
+        * 參照 [挑選自訂樣式通則][link_style_select], 限定: 元件類型=區塊
+* `(3)變動高度`
+    * 用途說明
+        * 當為磚塊式，提供變動高度選擇，單列式的容器元件一定是變動高度
+    * 規格說明
+        * 當[屬性欄位說明][link_attributes_object_desc]的`(9)區塊模式`=磚塊式, 顯示本欄位, 並預設給值:未勾選, 否則 隱藏本欄位
+
+
+
+## <div id="right-click-function">右鍵功能</div>
+* `(1)功能敘述`
+    * 用途說明
+    * 規格說明
+        * 參照 [右鍵功能操作通則][]
+* `(2)規格定義`
+    * 用途說明
+    * 規格說明
+        * 參照 [右鍵功能操作通則][]
+* `(3)刪除`
+    * 用途說明
+    * 規格說明
+        * 參照 [右鍵功能操作通則][]
+
+
+<!-- 圖片 -->
+[image_wCtnr_STD]:attachment/WidgetBaseProperty_wCtnr_STD.png 
+[image_wCtnr_RWDAPP]:attachment/WidgetBaseProperty_wCtnr_RWD&APP.png
+[image_wCtnr_attributes]:attachment/WidgetBaseProperty_wCtnr_attributes.png
+[image_wCtnr_style]:attachment/WidgetBaseProperty_wCtnr_style.png
+
+<!-- 超連結 -->
+[link_attributes_object_desc]:#attributes-object-desc
+[link_style_select]:GeneralRules#style-select
+[link_width_and_height]:GeneralRules#width-and-height
