@@ -12,3 +12,5 @@
         * [輸出ODT](./REPORT_EXPORT/ODT/README.md)
         * [輸出ODS](./REPORT_EXPORT/ODS/README.md)
         * [輸出DOCX](./REPORT_EXPORT/DOCX/README.md)
+    * 按鍵加註
+        * [開啟報表](../../../RTE/IDE/FORM/BAReport/README.md#download)
