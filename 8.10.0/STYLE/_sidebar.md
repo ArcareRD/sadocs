@@ -269,6 +269,7 @@
 			* [駐留OnFocus<ps>(待確認)</ps>](wCtnr.md#wctnr_onfocus)
 			* [(RWD)致能Enable](wCtnr.md#wctnr_mobile_enable)
 			* [(RWD)駐留OnFocus](wCtnr.md#wctnr_mobile_onfocus)
+			* [(RWD)區塊Block](wCtnr.md#wctnr_mobile_block)
 		* [畫布](wCanvas.md#wcanvas)
 			* [標題Title](wCanvas.md#wcanvas_title)
 			* [致能Enable<ps>(待確認)</ps>](wCanvas.md#wcanvas_enable)
@@ -402,8 +403,6 @@
 			* [(RWD)致能Enable](row.md#row_mobile_enable)
 		* [欄](col.md#col)
 			* [(RWD)致能Enable](col.md#col_mobile_enable)
-		* [區塊](block.md#block)
-			* [(RWD)致能Enable](block.md#block_mobile_enable)
 	* 報表元件
 		* [文字標題](rTP.md#rtp)
 			* [致能Enable](rTP.md#rtp_enable)
