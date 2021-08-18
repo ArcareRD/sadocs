@@ -18,5 +18,3 @@
 		* [參數名](README.md#paramname)
 		* [給值類別](README.md#valuetype)
 		* [給值內容](README.md#value)
-* 案例
-    * 待補
