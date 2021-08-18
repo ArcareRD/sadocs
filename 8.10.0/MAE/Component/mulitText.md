@@ -39,15 +39,15 @@
       * 駐留(On Focus)
       * 標題(Title)
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [ ] [選項清單](../affix/component/optionList)
+    * - [x] [基本設定](../Addition/component/basicSettings)
+    * - [x] [預設給值](../Addition/component/defaultValue)
+    * - [x] [更新給值](../Addition/component/updateValue)
+    * - [x] [被動更新](../Addition/component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/component/editting)
+    * - [x] [顯示設定](../Addition/component/display)
+    * - [x] [檢控限制](../Addition/component/prosecutionResstrucson)
+    * - [ ] [嵌入物件](../Addition/component/embedded)
+    * - [ ] [選項清單](../Addition/component/optionList)
     </details>
   * __行為__
     * 受權限保護元件
@@ -109,9 +109,9 @@
           2. 檢查資料的正確性
              * 若條件不成立時，顯示[錯誤訊息](../general/rule)，並回復原值，駐留在該元件上
              1. 系統檢查
-               * [空白檢查](../affix/component/basicSettings)
+               * [空白檢查](../Addition/component/basicSettings)
              2. 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
+               * [檢控限制](../Addition/component/prosecutionRestrictions)
                * 錯誤訊息類型：(DKS_表單元件_檢控限制_異常類別)
                  * 錯誤：(DKS_表單元件_檢控限制_異常類別_錯誤)
                  * 警告：(DKS_表單元件_檢控限制_異常類別_警告)
@@ -119,8 +119,8 @@
           3. 調整輸入內容
                    1. 若換行符號為\n，改為\r\n
           4. 寫入對應欄位
-          5. [更新相關值](../affix/component/updateValue)
-          6. [它欄更新](../affix/component/passiveUpdate)
+          5. [更新相關值](../Addition/component/updateValue)
+          6. [它欄更新](../Addition/component/passiveUpdate)
           7. 存後：(DKS_表單元件_更新給值：ENG.存後)
           8. 重顯相關元件
           9. 跳至另一元件
