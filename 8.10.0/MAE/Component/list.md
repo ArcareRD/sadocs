@@ -39,15 +39,15 @@
       * 標題(Title)
       * 光棒：選取的元件
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [x] [選項清單](../affix/component/optionList) (必要項)
+    * - [x] [基本設定](../Addition/component/basicSettings)
+    * - [x] [預設給值](../Addition/component/defaultValue)
+    * - [x] [更新給值](../Addition/component/updateValue)
+    * - [x] [被動更新](../Addition/component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/component/editting)
+    * - [x] [顯示設定](../Addition/component/display)
+    * - [x] [檢控限制](../Addition/component/prosecutionResstrucson)
+    * - [ ] [嵌入物件](../Addition/component/embedded)
+    * - [x] [選項清單](../Addition/component/optionList) (必要項)
   * __行為__
     * 受權限保護元件 (Trac #7477)
       - [ ] 支援
@@ -121,14 +121,14 @@
           2. 檢查資料的正確性
              * 若條件不成立時，顯示[錯誤訊息](../general/rule)，並回復原值，駐留在該元件上
              1. 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
+               * [檢控限制](../Addition/component/prosecutionRestrictions)
                * 錯誤訊息類型：(DKS_表單元件_檢控限制_異常類別)
                  * 錯誤：(DKS_表單元件_檢控限制_異常類別_錯誤)
                  * 警告：(DKS_表單元件_檢控限制_異常類別_警告)
                  * 詢問：(DKS_表單元件_檢控限制_異常類別_操作者決定)
           3. 寫入對應欄位
-          4. [更新相關值](../affix/component/updateValue)
-          5. [它欄更新](../affix/component/passiveUpdate)
+          4. [更新相關值](../Addition/component/updateValue)
+          5. [它欄更新](../Addition/component/passiveUpdate)
           6. 存後：(DKS_表單元件_更新給值：ENG.存後)
           7. 重顯相關元件
           8. 跳至另一元件

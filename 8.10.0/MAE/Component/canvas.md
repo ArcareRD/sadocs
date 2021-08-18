@@ -35,15 +35,15 @@
       * 致能(Enable)
       * 標題(Title)
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [ ] [選項清單](../affix/component/optionList)
+    * - [x] [基本設定](../Addition/component/basicSettings)
+    * - [x] [預設給值](../Addition/component/defaultValue)
+    * - [x] [更新給值](../Addition/component/updateValue)
+    * - [x] [被動更新](../Addition/component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/component/editting)
+    * - [x] [顯示設定](../Addition/component/display)
+    * - [x] [檢控限制](../Addition/component/prosecutionResstrucson)
+    * - [ ] [嵌入物件](../Addition/component/embedded)
+    * - [ ] [選項清單](../Addition/component/optionList)
   * __行為__
     * 受權限保護元件：內容區會顯示(受保護元件)的字樣(Trac #7477)
       - [x] [支援](../general/rule)
@@ -104,15 +104,15 @@
              * 檢查值：byte[](若沒有畫的話，為null)
              * 若條件不成立時，顯示錯誤訊息，共回復原值，駐留在該元件上
              * 系統檢查
-               * [空白檢查](../affix/component/basicSettings)
+               * [空白檢查](../Addition/component/basicSettings)
              * 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
-               * [不可重複](../affix/component/basicSettings)
-               * [不可負值](../affix/component/basicSettings)
+               * [檢控限制](../Addition/component/prosecutionRestrictions)
+               * [不可重複](../Addition/component/basicSettings)
+               * [不可負值](../Addition/component/basicSettings)
           2. 寫入對應欄位
-          3. [更新相關值](../affix/component/updateValue)
-          4. [它欄更新](../affix/component/passiveUpdate)
-          5. [存後](../affix/component/updateValue)
+          3. [更新相關值](../Addition/component/updateValue)
+          4. [它欄更新](../Addition/component/passiveUpdate)
+          5. [存後](../Addition/component/updateValue)
           6. 重顯相關元件
           7.  跳至另一元件
     * 操作：
