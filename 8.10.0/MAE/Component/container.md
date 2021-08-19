@@ -38,12 +38,13 @@
         * `區塊`為固定寬度
         * 配合滑動方式有不同顯示效果
         * 滑動方向為上下時，`區塊`的寬度超過元件容器的寬度時，折往下一行並撐大元件容器的高度
+        * `區塊`的內容的高度超過`區塊`的高度時，截斷超過的部份
     * 資料間距：px
     * [樣式](../General/style)
       * 致能(Enable)
       * 光棒：`駐留筆`會套上光棒樣式
   * __加註__
-    * - [x] [基本設定](../Addition/component/basicSettings)
+    * - [ ] [基本設定](../Addition/component/basicSettings)
     * - [ ] [預設給值](../Addition/component/defaultValue)
     * - [x] [更新給值](../Addition/component/updateValue)
     * - [ ] [被動更新](../Addition/component/passiveUpdate)
