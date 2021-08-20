@@ -12,7 +12,7 @@
     * [受權限保護元件](README.md#protected)
     * [對應檔區](README.md#alias)
     * [對應欄位](README.md#field)
-    * [顯示巨集](README.md#show)
+    * [顯示設定](README.md#show)
     * [模版](README.md#picture)
     * [提示](README.md#hint)
     * [資料過濾](README.md#filter)
