@@ -97,8 +97,8 @@
 ### <div id="field">對應欄位 <path>(行為)</div>
 * 不支援
 
-### <div id="show">顯示巨集 <path>(行為)</div>
-* 支援變色
+### <div id="show">顯示設定 <path>(行為)</div>
+* 支援變色，但元件容器的變色指的是每一筆資料的區塊，且僅背景色有效。
 
 ### <div id="picture">模版 <path>(行為)</div>
 * 不支援
