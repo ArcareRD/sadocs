@@ -68,6 +68,10 @@
 
             ![磚塊式固定高度左右滑動]
 
+            * 備註1 : 當元件容器高度大於磚塊區高度許多時，由於元件容器設定為`固定高度`，因此會看到空白，如下模擬畫面所示:
+
+            ![磚塊式固定高度左右滑動1]
+
 ### <div id="action">行為</div>
 ### <div id="childtype">支援的子元件類型 <path>(行為)</div>
 * 支援的子元件類型如下
@@ -94,7 +98,7 @@
 * 不支援
 
 ### <div id="show">顯示巨集 <path>(行為)</div>
-* 不支援
+* 支援變色
 
 ### <div id="picture">模版 <path>(行為)</div>
 * 不支援
@@ -266,6 +270,7 @@
 [磚塊式變動高度左右滑動]:attachment/flexlayout2.png "磚塊式變動高度左右滑動"
 [磚塊式固定高度上下滑動]:attachment/flexlayout3.png "磚塊式固定高度上下滑動"
 [磚塊式固定高度左右滑動]:attachment/flexlayout4.png "磚塊式固定高度左右滑動"
+[磚塊式固定高度左右滑動1]:attachment/flexlayout14.png "磚塊式固定高度左右滑動1"
 [單列式變動高度上下滑動]:attachment/flexlayout5.png "單列式變動高度上下滑動"
 [單列式變動高度左右滑動]:attachment/flexlayout6.png "單列式變動高度左右滑動"
 [往下按鈕]:attachment/flexlayout7.png "往下按鈕"
