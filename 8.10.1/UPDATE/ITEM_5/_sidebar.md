@@ -1,4 +1,4 @@
-# 下拉選單規格擴充
+# 八月因應專案需求功能擴充
 * [上一頁](../README.md)
 * [IDE](IDE/README.md)
 * [RTE](RTE/README.md)
