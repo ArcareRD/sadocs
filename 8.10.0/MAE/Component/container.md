@@ -49,7 +49,7 @@
     * - [x] [更新給值](../Addition/component/updateValue)
     * - [ ] [被動更新](../Addition/component/passiveUpdate)
     * - [ ] [編輯能力](../Addition/component/editting)
-    * - [ ] [顯示設定](../Addition/component/display)
+    * - [x] [顯示設定](../Addition/component/display)
     * - [ ] [檢控限制](../Addition/component/prosecutionResstrucson)
     * - [ ] [嵌入物件](../Addition/component/embedded)
     * - [ ] [選項清單](../Addition/component/optionList)
@@ -103,7 +103,9 @@
       * 樣式
         * 未駐留時
         * 駐留時
-      * ~顯示樣式：(表單元件/顯示設定/顏色)~ 不支援
+      * 顯示樣式：(表單元件/顯示設定/顏色)
+        * 元件容器的顯示設定會套用至區塊，元件容器本身不設定。
+        * 僅支援`背景顏色`。
     * 預設載入筆數:
       * (表單版面/滑動方向)=上下滑動：
             先載入50筆。若後面還有時向下滑到最底時再往上滑動會再載入50筆，當前會保留100筆資料，超過部份不保留。
@@ -147,6 +149,43 @@
               更新<整個檔區>
         * 駐留筆存在時
               刷新駐留筆資料
+
+#### <div id="photo">畫面</div>
+  * 單列式(區塊寬度=元件容器寬度)
+    * 滑動方向＝`上下滑動`
+
+      ![vertical change 200](./image/vertical_change_w100_h200_i100.png)
+    * 滑動方向＝`左右滑動`
+
+      ![vertical change 200](./image/horizontal_fixed_w250_h100_i100.png)
+  * 磚塊式(區塊寬度=固定寬度(使用者設定)，區塊高度=固定高度(使用者設定))
+    * 高度設定=`變動高度`
+      * 滑動方向＝`上下滑動`
+        * 當磚塊區的寬度超過元件容器的寬度時，折往下一行並撐大元件容器的高度
+
+          ![vertical change 200](./image/vertical_change_w250_h200_i100.png)
+        * 當容器的寬度小於區塊寬度時，區塊超出容器的範圍會被遮住，且容器元件不能水平滑動
+        
+          ![vertical change 200](./image/vertical_change_w70_h200_i100.png)
+      * 滑動方向＝`左右滑動`
+        * 當磚塊區的寬度超過元件容器的寬度時，可以左右滑動。且磚塊區的高度為元件容器的高度
+        
+          ![vertical change 70](./image/horizontal_change_w250_h70_i100.png)
+    * 高度設定=`固定高度`
+      * 滑動方向＝`上下滑動`
+        * 當磚塊區的寬度超過元件容器的寬度時，折往下一行。且當元件容器高度不足時，可以上下滑動
+        
+          ![vertical change 200](./image/vertical_fixed_w250_h200_i100.png)
+        * 當容器的寬度小於區塊寬度時，區塊超出容器的範圍會被遮住，且容器元件不可以左右滑動
+        
+          ![vertical change 70](./image/vertical_fixed_w70_h250_i100.png)
+      * 滑動方向＝`左右滑動`
+        * 當磚塊區的寬度超過元件容器的寬度時，可以左右滑動。且當元件容器高度不足時，可以上下滑動
+        
+          ![vertical change 70](./image/horizontal_fixed_w200_h70_i100.png)
+        * 當元件容器的高度超過磚塊區的高度時，磚塊不會折行顯示
+        
+          ![vertical change 70](./image/horizontal_fixed_w250_h250_i100.png)
 
 #### <div id="workflow">作業流程</div>
 
