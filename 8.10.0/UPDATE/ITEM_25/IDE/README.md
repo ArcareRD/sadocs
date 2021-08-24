@@ -27,6 +27,7 @@
     * APP:  
         * (APP)多選致能     Apps_Enable_Multi
         * (APP)多選顯示致能 Apps_Enable_Multi
+        * (APP)選項清單     Apps_ItemList
 * 複製本次擴充的欄位
     * 規格複製
     * 跨專案複製
