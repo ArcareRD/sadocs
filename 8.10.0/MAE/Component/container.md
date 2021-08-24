@@ -43,6 +43,8 @@
     * [樣式](../General/style)
       * 致能(Enable)
       * 光棒：`駐留筆`會套上光棒樣式
+      * 資料間距
+        * 預設=10
   * __加註__
     * - [ ] [基本設定](../Addition/component/basicSettings)
     * - [ ] [預設給值](../Addition/component/defaultValue)
