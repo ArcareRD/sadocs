@@ -1,11 +1,10 @@
-# 八月因應專案需求功能擴充\IDE
+# 下拉選單規格擴充\IDE
 * [上一頁](../../README.md)
 * [規劃人員](README.md#user)
 * [規劃日期](README.md#updatedate)
 * [TRAC](README.md#trac)
 * [需求展開](README.md#requirement)
-    * [表單版面設計](Form/README)
-    * [元件行為選項](ObjectBehavior/README)
-    * [新增隱藏元件](AddHiddenObject/README)
-    * [元件加註_更新給值](OAUpdate/README)
+    * [元件加註_選項清單](OAList/README)
+    * [單元檢錯](UnitDetection)
+    * [規格書產出](Specification)
 * [history](history.md)
