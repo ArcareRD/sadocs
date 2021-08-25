@@ -19,7 +19,7 @@
     * [上傳檔案](ctrl_uploadEdit/README.md)
     * [顯示型文字方塊](ctrl_show/README.md)
     * [下拉選項_可輸入](ctrl_dropDownCombo/README.md)
-    * [下拉選項_可輸入_複選](ctrl_dropDownMutilCombo/README.md)
+    * [下拉選項_可輸入_複選](ctrl_dropDownMultiCombo/README.md)
     * [下拉選項_不可輸入](ctrl_dropListCombo/README.md)
     * [下拉選項_不可輸入_複選](ctrl_dropListMultiCombo/README.md)
     * [多行文字](ctrl_memo/README.md)

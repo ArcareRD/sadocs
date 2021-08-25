@@ -54,7 +54,10 @@
 * 支援，待補資料過濾文件
 
 ### <div id="edit">編輯模式 <path>(行為)</div>
-* 不允自行輸入
+* 可自行輸入，輸入後，會依據輸入內容自動篩選並跳出符合的選項，如下模擬畫面 :
+
+    ![編輯模式下拉選項輸入]
+
 * 元件勿駐 : 
     * 設定地點 : [元件加註/編輯能力/勿駐]()
     * 當勿駐時，不可駐留
@@ -143,7 +146,6 @@
 
 ### <div id="focus">元件駐留 <path>(行為)</div>
 * 自動出現下拉選項清單
-* 鍵盤游標停在輸入框上
 
 ### <div id="hotkey">鍵盤熱鍵 <path>(行為\元件駐留)</div>
 * Esc : 
@@ -160,6 +162,7 @@
     
 ### <div id="killfocus">元件跳離 <path>(行為)</div>
 * 檢查資料的正確性
+    * 清空輸入框
     * 若有設定[檢控限制]()，則執行檢控限制確認是正確
     * 通過檢控限制後，將已勾選的選項資料轉換為key1,key2,key3,key4,key5的格式並存到`對應欄位`
     * 若有設定`查詢轉換欄位`，再將已勾選的選項資料轉換為'key1','key2','key3','key4','key5'並存到`查詢轉換欄位`
@@ -171,15 +174,17 @@
 * 同滑鼠操作
 
 [元件畫面結構]:attachment/wDL_struct.png "元件畫面結構"
-[編輯模式下拉選項]:attachment/droplist_multi.png "編輯模式下拉選項"
-[編輯模式下拉選項勾選]:attachment/droplist_multi_selected.png "編輯模式下拉選項勾選"
-[編輯模式下拉選項勾選確認]:attachment/droplist_multi_selected_ok.png "編輯模式下拉選項勾選確認"
-[編輯狀態非駐留畫面]:attachment/droplist_multi2.png "編輯狀態非駐留畫面"
-[編輯狀態非駐留畫面有內容值]:attachment/droplist_multi2_selected.png "編輯狀態非駐留畫面有內容值"
-[編輯狀態非駐留畫面有內容值超過寬度]:attachment/droplist_multi2_selected_overflow.png "編輯狀態非駐留畫面有內容值超過寬度"
-[編輯狀態非駐留畫面有內容值單一選項超過寬度]:attachment/droplist_multi2_selected_overflow2.png "編輯狀態非駐留畫面有內容值單一選項超過寬度"
-[瀏覽狀態駐留]:attachment/droplist_multi_browse_focus.png "瀏覽狀態駐留"
-[瀏覽狀態非駐留]:attachment/droplist_multi_browse.png "瀏覽狀態非駐留"
-[瀏覽狀態非駐留畫面有內容值超過寬度]:attachment/droplist_multi_browse_overflow.png "瀏覽狀態非駐留畫面有內容值超過寬度"
-[瀏覽狀態非駐留畫面有內容值單一選項超過寬度]:attachment/droplist_multi_browse_overflow2.png "瀏覽狀態非駐留畫面有內容值單一選項超過寬度"
-[勿駐唯讀]:attachment/droplist_multi_readonly.png "勿駐唯讀"
+[下拉清單畫面結構]:attachment/wDL_list_struct.png "下拉清單畫面結構"
+[編輯模式下拉選項輸入]:attachment/dropdown_multi_input.png "編輯模式下拉選項輸入"
+[編輯模式下拉選項]:attachment/dropdown_multi.png "編輯模式下拉選項"
+[編輯模式下拉選項勾選]:attachment/dropdown_multi_selected.png "編輯模式下拉選項勾選"
+[編輯模式下拉選項勾選確認]:attachment/dropdown_multi_selected_ok.png "編輯模式下拉選項勾選確認"
+[編輯狀態非駐留畫面]:attachment/dropdown_multi2.png "編輯狀態非駐留畫面"
+[編輯狀態非駐留畫面有內容值]:attachment/dropdown_multi2_selected.png "編輯狀態非駐留畫面有內容值"
+[編輯狀態非駐留畫面有內容值超過寬度]:attachment/dropdown_multi2_selected_overflow.png "編輯狀態非駐留畫面有內容值超過寬度"
+[編輯狀態非駐留畫面有內容值單一選項超過寬度]:attachment/dropdown_multi2_selected_overflow2.png "編輯狀態非駐留畫面有內容值單一選項超過寬度"
+[瀏覽狀態駐留]:attachment/dropdown_multi_browse_focus.png "瀏覽狀態駐留"
+[瀏覽狀態非駐留]:attachment/dropdown_multi_browse.png "瀏覽狀態非駐留"
+[瀏覽狀態非駐留畫面有內容值超過寬度]:attachment/dropdown_multi_browse_overflow.png "瀏覽狀態非駐留畫面有內容值超過寬度"
+[瀏覽狀態非駐留畫面有內容值單一選項超過寬度]:attachment/dropdown_multi_browse_overflow2.png "瀏覽狀態非駐留畫面有內容值單一選項超過寬度"
+[勿駐唯讀]:attachment/dropdown_multi_readonly.png "勿駐唯讀"
