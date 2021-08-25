@@ -54,6 +54,7 @@
         * 光棒(lightBar)
           * 背景/邊框
           * 下拉選項=單選，下拉清單選取的項目
+            * 樣式設定的順序為 該狀態樣式內的光棒設定->Apps_Item_List的樣式設定->預設光棒設定
       * 下拉選單預設樣式
         * 標題樣式
           * 字型大小＝16，字型顏色=[0xFF000000]
@@ -259,30 +260,31 @@
           7. 重顯相關元件
           8. 跳至另一元件
           9. -->
+
 #### <div id="photo">畫面</div>
-    * 元件示意圖
-      * 下拉選項＝單選
+* 元件示意圖
+  * 下拉選項＝單選
 
-        ![image](./image/ios/componentDropListEditing.png)
+    ![image](./image/ios/componentDropListEditing.png)
 
-      * 下拉選項＝多選
+  * 下拉選項＝多選
       
-        ![image](./image/droplist_multi_selected.png)
+    ![image](./image/droplist_multi_selected.png)
 
-        * 選取-不可輸入
+    * 選取-不可輸入
       
-          ![image](./image/droplist_multi_selected_no_search.png)
+      ![image](./image/droplist_multi_selected_no_search.png)
         
-        * 選取-可輸入
+    * 選取-可輸入
       
-          ![image](./image/droplist_multi_selected_selecting.png)
+      ![image](./image/droplist_multi_selected_selecting.png)
 
-        * 選取-查找
+    * 選取-查找
         
-          ![image](./image/droplist_multi_selected_search.png)
+      ![image](./image/droplist_multi_selected_search.png)
 
-        * 超過寬度
+    * 超過寬度
         
-          ![image](./image/droplist_multi_selected_over_selected.png)
+      ![image](./image/droplist_multi_selected_over_selected.png)
 
-          ![image](./image/droplist_multi_selected_over_one_selected.png)
+      ![image](./image/droplist_multi_selected_over_one_selected.png)
