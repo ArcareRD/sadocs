@@ -170,6 +170,8 @@
 			* [(RWD)顯示Enable](wDL.md#wdl_mobile_displayenable)
 			* [(RWD)顯示駐留OnFocus](wDL.md#wdl_mobile_displayonfocus)
 			* [(RWD)顯示滑鼠移入MouseIn](wDL.md#wdl_mobile_displaymousein)
+			* [(RWD)多選致能Enable_Multi](wDL.md#wdl_mobile_enable_multi)
+			* [(RWD)多選顯示致能DisplayEnable_Multi](wDL.md#wdl_mobile_displayenable_multi)
 		* [多行文字](wTA.md#wta)
 			* [標題Title](wTA.md#wta_title)
 			* [致能Enable](wTA.md#wta_enable)
