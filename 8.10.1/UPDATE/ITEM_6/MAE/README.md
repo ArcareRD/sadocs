@@ -1,6 +1,6 @@
 
 #### <div id="item_name">功能項目名稱</div>
-  * 元件容器規格異動
+  * 更新給值支援元件容器
 
 ### <div id="user">規劃人員</div>
 * Andy
@@ -11,7 +11,7 @@
   |2021/08/25|v1|初始化|
 
 ### <div id="trac">TRAC</div>
-* [#8610](http://trac.uneec.com/trac/neco/ticket/8610)
+* [#8628](http://trac.uneec.com/trac/neco/ticket/8628)
 
 ### <div id="specification">規格說明</div>
   * 需求展開

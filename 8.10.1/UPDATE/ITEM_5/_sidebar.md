@@ -1,4 +1,4 @@
-# 八月因應專案需求功能擴充
+# 元件容器規格異動
 * [上一頁](../README.md)
 * [IDE](IDE/README.md)
 * [RTE](RTE/README.md)
