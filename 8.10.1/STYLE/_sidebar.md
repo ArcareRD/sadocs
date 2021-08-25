@@ -1,5 +1,5 @@
 # 單元樣式
-* [上一頁](../README.md)
+* [上一頁]({back})
 * IDE介面
 	* [樣式名稱](README.md#stylename)
 	* [元件類型](README.md#styletype)
@@ -170,6 +170,8 @@
 			* [(RWD)顯示Enable](wDL.md#wdl_mobile_displayenable)
 			* [(RWD)顯示駐留OnFocus](wDL.md#wdl_mobile_displayonfocus)
 			* [(RWD)顯示滑鼠移入MouseIn](wDL.md#wdl_mobile_displaymousein)
+			* [(RWD)多選致能Enable_Multi](wDL.md#wdl_mobile_enable_multi)
+			* [(RWD)多選顯示致能DisplayEnable_Multi](wDL.md#wdl_mobile_displayenable_multi)
 		* [多行文字](wTA.md#wta)
 			* [標題Title](wTA.md#wta_title)
 			* [致能Enable](wTA.md#wta_enable)
@@ -269,6 +271,7 @@
 			* [駐留OnFocus<ps>(待確認)</ps>](wCtnr.md#wctnr_onfocus)
 			* [(RWD)致能Enable](wCtnr.md#wctnr_mobile_enable)
 			* [(RWD)駐留OnFocus](wCtnr.md#wctnr_mobile_onfocus)
+			* [(RWD)區塊Block](wCtnr.md#wctnr_mobile_block)
 		* [畫布](wCanvas.md#wcanvas)
 			* [標題Title](wCanvas.md#wcanvas_title)
 			* [致能Enable<ps>(待確認)</ps>](wCanvas.md#wcanvas_enable)

@@ -16,7 +16,7 @@
         * 不可輸入下拉/可輸入下拉皆須支援
 * 因8.10.0已發行，請至完整文件查看本次異動規格
     * 表單元件
-        * [可輸入下拉元件(待補)](../../../RTE/SYSTEM/FORM/ctrl_dropDownCombo/README.md)
-        * [不可輸入下拉元件(待補)](../../../RTE/SYSTEM/FORM/ctrl_dropListCombo/README.md)
+        * [可輸入下拉元件_複選(待補)](../../../RTE/SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)
+        * [不可輸入下拉元件_複選(待補)](../../../RTE/SYSTEM/FORM/ctrl_dropListMultiCombo/README.md)
     * 元件加註
         * [選項清單(待補)](../../../RTE/IDE/FORM/OAList/README.md#btnup)

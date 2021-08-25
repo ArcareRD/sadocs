@@ -1,5 +1,5 @@
 # 更新給值
-* [上一頁](../README.md)
+* [上一頁]({back})
 * [IDE介面規格]()
 * 加註項目
     * [執行條件](README.md#logical)
