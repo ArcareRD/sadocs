@@ -16,3 +16,7 @@
   * [IDE](ITEM_5/IDE/README.md)
   * [RTE](ITEM_5/RTE/README.md)
   * [MAE](ITEM_5/MAE/README.md)
+* 6.更新給值支援元件容器
+  * [IDE](ITEM_6/IDE/README.md)
+  * [RTE](ITEM_6/RTE/README.md)
+  * [MAE](ITEM_6/MAE/README.md)
