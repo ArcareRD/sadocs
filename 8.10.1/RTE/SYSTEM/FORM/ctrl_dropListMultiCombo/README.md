@@ -138,7 +138,7 @@
         ![瀏覽狀態非駐留畫面有內容值單一選項超過寬度]
 
 ### <div id="light">連動燈號 <path>(行為)</div>
-* 支援，待補燈號文件
+* 支援
 
 ### <div id="hide">元件隱藏 <path>(行為)</div>
 * 隱藏方式分為以下兩種 :
@@ -153,29 +153,110 @@
 * 顯示駐留樣式
 * 編輯狀態下
     * 自動出現下拉選項清單
-    * 鍵盤游標停在輸入框上
+* 動作流程圖如下 :
+
+    ![元件駐留]
 
 ### <div id="hotkey">鍵盤熱鍵 <path>(行為\元件駐留)</div>
 * Esc : 
-    * 於編輯狀態下，關閉下拉清單。
-    * 於瀏覽狀態下，觸發表單熱鍵.Esc
+    * 編輯狀態下
+        * 有開啟下拉清單，關閉下拉清單，不接續後面的動作。
+    * 觸發表單熱鍵.Esc
+    * 動作流程圖如下 :
+
+        ![熱鍵Esc]
+
+* Enter :
+    * 編輯狀態下
+        * 有開啟下拉清單，關閉下拉清單，勾選駐留筆到元件，不接續後面的動作。
+    * 觸發表單熱鍵.Enter
+    * 動作流程圖如下 :
+
+        ![熱鍵Enter]
+
 * Tab :
-    * 於編輯狀態下，關閉下拉清單。
-    * 於瀏覽狀態下，觸發表單熱鍵.Tab
+    * 編輯狀態下
+       * 有開啟下拉清單，關閉下拉清單
+    * 觸發表單熱鍵.Tab
+    * 動作流程圖如下 :
+
+        ![熱鍵Tab]
+
 * Shift + Tab :
-    * 於編輯狀態下，關閉下拉清單。
-    * 於瀏覽狀態下，觸發表單熱鍵.Shift + Tab
+    * 編輯狀態下
+        * 有開啟下拉清單，關閉下拉清單
+    * 觸發表單熱鍵.Shift + Tab
+    * 動作流程圖如下 :
+
+        ![熱鍵ShiftTab]
 * F6 :
-    * 於編輯狀態下，開啟下拉清單 。若元件為唯讀或勿駐則該熱鍵失效(#8270)
+    * 編輯狀態下，開啟下拉清單 。若元件為唯讀或勿駐則該熱鍵失效(#8270)
+    * 動作流程圖如下 :
+
+        ![熱鍵F6]
+* ↑ :
+    * 編輯狀態下
+        * 若有開啟下拉清單 : 從目前駐留筆往上移動一筆，若已經到第一筆則無移動效果。
+        * 若沒有開啟下拉清單 : 開啟下拉清單並停在最後一筆。
+    * 瀏覽模式下，觸發表單熱鍵.↑
+    * 動作流程圖如下 :
+
+        ![熱鍵↑]
+
+* ↓ :
+    * 編輯狀態下
+        * 若有開啟下拉清單 : 從目前駐留筆往下移動一筆，若已經到最後一筆則無移動效果。
+        * 若沒有開啟下拉清單 : 開啟下拉清單並停在第一筆。
+    * 瀏覽模式下，觸發表單熱鍵.↓
+    * 動作流程圖如下 :
+
+        ![熱鍵↓]
+
+* ← :
+    * 觸發表單熱鍵.←
+    * 動作流程圖如下 :
+
+        ![熱鍵←]
+
+* → :
+    * 觸發表單熱鍵.→
+    * 動作流程圖如下 :
+
+        ![熱鍵→]
     
 ### <div id="killfocus">元件跳離 <path>(行為)</div>
 * 檢查資料的正確性
     * 若有設定[檢控限制]()，則執行檢控限制確認是正確
     * 通過檢控限制後，將已勾選的選項資料轉換為key1,key2,key3,key4,key5的格式並存到`對應欄位`
     * 若有設定`查詢轉換欄位`，再將已勾選的選項資料轉換為'key1','key2','key3','key4','key5'並存到`查詢轉換欄位`
+    * 觸發[更新給值]()的設定
+* 動作流程圖如下 :
+
+    ![元件跳離]
 
 ### <div id="mouse">滑鼠操作 <path>(行為)</div>
-* 左鍵點擊 : 駐留元件
+* 左鍵點擊元件 : 
+    * 檢查是否勿駐
+    * 執行元件駐留
+    * 動作流程圖如下 :
+
+        ![左鍵點擊]
+
+* 左鍵點擊下拉清單按鈕.確定 :
+    * 將此次新增或取消勾選的項目與已勾選項目同步
+    * 判斷同步後的勾選項目總長度是否超過對應`欄位長度`
+        * 若超過則彈出錯誤訊息 : 選項勾選長度超過欄位長度，無法異動選項
+    * 顯示已勾選項目
+    * 動作流程圖如下 :
+
+        ![左鍵點擊下拉清單按鈕.確定]
+
+* 左鍵點擊下拉清單按鈕.取消 :
+    * 關閉下拉視窗
+    * 放棄此次新增或取消勾選的項目
+    * 動作流程圖如下 :
+
+        ![左鍵點擊下拉清單按鈕.取消]
 
 ### <div id="mobile">行動裝置操作 <path>(行為)</div>
 * 同滑鼠操作
@@ -193,3 +274,17 @@
 [瀏覽狀態非駐留畫面有內容值超過寬度]:attachment/droplist_multi_browse_overflow.png "瀏覽狀態非駐留畫面有內容值超過寬度"
 [瀏覽狀態非駐留畫面有內容值單一選項超過寬度]:attachment/droplist_multi_browse_overflow2.png "瀏覽狀態非駐留畫面有內容值單一選項超過寬度"
 [勿駐唯讀]:attachment/droplist_multi_readonly.png "勿駐唯讀"
+[熱鍵Esc]:attachment/droplist_multi_esc.png "熱鍵Esc"
+[熱鍵Enter]:attachment/droplist_multi_enter.png "熱鍵Enter"
+[熱鍵Tab]:attachment/droplist_multi_tab.png "熱鍵Tab"
+[熱鍵ShiftTab]:attachment/droplist_multi_shift_tab.png "熱鍵ShiftTab"
+[熱鍵F6]:attachment/droplist_multi_F6.png "熱鍵F6"
+[熱鍵↑]:attachment/droplist_multi_↑.png "熱鍵↑"
+[熱鍵↓]:attachment/droplist_multi_↓.png "熱鍵↓"
+[熱鍵←]:attachment/droplist_multi_←.png "熱鍵←"
+[熱鍵→]:attachment/droplist_multi_→.png "熱鍵→"
+[左鍵點擊]:attachment/droplist_multi_click.png "左鍵點擊"
+[元件駐留]:attachment/droplist_multi_focus.png "元件駐留"
+[元件跳離]:attachment/droplist_multi_killfocus.png "元件跳離"
+[左鍵點擊下拉清單按鈕.確定]:attachment/droplist_multi_click_ok.png "左鍵點擊下拉清單按鈕.確定"
+[左鍵點擊下拉清單按鈕.取消]:attachment/droplist_multi_click_cancel.png "左鍵點擊下拉清單按鈕.取消"

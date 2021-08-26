@@ -30,6 +30,8 @@
 
 ### <div id="fixitem">固定選項 <path>(選項種類)</div>
 * 表示選項數量為固定，由設計者指定
+* 當`呈現方式`為`下拉式`且`選擇筆數`為`單選`時，會產生[不可輸入下拉元件](../../../SYSTEM/FORM/ctrl_dropListCombo/README.md)
+* 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時，會產生[不可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropListMultiCombo/README.md)
 
 ### <div id="fixitemcontent">選項內容 <path>(選項種類\固定選項)</div>
 * 每一個選項的內容，可挑選多語詞庫作為選項內容
@@ -56,7 +58,7 @@
     * 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時，會產生[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)
 
 ### <div id="valid">錯誤檢核與訊息 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
-* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)針對輸入的內容若未通過`檢控限制`的設定以及元件的預設檢查，則會跳出的訊息內容
+* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若找不到資料會跳出的錯誤訊息
 
 ### <div id="database">對應資料庫 <path>(選項種類\變動選項)</div>
 * 表示查詢表格的類型，共有以下類型:
