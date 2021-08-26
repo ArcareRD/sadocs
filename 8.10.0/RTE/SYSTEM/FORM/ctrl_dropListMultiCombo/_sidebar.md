@@ -20,4 +20,3 @@
     * [元件駐留](README.md#focus)
     * [滑鼠操作](README.md#mouse)
     * [行動裝置操作](README.md#mobile)
-    * [紀錄移動](README.md#skip)
