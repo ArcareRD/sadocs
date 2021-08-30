@@ -7,4 +7,3 @@
     * [元件加註_選項清單](OAList/README)
     * [單元檢錯](UnitDetection)
     * [規格書產出](Specification)
-* [history](history.md)
