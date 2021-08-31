@@ -9,11 +9,14 @@
       008.010.000049 以上(含)
 
 * __下拉選項__
-  * __元件代碼__
+  * __<div id="code">元件代碼</div>__
+
     * wDL
-  * __相依性__
+  * __<div id="dependency">相依性</div>__
+
     * 獨立元件
-  * __版面相關__
+  * __<div id="layout">版面相關</div>__
+
     * 元件寬高
       * 高度(px)
         * 下拉選項＝單選
@@ -35,7 +38,8 @@
         不含`外邊距`的左邊距/右邊距：(單元樣式/外邊距/(左邊距/右邊距))
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * [樣式](../general/style)
-      * 致能(Apps_Enable)
+      * <div id="apps_enable">致能(Apps_Enable)</div>
+
         * 下拉選項=單選
           * 背景
             * 顏色
@@ -140,7 +144,8 @@
               * 上
               * 右
               * 下
-      * 多選致能(Apps_Enable_Multi)
+      * <div id="apps_enable_multi">多選致能(Apps_Enable_Multi)</div>
+
         * 下拉選項=多選，選取後的子元件樣式
         * 背景
           * 顏色
@@ -197,7 +202,8 @@
             * ~`上`~
             * ~`右`~
             * ~`下`~
-      * 顯示致能(Apps_DisplayEnable)
+      * <div id="apps_display_enable">顯示致能(Apps_DisplayEnable)</div>
+
         * 下拉選項=單選
           * 背景
             * 顏色
@@ -302,7 +308,8 @@
               * 上
               * 右
               * 下
-      * 多選顯示致能(Apps_DisplayEnable_Multi)
+      * <div id="apps_display_enable_multi">多選顯示致能(Apps_DisplayEnable_Multi)</div>
+
         * 下拉選項=多選，選取後的子元件樣式
         * 背景
           * 顏色
@@ -359,7 +366,8 @@
             * ~`上`~
             * ~`右`~
             * ~`下`~
-      * 標題(Apps_Title)
+      * <div id="apps_title">標題(Apps_Title)</div>
+
         * 下拉選項=單選/多選
           * 背景
             * 顏色
@@ -412,7 +420,8 @@
               * 上
               * 右
               * 下
-      * 選項清單(Apps_Item_List)
+      * <div id="apps_item_list">選項清單(Apps_Item_List)</div>
+
         * 下拉選項=單選
           * 背景
             * 顏色
@@ -548,7 +557,8 @@
               * ~`右`~
               * ~`下`~
           * `確定`/`消取`/`核取方塊`及`查找`的樣式不可設定
-      * 預設樣式
+      * <div id="default_style">預設樣式</div>
+
         * 標題樣式
           * 字型大小＝16，字型顏色=[0xFF000000]
         * 下拉選項=單選
@@ -610,7 +620,7 @@
             * 內邊距
               * 左＝右＝無，上＝下＝10
 
-  * __加註__
+  * __<div id="addition">加註</div>__
     * - [x] [基本設定](../Addition/component/basicSettings)
     * - [x] [預設給值](../Addition/component/defaultValue)
     * - [x] [更新給值](../Addition/component/updateValue)
@@ -620,7 +630,7 @@
     * - [x] [檢控限制](../Addition/component/prosecutionResstrucson)
     * - [ ] [嵌入物件](../Addition/component/embedded)
     * - [x] [選項清單](../Addition/component/optionList) (必要項)
-  * __行為__
+  * __<div id="behavior">行為</div>__
     * 受權限保護元件
       - [x] [支援](../general/rule)
       - [ ] 不支援
