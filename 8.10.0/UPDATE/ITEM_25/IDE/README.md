@@ -17,25 +17,24 @@
     * (修)駐留筆元件, 若為固定式下拉須為文字型態
 * 單元樣式、主題樣式: 元件類型=wDL.下拉選項, 增加多選狀態樣式, 如下:
     * RWD: 
-        * (RWD)多選致能   mobile_Enable_Multi
+        * (RWD)多選致能Enable_Multi【狀態代碼: mobile_Enable_Multi】
             * 主題樣式轉資料: 
                 * 框線: mobile_ItemList 光棒的框線
                 * 底色: mobile_ItemList 光棒的底色
                 * 內容: mobile_Enable 內容
-        * (RWD)多選顯示致能 mobile_DisplayEnable_Multi
+        * (RWD)多選顯示致能DisplayEnable_Multi【狀態代碼: mobile_DisplayEnable_Multi】
             * 主題樣式轉資料: 
                 * 框線: mobile_ItemList 光棒的框線
                 * 底色: mobile_ItemList 光棒的底色
                 * 內容: mobile_DisplayEnable 內容
     * APP:  
-        * (APP)多選致能     Apps_Enable_Multi
-        * (APP)多選顯示致能 Apps_Enable_Multi
-        * (APP)選項清單     Apps_ItemList
+        * (APP)多選致能Enable_Multi【狀態代碼: Apps_Enable_Multi】
+        * (APP)多選顯示致能DisplayEnable_Multi【狀態代碼: Apps_DisplayEnable_Multi】
+        * (APP)選項清單ItemList【狀態代碼: Apps_ItemList】
 * 複製本次擴充的欄位
     * 規格複製
     * 跨專案複製
 * 單元檢錯
 * 規格書產出
-    
 
 
