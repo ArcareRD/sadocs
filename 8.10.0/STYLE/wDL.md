@@ -836,7 +836,7 @@
 ### <div id="wdl_mobile_enable_multi">(RWD)多選致能Enable_Multi <path>(元件\下拉選項)</path></div>
 元件為複選時，已選取選項的樣式。
 
-* 狀態代碼 : Enable_Multi
+* 狀態代碼 : mobile_Enable_Multi
 * 支援項目
 	* `底色`
 		* `顏色`
