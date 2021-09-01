@@ -793,16 +793,12 @@
 * 元件示意圖
   * 下拉選項＝單選
 
-    ![image][componentDropListEditing]
+    ![editing][component_drop_list_editing]
 
   * 下拉選項＝多選
       
-    ![image][droplist_multi_selected]
+    ![multi_selected][droplist_multi_selected]
 
-    * 選取-不可輸入
-      
-      ![image][droplist_multi_selected_no_search]
-        
     * 選取-可輸入
       
       ![image][droplist_multi_selected_selecting]
@@ -818,7 +814,7 @@
       ![image][droplist_multi_selected_over_one_selected]
 
 <!-- 圖片 -->
-[componentDropListEditing]:image/ios/componentDropListEditing.png
+[component_drop_list_editing]:image/ios/component_drop_list_editing.png
 [droplist_multi_selected]:image/droplist_multi_selected.png
 [droplist_multi_selected_no_search]:image/droplist_multi_selected_no_search.png
 [droplist_multi_selected_selecting]:image/droplist_multi_selected_selecting.png
