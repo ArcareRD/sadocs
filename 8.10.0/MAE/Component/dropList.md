@@ -793,26 +793,35 @@
 * 元件示意圖
   * 下拉選項＝單選
 
-    ![image](image/ios/componentDropListEditing.png)
+    ![image][componentDropListEditing]
 
   * 下拉選項＝多選
       
-    ![image](image/droplist_multi_selected.png)
+    ![image][droplist_multi_selected]
 
     * 選取-不可輸入
       
-      ![image](image/droplist_multi_selected_no_search.png)
+      ![image][droplist_multi_selected_no_search]
         
     * 選取-可輸入
       
-      ![image](image/droplist_multi_selected_selecting.png)
+      ![image][droplist_multi_selected_selecting]
 
     * 選取-查找
         
-      ![image](image/droplist_multi_selected_search.png)
+      ![image][droplist_multi_selected_search]
 
     * 超過寬度
         
-      ![image](image/droplist_multi_selected_over_selected.png)
+      ![image][droplist_multi_selected_over_selected]
 
-      ![image](image/droplist_multi_selected_over_one_selected.png)
+      ![image][droplist_multi_selected_over_one_selected]
+
+<!-- 圖片 -->
+[componentDropListEditing]:image/ios/componentDropListEditing.png
+[droplist_multi_selected]:image/droplist_multi_selected.png
+[droplist_multi_selected_no_search]:image/droplist_multi_selected_no_search.png
+[droplist_multi_selected_selecting]:image/droplist_multi_selected_selecting.png
+[droplist_multi_selected_search]:image/droplist_multi_selected_search.png
+[droplist_multi_selected_over_selected]:image/droplist_multi_selected_over_selected.png
+[droplist_multi_selected_over_one_selected]:image/droplist_multi_selected_over_one_selected.png
