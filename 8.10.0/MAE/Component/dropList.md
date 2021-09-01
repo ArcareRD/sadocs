@@ -793,26 +793,26 @@
 * 元件示意圖
   * 下拉選項＝單選
 
-    ![image](./image/ios/componentDropListEditing.png)
+    ![image](image/ios/componentDropListEditing.png)
 
   * 下拉選項＝多選
       
-    ![image](./image/droplist_multi_selected.png)
+    ![image](image/droplist_multi_selected.png)
 
     * 選取-不可輸入
       
-      ![image](./image/droplist_multi_selected_no_search.png)
+      ![image](image/droplist_multi_selected_no_search.png)
         
     * 選取-可輸入
       
-      ![image](./image/droplist_multi_selected_selecting.png)
+      ![image](image/droplist_multi_selected_selecting.png)
 
     * 選取-查找
         
-      ![image](./image/droplist_multi_selected_search.png)
+      ![image](image/droplist_multi_selected_search.png)
 
     * 超過寬度
         
-      ![image](./image/droplist_multi_selected_over_selected.png)
+      ![image](image/droplist_multi_selected_over_selected.png)
 
-      ![image](./image/droplist_multi_selected_over_one_selected.png)
+      ![image](image/droplist_multi_selected_over_one_selected.png)
