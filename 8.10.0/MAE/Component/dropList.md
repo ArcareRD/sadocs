@@ -822,10 +822,10 @@
       ![image][droplist_multi_selected_over_one_selected]
 
 <!-- 圖片 -->
-[component_drop_list_editing]:Image/IOS/component_drop_list_editing.png
-[droplist_multi_selected]:Image/droplist_multi_selected.png
-[droplist_multi_selected_no_search]:Image/droplist_multi_selected_no_search.png
-[droplist_multi_selected_selecting]:Image/droplist_multi_selected_selecting.png
-[droplist_multi_selected_search]:Image/droplist_multi_selected_search.png
-[droplist_multi_selected_over_selected]:Image/droplist_multi_selected_over_selected.png
-[droplist_multi_selected_over_one_selected]:Image/droplist_multi_selected_over_one_selected.png
+[component_drop_list_editing]:./Image/IOS/component_drop_list_editing.png
+[droplist_multi_selected]:./Image/droplist_multi_selected.png
+[droplist_multi_selected_no_search]:./Image/droplist_multi_selected_no_search.png
+[droplist_multi_selected_selecting]:./Image/droplist_multi_selected_selecting.png
+[droplist_multi_selected_search]:./Image/droplist_multi_selected_search.png
+[droplist_multi_selected_over_selected]:./Image/droplist_multi_selected_over_selected.png
+[droplist_multi_selected_over_one_selected]:./Image/droplist_multi_selected_over_one_selected.png
