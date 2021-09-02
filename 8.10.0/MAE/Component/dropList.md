@@ -814,7 +814,7 @@
       ![image][droplist_multi_selected_over_one_selected]
 
 <!-- 圖片 -->
-[component_drop_list_editing]:image/ios/component_drop_list_editing.png
+[component_drop_list_editing]:./image/ios/component_drop_list_editing.png
 [droplist_multi_selected]:image/droplist_multi_selected.png
 [droplist_multi_selected_no_search]:image/droplist_multi_selected_no_search.png
 [droplist_multi_selected_selecting]:image/droplist_multi_selected_selecting.png
