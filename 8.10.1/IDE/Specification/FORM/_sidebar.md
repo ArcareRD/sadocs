@@ -44,7 +44,7 @@
     * [裝置支援](BAMobile)
     * [推播通知](../../Specification/BANotice/README.md)
 * 加註功能
-    * [規格定義]()
+    * [表單規格定義](../../Specification/SpecificationsView/README.md)
     * [新增資料來源]()
     * [元件行為選項]()
     * [元件加註複製]()
