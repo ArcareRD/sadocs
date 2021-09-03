@@ -16,7 +16,7 @@
 ### <div id="specification">規格說明</div>
   * 需求展開
     * 元件加註
-      * [更新給值](../../../MAE/Addition/Component/updateValue.md)
+      * [更新給值](../../../MAE/Addition/Component/OAUpdate/README.md)
         * 支援呼叫按鈕功能
           * 元件容器
             * 呼叫時機
