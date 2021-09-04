@@ -2,30 +2,23 @@
 * Prenkt
 
 ### <div id="updatedate">規劃日期</div>
-* 2021/08/11
+* 2021/09/6
 
 ### <div id="trac">TRAC</div>
-* #8610
+* #8628
 
 ### <div id="requirement">需求展開</div>
-* 表單版面設計: 表單設計型=RWD、APP, 擴充元件容器可設定的屬性
-    * +區塊模式: 下拉(磚塊式、單列式)
-    * +磚塊寬度: px, 當區塊模式=磚塊式, 致能
-    * +磚塊高度: px, 當區塊模式=磚塊式, 致能
-    * +變動高度: 當區塊模式=磚塊式, 預設值=false；否則, 預設值=true (取消元件容器一定是變動高度的規格) 
-    * +高度: 當變動高度=true時, 表示為最小高度
-    * -資料間距: 
-        * 轉資料為區塊樣式，依區塊樣式設定上、下、左、右內間距 (存在修改；不存在建立新單元樣式)
-        * 當專案存在RWD、APP的元件容器時，產生異動記錄
-* 單元樣式: 容器元件，增加狀態樣式: 
-    * RWD: mobile_Block  (RWD)區塊Block
-    * APP: Apps_Block    (Apps)區塊Block
 * 元件加註_更新給值: 
-    * 容器元件僅支援: 呼叫按鈕功能, 呼叫時機: 資料行移動、滑鼠雙擊
-    * 其他元件類型支援呼叫按鈕功能(參考RWD)
-* 連動修正:
-    * 表單精靈
-    * 規格複製
-    * 跨專案複製
+    * 設計類型=APP、RWD, 容器元件擴充支援: 呼叫按鈕功能, 呼叫時機: 資料行移動、滑鼠雙擊
+    * 擴充MAE各元件類型支援呼叫按鈕功能(參考RWD)
+* 文件位置
+    * [元件行為選項][link_ObjectBehavior]
+    * [新增隱藏元件][link_AddHiddenObject]
+    * [元件加註_更新給值][link_OAUpdate]  
+    * 單元檢錯
 
 
+<!-- 超連結 -->
+[link_ObjectBehavior]:{3}/IDE/Specification/ObjectBehavior/README
+[link_AddHiddenObject]:{3}/IDE/Specification/AddHiddenObject/README
+[link_OAUpdate]:{3}/IDE/Specification/OAUpdate/README
