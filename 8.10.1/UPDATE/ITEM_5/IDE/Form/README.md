@@ -8,18 +8,18 @@
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">樣式呈現</p>
 
     * 各元件類型在版面上的樣式呈現, 除非有特別說明或DKS已開放設定的部份, 其它皆以 Client 引擎目前的預設樣式為主(含除致能變化), 本文件不列引擎樣式說明, 若有引擎樣式規格問題, 請洽 Client 引擎負責人
-        * 元件類型: 元件容器(wCtnr), 增加顯示區塊的狀態樣式: 請洽 client 引擎負責人
-        * 元件類型: 元件容器(wCtnr), 當空白列或子元件總高度超過磚塊高度, 出現垂直捲軸
+        * 元件類型=wCtnr.元件容器, 增加顯示區塊的狀態樣式: 請洽 client 引擎負責人
+        * 元件類型=wCtnr.元件容器, 當空白列或子元件總高度超過磚塊高度, 出現垂直捲軸
 
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">版面物件操作說明</p>
 
     * 物件拖拉原則
-        * 若元件類型存在【<delLine>元件容器(wCtnr)</delLine>、頁籤區塊(wTab)、動態面板(wDpanel)、按鈕群組(wRBGroup)、多筆瀏覽(wGrdLite)】
+        * 若元件類型存在【<delLine>wCtnr.元件容器</delLine>、wTab.頁籤區塊、wDpanel.動態面板、wRBGroup.按鈕群組、wGrdLite.多筆瀏覽】
             * 若設計類型=自適應 或 APP, 系統預設初始高度:50px, 元件屬性:變動高度, 固定為 True, 元件高度應依子階元件的總高度變動
-        * 若元件類型存在【頁籤區塊(wTab)、動態面板(wDpanel)、按鈕群組(wRBGroup)、多筆瀏覽(wGrdLite)】或 元件類型=元件容器(wCtnr), 且區塊模式=單列式
+        * 若元件類型存在【wTab.頁籤區塊、wDpanel.動態面板、wRBGroup.按鈕群組、wGrdLite.多筆瀏覽】或 元件類型=wCtnr.元件容器, 且區塊模式=單列式
             * 若設計類型=自適應 或 APP, 系統預設初始高度:50px, 元件屬性: 變動高度，固定為 True, 元件高度應依子階元件的總高度變動
                     此處規格不變，省略
-        * 若元件類型=元件容器(wCtnr), 且區塊模式=磚塊式
+        * 若元件類型=wCtnr.元件容器, 且區塊模式=磚塊式
             * 新增列、插入列: 
                 * 固定給列高度: 50px
                 * 磚塊高度、磚塊寬度: 不變化
@@ -36,9 +36,6 @@
 
 
 
-
-
-## <div id="save-action">儲存檢控</div>
 
 
 

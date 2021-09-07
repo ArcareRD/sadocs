@@ -13,7 +13,6 @@
     * 擴充MAE各元件類型支援呼叫按鈕功能(參考RWD)
 * 文件位置
     * [元件行為選項][link_ObjectBehavior]
-    * [新增隱藏元件][link_AddHiddenObject]
     * [元件加註_更新給值][link_OAUpdate]  
     * 單元檢錯
 
