@@ -21,7 +21,7 @@
 * 能勾選多筆資料
 
 ### <div id="sqlfield">查詢轉換欄位 <path>(選擇筆數\多選)</div>
-* 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時可選擇，表示下拉複選元件將勾選選項資料從 key1,key2,key3 格式轉換為 'key1','key2','key3' 並寫入的欄位
+* 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時可選擇，表示下拉複選元件將勾選選項資料從 key1,key2,key3 格式轉換為 (N'key1',N'key2',N'key3') 並寫入的欄位
 
 ### <div id="itemtype">選項種類</div>
 * 表示選項清單的來源種類，一共有以下種類:
@@ -58,7 +58,7 @@
     * 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時，會產生[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)
 
 ### <div id="valid">錯誤檢核與訊息 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
-* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若找不到資料會跳出的錯誤訊息
+* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若元件已選項目已不存在資料中會跳出的錯誤訊息
 
 ### <div id="database">對應資料庫 <path>(選項種類\變動選項)</div>
 * 表示查詢表格的類型，共有以下類型:
