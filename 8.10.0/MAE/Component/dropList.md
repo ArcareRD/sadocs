@@ -33,12 +33,13 @@
           * 一定是變動高度
           * 高度表示最小高度
           * 元件會因`標題區`或`內容區`撐高
-          * [內容超出折行](../general/rule)
       * 寬度(%)
         不含`外邊距`的左邊距/右邊距：(單元樣式/外邊距/(左邊距/右邊距))
+        * 下拉選項＝多選
+          * [單個選項超過時會顯示省略，多個選項超過時會折行](#photo_over_width)
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * [樣式](../general/style)
-      * <div id="apps_enable">致能(Apps_Enable)</div>
+      * [<div id="apps_enable">致能(Apps_Enable)</div>](#photo_enabled)
 
         * 下拉選項=單選
           * 背景
@@ -145,7 +146,7 @@
               * 上
               * 右
               * 下
-      * <div id="apps_enable_multi">多選致能(Apps_Enable_Multi)</div>
+      * [<div id="apps_enable_multi">多選致能(Apps_Enable_Multi)</div>](#photo_multi_enabled)
 
         * 下拉選項=多選，選取後的子元件樣式
         * 背景
@@ -193,18 +194,18 @@
           * 下框線
             * 寬度
             * 顏色
-        * ~`邊界`~
-          * ~`內間距`~
-            * ~`左`~
-            * ~`上`~
-            * ~`右`~
-            * ~`下`~
-          * ~`外邊距`~
-            * ~`左`~
-            * ~`上`~
-            * ~`右`~
-            * ~`下`~
-      * <div id="apps_display_enable">顯示致能(Apps_DisplayEnable)</div>
+        * 邊界
+          * 內間距
+            * 左
+            * 上
+            * 右
+            * 下
+          * 外邊距
+            * 左
+            * 上
+            * 右
+            * 下
+      * [<div id="apps_display_enable">顯示致能(Apps_DisplayEnable)</div>](#photo_readonly)
 
         * 下拉選項=單選
           * 背景
@@ -312,7 +313,7 @@
               * 上
               * 右
               * 下
-      * <div id="apps_display_enable_multi">多選顯示致能(Apps_DisplayEnable_Multi)</div>
+      * [<div id="apps_display_enable_multi">多選顯示致能(Apps_DisplayEnable_Multi)</div>](#photo_multi_readonly)
 
         * 下拉選項=多選，選取後的子元件樣式
         * 背景
@@ -360,18 +361,18 @@
           * 下框線
             * 寬度
             * 顏色
-        * ~`邊界`~
-          * ~`內間距`~
-            * ~`左`~
-            * ~`上`~
-            * ~`右`~
-            * ~`下`~
-          * ~`外邊距`~
-            * ~`左`~
-            * ~`上`~
-            * ~`右`~
-            * ~`下`~
-      * <div id="apps_title">標題(Apps_Title)</div>
+        * 邊界
+          * 內間距
+            * 左
+            * 上
+            * 右
+            * 下
+          * 外邊距
+            * 左
+            * 上
+            * 右
+            * 下
+      * [<div id="apps_title">標題(Apps_Title)</div>](#photo_title)
 
         * 下拉選項=單選/多選
           * 背景
@@ -426,7 +427,7 @@
               * 上
               * 右
               * 下
-      * <div id="apps_item_list">選項清單(Apps_Item_List)</div>
+      * [<div id="apps_item_list">選項清單(Apps_Item_List)</div>](#photo_dropdown_list)
 
         * 下拉選項=單選
           * 背景
@@ -471,16 +472,8 @@
               * 寬度
               * 顏色
           * 邊界
-            * 內間距
-              * 左
-              * 上
-              * 右
-              * 下
-            * 外邊距
-              * 左
-              * 上
-              * 右
-              * 下
+            * ~`內間距`~
+            * ~`外邊距`~
           * 光棒(lightBar)
             * 樣式設定的順序為 該狀態樣式內的光棒設定->Apps_Item_List的樣式設定->預設光棒設定
               * 輪盤式的選取因為有放大1.2倍的效果，左右邊框在某種程度上是看不到效果
@@ -555,80 +548,123 @@
               * 顏色
           * ~`邊界`~
             * ~`內間距`~
-              * ~`左`~
-              * ~`上`~
-              * ~`右`~
-              * ~`下`~
             * ~`外邊距`~
-              * ~`左`~
-              * ~`上`~
-              * ~`右`~
-              * ~`下`~
           * `確定`/`消取`/`核取方塊`及`查找`的樣式不可設定
       * <div id="default_style">預設樣式</div>
 
         * 標題樣式
-          * 字型大小＝16，字型顏色=[0xFF000000]
+          * 字型
+            * 顏色=`[0xFF000000]` [<span style="color: #000000;">▇</span>]
+            * 大小＝16
         * 下拉選項=單選
           * 元件樣式
-            * 字型大小＝16，字型顏色=[0xFF000000]，位置＝靠左置中，背景顏色＝[0xFFFFFFFF]
+            * 字型
+              * 顏色=`[0xFF000000]` [<span style="color: #000000;">▇</span>]
+              * 大小＝16
+              * 位置＝靠左置中
+            * 背景
+              * 顏色＝`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
             * 邊框
-              * 顏色=[0xFFE0E0E0]
+              * 顏色=`[0xFFE0E0E0]` [<span style="color: #E0E0E0;">▇</span>]
               * 線條＝實線
               * 圓角=3
               * 寬度＝1
             * 內邊距
-              * 上=下＝2，左＝右＝5
+              * 上=下＝2
+              * 左＝右＝5
           * 選項清單樣式
             * 確定
-              * 字型顏色=[0xFF2196F3]，字型大小: 18
+              * 字型
+                * 顏色=`[0xFF2196F3]` [<span style="color: #2196F3;">▇</span>]
+                * 大小=18
             * 取消
-              * 字型顏色=[0xFFF44336]，字型大小: 18
+              * 字型
+                * 顏色=`[0xFFF44336]` [<span style="color: #F44336;">▇</span>]
+                * 大小=18
             * 背景
-              * 顏色=[0xFFFFFFFF]
+              * 顏色=`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
             * 邊框
-              * 顏色=無，線條＝無，圓角=10，寬度＝0
+              * 顏色=無
+              * 線條＝無
+              * 圓角=10
+              * 寬度＝0
             * 內邊距
               * 上＝下＝左＝右＝無
             * 選項文字
-              * 字型顏色=[0xFF000000]，字型大小: 18，位置＝置中
+              * 字型
+                * 顏色=`[0xFF000000]` [<span style="color: #000000;">▇</span>]
+                * 大小=18
+                * 位置＝置中
             * 光棒
               * 內邊距
-                * 左＝右＝10，上＝下＝無
+                * 左＝右＝10
+                * 上＝下＝無
         * 下拉選項=多選
           * 元件樣式
-            * 字型大小＝16，字型顏色=[0xFF000000]，位置＝靠左置中，字體=粗體，背景顏色＝[0xFFFFFFFF]
-            * 邊框 顏色=[0xFFE0E0E0]，線條＝無，圓角=3，寬度＝1
-            * 內邊距 上=2，下＝2，左＝5，右＝5
+            * 字型
+              * 顏色=`[0xFF000000]` [<span style="color: #000000;">▇</span>]
+              * 大小＝16
+              * 位置＝靠左置中
+              * 字體=粗體
+            * 背景
+              * 顏色＝`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
+            * 邊框
+              * 顏色=`[0xFFE0E0E0]` [<span style="color: #E0E0E0;">▇</span>]
+              * 線條＝無
+              * 圓角=3
+              * 寬度＝1
+            * 內邊距
+              * 上=2
+              * 下＝2
+              * 左＝5
+              * 右＝5
           * 已選取項目樣式
             * 背景
-              * 顏色=[0xFF90CAF9]
+              * 顏色=`[0xFF90CAF9]` [<span style="color: #90CAF9;">▇</span>]
             * 字型
-              * 顏色=[0xFF42A5F5]
-              * 字型大小: 18
+              * 顏色=`[0xFF42A5F5]` [<span style="color: #42A5F5;">▇</span>]
+              * 大小=18
             * 邊框
-              * 顏色=透明，線條＝無，圓角=30，寬度＝2
+              * 顏色=透明
+              * 線條＝無
+              * 圓角=30
+              * 寬度＝2
             * 內間距
-              * 上=下=5, 左=右=10
+              * 上=下=5
+              * 左=右=10
             * 外邊距
-              * 上=下=2, 左=右=3
+              * 上=下=2
+              * 左=右=3
             * 取消
-              * 顏色=[0xFF1E88E5]
+              * 顏色=`[0xFF1E88E5]` [<span style="color: #1E88E5;">▇</span>]
           * 選項清單樣式
             * 核取方塊
-              * 選取=[0xFFFFFFFF]，背景=[0xFF2196F3]，邊框＝[0xFFFFFFFF]
+              * 選取=`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
+              * 背景=`[0xFF2196F3]` [<span style="color: #2196F3;">▇</span>]
+              * 邊框＝`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
             * 確定
-              * 字型顏色=[0xFF2196F3]，字型大小: 18
+              * 字型
+                * 顏色=`[0xFF2196F3]` [<span style="color: #2196F3;">▇</span>]
+                * 大小=18
             * 取消
-              * 字型顏色=[0xFFF44336]，字型大小: 18
+              * 字型
+                * 顏色=`[0xFFF44336]` [<span style="color: #F44336;">▇</span>]
+                * 大小=18
             * 背景
-              * 顏色=[0xFFFFFFFF]
+              * 顏色=`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
             * 選項文字
-              * 字型顏色=[0xFF000000]，字型大小: 18，位置＝置中
+              * 字型
+                * 顏色=`[0xFF000000]` [<span style="color: #000000;">▇</span>]
+                * 大小=18
+                * 位置＝置中
             * 邊框
-              * 顏色=無，線條＝無，圓角=30，寬度＝0
+              * 顏色=無
+              * 線條＝無
+              * 圓角=30
+              * 寬度＝0
             * 內邊距
-              * 左＝右＝無，上＝下＝10
+              * 左＝右＝無
+              * 上＝下＝10
 
   * __<div id="addition">加註</div>__
     * - [x] [基本設定](../Addition/component/basicSettings)
@@ -685,7 +721,7 @@
         * 對應查找欄位單獨判斷`(下拉選項-多選)`
           * 長度計算為所有選擇的資料相加的長度
             * `需加上間隔逗號及前後單引號的長度`
-              * Ex.`"'key1','key2','key3'"=20`
+              * Ex.`"(N'key1',N'key2',N'key3')"=25`
       * 元件唯讀：(資料元件/編輯能力/可編欄位/唯讀)
         * 不允許點擊
         * `下拉選項＝多選`
@@ -801,33 +837,85 @@
 
 #### <div id="photo">畫面</div>
 * 元件示意圖
-  * 下拉選項＝單選
+  * <div id="photo_dropdown">下拉選項</div>
+    
+    * <div id="photo_title">標題</div>
+    
+    ![multi_selected][droplist_title]
 
-    ![editing][component_drop_list_editing]
+    * <div id="photo_enabled">致能</div>
 
-  * 下拉選項＝多選
+    ![multi_selected][droplist_selected]
+
+    * <div id="photo_readonly">顯示致能(唯讀)</div>
       
-    ![multi_selected][droplist_multi_selected]
-
-    * 選取-可輸入
+      * 下拉選項＝單選
       
-      ![image][droplist_multi_selected_selecting]
+        ![image][droplist_selected]
 
-    * 選取-查找
-        
-      ![image][droplist_multi_selected_search]
+      * 下拉選項＝多選
+      
+        ![image][droplist_multi_selected_readonly]
+  
+    * <div id="photo_multi_enabled">多選致能</div>
 
-    * 超過寬度
-        
       ![image][droplist_multi_selected_over_selected]
+    
+    * <div id="photo_multi_readonly">多選顯示致能(唯讀)</div>
 
-      ![image][droplist_multi_selected_over_one_selected]
+        ![image][droplist_multi_selected_readonly]
+    
+  * <div id="photo_dropdown_list">選項清單</div>
+  
+    * 下拉選項＝單選
+
+      ![editing][component_drop_list_editing]
+
+    * 下拉選項＝多選
+        
+        ![image][droplist_multi_selected_selecting]
+
+      * 選取-查找
+          
+        ![image][droplist_multi_selected_search]
+
+      * <div id="photo_over_width">超過寬度</div>
+          
+        ![image][droplist_multi_selected_over_selected]
+
+        ![image][droplist_multi_selected_over_one_selected]
+      
+      * 欄位資料未包含在選項清單中
+      
+        ![image][droplist_multi_selected_editable]
+      
+        ![image][droplist_multi_selected_not_in_list]
+
+      * 選取後的順序
+        * 第一次選取
+        
+          ![image][droplist_multi_selected_first_select]
+      
+        * 第二次選取
+        
+          ![image][droplist_multi_selected_second_select]
+
+    * 選項清單無資料時的提示訊息
+      
+      ![image][droplist_multi_selected_no_list]
+      
 
 <!-- 圖片 -->
+[droplist_selected]:./Image/droplist_selected.png
 [component_drop_list_editing]:./Image/IOS/component_drop_list_editing.png
-[droplist_multi_selected]:./Image/droplist_multi_selected.png
-[droplist_multi_selected_no_search]:./Image/droplist_multi_selected_no_search.png
-[droplist_multi_selected_selecting]:./Image/droplist_multi_selected_selecting.png
-[droplist_multi_selected_search]:./Image/droplist_multi_selected_search.png
+[droplist_multi_selected_selecting]:./Image/droplist_multi_selected_selecting.jpg
+[droplist_multi_selected_search]:./Image/droplist_multi_selected_search.jpg
 [droplist_multi_selected_over_selected]:./Image/droplist_multi_selected_over_selected.png
 [droplist_multi_selected_over_one_selected]:./Image/droplist_multi_selected_over_one_selected.png
+[droplist_multi_selected_editable]:./Image/droplist_multi_selected_editable.png
+[droplist_multi_selected_first_select]:./Image/droplist_multi_selected_first_select.png
+[droplist_multi_selected_second_select]:./Image/droplist_multi_selected_second_select.png
+[droplist_multi_selected_no_list]:./Image/droplist_multi_selected_no_list.jpg
+[droplist_multi_selected_not_in_list]:./Image/droplist_multi_selected_not_in_list.png
+[droplist_multi_selected_readonly]:./Image/droplist_multi_selected_readonly.png
+[droplist_title]:./Image/droplist_title.png
