@@ -12,11 +12,11 @@
   * [history](ITEM_3/history.md)
 * 4.運算式優化  (<font color="red">未施工</font>)
   * [IDE](ITEM_4/IDE/README.md)
-* 5.元件容器規格異動
+* [5.元件容器規格異動](ITEM_5/README.md)
   * [IDE](ITEM_5/IDE/README.md)
   * [RTE](ITEM_5/RTE/README.md)
   * [MAE](ITEM_5/MAE/README.md)
-* 6.更新給值支援元件容器
+* [6.更新給值支援元件容器](ITEM_6/README.md)
   * [IDE](ITEM_6/IDE/README.md)
   * [RTE](ITEM_6/RTE/README.md)
   * [MAE](ITEM_6/MAE/README.md)
