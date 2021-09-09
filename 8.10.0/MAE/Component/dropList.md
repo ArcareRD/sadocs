@@ -778,7 +778,7 @@
           * 可輸入並過濾可選項次`(可關閉)`
           * 會同步輸出至`對應查找欄位`
             * 資料會變成`"'key1', 'key2', 'key3', 'key4'"`
-          * 所選取的資料可直接點擊(X)來取消選取(`目前MAE點擊範圍為"圖示＋資料"，點擊範圍應為"圖示" 待改`)<!--FIXME-->
+          * 所選取的資料可直接點擊(X)來取消選取
           * 固定選項
             * 同單選
           * 變動選項
@@ -912,7 +912,16 @@
     * 選項清單無資料時的提示訊息
       
       ![image][droplist_multi_selected_no_list]
-      
+
+#### <div id="workflow">作業流程</div>
+
+* 下拉選項＝單選
+
+  ![image][workflow_droplist_single]
+
+* 下拉選項＝多選
+
+  ![image][workflow_droplist_multi]
 
 <!-- 圖片 -->
 [droplist_selected]:./Image/droplist_selected.png
@@ -928,3 +937,5 @@
 [droplist_multi_selected_not_in_list]:./Image/droplist_multi_selected_not_in_list.png
 [droplist_multi_selected_readonly]:./Image/droplist_multi_selected_readonly.png
 [droplist_title]:./Image/droplist_title.png
+[workflow_droplist_single]:./Image/workflow_droplist_single.png
+[workflow_droplist_multi]:./Image/workflow_droplist_multi.png
