@@ -672,8 +672,7 @@
               * 圓角=30
               * 寬度＝0
             * 內邊距
-              * 左＝右＝無
-              * 上＝下＝10
+              * 左＝右＝上＝下＝無
 
   * __<div id="addition">加註</div>__
     * - [x] [基本設定](../Addition/component/basicSettings)
