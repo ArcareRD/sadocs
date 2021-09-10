@@ -47,7 +47,7 @@
         * 用途說明
         * 規格說明
             * 當表單設計類型=APP 且 元件類型存在【wTF.文字方塊、wTA.多行文字、wRB.按鈕選項、wCB.核取方塊、wDL.下拉選項、wLB.清單選項、wCanvas.畫布、wHObj.隱藏元件、wCtnr.元件容器】, 則 顯示, 否則 隱藏
-            * 當表單設計類型=RWD 且 元件類型存在【wTF.文字方塊、text.文字方塊(多筆表格)、wTA.多行文字、textarea.多行文字(多筆表格)、wRB.按鈕選項、wCB.核取方塊、checkbox.核取方塊(多筆表格)、liteCheckbox.核取方塊(多筆瀏覽)、wDL.下拉選項、select.下拉選項(多筆表格)、wPW.彈出視窗、popupwindow.彈出視窗(多筆表格)、wLB.清單選項、wCanvas.畫布、wGrd.多筆表格、wGrdLite.多筆瀏覽、wTree.樹狀清單、wCtnr.元件容器、wHObj.隱藏元件】, 則 顯示, 否則 隱藏
+            * 當表單設計類型=RWD 且 元件類型存在【wTF.文字方塊、text.文字方塊(多筆表格)、wTA.多行文字、textarea.多行文字(多筆表格)、wRB.按鈕選項、wCB.核取方塊、checkbox.核取方塊(多筆表格)、liteCheckbox.核取方塊(多筆瀏覽)、wDL.下拉選項、select.下拉選項(多筆表格)、wPW.彈出視窗、popupwindow.彈出視窗(多筆表格)、wLB.清單選項、wCanvas.畫布、wGrd.多筆表格、wGrdLite.多筆瀏覽、wTree.樹狀清單、wCtnr.元件容器、wHObj.隱藏元件】, 則 致能, 否則 除能
             * 系統預設: 不勾選
     * `(2)按鈕功能名`
         * 用途說明

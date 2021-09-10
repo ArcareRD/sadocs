@@ -6,7 +6,7 @@
 
 * ## APP 支援版本
 
-      008.010.001049 以上(含)
+      008.010.001000 以上(含)
 
 * __元件容器__
   * __<div id="code">元件代碼</div>__
@@ -365,25 +365,25 @@
   * 類型＝磚塊式
     * 滑動方向＝上下滑動
     
-      ![image](./image/container_block_vertical.png)
+      ![image](./Image/container_block_vertical.png)
     
       * 元件寬度 > 區塊寬度
         
-        ![image](./image/container_block_vertical_under.png)
+        ![image](./Image/container_block_vertical_under.png)
 
       * 元件高度 < 區塊高度
         
-        ![image](./image/container_block_vertical_over.png)
+        ![image](./Image/container_block_vertical_over.png)
       
     * 滑動方向＝左右滑動
     
-      ![image](./image/container_block_horizontal.png)
+      ![image](./Image/container_block_horizontal.png)
     
       * 元件高度 = 固定高度
         * 元件高度 > 區塊高度
         
-          ![image](./image/container_block_horizontal_under.png)
+          ![image](./Image/container_block_horizontal_under.png)
 
         * 元件高度 < 區塊高度 => 可上下滑動
         
-          ![image](./image/container_block_horizontal_over.png)
+          ![image](./Image/container_block_horizontal_over.png)
