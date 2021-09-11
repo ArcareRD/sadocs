@@ -602,7 +602,6 @@
               * 位置
                 * 水平=靠左
                 * 垂直=置中
-              * 字體=粗體
             * 背景
               * 顏色＝`[0xFFFFFFFF]` [<span style="color: #FFFFFF;">▇</span>]
             * 邊框
