@@ -245,6 +245,7 @@
           * 背景顏色＝[0xFFFFFFFF]
           * 光棒
             * 背景顏色＝[0xFFFFFFFF]
+              * `無區塊樣式時`
             * 邊框 顏色=[0xFF3F51B5]，線條＝虛線，圓角=1，寬度＝2
         * 區塊樣式
           * 背景
@@ -371,7 +372,7 @@
         
         ![image](./Image/container_block_vertical_under.png)
 
-      * 元件高度 < 區塊高度
+      * 元件寬度 < 區塊寬度
         
         ![image](./Image/container_block_vertical_over.png)
       
@@ -387,3 +388,5 @@
         * 元件高度 < 區塊高度 => 可上下滑動
         
           ![image](./Image/container_block_horizontal_over.png)
+
+### <div id="workflow">作業流程</div>
