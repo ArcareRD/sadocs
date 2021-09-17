@@ -94,6 +94,7 @@
         * 參照 [元件寬高異動通則][link_width_and_height]
         * 當設計類型=APP 或 RWD, 且父階元件類型=wCtnr.元件容器, 且元件類型<>wRBGroup.按鈕群組, 且容器的區塊模式=磚塊式, 本欄除能. 系統預設: false
         * 當設計類型=App 或 RWD, 且元件類型=wCtnr.元件容器, 且容器的區塊模式=單列式, 本欄除能. 系統預設: true
+        * 當設計類型=App 或 RWD, 且元件類型=wCtnr.元件容器, 且容器的區塊模式=磚塊式, 且[屬性欄位說明][image_wCtnr_attributes]的 `磚塊高度`>`高度`, 顯示訊息盒【標題: 系統訊息 / 訊息內容: 磚塊高度不得大於容器高度】，系統回復上次修改內容
 
 
 ## <div id="right-click-function">右鍵功能</div>
