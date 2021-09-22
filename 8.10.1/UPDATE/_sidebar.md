@@ -20,3 +20,5 @@
   * [IDE](ITEM_6/IDE/README.md)
   * [RTE](ITEM_6/RTE/README.md)
   * [MAE](ITEM_6/MAE/README.md)
+* [7.行動裝置首頁套用原則規格異動](ITEM_7/README.md)
+  * [RTE](ITEM_7/RTE/README.md)
