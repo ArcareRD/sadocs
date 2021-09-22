@@ -11,3 +11,4 @@
   * [呼叫按鈕功能](README.md#btnup)
   * [變數更新](README.md#variableup)
   * [密碼更新](README.md#passwordup)
+  * [注意事項](Warning.md)
