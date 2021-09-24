@@ -1,8 +1,5 @@
 ﻿# 首頁(行動裝置)
 * [上一頁]({back})
-* [登入畫面](README.md#login)
-* [帳號申請](README.md#accountapply)
-* [忘記密碼](README.md#forgetpassword)
 * [首頁畫面](README.md#homepage)
 * [切換系統](README.md#changesystem)
 * [設定](README.md#systemsetting)
