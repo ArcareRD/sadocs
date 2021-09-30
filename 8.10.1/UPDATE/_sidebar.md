@@ -24,3 +24,5 @@
   * [RTE](ITEM_7/RTE/README.md)
 * [8.擴充系統函數](ITEM_8/README.md)
   * [RTE](ITEM_8/RTE/README.md)
+* [9.元件容器顯示資料規格異動](ITEM_9/README.md)
+  * [RTE](ITEM_9/RTE/README.md)
