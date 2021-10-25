@@ -28,3 +28,5 @@
   * [RTE](ITEM_9/RTE/README.md)
 * [10.RWD表單的「多行文字」元件，需支援「文件編輯模版」](ITEM_10/README.md)
   * [RTE](ITEM_10/RTE/README.md)
+* [11.排程規格異動](ITEM_11/README.md)
+  * [RTE](ITEM_11/RTE/README.md)
