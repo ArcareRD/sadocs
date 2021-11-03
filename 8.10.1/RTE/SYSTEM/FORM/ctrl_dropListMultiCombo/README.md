@@ -20,6 +20,7 @@
 * 樣式支援 : 
     * 元件樣式 
         * [下拉選項樣式](../../../../STYLE/wDL.md)
+        * 備註1 : 下拉選項的按鈕.取消以及按鈕.確定會依據主題樣式的功能按鈕進行套用
 
 ### <div id="action">行為</div>
 
@@ -264,6 +265,7 @@
 * 同滑鼠操作
 
 [元件畫面結構]:attachment/wDL_struct.png "元件畫面結構"
+[下拉清單畫面結構]:attachment/wDL_list_struct.png "下拉清單畫面結構"
 [編輯模式下拉選項]:attachment/droplist_multi.png "編輯模式下拉選項"
 [編輯模式下拉選項勾選]:attachment/droplist_multi_selected.png "編輯模式下拉選項勾選"
 [編輯模式下拉選項勾選確認]:attachment/droplist_multi_selected_ok.png "編輯模式下拉選項勾選確認"

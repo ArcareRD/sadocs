@@ -30,3 +30,5 @@
   * [RTE](ITEM_10/RTE/README.md)
 * [11.排程規格異動](ITEM_11/README.md)
   * [RTE](ITEM_11/RTE/README.md)
+* [12.多選下拉的取消與確認, 沒有顏色, 很難識別](ITEM_12/README.md)
+  * [RTE](ITEM_12/RTE/README.md)
