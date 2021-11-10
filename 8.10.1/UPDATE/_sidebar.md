@@ -32,3 +32,7 @@
   * [RTE](ITEM_11/RTE/README.md)
 * [12.多選下拉的取消與確認, 沒有顏色, 很難識別](ITEM_12/README.md)
   * [RTE](ITEM_12/RTE/README.md)
+* [13.RTE新版首頁的顯示資訊及選單樣式擴充](ITEM_13/README.md)
+  * [RTE](ITEM_13/RTE/README.md)
+* [14.RTE登入的頁面要可以選擇要不要出現檢查碼](ITEM_14/README.md)
+  * [RTE](ITEM_14/RTE/README.md)

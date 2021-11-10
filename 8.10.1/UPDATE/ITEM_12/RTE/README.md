@@ -15,5 +15,5 @@
 
 * 請至完整文件查看本次異動規格
     * 表單元件
-        * [可輸入下拉元件_複選](../../../RTE/SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)
-        * [不可輸入下拉元件_複選](../../../RTE/SYSTEM/FORM/ctrl_dropListMultiCombo/README.md)
+        * [可輸入下拉元件_複選](../../../RTE/SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)的RWD表單下的樣式支援
+        * [不可輸入下拉元件_複選](../../../RTE/SYSTEM/FORM/ctrl_dropListMultiCombo/README.md)的RWD表單下的樣式支援
