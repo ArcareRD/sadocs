@@ -41,10 +41,37 @@
 * 其餘待補
 
 ### <div id="action">作業流程</div>
-* 開啟登入畫面
+* 顯示登入畫面
 
     ![開啟畫面]
+
+* 欄位.帳號鍵盤輸入ENTER
+
+    ![欄位.帳號鍵盤輸入ENTER]
+
+* 欄位.密碼鍵盤輸入ENTER
+
+    ![欄位.密碼鍵盤輸入ENTER]
+
+* 欄位.驗證碼鍵盤輸入ENTER
+
+    ![欄位.驗證碼鍵盤輸入ENTER]
+
+* 點擊按鈕.登入
+
+    ![點擊按鈕.登入]
+
+* 登入驗證流程
+
+    ![登入驗證]
+
+* 其餘待補
 
 [登入畫面]:attachment/login.png "登入畫面"
 [登入畫面行動裝置]:attachment/loginmobile.png "登入畫面行動裝置"
 [開啟畫面]:attachment/login_open.png "開啟畫面"
+[欄位.帳號鍵盤輸入ENTER]:attachment/accountenter.png "欄位.帳號鍵盤輸入ENTER"
+[欄位.密碼鍵盤輸入ENTER]:attachment/passwordenter.png "欄位.密碼鍵盤輸入ENTER"
+[欄位.驗證碼鍵盤輸入ENTER]:attachment/captchaenter.png "欄位.驗證碼鍵盤輸入ENTER"
+[點擊按鈕.登入]:attachment/clicklogin.png "點擊按鈕.登入"
+[登入驗證]:attachment/loginverify.png "登入驗證"
