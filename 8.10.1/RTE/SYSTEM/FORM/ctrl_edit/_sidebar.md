@@ -1,5 +1,5 @@
 # 文字方塊
-* [上一頁](../README.md)
+* [上一頁]({back})
 * 版面相關
     * [STD表單](README.md#layout-std)
     * [RWD表單](README.md#layout-rwd)
@@ -13,14 +13,12 @@
     * [資料過濾](README.md#behavior-filter)
     * [資料搜尋](README.md#behavior-find)
     * [查詢視窗](README.md#behavior-query)
-    * [編輯模式]()
-    * [瀏覽模式]()
-    * [連動燈號]()
-    * [元件隱藏]()
-    * ~~元件除能~~
-    * 元件駐留 
-        * [元件駐留]()
-        * [元件跳離]()
-        * [PC鍵盤操作]()
-    * [PC滑鼠操作]()
-    * [行動裝置操作 `(限RWD表單)`]()
+    * [編輯模式](README.md#edit)
+    * [瀏覽模式](README.md#browse)
+    * [連動燈號](README.md#light)
+    * [元件隱藏](README.md#hide)
+    * [元件駐留](README.md#focus)
+        * [鍵盤熱鍵](README.md#hotkey)
+    * [元件跳離](README.md#blur)
+    * [滑鼠操作](README.md#mouse)
+    * [行動裝置操作 `(限RWD表單)`](README.md#mobile)

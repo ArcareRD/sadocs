@@ -18,6 +18,7 @@
     * [元件隱藏](README.md#hide)
     * [元件除能](README.md#disabled)
     * [元件駐留](README.md#focus)
+        * [鍵盤熱鍵](README.md#hotkey)
     * [元件跳離](README.md#blur)
     * [滑鼠操作](README.md#mouse)
     * [行動裝置操作](README.md#mobile)

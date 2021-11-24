@@ -36,3 +36,7 @@
   * [RTE](ITEM_13/RTE/README.md)
 * [14.RTE登入的頁面要可以選擇要不要出現檢查碼](ITEM_14/README.md)
   * [RTE](ITEM_14/RTE/README.md)
+* [15.文字編輯器開啟規格異動](ITEM_15/README.md)
+  * [RTE](ITEM_15/RTE/README.md)
+* [16.可輸入的變動下拉時，顯示的筆數,應可往下載入](ITEM_16/README.md)
+  * [RTE](ITEM_16/RTE/README.md)

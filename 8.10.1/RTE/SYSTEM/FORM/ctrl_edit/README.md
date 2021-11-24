@@ -217,6 +217,35 @@
                 * ESC : 關閉選擇器。
                 * F5 : 帶回。
 
+## <div id="edit">編輯模式 <path>(行為)</path></div>
+* 待補
+
+## <div id="browse">瀏覽模式 <path>(行為)</path></div>
+* 待補
+
+## <div id="light">連動燈號 <path>(行為)</path></div>
+* 待補
+
+## <div id="hide">元件隱藏 <path>(行為)</path></div>
+* 待補
+
+## <div id="focus">元件駐留 <path>(行為)</path></div>
+* 待補
+
+## <div id="hotkey">鍵盤熱鍵 <path>(行為\元件駐留)</path></div>
+* CTRL + M : 
+    * 編輯模式下，開啟編輯文字視窗，並呈現元件內容值
+    * 瀏覽模式下，開啟瀏覽文字視窗，並呈現元件內容值
+* 其餘待補
+    
+## <div id="blur">元件跳離 <path>(行為)</path></div>
+* 待補
+
+## <div id="mouse">滑鼠操作 <path>(行為)</path></div>
+* 待補
+
+## <div id="mobile">行動裝置操作 `(限RWD表單)` <path>(行為)</path></div>
+* 待補
 
 [STD_標題]:../common/README.md#std-ctrl-title "STD_標題"
 [RWD_元件高度不足]:../common/README.md#rwd-ctrl-height-notenough "RWD_元件高度不足"
