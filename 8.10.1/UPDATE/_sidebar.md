@@ -40,3 +40,7 @@
   * [RTE](ITEM_15/RTE/README.md)
 * [16.可輸入的變動下拉時，顯示的筆數,應可往下載入](ITEM_16/README.md)
   * [RTE](ITEM_16/RTE/README.md)
+* [17.下拉選項-單選，擴充可輸入關鍵字當過濾條件](ITEM_17/README.md)
+  * [MAE](ITEM_17/MAE/README.md)
+* [18.擴充固定下方導覽列，套用在所有表單](ITEM_18/README.md)
+  * [MAE](ITEM_18/MAE/README.md)
