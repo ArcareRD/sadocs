@@ -30,10 +30,24 @@
         不含 <外邊距>的左邊距/右邊距：(DKS_單元樣式_外邊距_左邊距/右邊距)
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * 元件示意圖
-      * Android
-          ![image](./image/android/componentDropListEditing.png)
-      * IOS
-          ![image](./image/ios/componentDropListEditing.png)
+      * 單選
+        * Android
+        
+          ![AndroidDropListSearchDisplay]
+        
+          ![AndroidDropListSearchEditing]
+        
+          ![AndroidDropListSearchFilter]
+        
+        * IOS
+
+          ![IosDropListSearchDisplay]
+
+          ![IosDropListSearchEditing]
+
+          ![IosDropListSearchFilter]
+      * 多選
+        * 待補
     * [樣式](../general/style)
       * 致能(Enable)
       * 顯示致能(Display Enable)
@@ -169,6 +183,7 @@
           7. 重顯相關元件
           8. 跳至另一元件
     * 操作：
+    
       * 編輯狀態下
         * 點擊
               開啟下拉清單
@@ -178,3 +193,16 @@
               異動下拉內容
         * 點擊取消按鈕
               關閉下拉清單
+        * <p id="search_filter">點擊輸入框</p>
+        
+              可依輸入字為關鍵字來過濾目前下拉選項的資料，過濾規則為"包含關鍵字"
+
+<!-- 圖示_介面 -->
+[AndroidDropListSearchDisplay]:image/android/componentDropListSearchDisplay.jpg "Android 下拉選項-單選"
+[AndroidDropListSearchEditing]:image/android/componentDropListSearchEditing.jpg "Android 下拉選項-單選 關鍵字輸入"
+[AndroidDropListSearchFilter]:image/android/componentDropListSearchFilter.jpg "Android 下拉選項-單選 關鍵字過濾"
+[IosDropListSearchDisplay]:image/IOS/componentDropListSearchDisplay.PNG "IOS 下拉選項-單選"
+[IosDropListSearchEditing]:image/IOS/componentDropListSearchEditing.PNG "IOS 下拉選項-單選 關鍵字輸入"
+[IosDropListSearchFilter]:image/IOS/componentDropListSearchFilter.PNG "IOS 下拉選項-單選 關鍵字過濾"
+
+<!-- 超連結 -->

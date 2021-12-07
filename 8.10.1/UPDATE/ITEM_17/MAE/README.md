@@ -15,14 +15,10 @@
 
 ### <div id="specification">規格說明</div>
   * 需求展開
-    * 元件加註
-      * [更新給值](../../../MAE/Addition/Component/OAUpdate/README.md)
-        * 支援呼叫按鈕功能
-          * 元件容器
-            * 呼叫時機
-              * 資料行移動
-              * 雙擊
-          * 一般元件
-            * 呼叫時機
-              * 資料異動
+    * [下拉選項-單選][droplist_single]
+      * [關鍵字過濾][keyword_filter]
 
+
+<!-- 連結 -->
+[droplist_single]:../../../MAE/Component/dropList.md "下拉選項-單選"
+[keyword_filter]:../../../MAE/Component/dropList.md#search_filter "關鍵字過濾"
