@@ -47,12 +47,26 @@
 
           ![IosDropListSearchFilter]
       * 多選
-        * 待補
+        * Android
+        
+          ![AndroidDropListMultiSearchDisplay]
+        
+          ![AndroidDropListMultiSearchEditing]
+        
+          ![AndroidDropListMultiSearchFilter]
+        
+        * IOS
+
+          ![IosDropListMultiSearchDisplay]
+
+          ![IosDropListMultiSearchEditing]
+
+          ![IosDropListMultiSearchFilter]
     * 工作流程
       * 單選
         ![workflow_droplist]
       * 多選
-        * 待補
+        ![workflow_droplist_multi]
     * [樣式](../general/style)
       * 致能(Enable)
       * 顯示致能(Display Enable)
@@ -200,7 +214,7 @@
               關閉下拉清單
         * <p id="search_filter">點擊輸入框</p>
         
-              可依輸入字為關鍵字來過濾目前下拉選項的資料，過濾規則為"包含關鍵字"
+              可依輸入字為關鍵字來過濾目前下拉選項(單選/多選)的資料，過濾規則為"包含關鍵字"
 
 <!-- 圖示_介面 -->
 [AndroidDropListSearchDisplay]:image/android/componentDropListSearchDisplay.jpg "Android 下拉選項-單選"
@@ -210,6 +224,14 @@
 [IosDropListSearchEditing]:image/IOS/componentDropListSearchEditing.PNG "IOS 下拉選項-單選 關鍵字輸入"
 [IosDropListSearchFilter]:image/IOS/componentDropListSearchFilter.PNG "IOS 下拉選項-單選 關鍵字過濾"
 
+[AndroidDropListMultiSearchDisplay]:image/android/componentDropListMultiSearchDisplay.jpg "Android 下拉選項-多選"
+[AndroidDropListMultiSearchEditing]:image/android/componentDropListMultiSearchEditing.jpg "Android 下拉選項-多選 關鍵字輸入"
+[AndroidDropListMultiSearchFilter]:image/android/componentDropListMultiSearchFilter.jpg "Android 下拉選項-多選 關鍵字過濾"
+[IosDropListMultiSearchDisplay]:image/IOS/componentDropListMultiSearchDisplay.PNG "IOS 下拉選項-多選"
+[IosDropListMultiSearchEditing]:image/IOS/componentDropListMultiSearchEditing.PNG "IOS 下拉選項-多選 關鍵字輸入"
+[IosDropListMultiSearchFilter]:image/IOS/componentDropListMultiSearchFilter.PNG "IOS 下拉選項-多選 關鍵字過濾"
+
 [workflow_droplist]: image/workflow_droplist.png "下拉選項-單選 工作流程"
+[workflow_droplist_multi]: image/workflow_droplist_multi.png "下拉選項-多選 工作流程"
 
 <!-- 超連結 -->
