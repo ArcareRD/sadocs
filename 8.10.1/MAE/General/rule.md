@@ -85,8 +85,7 @@
               <tr>
                   <td>04.int</td>
                   <td>-2^31 (-2,147,483,648) 到 2^31-1(2,147,483,647)</td>
-                  <td rowspan="6">1. 會四捨五入至指定的欄位小數位
-                      1. 檢查若值超出範圍時，會彈出BPS</td>
+                  <td rowspan="6">1. 會四捨五入至指定的欄位小數位<br>2. 檢查若值超出範圍時，會彈出BPS</td>
               </tr>
               <tr>
                   <td>05.smallint</td>
@@ -111,8 +110,7 @@
               <tr>
                   <td>18.bit</td>
                   <td></td>
-                  <td>當為字串1，寫入true，否則寫入false
-                  當為數字1，寫入true，否則寫入false</td>
+                  <td>當為字串1，寫入true，否則寫入false<br>當為數字1，寫入true，否則寫入false</td>
               </tr>
           </tbody>
       </table>
@@ -123,31 +121,41 @@
     * 資料隱藏：DKS_編輯能力_資料隱藏(條件式)
           1. 有設<對應欄位>才支援
           2. 不支援資料隱藏的元件類型：元件容器/嵌入物件/按鈕群組
+      * [文字標題](..\Component\label.md)
+      * [文字方塊](..\Component\text.md)
+      * [多行文字](..\Component\mulitText.md)
+      * [下拉選項](..\Component\dropList.md)
+      * [清單選項](..\Component\list.md)
+      * [按鈕選項](..\Component\radioButton.md)
+      * [核取方塊](..\Component\checkedBox.md)
+      * [圖片](..\Component\image.md)
+      * [畫布](..\Component\canvas.md)
     * 元件隱藏
           1. DKS_編輯能力_元件隱藏(條件式)/IDE_按鍵_執行限制(執行時機＝隱藏/顯示)
           2. 隱藏會不佔位子：後面的元件會往上移
+      * [文字標題](..\Component\label.md)
+      * [文字方塊](..\Component\text.md)
+      * [多行文字](..\Component\mulitText.md)
+      * [下拉選項](..\Component\dropList.md)
+      * [清單選項](..\Component\list.md)
+      * [按鈕群組](..\Component\radioGroup.md)
+      * [按鈕選項](..\Component\radioButton.md)
+      * [核取方塊](..\Component\checkedBox.md)
+      * [圖片](..\Component\image.md)
+      * [元件容器](..\Component\container.md)
+      * [畫布](..\Component\canvas.md)
+      * [嵌入物件](..\Component\embed.md)
+      * [功能按鈕](..\Component\button.md)
   * __元件駐留__
         1. 只有文字方塊(編輯狀態)和多行文字(編輯狀態)才有支援
         2. 當原駐留元件<>此元件時，原駐留原件執行<元件跳離>的動作
         3. 駐留元件套用< onFocus >的效果
         4. 原駐留元件套用非< onFocus >的效果
+      * [文字方塊](..\Component\text.md)
+      * [多行文字](..\Component\mulitText.md)
   * __操作__
     * 點擊
           當點擊<標題區>/<內容區>時，執行<元件駐留>，駐留至該元件上。
-  * __元件檢錯_錯誤訊息顯示__
-    * 錯誤訊息類型
-      * 錯誤/警告
-        * 顯示錯誤訊息位置：表單指定顯示錯誤訊息元件 > 元件本身(顯示在元件下方)
-          * 表單指定顯示錯誤訊息元件
-          * 元件本身(顯示在元件下方)
-            * 類型
-              * 錯誤：樣式為紅色粗體
-              * 警告：樣式為橘色粗體
-              * 清除的時機點
-                    1. 再次顯示錯誤訊息時
-                    2. 執行元件檢錯時
-      * 詢問
-            彈出詢問訊息盒
   * __錯誤訊息顯示__
     * 錯誤訊息類型
       * 錯誤/警告
