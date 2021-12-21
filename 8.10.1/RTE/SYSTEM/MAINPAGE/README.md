@@ -45,13 +45,24 @@
 
     * 開啟常用表單 : 滑鼠雙擊表單可進行開啟表單的動作
     * 設定常用表單 : 待補
-    * 移除常用表單 : 待補
+    * 移除常用表單 : 點擊按鈕.移除，點擊後跳出以下確認視窗畫面，確定後刪除。
+
+        ![移除常用表單]
+
 * 最近開啟 : 最近開啟的表單清單，依照開啟時間排序，最新排前面，僅可記錄10張
     * 畫面樣式
-        * 初始化樣式 : 待補
-        * 滑鼠移入時的樣式 : 待補
-    * 開啟最近開啟 : 待補
-    * 清除最近開啟 : 待補
+        * 初始化樣式
+
+            ![最近開啟初始化樣式]
+
+        * 滑鼠移入時的樣式
+
+            ![最近開啟滑鼠移入樣式]
+
+    * 開啟最近開啟 : 滑鼠雙擊最近開啟表單，表示開啟此表單並將常用表單畫面關閉
+    * 清除最近開啟 : 點擊按鈕.清除，出現清除紀錄的詢問視窗，點擊確認後清除所有最近開啟的紀錄，如下圖所示:
+        
+        ![清除最近開啟]
 
 ### <div id="mainmenu">系統主選單<path>(畫面說明)</path></div>
 * 為使用者在此系統能使用的表單選單
@@ -63,10 +74,30 @@
 * 待補
 
 ### <div id="search">搜尋表單<path>(畫面說明)</path></div>
-* 待補
+* 提供使用者搜尋系統主選單內的表單清單功能
+* 搜尋框中沒有任何內容時，顯示提示字串﹝搜尋表單﹞
+* 輸入文字後按ENTER或點擊放大鏡表示開始搜尋
+* 搜尋方式會以系統主選單中的所有表單進行表單名稱比對，比對成功者出現在搜尋結果中
+* 樣式狀態如下
+    * 未駐留時樣式
+
+        ![搜尋表單初始化樣式]
+
+    * 駐留時樣式
+
+        ![搜尋表單駐留樣式]
+    
+    * 搜尋結果樣式
+
+        ![搜尋結果樣式]
+
+* 搜尋結果說明待補
 
 ### <div id="hidemenu">隱藏左方選單<path>(畫面說明)</path></div>
-* 待補
+* 滑鼠點擊後，左方主選單隱藏並顯示如下圖
+    
+    ![隱藏左方主選單]
+
 
 ### <div id="changesystem">切換系統<path>(畫面說明)</path></div>
 * 待補
@@ -165,3 +196,11 @@
 [常用表單滑鼠拖曳樣式]:attachment/myfavorite_style_drag.png "常用表單滑鼠拖曳樣式"
 [個人資料]:attachment/personaldata.png "個人資料"
 [頁簽設定]:attachment/singleformtab.png "頁簽設定"
+[移除常用表單]:attachment/deletemyfavorite.png "移除常用表單"
+[最近開啟初始化樣式]:attachment/recentlyopen_style_enable.png "最近開啟初始化樣式"
+[最近開啟滑鼠移入樣式]:attachment/recentlyopen_style_mousein.png "最近開啟滑鼠移入樣式"
+[清除最近開啟]:attachment/clear_recentlyopen.png "清除最近開啟"
+[隱藏左方主選單]:attachment/hideleftmenu.png "隱藏左方主選單"
+[搜尋表單初始化樣式]:attachment/searchform_enable.png "搜尋表單初始化樣式"
+[搜尋表單駐留樣式]:attachment/searchform_focus.png "搜尋表單駐留樣式"
+[搜尋結果樣式]:attachment/searchform_result.png "搜尋結果樣式"
