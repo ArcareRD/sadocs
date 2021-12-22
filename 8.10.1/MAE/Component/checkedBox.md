@@ -36,15 +36,15 @@
       * 顯示致能(Display Enable)
       * 標題(Title)
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [ ] [選項清單](../affix/component/optionList)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [x] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
+    * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [ ] [選項清單](../Addition/Component/optionalList)
   * __行為__
     * 受權限保護元件
       - [ ] 支援
@@ -103,13 +103,13 @@
           2. 檢查資料的正確性
              * 若條件不成立時，顯示[錯誤訊息](../general/rule)，並回復原值
              * 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
-               * [不可重複](../affix/component/basicSettings)
-               * [不可負值](../affix/component/basicSettings)
+               * [檢控限制](../Addition/Component/prosecutionRestrictions)
+               * [不可重複](../Addition/Component/basicSettings)
+               * [不可負值](../Addition/Component/basicSettings)
           3. 寫入對應欄位
-          4. [更新相關值](../affix/component/updateValue)
-          5. [它欄更新](../affix/component/passiveUpdate)
-          6. [存後](../affix/component/updateValue)
+          4. [更新相關值](../Addition/Component/updateValue)
+          5. [它欄更新](../Addition/Component/passiveUpdate)
+          6. [存後](../Addition/Component/updateValue)
           7. 重顯相關元件
           8.  跳至另一元件
     * 操作：

@@ -221,16 +221,16 @@
         * 列樣式
           * 無
   * __<div id="addition">加註</div>__
-    * - [x] [基本設定](../Addition/component/basicSettings)
-    * - [ ] [預設給值](../Addition/component/defaultValue)
-    * - [x] [更新給值](../Addition/component/updateValue)
-    * - [ ] [被動更新](../Addition/component/passiveUpdate)
-    * - [ ] [編輯能力](../Addition/component/editting)
-    * - [x] [顯示設定](../Addition/component/display)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [ ] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [ ] [被動更新](../Addition/Component/passiveUpdate)
+    * - [ ] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
             顯示設定-背景色，僅套用至區塊
-    * - [ ] [檢控限制](../Addition/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../Addition/component/embedded)
-    * - [ ] [選項清單](../Addition/component/optionList)
+    * - [ ] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [ ] [選項清單](../Addition/Component/optionalList)
   * __<div id="behavior">行為</div>__
     * 支援的子元件類型
           註：皆強制為僅供顯示

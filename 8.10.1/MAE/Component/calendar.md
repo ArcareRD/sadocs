@@ -23,14 +23,18 @@
     * 元件示意圖
       * 編輯狀態
         * Android
-              ![image](./image/android/componentTextEditing.png)
+        
+          ![image](./image/android/componentTextEditing.png)
         * IOS
-              ![image](./image/ios/componentTextEditing.png)
+        
+          ![image](./image/ios/componentTextEditing.png)
       * 瀏覧狀態
         * Android
-              ![image](./image/android/componentTextEditing.png)
+        
+          ![image](./image/android/componentTextEditing.png)
         * IOS
-              ![image](./image/ios/componentTextEditing.png)
+        
+          ![image](./image/ios/componentTextEditing.png)
     * 多語
       * 提供繁中/簡中/英文。以登入語系決定，若登入語系不支援時，預設英文。
   * __顯示類型__

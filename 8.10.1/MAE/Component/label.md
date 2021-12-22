@@ -36,15 +36,15 @@
     * [樣式](../general/style)
       * 致能(Enable)
   * __加註__
-    * - [x] [基本設定](../affixComponent/basicSettings)
-    * - [x] [預設給值](../affixComponent/defaultValue)
-    * - [x] [更新給值](../affixComponent/updateValue)
-    * - [x] [被動更新](../affixComponent/passiveUpdate)
-    * - [ ] [編輯能力](../affixComponent/editing)
-    * - [ ] [顯示設定](../affixComponent/display)
-    * - [x] [檢控限制](../affixComponent/prosecutionRestrictions)
-    * - [ ] [嵌入物件](../affixComponent/embedded)
-    * - [ ] [選項清單](../affixComponent/optionalList)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [x] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [ ] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
+    * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [ ] [選項清單](../Addition/Component/optionalList)
   * 行為
     * 受權限保護元件
       - [ ] 支援

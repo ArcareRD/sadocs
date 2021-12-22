@@ -73,15 +73,15 @@
       * 標題(Title)
       * 光棒：下拉清單選取的元件
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [x] [選項清單](../affix/component/optionList) (必要項)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [x] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
+    * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [x] [選項清單](../Addition/Component/optionalList) (必要項)
   * __行為__
     * 受權限保護元件
       - [x] [支援](../general/rule)
@@ -170,7 +170,7 @@
           2. 檢查資料的正確性
              * 若條件不成立時，顯示[錯誤訊息](../general/rule)，並回復原值，駐留在該元件上
              1. 系統檢查
-               * [空白檢查](../affix/component/basicSettings)
+               * [空白檢查](../Addition/component/basicSettings)
                * 各種欄位型態的檢查
                  | 組裝欄位型態 | 檢查項目 |
                  | --- | --- |
@@ -190,14 +190,14 @@
                  | 03.日期時間 | 日期須大於1900/01/01且小於2079/06/06：※輸入有誤※日期超出範圍！ |
                  | 11.全唯碼 | 符合全唯碼格式：※輸入有誤※輸入格式不合法！ |
              2. 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
+               * [檢控限制](../Addition/component/prosecutionRestrictions)
                * 錯誤訊息類型：(DKS_表單元件_檢控限制_異常類別)
                  * 錯誤：(DKS_表單元件_檢控限制_異常類別_錯誤)
                  * 警告：(DKS_表單元件_檢控限制_異常類別_警告)
                  * 詢問：(DKS_表單元件_檢控限制_異常類別_操作者決定)
           3. 寫入對應欄位
-          4. [更新相關值](../affix/component/updateValue)
-          5. [它欄更新](../affix/component/passiveUpdate)
+          4. [更新相關值](../Addition/component/updateValue)
+          5. [它欄更新](../Addition/component/passiveUpdate)
           6. 存後：(DKS_表單元件_更新給值：ENG.存後)
           7. 重顯相關元件
           8. 跳至另一元件

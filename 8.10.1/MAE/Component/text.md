@@ -39,15 +39,15 @@
       * 駐留(On Focus)
       * 標題(Title)
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [ ] [選項清單](../affix/component/optionList)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [x] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
+    * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [ ] [選項清單](../Addition/Component/optionalList)
   * __行為__
     * 受權限保護元件
       - [x] [支援](../general/rule)
@@ -79,7 +79,7 @@
       * 元件唯讀：(DKS_資料元件_編輯能力_可編欄位_唯讀)
         * 當唯讀時，不允許輸入
       * 內容：對應欄位
-      * [密碼](../affix/component/basicSettings)
+      * [密碼](../Addition/Component/basicSettings)
     * 瀏覧模式：
       * 樣式
         * 無撥號功能
@@ -91,7 +91,7 @@
               3. 於編輯模式下
           * 只有<單擊>電話圖示時，可以播打電話(於元件瀏覧模式下)
             * 檢查電話號碼是否只有 0~9 +#* ，若不符規則或空白時，彈出訊息盒"電話號碼格式不正確，無法撥打電話。"
-      * [超連結](../affix/component/basicSettings)
+      * [超連結](../Addition/Component/basicSettings)
         * 點擊前顏色：(DKS_單元樣式_內容_超連結點擊前顏色)
         * 已點擊過的判斷依據：所屬檔區記錄，一直到關閉表單為止
         * 點擊前
@@ -123,17 +123,17 @@
           3. 檢查資料的正確性
              * 若條件不成立時，顯示[錯誤訊息](../general/rule)，並回復原值，駐留在該元件上
              * 系統檢查
-               * [空白檢查](../affix/component/basicSettings)
+               * [空白檢查](../Addition/Component/basicSettings)
              * 設計者定義的檢查
-               * [檢控限制](../affix/component/prosecutionRestrictions)
-               * [不可重複](../affix/component/basicSettings)
-               * [不可負值](../affix/component/basicSettings)
+               * [檢控限制](../Addition/Component/prosecutionRestrictions)
+               * [不可重複](../Addition/Component/basicSettings)
+               * [不可負值](../Addition/Component/basicSettings)
           4. 寫入對應欄位
-          5. [更新相關值](../affix/component/updateValue)
-          6. [它欄更新](../affix/component/passiveUpdate)
-          7. [存後](../affix/component/updateValue)
+          5. [更新相關值](../Addition/Component/updateValue)
+          6. [它欄更新](../Addition/Component/passiveUpdate)
+          7. [存後](../Addition/Component/updateValue)
           8. 重顯相關元件
-          9. [駐留原欄位](../affix/component/basicSettings)
+          9. [駐留原欄位](../Addition/Component/basicSettings)
             * 不離開此元件(限.元件類型＝文字方塊)
           10. 跳至另一元件
     * 操作：

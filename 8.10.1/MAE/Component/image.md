@@ -37,15 +37,15 @@
       * 致能(Enable)
       * 標題(Title)
   * __加註__
-    * - [x] [基本設定](../affix/component/basicSettings)
-    * - [x] [預設給值](../affix/component/defaultValue)
-    * - [x] [更新給值](../affix/component/updateValue)
-    * - [x] [被動更新](../affix/component/passiveUpdate)
-    * - [x] [編輯能力](../affix/component/editting)
-    * - [x] [顯示設定](../affix/component/display)
-    * - [x] [檢控限制](../affix/component/prosecutionResstrucson)
-    * - [ ] [嵌入物件](../affix/component/embedded)
-    * - [ ] [選項清單](../affix/component/optionList)
+    * - [x] [基本設定](../Addition/Component/basicSettings)
+    * - [x] [預設給值](../Addition/Component/defaultValue)
+    * - [x] [更新給值](../Addition/Component/updateValue)
+    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [x] [編輯能力](../Addition/Component/editing)
+    * - [x] [顯示設定](../Addition/Component/display)
+    * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
+    * - [ ] [嵌入物件](../Addition/Component/embedded)
+    * - [ ] [選項清單](../Addition/Component/optionalList)
   * __行為__
     * 受權限保護元件：內容區會顯示(受保護元件)的字樣(Trac #7477)
       - [x] [支援](../general/rule)
@@ -83,7 +83,7 @@
       * 內容：對應欄位
       * 顯示樣式：不支援
       * 比例縮放：不支援
-      * [超連結](../affix/component/basicSettings) #圖片_超連結
+      * [超連結](../Addition/Component/basicSettings) #圖片_超連結
         * 是否點擊過，無法從外觀看出
         * 點擊
           * 執行<超連結>：(DKS_表單元件_基本設定_引用功能)

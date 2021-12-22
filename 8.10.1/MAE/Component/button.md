@@ -43,14 +43,14 @@
       * 除能(Disable)
       * 點擊(On Click)
   * __加註__
-    * - [x] [基本設定](../Affix/Button/basicSettings)
-    * - [x] [執行限制](../Affix/Button/implementationRestrictions)
-    * - [x] [開啟他單](../Affix/Button/openForm)
-    * - [x] [外部執行](../Affix/Button/execute)
-    * - [x] [裝置支援](../Affix/Button/deviceSupport)
-    * - [x] [資料過濾](../Affix/Button/dataFilter)
-    * - [x] [影響內容](../Affix/Button/influenceContent)
-    * - [x] [檔案傳輸](../Affix/Button/fileTransfer)
+    * - [x] [基本設定](../Addition/Button/basicSettings)
+    * - [x] [執行限制](../Addition/Button/implementationRestrictions)
+    * - [x] [開啟他單](../Addition/Button/openForm)
+    * - [x] [外部執行](../Addition/Button/execute)
+    * - [x] [裝置支援](../Addition/Button/deviceSupport)
+    * - [x] [資料過濾](../Addition/Button/dataFilter)
+    * - [x] [影響內容](../Addition/Button/influenceContent)
+    * - [x] [檔案傳輸](../Addition/Button/fileTransfer)
   * __行為__
     * 受權限保護元件
       - [ ] 支援
