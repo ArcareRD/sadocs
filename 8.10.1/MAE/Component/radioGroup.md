@@ -33,7 +33,7 @@
     * - [x] [基本設定](../Addition/Component/basicSettings)
     * - [x] [預設給值](../Addition/Component/defaultValue)
     * - [x] [更新給值](../Addition/Component/updateValue)
-    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [ ] [被動更新](../Addition/Component/passiveUpdate)
     * - [x] [編輯能力](../Addition/Component/editing)
     * - [x] [顯示設定](../Addition/Component/display)
     * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
