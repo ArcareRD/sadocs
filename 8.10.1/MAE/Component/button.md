@@ -51,6 +51,9 @@
     * - [x] [資料過濾](../Addition/Button/dataFilter)
     * - [x] [影響內容](../Addition/Button/influenceContent)
     * - [x] [檔案傳輸](../Addition/Button/fileTransfer)
+    * - [x] [表單特效](../Addition/Button/formEffects)
+    * - [x] [連結物件](../Addition/Button/linkObject)
+    * - [x] [推播通知](../Addition/Button/notification)
   * __行為__
     * 受權限保護元件
       - [ ] 支援
