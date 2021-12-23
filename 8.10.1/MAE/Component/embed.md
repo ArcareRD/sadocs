@@ -36,9 +36,11 @@
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * 元件示意圖
       * Android
-            ![image](./image/android/componentTextEditing.png)
+      
+        ![image](./image/android/componentTextEditing.png)
       * IOS
-            ![image](./image/ios/componentTextEditing.png)
+      
+        ![image](./image/ios/componentTextEditing.png)
     * [樣式](../general/style)
       * 致能(Enable)
       * 顯示致能(Display Enable)

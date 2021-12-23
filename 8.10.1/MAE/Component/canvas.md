@@ -28,9 +28,11 @@
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * 元件示意圖
       * Android
-            ![image](./image/android/componentTextEditing.png)
+      
+        ![image](./image/android/componentTextEditing.png)
       * IOS
-            ![image](./image/ios/componentTextEditing.png)
+      
+        ![image](./image/ios/componentTextEditing.png)
     * [樣式](../general/style)
       * 致能(Enable)
       * 標題(Title)
@@ -38,9 +40,9 @@
     * - [x] [基本設定](../Addition/Component/basicSettings)
     * - [x] [預設給值](../Addition/Component/defaultValue)
     * - [x] [更新給值](../Addition/Component/updateValue)
-    * - [x] [被動更新](../Addition/Component/passiveUpdate)
+    * - [ ] [被動更新](../Addition/Component/passiveUpdate)
     * - [x] [編輯能力](../Addition/Component/editing)
-    * - [x] [顯示設定](../Addition/Component/display)
+    * - [ ] [顯示設定](../Addition/Component/display)
     * - [x] [檢控限制](../Addition/Component/prosecutionRestrictions)
     * - [ ] [嵌入物件](../Addition/Component/embedded)
     * - [ ] [選項清單](../Addition/Component/optionalList)
