@@ -21,14 +21,18 @@
     * 元件示意圖
       * 編輯狀態
         * Android
-              ![image](./image/android/componentTextEditing.png)
+        
+          ![image](./image/android/componentTextEditing.png)
         * IOS
-              ![image](./image/ios/componentTextEditing.png)
+        
+          ![image](./image/ios/componentTextEditing.png)
       * 瀏覧狀態
         * Android
-              ![image](./image/android/componentTextEditing.png)
+        
+          ![image](./image/android/componentTextEditing.png)
         * IOS
-              ![image](./image/ios/componentTextEditing.png)
+        
+          ![image](./image/ios/componentTextEditing.png)
   * __支援檔案類型__
     * 照片：顯示原圖/GPS/時間(支援格式：bmp/jpg/jpeg/git/png)
     * 音檔：顯示固定圖片(支援音檔格式：mp3)
@@ -53,9 +57,11 @@
           * 照片：顯示原圖/GPS/時間
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
             * 顯示圖片資訊
               * 顯示位置：
                 * 無
@@ -73,16 +79,20 @@
             * 工具列(播放/暫停/重播)
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
           * 影片：
             * 工具列(播放/暫停/重播)
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
       * 雙擊(長按)：
         1. 刪除功能
            1. 有檔案ID時顯示移除
@@ -96,9 +106,11 @@
             * 工具列(下載)
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
             * 顯示圖片資訊
               * 顯示位置：
                 * 無
@@ -116,16 +128,20 @@
             * 工具列(播放/暫停/重播/下載)
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
           * 影片：(邊載邊播)
             * 工具列(播放/暫停/重播/下載)
             * 畫面
               * Android
-                    ![image](./image/android/componentTextEditing.png)
+              
+                ![image](./image/android/componentTextEditing.png)
               * IOS
-                    ![image](./image/ios/componentTextEditing.png)
+              
+                ![image](./image/ios/componentTextEditing.png)
       * 雙擊(長按)：
         1. 將檔案資訊寫入全域變數
         2. 出現選單<干涉.檔案雙擊呼叫功能鍵_項目名稱1~5/檔案雙擊呼叫功能鍵_指定按鍵1~5>
