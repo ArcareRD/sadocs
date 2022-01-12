@@ -124,6 +124,26 @@
     * 字體顏色藍色:#0a6dab
     * 使用class:encryption
 
+## <p id="ruleother12">型態檢查通則</p>
+* 判斷型態
+	* 1.下列將欄位型態區分群組, 同群組下表示型態相同	
+		* 1.文字: string.字串, remark.備註, only.全唯碼
+		* 2.數值: bigint.整數(bigint), int.整數(int), smallint.整數(smallint), tinyint.整數(tinyint), numeric.數字
+		* 3.日期: date.日期, datetime.日期時間
+		* 4.邏輯: bit.位元
+		* 二進位: binary.二進位
+	* 2.非資料表、檢視表欄位型態(例:參數), 須同上列的型態群組
+	
+* 判斷長度
+	* 1.下列型態群組須判斷長度, 來源長度須小於目的長度
+		* 1.文字: string.字串 = only.全唯碼 < remark.備註
+		* 2.數值: 
+			* 整數比較: tinyint.整數(tinyint) < smallint.整數(smallint) < int.整數(int) < bigint.整數(bigint)
+			* 數字比較(整數vs數字、數字vs數字): 比對欄位長度(長度-小數位)
+				* 例： bigint.整數(bigint)/16 與 numeric.數字/20.6 → 16 > (20-6) → 16 > 14
+	* 2.無長度, 則不須比對(例: 參數)
+
+
 <!-- 圖示 -->
 [image_editAuthority1]:attachment/editAuthority1.png
 [image_editAuthority2]:attachment/editAuthority2.png

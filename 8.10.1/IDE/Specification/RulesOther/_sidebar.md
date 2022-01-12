@@ -11,3 +11,4 @@
   * [打樣流程通則](README#ruleother9)
   * [使用頁面鎖定通則](README#ruleother10)
   * [個資加密提示通則](README#ruleother11)
+  * [型態檢查通則](README#ruleother12)
