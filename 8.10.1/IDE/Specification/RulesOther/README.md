@@ -152,6 +152,7 @@
             * 計算: 16 > (20-6) , 檢錯結果: 16 > 14  => **不合法**
       * 3.其餘型態群組不需檢查長度      
 
+
 <!-- 圖示 -->
 [image_editAuthority1]:attachment/editAuthority1.png
 [image_editAuthority2]:attachment/editAuthority2.png
