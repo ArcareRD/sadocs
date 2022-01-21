@@ -1,0 +1,137 @@
+## <div id="layout">版面相關</div>
+* 版面
+    ![pic][image_spec_form]
+
+* [版面資訊通則][link_ruleother1]
+
+## <div id="form-action">動作說明</div>
+* 開啟後視窗寬高預設為 1100 * 700, 並提供使用者調整寬高
+* 動作流程
+    * ![pic][image_flow_open]
+
+
+## <div id="object-desc">欄位說明</div>
+
+* <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
+
+    * ![pic][image_spec_form_block1]
+    * `(1)視窗標題`
+        * 用途說明
+        * 規格說明
+            * 依專案語系顯示: 表單名稱_表單料號
+    * `(1)新增子節點`
+        * 用途說明
+        * 規格說明
+            * 當駐留節點為【資料來源、隱藏表單元件、隱藏按鍵】按鈕致能, 否則 除能
+            * 當駐留節點=資料來源: 開啟[新增資料區][]
+            * 當駐留節點=隱藏表單元件: 開啟[新增隱藏元件][]
+            * 當駐留節點=隱藏按鍵: 開啟[新增隱藏按鍵][]
+    * `(1)刪除子節點`
+        * 用途說明
+        * 規格說明
+            * 當駐留節點為【資料來源-資料區、隱藏元件名_元件料號、隱藏按鍵名_按鍵料號、非基本設定的加註行為選項】按鈕致能, 否則 除能
+            * 執行刪除駐留節點、及其下所有子階節點對應的加註資料
+    * `(1)設定`
+        * 用途說明
+        * 規格說明
+            * 當駐留節點為【元件名_元件料號、按鍵名_按鍵料號、隱藏元件名_元件料號、隱藏按鍵名_按鍵料號】按鈕致能, 否則 除能
+            * 當駐留節點=元件名_元件料號、隱藏元件名_元件料號, 開啟[元件行為選項][]
+            * 當駐留節點=按鍵名_按鍵料號、隱藏按鍵名_按鍵料號, 開啟[按鍵行為選項][]
+            * 關閉行為選項, 重新產生並取得規格關聯的加註內容
+    * `(2)規格備註`
+        * 用途說明
+        * 規格說明
+            * 當駐留節點項目為【表單名稱_表單成品料號、基本設定、資料來源-資料區、元件名_元件料號、按鍵名_按鍵料號、隱藏元件名_元件料號、隱藏按鍵名_按鍵料號】按鈕致能, 否則 除能
+            * 當致能時, 執行按鈕時, 依駐留節點開啟對應的[規格備註][link_specification]
+                * 若駐留節點項目為【表單名稱_表單成品料號、基本設定、資料來源-資料區】, 開啟後傳入報表名稱、報表料號
+                * 若駐留節點項目為【元件名_元件料號、按鍵名_按鍵料號、隱藏元件名_元件料號、隱藏按鍵名_按鍵料號】, 開啟後傳入報表元件名稱、報表元件料號
+        * 動作流程
+            * ![pic][image_flow_open_spec]
+    * `(3)檢錯`
+        * 用途說明
+            * 檢查駐留筆表單及表單元件已完成的規格, 進行語法及完成度的檢查
+        * 規格說明
+            * 當檢查完成, 且無錯誤時, 顯示訊息盒【標題: 系統訊息 / 內容: 檢錯完成。 / 按鍵: 確定】
+                * 執行確定, 關閉表單
+            * 當檢查完成, 且存在錯誤時, 展開所有節點, 錯誤單元以紅字顯示, 並以Hint方式顯示第一筆錯誤資訊
+        * 動作流程
+            * ![pic][image_flow_error_detection]
+    * `(4)重新整理`
+        * 用途說明
+        * 規格說明
+            * 重新顯示`(8)規格描述區塊`, 若已駐留節點, 重整後駐留節點須為原駐留節點
+        * 動作流程
+            * ![pic][image_flow_reflash]
+    * `(5)線上說明`
+        * 用途說明
+        * 規格說明
+            * 當駐留節點項目為【表單名稱_表單成品料號、基本設定、資料來源-資料區、元件名_元件料號、按鍵名_按鍵料號、隱藏元件名_元件料號、隱藏按鍵名_按鍵料號】按鈕致能, 否則 除能
+            * 依駐留節點開啟對應的線上說明文件
+        * 動作流程
+            * ![pic][image_flow_online_help]
+    * `(6)相關元件`
+        * 用途說明
+        * 規格說明
+            * <ps>以下為目前操作行為, 待確認是否修正</ps>
+            * 當駐留節點項目為【元件名_元件料號、按鍵名_按鍵料號、隱藏按鍵名_按鍵料號、加註行為選項】按鈕致能, 否則 除能
+            * 依駐留報表元件單元, 開啟[元件欄位清單][], 傳入: 表單名稱、駐留單元名稱
+        * 動作流程
+            * ![pic][image_flow_components]
+    * `(7)加註狀態`
+        * 用途說明
+            * 記錄該表單是否加註完成的標記
+        * 規格說明
+            * 當狀態為**開工**時, 執行按鍵將狀態改為**完工**, 顯示完成圖示: ![pic][image_report_annotation_finish]
+            * 當狀態為**完工**時, 執行按鍵將狀態改為**開工**, 顯示開工圖示: ![pic][image_report_annotation_start]
+        * 動作流程
+            * ![pic][image_flow_annotation_state]
+    * `(8)規格描述區塊`
+        * 用途說明
+        * 規格說明
+            * 節點顯示方式, 請參考畫面及下列規則
+                * 節點內有子階時, 節點圖示為資料夾, 並可展開/關閉子階內容
+                * 節點內無子階時, 節點圖示為文件
+                * 各階層顯示內容如下
+                    |節點顯示內容 |所屬階層 |筆數 |支援雙擊 |同階排序方式 |顯示語系來源 |
+                    |------------|--------|-----|--------|------------|-----------|
+                    |報表名稱_報表成品料號 |0 |1|v | |專案 |
+                    |基本設定      |1 |1 |v | |平台 |
+                    |資料來源      |1 |1 |v | |平台 |
+                    |分頁模式      |1 |1 |v | |平台 |
+                    |報表元件      |1 |1 | | |平台 |
+                    |報表元件名稱_元件料號 |2 |n |v |依單元料號 |專案 |
+            * 當駐留節點支援雙擊, 則執行滑鼠雙擊時, 可開啟[規格備註][link_specification]
+                * 若駐留節點項目為【報表名稱_報表成品料號、基本設定、資料來源、分頁模式】, 開啟後傳入報表名稱、報表料號
+                * 若駐留節點項目為【報表元件名稱_元件料號】, 開啟後傳入報表元件名稱、報表元件料號
+            * 依駐留節點類別+元件類別, 單擊開啟對應加註頁面, 顯示於`(9)加註頁面區塊`
+            * 節點: 報表元件名稱, 取得駐留筆報表, 且報表元件類型存在【rTP.文字標題、rTF.文字方塊、rTA.多行文字、rCB.核取方塊、rFrame.框線、rBC.條碼、rEChart.嵌入圖表、rImg.圖片、rLogo.企業標誌】的報表元件清單顯示
+            * 滑鼠移入右邊框, 可調整區塊寬度, 規則如下:
+                * 調整後最小寬度不得低於**280px**; 最大寬度不得高於**500px**
+                * 規格定義視窗的寬度, 在調整過程中同比例增加寬度
+        * 動作流程
+            * ![pic][image_flow_annotation]
+    * `(9)加註頁面區塊`
+        * 用途說明
+        * 規格說明
+            * 依駐留節點類別+元件類別, 顯示對應的規格定義內容
+
+
+<!-- 圖片 -->
+[image_spec_form]:attachment/SpecificationsView.png
+[image_spec_form_block1]:attachment/SpecificationsView_block1.png
+[image_report_annotation_start]:attachment/ReportAnnotation_Start.png
+[image_report_annotation_finish]:attachment/ReportAnnotation_Finish.png
+
+[image_flow_open]:attachment/SpecificationsReportFlow_open.png
+[image_flow_open_spec]:attachment/SpecificationsReportFlow_open_spec.png
+[image_flow_error_detection]:attachment/SpecificationsReportFlow_error_detection.png
+[image_flow_reflash]:attachment/SpecificationsReportFlow_reflash.png
+[image_flow_online_help]:attachment/SpecificationsReportFlow_online_help.png
+[image_flow_components]:attachment/SpecificationsReportFlow_components.png
+[image_flow_annotation_state]:attachment/SpecificationsReportFlow_annotation_state.png
+[image_flow_annotation]:attachment/SpecificationsReportFlow_annotation.png
+
+<!-- 超連結 -->
+[link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
+[link_ruleother1]:/8.10.1/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_specification]:/8.10.1/IDE/Specification/SpecificationRemarks/README "規格備註"
