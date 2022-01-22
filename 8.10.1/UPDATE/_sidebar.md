@@ -46,5 +46,5 @@
   * [MAE](ITEM_18/MAE/README.md)
 * [19.擴充系統函數](ITEM_19/README.md)
   * [RTE](ITEM_19/RTE/README.md)
-* [20.匯入資料擴充](ITEM_20/README.md)
+* [20.匯入資料功能擴充](ITEM_20/README.md)
   * [RTE](ITEM_20/RTE/README.md)
