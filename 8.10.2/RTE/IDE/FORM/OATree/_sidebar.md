@@ -1,0 +1,86 @@
+# 樹狀控制
+* [上一頁](../README.md)
+* [IDE介面規格]()
+* 加註項目
+    * 表頭樹 (對應檔區=主檔區)
+        * 檔區座落
+            * 單一檔區
+                * [檔區](head.md#alias)
+                * [父階](head.md#alias-parent)
+                * [子階](head.md#alias-self)
+                * [順序](head.md#alias-seq)
+                * [階層](head.md#alias-level)
+                * [數量](head.md#alias-childqty)
+            * ~~父子檔區~~
+        * 外觀
+            * [多根節點](head.md#multiroot)
+            * [預設展開](head.md#expand)
+                * [展開類別](head.md#expandtype)
+                    * [全展](head.md#expand-all)
+                    * [展開階數](head.md#expand-level)
+                        * [階數](head.md#expand-level-level)
+            * [指定顯示](head.md#nodename)
+                * [根節點](head.md#nodename-root)
+                * ~~父根節點~~
+                * [子節點](head.md#nodename-self)
+            * [節點圖示](head.md#icon)
+                * [圖示內容](head.md#icon-icon)
+                * [判斷欄位](head.md#icon-sourcefield)
+        * 資料控制
+            * [致能勾選](head.md#checkbox)
+                * [限制條件](head.md#checkbox-enable)
+                * [單項資料傳遞](head.md#checkbox-sourcefield)
+                    * [對應欄位](head.md#checkbox-sourcefield-field)
+                    * [呼叫按鈕](head.md#checkbox-sourcefield-click)
+                * [多項資料傳遞](head.md#checkbox-mutitag)
+                    * [資料行欄位](head.md#checkbox-mutitag-field)
+        * 操作性
+            * [項目](head.md#edit-type)
+            * [執行條件](head.md#edit-valid)
+            * [呼叫按鈕](head.md#edit-btn)
+            * [不成立訊息](head.md#edit-errmsg)
+    * 表身樹 (對應檔區=表身檔區)
+        * 檔區座落
+            * 單一檔區
+                * [檔區](body.md#alias)
+                * [父階](body.md#alias-parent)
+                * [子階](body.md#alias-self)
+                * [順序](body.md#alias-seq)
+                * [階層](body.md#alias-level)
+                * [數量](body.md#alias-childqty)
+            * ~~父子檔區~~
+        * 外觀
+            * [多根節點](body.md#multiroot)
+            * [預設展開](body.md#expand)
+                * [展開類別](body.md#expandtype)
+                    * [全展](body.md#expand-all)
+                    * [展開階數](body.md#expand-level)
+                        * [階數](body.md#expand-level-level)
+            * [指定顯示](body.md#nodename)
+                * ~~[根節點](body.md#nodename-root)~~
+                * ~~父根節點~~
+                * [子節點](body.md#nodename-self)
+            * [節點圖示](body.md#icon)
+                * [圖示內容](body.md#icon-icon)
+                * [判斷欄位](body.md#icon-sourcefield)
+        * 資料控制
+            * [致能勾選](body.md#checkbox)
+                * [限制條件](body.md#checkbox-enable)
+                * [單項資料傳遞](body.md#checkbox-sourcefield)
+                    * [對應欄位](body.md#checkbox-sourcefield-field)
+                    * [呼叫按鈕](body.md#checkbox-sourcefield-click)
+                * [多項資料傳遞](body.md#checkbox-mutitag)
+                    * [資料行欄位](body.md#checkbox-mutitag-field)
+        * 操作性
+            * [項目](body.md#edit-type)
+            * [執行條件](body.md#edit-valid)
+            * [呼叫按鈕](body.md#edit-btn)
+            * [不成立訊息](body.md#edit-errmsg)
+
+    * 父子檔區樹
+        * [檔區座落](bom.md#bom-alias)
+        * [外觀](bom.md#bom-exterior)
+        * [資料控制](bom.md#bom-datacontrol)
+        * [操作性](bom.md#bom-edit)    
+* 案例
+* [History](history.md)
