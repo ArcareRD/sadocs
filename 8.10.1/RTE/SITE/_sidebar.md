@@ -8,5 +8,4 @@
     * [企業管理員](enterprisesiteManager.md)
     * [系統管理員](systemManager.md)
 * [匯入資料](importdata.md)
-* [首頁自訂版面](customhomepage/README.md)
- 
+* [企業資料](enterprisedetail/README.md)
