@@ -8,9 +8,6 @@
 ### <div id="basic">企業基本資料 <path>(畫面說明)</path></div>
 * 待補
 
-### <div id="system">企業可用系統 <path>(畫面說明)</path></div>
-* 待補
-
 ### <div id="style">企業樣式設定 <path>(畫面說明)</path></div>
 * 企業LOGO : 使用者登入首頁後，依據設定顯示於首頁的左上角。
     * 欄位.LOGO檔案：
@@ -71,6 +68,8 @@
 
     ![開啟畫面]
 
+* 其餘待補
+
 * 企業LOGO
     * 點擊按鈕.恢復系統預設
 
@@ -109,6 +108,7 @@
     * 點擊按鈕.上傳
 
         ![點擊按鈕.上傳自訂樣式(行動裝置版首頁)]
+
 
 [表單畫面]:attachment/enterprisedetail_view.png "表單畫面"
 [開啟畫面]:attachment/openform.png "開啟畫面"
