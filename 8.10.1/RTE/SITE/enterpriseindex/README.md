@@ -34,9 +34,9 @@
 
     ![點擊按鈕.刪除企業]
 
-* 點擊按鈕.更新企業
+* 點擊按鈕.修改企業
 
-    ![點擊按鈕.更新企業]    
+    ![點擊按鈕.修改企業]    
 
 * 點擊按鈕.企業系統設定
 
@@ -45,6 +45,6 @@
 [表單畫面]:attachment/enterpriseindex_view.png "表單畫面"
 [開啟畫面]:attachment/openform.png "開啟畫面"
 [點擊按鈕.新增企業]:attachment/click_add_enterprise.png "點擊按鈕.新增企業"
-[點擊按鈕.更新企業]:attachment/click_update_enterprise.png "點擊按鈕.更新企業"
+[點擊按鈕.修改企業]:attachment/click_update_enterprise.png "點擊按鈕.修改企業"
 [點擊按鈕.企業系統設定]:attachment/click_enterprise_system.png "點擊按鈕.企業系統設定"
 [點擊按鈕.刪除企業]:attachment/click_delete_enterprise.png "點擊按鈕.刪除企業"

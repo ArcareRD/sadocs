@@ -16,12 +16,14 @@
     * 欄位.公司電話代表號 : 可空白，為該企業的電話代表號。
     * 欄位.電話國碼 : 可空白，為該企業的電話國別代碼。
     * 欄位.收費聯絡人姓名 : 不可空白，為該企業的收費聯絡人姓名。
-    * 欄位.負責人姓名 : 不可空白，為該企業的負責人姓名。
+    * 欄位.負責人姓名 : 可空白，為該企業的負責人姓名。
     * 欄位.公司地址 : 可空白，為該企業的公司地址。
     * 欄位.公司英文名 : 不可空白，為該企業的公司英文名。
     * 欄位.企業Manager : 可空白，開窗挑選企業帳號，為該企業的企業管理員。
     * 欄位.同時最大上線人數 : 不可空白，為該企業可同時上線最大人數，預設給0，表示無上限。
     * 欄位.Google API Key : 可空白，為該企業內使用系統若有呼叫Google地圖，則會使用這把Google API Key進行開啟地圖的動作。
+    * 按鈕.儲存 : 點擊後將依據各欄位可空白否進行檢控，檢控失敗顯示錯誤訊息，若檢控成功則將表單所有資料進行儲存的動作。
+    * 按鈕.放棄 : 點擊後關閉表單.企業資料。
 
 ### <div id="style">企業LOGO相關 <path>(畫面說明)</path></div>
 * 企業LOGO : 使用者登入首頁後，依據設定顯示於首頁的左上角。
@@ -81,11 +83,13 @@
         * 執行後，跳出上傳檔案的視窗，讓使用者進行上傳自訂樣式的ZIP檔案。
 
 ### <div id="action">動作流程</div>
-* 開啟畫面
+* 站台管理員開啟畫面
 
-    ![開啟畫面]
+    ![站台管理員開啟畫面]
 
-* 其餘待補
+* 企業管理員開啟畫面
+
+    ![企業管理員開啟畫面]
 
 * 企業LOGO
     * 點擊按鈕.恢復系統預設
@@ -126,15 +130,25 @@
 
         ![點擊按鈕.上傳自訂樣式(行動裝置版首頁)]
 
+* 點擊按鈕.儲存
+
+    ![點擊按鈕.儲存]
+
+* 點擊按鈕.取消
+
+    ![點擊按鈕.取消]
 
 [表單畫面]:attachment/enterprisedetail_view.png "表單畫面"
-[開啟畫面]:attachment/openform.png "開啟畫面"
+[企業管理員開啟畫面]:attachment/enterprisemanager_openform.png "企業管理員開啟畫面"
+[站台管理員開啟畫面]:attachment/sitemanager_openform.png "站台管理員開啟畫面"
 [點擊按鈕.恢復系統預設(新版首頁)]:attachment/click_recover_default_new.png "點擊按鈕.恢復系統預設(新版首頁)"
 [點擊按鈕.下載目前樣式(新版首頁)]:attachment/click_download_new.png "點擊按鈕.下載目前樣式(新版首頁)"
 [點擊按鈕.上傳自訂樣式(新版首頁)]:attachment/click_upload_new.png "點擊按鈕.上傳自訂樣式(新版首頁)"
 [點擊按鈕.恢復系統預設(行動裝置版首頁)]:attachment/click_recover_default_mobile.png "點擊按鈕.恢復系統預設(行動裝置版首頁)"
 [點擊按鈕.下載目前樣式(行動裝置版首頁)]:attachment/click_download_mobile.png "點擊按鈕.下載目前樣式(行動裝置版首頁)"
 [點擊按鈕.上傳自訂樣式(行動裝置版首頁)]:attachment/click_upload_mobile.png "點擊按鈕.上傳自訂樣式(行動裝置版首頁)"
-[點擊按鈕.恢復系統預設(LOGO檔案)]:attachment/click_recover_default_logo.jpg "點擊按鈕.恢復系統預設(LOGO檔案)"
-[點擊按鈕.下載(LOGO檔案)]:attachment/click_download_logo.jpg "點擊按鈕.下載(LOGO檔案)"
-[點擊按鈕.上傳(LOGO檔案)]:attachment/click_upload_logo.jpg "點擊按鈕.上傳(LOGO檔案)"
+[點擊按鈕.恢復系統預設(LOGO檔案)]:attachment/click_recover_default_logo.png "點擊按鈕.恢復系統預設(LOGO檔案)"
+[點擊按鈕.下載(LOGO檔案)]:attachment/click_download_logo.png "點擊按鈕.下載(LOGO檔案)"
+[點擊按鈕.上傳(LOGO檔案)]:attachment/click_upload_logo.png "點擊按鈕.上傳(LOGO檔案)"
+[點擊按鈕.儲存]:attachment/click_save.png "點擊按鈕.儲存"
+[點擊按鈕.取消]:attachment/click_cancel.png "點擊按鈕.取消"
