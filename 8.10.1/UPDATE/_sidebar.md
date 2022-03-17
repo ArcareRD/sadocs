@@ -47,3 +47,7 @@
   * [RTE](ITEM_20/RTE/README.md)
 * [21.首頁的自訂樣式擴充](ITEM_21/README.md)
   * [RTE](ITEM_21/RTE/README.md)
+* [22.可輸入下拉擴充過濾方式](ITEM_22/README.md)
+  * [IDE](ITEM_22/IDE/README.md)
+  * [RTE](ITEM_22/RTE/README.md)
+  * [MAE](ITEM_22/MAE/README.md)
