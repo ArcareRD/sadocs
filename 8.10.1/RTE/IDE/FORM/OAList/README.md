@@ -42,11 +42,6 @@
 ### <div id="alwaysload">強制重新載入 <path>(選項種類\變動選項)</div>
 * 是否每次取得選項清單時都強制重新查詢
 
-### <div id="inputtype">操作方法 <path>(選項種類\變動選項)</div>
-* 表示取得選項的操作方式，一共有以下方式 :
-    * `僅挑選指定`
-    * `可自行輸入`
-
 ### <div id="onlyselect">僅挑選指定 <path>(選項種類\變動選項\操作方法)</div>
 * 表示選項僅能使用挑選的方式取得，不可自行輸入，配合其他設定會有不同變化
     * 當`呈現方式`為`下拉式`且`選擇筆數`為`單選`時，會產生[不可輸入下拉元件](../../../SYSTEM/FORM/ctrl_dropListCombo/README.md)
@@ -59,6 +54,12 @@
 
 ### <div id="valid">錯誤檢核與訊息 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
 * 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若元件已選項目已不存在資料中會跳出的錯誤訊息
+
+### <div id="filtertype">比對類型 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
+* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)以及[可輸入下拉元件](../../../SYSTEM/FORM/ctrl_dropDownCombo/README.md)查詢選項清單時，使用輸入內容過濾的方式。共有以下類型:
+    * `開頭是` : 選項資料開頭符合元件輸入內容
+    * `結尾是` : 選項資料結尾符合元件輸入內容
+    * `相似於` : 選項資料相似於元件輸入內容
 
 ### <div id="database">對應資料庫 <path>(選項種類\變動選項)</div>
 * 表示查詢表格的類型，共有以下類型:
