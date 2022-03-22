@@ -52,14 +52,14 @@
     * 當`呈現方式`為`下拉式`且`選擇筆數`為`單選`時，會產生[可輸入下拉元件](../../../SYSTEM/FORM/ctrl_dropDownCombo/README.md)
     * 當`呈現方式`為`下拉式`且`選擇筆數`為`複選`時，會產生[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)
 
-### <div id="valid">錯誤檢核與訊息 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
-* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若元件已選項目已不存在資料中會跳出的錯誤訊息
-
 ### <div id="filtertype">比對類型 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
 * 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)以及[可輸入下拉元件](../../../SYSTEM/FORM/ctrl_dropDownCombo/README.md)查詢選項清單時，使用輸入內容過濾的方式。共有以下類型:
     * `開頭是` : 選項資料開頭符合元件輸入內容
     * `結尾是` : 選項資料結尾符合元件輸入內容
     * `相似於` : 選項資料相似於元件輸入內容
+
+### <div id="valid">錯誤檢核與訊息 <path>(選項種類\變動選項\操作方法\可自行輸入)</div>
+* 表示在[可輸入下拉複選元件](../../../SYSTEM/FORM/ctrl_dropDownMultiCombo/README.md)查詢選項清單時，若元件已選項目已不存在資料中會跳出的錯誤訊息
 
 ### <div id="database">對應資料庫 <path>(選項種類\變動選項)</div>
 * 表示查詢表格的類型，共有以下類型:
