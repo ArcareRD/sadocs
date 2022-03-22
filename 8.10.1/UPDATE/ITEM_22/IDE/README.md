@@ -8,16 +8,26 @@
 * #8685
 
 ### <div id="requirement">需求展開</div>
-* 元件加註_更新給值: 
-    * 設計類型=APP、RWD, 容器元件擴充支援: 呼叫按鈕功能, 呼叫時機: 資料行移動、滑鼠雙擊
-    * 擴充MAE各元件類型支援呼叫按鈕功能(參考RWD)
-* 文件位置
-    * [元件行為選項][link_ObjectBehavior]
-    * [元件加註_更新給值][link_OAUpdate]  
-    * 單元檢錯
+* 元件加註_選項清單: 
+    * 增加畫面欄位.比對類型，單一選項: 開頭是 / 結尾是 / 相似於，系統預設: 開頭是
+    * 當表單設計類型=APP
+        * 強制重新載入 預設改為 **未勾選**
+        * 操作方式 預設改為 **可自行輸入**
+    * 畫面調整及完整規格，請參閱 [元件加註_選項清單][link_OAList]      
+* 相關修改範圍如下:    
+    * 規格複製
+    * 跨專案複製
+    * 異動已存在的規格定義內容，如下：
+        * 當表單設計類型=STD、RWD 且 元件存在行為選項: 選項清單 且 操作方式=可自行輸入，則比對類型預設為**開頭是**
+        * 當表單設計類型=APP 且 元件存在行為選項: 選項清單 且 選項種類=變動項次，
+            * 操作方式 改為 **可自行輸入**
+            * 強制重新載入 改為 **未勾選**
+            * 比對類型 預設為 **開頭是**
+    * 當符合下列條件，產生版本發行的單元異動記錄
+        * 當表單設計類型=STD、RWD 且 元件存在行為選項: 選項清單 且 選項種類=變動項次 且 操作方式=可自行輸入
+        * 當表單設計類型=APP 且 元件存在行為選項: 選項清單 且 選項種類=變動項次
+    
 
 
 <!-- 超連結 -->
-[link_ObjectBehavior]:{3}/IDE/Specification/ObjectBehavior/README
-[link_AddHiddenObject]:{3}/IDE/Specification/AddHiddenObject/README
-[link_OAUpdate]:{3}/IDE/Specification/OAUpdate/README
+[link_OAList]:{3}/IDE/Specification/OAList/README
