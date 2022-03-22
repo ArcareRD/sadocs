@@ -12,7 +12,7 @@
     * [基本設定](ObjectAnnotation)
     * [顯示設定](OADisplay)
     * [預設給值](OAInitial)
-    * [選項清單](OAList)
+    * [選項清單](../../Specification/OAList/README.md)
     * [開窗參照](OAPopup)
     * [檢控限制](OAValidate)
     * [更新給值](../../Specification/OAUpdate/README.md)
