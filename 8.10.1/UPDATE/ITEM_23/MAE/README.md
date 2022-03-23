@@ -8,17 +8,25 @@
 #### <div id="version">版本記錄</div>
   |日期|版本|備註|
   |---|---|---|
-  |2021/12/7|v1|初始化|
+  |2022/03/23|v1|初始化|
 
 ### <div id="trac">TRAC</div>
-* [#8764](http://trac.uneec.com/trac/neco/ticket/8764)
+* [#8734](http://trac.uneec.com/trac/neco/ticket/8734)
 
 ### <div id="specification">規格說明</div>
   * 需求展開
-    * [下拉選項-單選][droplist_single]
-      * [關鍵字過濾][keyword_filter]
+    * 勾選自動登入時同時會勾選記錄帳密
+    * 手動登出後就不設定自動登入
+    * 切換伺服器後取消自動登入，重開APP時恢復
+
+  * 設定路徑
+    * 側拉選項/設定/自動登入
+
+  * __版面相關__
+  
+      ![autologin]
+        
 
 
-<!-- 連結 -->
-[droplist_single]:../../../MAE/Component/dropList.md "下拉選項-單選"
-[keyword_filter]:../../../MAE/Component/dropList.md#search_filter "關鍵字過濾"
+<!-- 圖示_介面 -->
+[autologin]:image/auto_login.png "auto_login"
