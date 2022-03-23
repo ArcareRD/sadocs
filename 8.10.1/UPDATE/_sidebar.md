@@ -55,4 +55,5 @@
   * [MAE](ITEM_23/MAE/README.md)
 * [24.依駐序決定預設給值執行順序](ITEM_24/README.md)
   * [IDE](ITEM_24/IDE/README.md)
+  * [MAE](ITEM_24/MAE/README.md)
 

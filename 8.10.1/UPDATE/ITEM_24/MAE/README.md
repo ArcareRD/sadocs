@@ -8,25 +8,12 @@
 #### <div id="version">版本記錄</div>
   |日期|版本|備註|
   |---|---|---|
-  |2022/03/23|v1|初始化|
+  |2022/03/23|008.010.00106X|初始化|
 
 ### <div id="trac">TRAC</div>
 * [#8972](http://trac.uneec.com/trac/neco/ticket/8972)
 
 ### <div id="specification">規格說明</div>
   * 需求展開
-    * 勾選自動登入時同時會勾選記錄帳密
-    * 手動登出後就不設定自動登入
-    * 切換伺服器後取消自動登入，重開APP時恢復
-
-  * 設定路徑
-    * 側拉選項/設定/自動登入
-
-  * __版面相關__
-  
-      ![autologin]
-        
-
-
-<!-- 圖示_介面 -->
-[autologin]:image/auto_login.png "auto_login"
+    * 擴充元件及按鍵的駐序
+    * 按照駐序來決定[預設給值](../../../MAE/Addition/Component/defaultValue.md)的給值順序
