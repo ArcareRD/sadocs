@@ -51,10 +51,8 @@
   * [IDE](ITEM_22/IDE/README.md)
   * [RTE](ITEM_22/RTE/README.md)
   * [MAE](ITEM_22/MAE/README.md)
-<<<<<<< HEAD
-* [23.依駐序決定預設給值執行順序](ITEM_23/README.md)
-  * [IDE](ITEM_23/IDE/README.md)
-=======
 * [23.系統設定，擴充自動登入](ITEM_23/MAE/README.md)
   * [MAE](ITEM_23/MAE/README.md)
->>>>>>> 59f5075ca69ab43c3db938fbd14ecb62a6f942f8
+* [24.依駐序決定預設給值執行順序](ITEM_24/README.md)
+  * [IDE](ITEM_24/IDE/README.md)
+
