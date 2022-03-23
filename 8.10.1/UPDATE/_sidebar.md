@@ -53,3 +53,6 @@
   * [MAE](ITEM_22/MAE/README.md)
 * [23.系統設定，擴充自動登入](ITEM_23/MAE/README.md)
   * [MAE](ITEM_23/MAE/README.md)
+* [24.依駐序決定預設給值執行順序](ITEM_24/README.md)
+  * [IDE](ITEM_24/IDE/README.md)
+
