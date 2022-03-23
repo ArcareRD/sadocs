@@ -51,3 +51,5 @@
   * [IDE](ITEM_22/IDE/README.md)
   * [RTE](ITEM_22/RTE/README.md)
   * [MAE](ITEM_22/MAE/README.md)
+* [23.系統設定，擴充自動登入](ITEM_23/MAE/README.md)
+  * [MAE](ITEM_23/MAE/README.md)
