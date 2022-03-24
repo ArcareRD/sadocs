@@ -5,7 +5,7 @@
         * [表單](FORM/README)
         * [報表]()
         * [版面複製]()
-        * [版面駐留順序](WidgetOrder/README)
+        * [駐留及執行順序](WidgetOrder/README)
 * 資料表格
     * [資料表](Physical)
     * [檢視表](Logical/README)
