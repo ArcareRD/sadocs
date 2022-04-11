@@ -13,6 +13,7 @@
     * [資料過濾](README.md#behavior-filter)
     * [資料搜尋](README.md#behavior-find)
     * [查詢視窗](README.md#behavior-query)
+    * [編輯模式](README.md#edit)
     * [瀏覽模式](README.md#browse)
     * [連動燈號](README.md#light)
     * [元件隱藏](README.md#hide)
