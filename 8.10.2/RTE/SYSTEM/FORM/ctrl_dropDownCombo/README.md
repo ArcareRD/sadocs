@@ -39,6 +39,7 @@
 
 ## <div id="behavior-format">模版 <path>(行為)</path></div>    
 * 支援	
+* 輸入框僅支援大寫模板，其餘模板在輸入框皆無效果
 
 ## <div id="behavior-hint">提示 <path>(行為)</path></div>    
 * 滑鼠移入下拉選項時顯示`提示`內容，設定地點 : [元件加註/基本設定/欄位提示訊息]()
