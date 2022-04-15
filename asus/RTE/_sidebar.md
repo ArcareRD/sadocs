@@ -14,3 +14,4 @@
 * [MAE使用驗證碼取得Token](README.md#appgettoken)
 * [MAE Refresh Token](README.md#apprefreshtoken)
 * [RTE首頁畫面修正](README.md#brainworknew)
+* [RTE華碩雲端寶盒系統設定檔案說明](README.md#asusconfig)

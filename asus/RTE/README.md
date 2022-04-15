@@ -418,6 +418,31 @@
 
     ![首頁畫面修正]
 
+### <div id="asusconfig">RTE華碩雲端寶盒系統設定檔案說明</div>
+* 設定檔案路徑 : {Tomcat Path}\conf\asus.properties
+* 參數清單
+| 參數名稱        | 參數說明           |
+| ------------- |:-------------:|
+| rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
+| rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
+| maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
+| maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
+| maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
+| maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
+| asusAccountServiceLoginUrl      | ASUS Account Service Login Page URL|
+| asusAccountServiceLogoutUrl      | ASUS Account Service Logout API URL |
+| asusAccountServiceAccessTokenUrl      | ASUS Account Service Get/Refresh Access Token API URL |
+| asusAccountServiceUserInfoUrl      | ASUS Account Service Get User Info API URL |
+| asusAccountServiceWFBInfoUrl      | ASUS Account Service Get WFB Info API URL |
+| projectId      | 雲端寶盒-系統代號 |
+| companyId      | 雲端寶盒-範本組織代號 |
+| adminGroupNo      | 雲端寶盒系統-權限管理者角色代號 |
+| userGroupNo      | 雲端寶盒系統-權限使用者角色代號 |
+| orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
+| defaultPassword      | 雲端寶盒系統-新增帳號預設密碼(僅預設值存到資料庫，實際登入密碼由ASUS Account Service管理) |
+
+* 注意事項 : 需在RTE引擎啟動前將此設定檔案填寫完畢並放到{Tomcat Path}\conf，否則當RTE引擎啟動時，讀不到此設定檔案會將服務停止。
+
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
 [新增帳號流程圖]:attachment/sd_adduser.png "新增帳號流程圖"
