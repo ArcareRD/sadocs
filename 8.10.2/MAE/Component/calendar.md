@@ -2,11 +2,11 @@
 
 * ## Web支援版本
   
-      8.9.2
+      8.10.2
 
 * ## APP 支援版本
 
-      008.009.000071 以上(含)
+      008.010.002004 以上(含)
 
 * __行事曆__
   * __元件代碼__
@@ -21,23 +21,21 @@
         * 內容區高度：表單<元件區>的高度(有扣除自訂工具鍵)，所以設定的變動高度無效
       * 當裝置的大小不同時，可能導致元件寬高會改變
     * 元件示意圖
-      * 編輯狀態
-        * Android
-        
-          ![image](./image/android/componentTextEditing.png)
-        * IOS
-        
-          ![image](./image/ios/componentTextEditing.png)
-      * 瀏覧狀態
-        * Android
-        
-          ![image](./image/android/componentTextEditing.png)
-        * IOS
-        
-          ![image](./image/ios/componentTextEditing.png)
+
+      ![image](./image/componentCalendar.png)
     * 多語
       * 提供繁中/簡中/英文。以登入語系決定，若登入語系不支援時，預設英文。
   * __顯示類型__
+    * 今日
+      * 快速連結至當天
+      * 被點擊時
+        * 若<顯示類型＝月>時
+          1. 設定駐留日為當日
+          2. 非本月時，切換至當月
+        * 若<顯示類型＝周>時
+          1. 設定駐留日為當日
+          2. 非本周時，切換至當周
+          3. 會顯示當日的<日期細部資料>
     * 月
       * 跨月顯示時以行事曆上的月份為主
       * 當點選<日期>時
