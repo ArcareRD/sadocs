@@ -12,3 +12,5 @@
   * [history](ITEM_3/history.md)
 * 4.運算式優化  (<font color="red">未施工</font>)
   * [IDE](ITEM_4/IDE/README.md)
+* 5.密碼強度, 要可以符合ISMS規範
+  * [RTE](ITEM_5/RTE/README.md)
