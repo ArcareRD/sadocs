@@ -28,7 +28,7 @@
 * 待補
 
 ### <div id="applyaccount">申請帳號 <path>(畫面說明)</path></div>
-* 待補
+* 開啟表單.[申請帳號](../APPLYACCOUNT/README.md)
 
 ### <div id="login">登入 <path>(畫面說明)</path></div>
 * 若有啟用驗證碼，當帳號/密碼/驗證碼都有輸入值時，按鈕.登入顯示為致能
