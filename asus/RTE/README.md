@@ -39,6 +39,7 @@
     * 停用帳號
     * 啟用帳號
     * 刪除帳號
+    * 刪除企業組織
 
 ### <div id="adduserflow">新增帳號 <path>(客戶資料維護)</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來新增帳號，若新增的帳號為企業的第一個帳號，則需額外建立企業資料以及組織資料庫。
@@ -52,7 +53,6 @@
         * email : 使用者email，符合E-Mail格式、不重複， type string
         * group : 使用者角色，Admin / User， type string
         * enterpriceid : 企業代碼，長度限制20, 僅能英數字, 首字英文, 不重複， type string
-        * enterprice_name : 企業名稱，僅能英數字， type string
         * action : 固定為new, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -63,8 +63,7 @@
             user_name : "王大明",
             email : "first@gmail.com",
             group : "Admin",
-            enterpriseid : "FirstMarket",
-            enterprise_name : "第一超商",
+            enterpriseid : "123456789123456789",
             action : "new"
           }
 * Response
@@ -111,7 +110,7 @@
             user_name : "王大明",
             email : "first@gmail.com",
             group : "Admin",
-            enterpriseid : "FirstMarket",
+            enterpriseid : "123456789123456789",
             action : "update"
           }
 * Response
@@ -148,7 +147,7 @@
             token_type : "BEARER",
             token : "1234567898asdasdasd",
             userid : "first",
-            enterpriseid : "FirstMarket",
+            enterpriseid : "123456789123456789",
             action : "disable"
           }
 * Response
@@ -185,7 +184,7 @@
             token_type : "BEARER",
             token : "1234567898asdasdasd",
             userid : "first",
-            enterpriseid : "FirstMarket",
+            enterpriseid : "123456789123456789",
             action : "enaable"
           }
 * Response
@@ -222,7 +221,7 @@
             token_type : "BEARER",
             token : "1234567898asdasdasd",
             userid : "first",
-            enterpriseid : "FirstMarket",
+            enterpriseid : "123456789123456789",
             action : "delete"
           }
 * Response
@@ -242,6 +241,40 @@
 * 刪除帳號流程圖
 
     ![刪除帳號流程圖]
+
+### <div id="deleteenterpriseflow">刪除企業組織 <path>(客戶資料維護)</div>
+* 說明 : 提供給ASUS Account Service呼叫，用來刪除企業組織，當呼叫此API時，會刪除該企業組織下所有企業資料、帳號資料以及組織資料庫。
+* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+    * Body(JSON)
+        * token_type : token的格式， type string
+        * token : access token， type string
+        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * action : 固定為delete_enterprise, type string
+    * Example
+        * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
+        * {
+            token_type : "BEARER",
+            token : "1234567898asdasdasd",
+            enterpriseid : "123456789123456789",
+            action : "delete_enterprise"
+          }
+* Response
+    * Body (JSON)
+        * { status : 狀態碼 }
+        * 狀態碼清單
+        | 狀態碼        | 代碼說明           |
+        | ------------- |:-------------:|
+        | 200      | 執行成功 |
+        | 400      | 無效的ACCESS TOKEN      |
+        | 1002      | 建立資料庫連線失敗      |
+        | 1007      | 指定的企業不存在      |
+        | 1015      | 刪除企業資料失敗      |
+        | 1013      | WFB Info, type <> admin    |
+        | 1014      | WFB Info, support ruRu <> 1|
+* 刪除企業組織流程圖
+
+    ![刪除企業組織流程圖]
 
 ### <div id="service">系統狀態查詢</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來確認AP Server是否可正常連線
@@ -293,11 +326,12 @@
 ```Json
     {							
         result : (boolean)執行結果,						
-        error : (String)錯誤訊息						
+        error : (String)錯誤訊息,
+        isactive : (Boolean)該使用者所屬的雲端寶盒組織資料庫初始化完成否
     #回傳資訊_start								
         userId : (Long)使用者序號,						
         enterpriseId : (String)企業唯一號,						
-        enterpriseNo : (String)企業代碼,						
+        enterpriseNo : (String)企業代碼(result=true or isactive=false 會回傳),						
         enterpriseName : (String)企業名稱,						
         userName : (String)使用者姓名,						
         project : (JOSNArray)系統、組織、語系						
@@ -413,6 +447,26 @@
     }
 ```
 
+### <div id="appgetinitstatus">MAE 取得系統初始化狀態</div>
+* 說明 : 提供給MAE APP呼叫，用來重新取得華碩access token。
+* 限制 : 無
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetInitStatus)
+    * Body(JSON)
+```Json
+    {							
+        csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
+        languageId : (String)語系,						
+        enterpriseNo : (String)企業代碼
+    }
+```
+* Response
+    * Body (JSON)
+```Json
+    {							
+        result : (boolean)執行結果,
+    }
+```
+
 ### <div id="brainworknew">首頁畫面修正</div>
 * 如下圖所示為首頁畫面須修正的部分
 
@@ -450,5 +504,6 @@
 [刪除帳號流程圖]:attachment/sd_deleteuser.png "刪除帳號流程圖"
 [停用帳號流程圖]:attachment/sd_disableuser.png "停用帳號流程圖"
 [啟用帳號流程圖]:attachment/sd_enableuser.png "啟用帳號流程圖"
+[刪除企業組織流程圖]:attachment/sd_deleteenterprise.png "刪除企業組織流程圖"
 [系統狀態查詢流程圖]:attachment/sd_service.png "系統狀態查詢流程圖"
 [首頁畫面修正]:attachment/sa_brainworkNew.png "首頁畫面修正"
