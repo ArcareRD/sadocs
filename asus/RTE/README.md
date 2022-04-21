@@ -448,7 +448,7 @@
 ```
 
 ### <div id="appgetinitstatus">MAE 取得系統初始化狀態</div>
-* 說明 : 提供給MAE APP呼叫，用來重新取得華碩access token。
+* 說明 : 提供給MAE APP呼叫，用來查詢指定的企業組織資料庫是否已初始化完成。
 * 限制 : 無
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetInitStatus)
     * Body(JSON)
