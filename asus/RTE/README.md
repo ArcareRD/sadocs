@@ -52,7 +52,7 @@
         * user_name : 使用者名稱， type string
         * email : 使用者email，符合E-Mail格式、不重複， type string
         * group : 使用者角色，Admin / User， type string
-        * enterpriceid : 企業代碼，長度限制20, 僅能英數字, 首字英文, 不重複， type string
+        * enterpriseid : 企業代碼，長度限制30, 僅能英數字, 首字英文, 不重複， type string
         * action : 固定為new, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -99,7 +99,7 @@
         * user_name : 使用者名稱， type string
         * email : 使用者email，符合E-Mail格式、不重複， type string
         * group : 使用者角色，Admin / User， type string
-        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼， type string
         * action : 固定為update, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -139,7 +139,7 @@
         * token_type : token的格式， type string
         * token : access token， type string
         * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼， type string
         * action : 固定為disable, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -176,7 +176,7 @@
         * token_type : token的格式， type string
         * token : access token， type string
         * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼， type string
         * action : 固定為enaable, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -213,7 +213,7 @@
         * token_type : token的格式， type string
         * token : access token， type string
         * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼， type string
         * action : 固定為delete, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -249,7 +249,7 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * enterpriceid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼， type string
         * action : 固定為delete_enterprise, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
