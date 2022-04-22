@@ -6,7 +6,7 @@
 
 * ## APP 支援版本
 
-      008.010.00106X 以上(含)
+      008.010.001062 以上(含)
 
 * __下拉選項__
   * __元件代碼__
@@ -216,6 +216,7 @@
         
               可依輸入字為關鍵字來和伺服器再查詢目前下拉選項(單選/多選)的資料
               過濾規則依設定分為 開頭是/結尾是/相似於，預設：開頭是
+              若有設定模版的限定大寫則輸入格式會限定在大寫
 
 <!-- 圖示_介面 -->
 [AndroidDropListSearchDisplay]:image/android/componentDropListSearchDisplay.jpg "Android 下拉選項-單選"
@@ -225,9 +226,9 @@
 [IosDropListSearchEditing]:image/IOS/componentDropListSearchEditing.PNG "IOS 下拉選項-單選 關鍵字輸入"
 [IosDropListSearchFilter]:image/IOS/componentDropListSearchFilter.PNG "IOS 下拉選項-單選 關鍵字過濾"
 
-[AndroidDropListMultiSearchDisplay]:image/android/componentDropListMultiSearchDisplay.jpg "Android 下拉選項-多選"
-[AndroidDropListMultiSearchEditing]:image/android/componentDropListMultiSearchEditing.jpg "Android 下拉選項-多選 關鍵字輸入"
-[AndroidDropListMultiSearchFilter]:image/android/componentDropListMultiSearchFilter.jpg "Android 下拉選項-多選 關鍵字過濾"
+[AndroidDropListMultiSearchDisplay]:image/android/componentDropListMultiSearchDisplay.png "Android 下拉選項-多選"
+[AndroidDropListMultiSearchEditing]:image/android/componentDropListMultiSearchEditing.png "Android 下拉選項-多選 關鍵字輸入"
+[AndroidDropListMultiSearchFilter]:image/android/componentDropListMultiSearchFilter.png "Android 下拉選項-多選 關鍵字過濾"
 [IosDropListMultiSearchDisplay]:image/IOS/componentDropListMultiSearchDisplay.PNG "IOS 下拉選項-多選"
 [IosDropListMultiSearchEditing]:image/IOS/componentDropListMultiSearchEditing.PNG "IOS 下拉選項-多選 關鍵字輸入"
 [IosDropListMultiSearchFilter]:image/IOS/componentDropListMultiSearchFilter.PNG "IOS 下拉選項-多選 關鍵字過濾"
