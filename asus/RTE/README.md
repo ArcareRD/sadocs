@@ -48,9 +48,9 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * userid : 使用者帳號，僅英數字，不可重複， type string
-        * user_name : 使用者名稱， type string
-        * email : 使用者email，符合E-Mail格式、不重複， type string
+        * userid : 使用者帳號，為ASUS Account Service的userid，符合E-Mail格式、不重複，type string
+        * user_name : 使用者名稱，為ASUS Account Service的nickName，若為空值或空白則取userid在@前面的內容，type string
+        * email : 使用者email，符合E-Mail格式， type string
         * group : 使用者角色，Admin / User， type string
         * enterpriseid : 企業代碼，長度限制30, 僅能英數字, 首字英文, 不重複， type string
         * action : 固定為new, type string
@@ -59,9 +59,9 @@
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
-            userid : "first",
+            userid : "ooxx@gmail.com",
             user_name : "王大明",
-            email : "first@gmail.com",
+            email : "ooxx@gmail.com",
             group : "Admin",
             enterpriseid : "123456789123456789",
             action : "new"
@@ -95,20 +95,20 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * userid : 使用者帳號，僅英數字，不可重複， type string
-        * user_name : 使用者名稱， type string
-        * email : 使用者email，符合E-Mail格式、不重複， type string
+        * userid : 使用者帳號，為ASUS Account Service的userid，符合E-Mail格式、不重複，type string
+        * user_name : 使用者名稱，為ASUS Account Service的nickName，若為空值或空白則取userid在@前面的內容，type string
+        * email : 使用者email，符合E-Mail格式， type string
         * group : 使用者角色，Admin / User， type string
-        * enterpriseid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為update, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
-            userid : "first",
+            userid : "ooxx@gmail.com",
             user_name : "王大明",
-            email : "first@gmail.com",
+            email : "ooxx@gmail.com",
             group : "Admin",
             enterpriseid : "123456789123456789",
             action : "update"
@@ -138,15 +138,15 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriseid : 該使用者帳號的企業代碼， type string
+        * userid : 使用者帳號，為ASUS Account Service的userid，符合E-Mail格式、不重複，type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為disable, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
-            userid : "first",
+            userid : "ooxx@gmail.com",
             enterpriseid : "123456789123456789",
             action : "disable"
           }
@@ -175,15 +175,15 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriseid : 該使用者帳號的企業代碼， type string
+        * userid : 使用者帳號，為ASUS Account Service的userid，符合E-Mail格式、不重複，type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為enaable, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
-            userid : "first",
+            userid : "ooxx@gmail.com",
             enterpriseid : "123456789123456789",
             action : "enaable"
           }
@@ -212,15 +212,15 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * userid : 使用者帳號，僅英數字，不可重複， type string
-        * enterpriseid : 該使用者帳號的企業代碼， type string
+        * userid : 使用者帳號，為ASUS Account Service的userid，符合E-Mail格式、不重複，type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為delete, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
-            userid : "first",
+            userid : "ooxx@gmail.com",
             enterpriseid : "123456789123456789",
             action : "delete"
           }
@@ -249,7 +249,7 @@
     * Body(JSON)
         * token_type : token的格式， type string
         * token : access token， type string
-        * enterpriseid : 該使用者帳號的企業代碼， type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為delete_enterprise, type string
     * Example
         * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
