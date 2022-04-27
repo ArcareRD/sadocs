@@ -286,7 +286,13 @@
         * 用途說明
         * 規格說明
             * `(1)自定函數更新`為勾選, 則 致能, 否則 除能
-            * 參照 [挑選自定函數通則][link_ruledialog20]
+            * 顯示自定函數名稱
+            * 不須輸入, 唯讀
+    * `(11)自定函數鍵`
+        * 用途說明
+        * 規格說明
+            * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(2)自定函數`有值 時, 致能
+            * 開窗[自定函數][link_CustomFunction], 回傳: 自定函數, 並寫入`(2)自定函數`
             * 異動時執行`(6)參數載入鍵`
     * `(3)目的欄位`
         * 用途說明
@@ -440,7 +446,6 @@
 [link_ruleother4]:../RulesOther/README#ruleother4 "共用通則_其它/挑選表單檔區通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
-[link_ruledialog20]:../RulesDialog/README#ruledialog20 "共用通則_開啟單據/挑選自定函數通則"
 [link_ruledialog9]:../RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選參數通則"
 [link_CustomFunction]:../CustomFunction/README "自定函數"
 [link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"

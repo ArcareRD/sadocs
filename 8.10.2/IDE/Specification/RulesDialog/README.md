@@ -503,23 +503,6 @@
     * 規格說明
         * 當有本欄位, 選項 升冪/降冪; 預設 升冪; `(6)來源型態`=欄位排序, 致能, 否則清空除能
 
-## <p id="ruledialog20">挑選自定函數通則</p>
-![pic][image_ruleDialog2]
-* `(1)名稱欄位`
-    * 用途說明
-    * 規格說明
-        * 顯示自定函數名稱
-        * 不須輸入, 唯讀
-* `(2)開窗鍵`
-    * 用途說明
-    * 規格說明
-        * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)名稱欄位`有值 時, 致能
-        * 開窗[自定函數][link_CustomFunction]
-        * 過濾: 依各單據需求, 指定其它過濾條件
-        * 回傳: 自定函數名稱
-    * 作業流程    
-        * <ps>待補</ps>   
-
 <!-- 圖示 -->
 [image_ruleDialog1]:attachment/ruleDialog1.png
 [image_ruleDialog2]:attachment/ruleDialog2.png
