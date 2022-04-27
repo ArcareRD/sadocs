@@ -6,8 +6,9 @@
     * [表單版面生成表格]()
     * [表格版面生成表單]()
 * 表單加註
-    * [基本設定](FormAnnotation)
-    * [資料區](FADataSource)    
+    * [基本設定](../../Specification/FormAnnotation/README.md)
+    * [資料區](../../Specification/FADataSource/README.md)
+    * [元件對應](FAConnect)
 * 元件加註
     * [基本設定](ObjectAnnotation)
     * [顯示設定](OADisplay)

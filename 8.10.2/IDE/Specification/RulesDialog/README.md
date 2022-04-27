@@ -29,7 +29,9 @@
     * 用途說明
     * 規格說明
         * 顯示多語名稱
-        * 可自行輸入
+        * 可自行輸入, 儲存處理如下說明
+            * 當 多語料號為空白, 則新增多語詞庫
+            * 當 多語料號不為空白, 則依多語料號及專案語系, 修改多語詞庫內容
 * `(2)開窗鍵`
     * 用途說明
     * 規格說明
@@ -96,7 +98,7 @@
                 * 清除內容依各單據需求指定
             * 取消: 關閉訊息, 保留原內容
     * 作業流程    
-        * <ps>待補</ps>         
+        * <ps>待補</ps>
 * `(3)參數鍵`
     * 用途說明
     * 規格說明
@@ -501,6 +503,23 @@
     * 規格說明
         * 當有本欄位, 選項 升冪/降冪; 預設 升冪; `(6)來源型態`=欄位排序, 致能, 否則清空除能
 
+## <p id="ruledialog20">挑選自定函數通則</p>
+![pic][image_ruleDialog2]
+* `(1)名稱欄位`
+    * 用途說明
+    * 規格說明
+        * 顯示自定函數名稱
+        * 不須輸入, 唯讀
+* `(2)開窗鍵`
+    * 用途說明
+    * 規格說明
+        * 單據於編輯狀態 或 單據於瀏覽狀態 且 `(1)名稱欄位`有值 時, 致能
+        * 開窗[自定函數][link_CustomFunction]
+        * 過濾: 依各單據需求, 指定其它過濾條件
+        * 回傳: 自定函數名稱
+    * 作業流程    
+        * <ps>待補</ps>   
+
 <!-- 圖示 -->
 [image_ruleDialog1]:attachment/ruleDialog1.png
 [image_ruleDialog2]:attachment/ruleDialog2.png
@@ -525,6 +544,7 @@
 [link_Replace]:../Replace/README "訊息替代"
 [link_LogicalFunction]:../LogicalFunction/README "邏輯函數"
 [link_ParameterSourceType]:../LogicalFunction/ParameterSourceType.md "邏輯函數_來源類型"
+[link_CustomFunction]:../CustomFunction/README "自定函數"
 [link_ruledialog2]:#ruledialog2 "使用多語詞庫通則"
 [link_ruledialog3]:#ruledialog3 "挑選資料表通則"
 [link_ruledialog4]:#ruledialog4 "挑選檢視表通則"

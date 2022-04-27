@@ -1,5 +1,5 @@
-# 元件加註_選項清單
-* [上一頁](../README.md)
+# 表單加註_基本設定
+* [上一頁]({back})
 * [版面相關](README#layout)
 * [動作說明](README#form-action)
 * [欄位說明](README#object-desc)
