@@ -314,11 +314,12 @@
         csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
         languageId : (String)語系,						
         deviceId : (String)手機MAC IMEI,
-        deviceName : (String)手機裝置名稱,
+        deviceName : (String)手機裝置名稱(提供給華碩API參數.x-asc-device-name),
         tokenType : (String)token type,
         accessToken : (String)access token,						
         refreshToken : (String)refresh token,
         deviceType : (Integer)裝置類型 1.ios / 2.android
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
     }						
 ```
 * Response
@@ -403,7 +404,9 @@
         csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
         languageId : (String)語系,						
         code : (String)華碩提供的授權碼,
-        deviceType : (Integer)裝置類型 1.ios / 2.android
+        deviceType : (Integer)裝置類型 1.ios / 2.android,
+        deviceName : (String)裝置名稱,(提供給華碩API參數.x-asc-device-name),
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
     }						
 ```
 * Response
@@ -430,7 +433,9 @@
         csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
         languageId : (String)語系,						
         refreshToken : (String)refresh token,
-        deviceType : (Integer)裝置類型 1.ios / 2.android
+        deviceType : (Integer)裝置類型 1.ios / 2.android,
+        deviceName : (String)裝置名稱,(提供給華碩API參數.x-asc-device-name),
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
     }
 ```
 * Response
@@ -478,10 +483,13 @@
 | 參數名稱        | 參數說明           |
 | ------------- |:-------------:|
 | rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
+| rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
 | rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
 | maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
+| maeIosClientIdVersion      | MAE向ASUS Account Service 申請的 IOS 版 Client ID Version|
 | maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
 | maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
+| maeAndroidClientIdVersion      | MAE向ASUS Account Service 申請的 Android 版 Client ID Version|
 | maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
 | asusAccountServiceLoginUrl      | ASUS Account Service Login Page URL|
 | asusAccountServiceLogoutUrl      | ASUS Account Service Logout API URL |
