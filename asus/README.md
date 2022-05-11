@@ -18,7 +18,7 @@ MAE除了登入登出改以華碩的流程，其他功能則需同步
 ## 服務刪除
 ![服務刪除]
 
-[服務初始化]:image/ASUS-SERVICE-FLOW-AD.png "服務初始化"
+[服務初始化]:image/ASUS-SERVICE-FLOW-INIT.png "服務初始化"
 [管理員成員清單同步]:image/ASUS-SERVICE-FLOW-AD.png "管理員成員清單同步"
 [成員執行自己資訊同步]:image/ASUS-SERVICE-FLOW-MB.png "成員執行自己資訊同步"
 [服務刪除]:image/ASUS-SERVICE-FLOW-DELETE.png "服務刪除"
