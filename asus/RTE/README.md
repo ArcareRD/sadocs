@@ -40,6 +40,11 @@
 
 ### <div id="addenterpriseflow">新增企業組織 <path>(企業組織資料維護)</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來新增企業組織，並依據token取得管理員帳號資料新增至該企業組織，再將該管理員下的memberlist作為使用者帳號加入企業組織。
+* 支援以下兩種模式
+    * 使用Token呼叫
+    * Server to Server呼叫
+
+### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body(JSON)
@@ -51,6 +56,38 @@
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
+            action : "new"
+          }
+
+* Response
+    * Body (JSON)
+        * { status : 狀態碼 }
+        * 狀態碼清單
+        | 狀態碼        | 代碼說明           |
+        | ------------- |:-------------:|
+        | 200      | 執行成功 |
+        | 400      | 無效的ACCESS TOKEN      |
+        | 1002      | 建立資料庫連線失敗      |
+        | 1003      | 取得加密金鑰錯誤      |
+        | 1004      | 建立組織資料庫失敗      |
+        | 1005      | 複製權限資料失敗      |
+        | 1006      | 新增帳號資料失敗      |
+        | 1013      | WFB Info, type <> admin    |
+        | 1014      | WFB Info, support ruRu <> 1|
+* 新增企業組織流程圖
+
+    ![新增企業組織流程圖]
+
+### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
+* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Body(JSON)
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
+        * action : 固定為new, type string
+    * Example
+        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * {
+            enterpriseid : "AAAA123456789123456789",
             action : "new"
           }
 * Response
@@ -68,24 +105,25 @@
         | 1006      | 新增帳號資料失敗      |
         | 1013      | WFB Info, type <> admin    |
         | 1014      | WFB Info, support ruRu <> 1|
-* 新增帳號流程圖
+* 新增企業組織流程圖
 
-    ![新增帳號流程圖]
+    ![新增企業組織流程圖]
 
-### <div id="deleteenterpriseflow">刪除企業組織 <path>(客戶資料維護)</div>
+### <div id="deleteenterpriseflow">刪除企業組織 <path>(企業組織資料維護)</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來刪除企業組織，當呼叫此API時，會刪除該企業組織下所有企業資料、帳號資料以及組織資料庫。
-* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+* 僅支援Server to Server呼叫
+
+### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body(JSON)
-        * token_type : token的格式， type string
-        * token : access token， type string
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
         * action : 固定為delete, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
+        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
         * {
-            token_type : "BEARER",
-            token : "1234567898asdasdasd",
-            action : "delete_enterprise"
+            enterpriseid : "AAAA123456789123456789",
+            action : "delete"
           }
 * Response
     * Body (JSON)
@@ -104,8 +142,13 @@
 
     ![刪除企業組織流程圖]
 
-### <div id="syncaccountflow">帳號資料同步 <path>(客戶資料維護)</div>
+### <div id="syncaccountflow">帳號資料同步 <path>(企業組織資料維護)</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來執行帳號資料同步，當呼叫此API時，會依據WFB Member list資料進行帳號同步。
+* 支援以下兩種模式
+    * 使用Token呼叫
+    * Server to Server呼叫
+
+### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body(JSON)
@@ -117,6 +160,34 @@
         * {
             token_type : "BEARER",
             token : "1234567898asdasdasd",
+            action : "sync"
+          }
+* Response
+    * Body (JSON)
+        * { status : 狀態碼 }
+        * 狀態碼清單
+        | 狀態碼        | 代碼說明           |
+        | ------------- |:-------------:|
+        | 200      | 執行成功 |
+        | 400      | 無效的ACCESS TOKEN      |
+        | 1002      | 建立資料庫連線失敗      |
+        | 1007      | 指定的企業不存在      |
+        | 1013      | WFB Info, type <> admin    |
+        | 1014      | WFB Info, support ruRu <> 1|
+* 帳號資料同步流程圖
+
+    ![帳號資料同步流程圖]
+
+### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Body(JSON)
+        * enterpriseid : 該使用者帳號的企業代碼，企業代號由ASUS Account Service的 areaId + commercialId組成，type string
+        * action : 固定為sync, type string
+    * Example
+        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * {
+            enterpriseid : "AAAA123456789123456789",
             action : "sync"
           }
 * Response
@@ -366,7 +437,7 @@
 
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
-[新增帳號流程圖]:attachment/sd_addenterprise.png "新增帳號流程圖"
+[新增企業組織流程圖]:attachment/sd_addenterprise.png "新增企業組織流程圖"
 [刪除企業組織流程圖]:attachment/sd_deleteenterprise.png "刪除企業組織流程圖"
 [帳號資料同步流程圖]:attachment/sd_syncaccount.png "帳號資料同步流程圖"
 [系統狀態查詢流程圖]:attachment/sd_service.png "系統狀態查詢流程圖"
