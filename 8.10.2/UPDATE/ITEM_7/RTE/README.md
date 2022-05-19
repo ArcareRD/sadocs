@@ -1,5 +1,5 @@
 ### <div id="user">規劃人員</div>
-* 正傑
+* 正傑、ella
 
 ### <div id="updatedate">規劃日期</div>
 * 2022/05/19
@@ -12,3 +12,4 @@
 * 請至完整文件查看本次異動規格
   * 站台管理
     * [郵件伺服器](../../../RTE/SITE/parametermailsetting/README.md)
+  * 系統工具(系統參數設定)
