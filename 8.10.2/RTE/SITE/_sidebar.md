@@ -12,3 +12,4 @@
 * [企業資料](enterprisedetail/README.md)
 * [企業系統設定](enterprisesystem/README.md)
 * [帳號清單](accountindex/README.md)
+* [郵件伺服器](parametermailsetting/README.md)

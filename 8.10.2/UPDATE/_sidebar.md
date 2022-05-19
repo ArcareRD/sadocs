@@ -16,3 +16,5 @@
   * [MAE](ITEM_5/MAE/README.md)
 * 6.密碼強度, 要可以符合ISMS規範
   * [RTE](ITEM_6/RTE/README.md)
+* 7.郵件伺服器擴充設定
+  * [RTE](ITEM_7/RTE/README.md)
