@@ -18,3 +18,5 @@
   * [RTE](ITEM_6/RTE/README.md)
 * 7.郵件伺服器擴充設定
   * [RTE](ITEM_7/RTE/README.md)
+* 8.多筆表格內按鍵設定隱藏規格異動
+  * [RTE](ITEM_8/RTE/README.md)
