@@ -144,10 +144,9 @@
                * [不可負值](../Addition/Component/basicSettings)
           4. 寫入對應欄位
           5. [更新相關值](../Addition/Component/updateValue)
-          6. [它欄更新](../Addition/Component/passiveUpdate)
-          7. [存後](../Addition/Component/updateValue)
-          8. 重顯相關元件
-          9. 跳至另一元件
+          6. [被動更新](../Addition/Component/passiveUpdate)
+          7. 重顯相關元件
+          8. 跳至另一元件
     * 操作：
       * 點擊 (編輯狀態下)
 
