@@ -8,64 +8,91 @@
 
         008.010.001049 以上(含)
 
-* __支援類型__
-  * 致能(Apps_Enable)
-    * 元件類型
-      * 文字標題
-      * 文字方塊
-      * 多行文字
-      * 下拉選項
-      * 清單選項
-      * 按鈕群組
-      * 按鈕選項
-      * 核取方塊
-      * 框線
-      * 圖片
-      * 元件容器
-      * 畫布
-      * 嵌入物件
-      * 功能按鈕
-  * 除能(Apps_Disable)
-    * 元件類型
-      * 功能按鈕
-  * 顯示致能(Apps_DisplayEnable)
-    * 元件類型
-      * 文字方塊
-      * 多行文字
-      * 按鈕選項
-      * 下拉選項
-      * 清單選項
-      * 嵌入物件
-      * 核取方塊
-  * 駐留(Apps_OnFocus)
-    * 暫不支援，因為更新樣式需要重繪，會導至鍵盤連續開關
-    * 元件類型
-      * ~~文字方塊~~
-      * ~~多行文字~~
-  * 標題(Apps_Title)
-    * 元件類型
-      * 文字方塊
-      * 多行文字
-      * 按鈕群組
-      * 按鈕選項
-      * 下拉選項
-      * 清單選項
-      * 嵌入物件
-      * 圖片
-      * 畫布
-      * 核取方塊
-  * 點擊(Apps_OnClick)
-    * 元件類型
-      * 功能按鈕
-  * 區塊(Apps_Block)
-    * 元件類型
-      * 元件容器
-  * 選項清單(Apps_Item_List)
-    * 元件類型
-      * 下拉選項
-      * 清單選項
-* __常用樣式__
-  * __底色__
+* ### 支援類型
+
+  * [致能](#致能Apps_Enable)
+  * [除能](#除能Apps_Disable)
+  * [顯示致能](#顯示致能Apps_DisplayEnable)
+  * [駐留](#駐留Apps_OnFocus)
+  * [標題](#標題Apps_Title)
+  * [點擊](#點擊Apps_OnClick)
+  * [區塊](#區塊Apps_Block)
+  * [選項清單](#選項清單Apps_Item_List)
+
+* #### 致能(Apps_Enable)
+
+  * 元件類型
+    * [文字標題](../Component/label.md)
+    * [文字方塊](../Component/text.md)
+    * [多行文字](../Component/mulitText.md)
+    * [下拉選項](../Component/dropList.md)
+    * [清單選項](../Component/list.md)
+    * [按鈕群組](../Component/radioGroup.md)
+    * [按鈕選項](../Component/radioButton.md)
+    * [核取方塊](../Component/checkedBox.md)
+    * [框線](../Component/border.md)
+    * [圖片](../Component/image.md)
+    * [元件容器](../Component/container.md)
+    * [畫布](../Component/canvas.md)
+    * [嵌入物件](../Component/embed.md)
+    * [功能按鈕](../Component/button.md)
+
+* #### 除能(Apps_Disable)
+
+  * 元件類型
+    * [功能按鈕](../Component/button.md)
+  
+* ##### 顯示致能(Apps_DisplayEnable)
+
+  * 元件類型
+    * [文字方塊](../Component/text.md)
+    * [多行文字](../Component/mulitText.md)
+    * [按鈕選項](../Component/radioButton.md)
+    * [下拉選項](../Component/dropList.md)
+    * [清單選項](../Component/list.md)
+    * [嵌入物件](../Component/embed.md)
+    * [核取方塊](../Component/checkedBox.md)
+
+* #### 駐留(Apps_OnFocus)
+
+  * 暫不支援，因為更新樣式需要重繪，會導至鍵盤連續開關
+  * 元件類型
+    * ~~[文字方塊](../Component/text.md)~~
+    * ~~[多行文字](../Component/mulitText.md)~~
+
+* #### 標題(Apps_Title)
+
+  * 元件類型
+    * [文字方塊](../Component/text.md)
+    * [多行文字](../Component/mulitText.md)
+    * [按鈕群組](../Component/radioGroup.md)
+    * [按鈕選項](../Component/radioButton.md)
+    * [下拉選項](../Component/dropList.md)
+    * [清單選項](../Component/list.md)
+    * [嵌入物件](../Component/embed.md)
+    * [圖片](../Component/image.md)
+    * [畫布](../Component/canvas.md)
+    * [核取方塊](../Component/checkedBox.md)
+
+* #### 點擊(Apps_OnClick)
+
+  * 元件類型
+    * [功能按鈕](../Component/button.md)
+
+* #### 區塊(Apps_Block)
+
+  * 元件類型
+    * [元件容器](../Component/container.md)
+
+* #### 選項清單(Apps_Item_List)
+
+  * 元件類型
+    * [下拉選項](../Component/dropList.md)
+    * [清單選項](../Component/list.md)
+
+* ### 常用樣式
+
+  * __背景(底色)__
     * 顏色
             RGB格式
     * 透明度
