@@ -32,21 +32,13 @@
     * 寬度(%)
       * 不含 <外邊距>的左邊距/右邊距：(DKS_單元樣式_外邊距_左邊距/右邊距)
     * 當裝置的大小不同時，可能導致元件寬高會改變
-  * 元件示意圖
-    * Android
-
-        ![image](./image/android/componentTextEditing.png)
-
-    * IOS
-
-        ![image](./image/ios/componentTextEditing.png)
 
 * #### 元件樣式
 
-  * [致能(Apps_Enable)](../general/style#致能Apps_Enable)
-  * [顯示致能(Apps_DisplayEnable)](../general/style#顯示致能Apps_Display_Enable)
-  * ~~[駐留(Apps_OnFocus)](../general/style#駐留Apps_onFocus)~~
-  * [標題(Apps_Title)](../general/style#標題Apps_Title)
+  * [致能](../general/style#致能Apps_Enable)
+  * [顯示致能](../general/style#顯示致能Apps_Display_Enable)
+  * ~~[駐留](../general/style#駐留Apps_onFocus)~~
+  * [標題](../general/style#標題Apps_Title)
   * 預設樣式
 
 * #### 加註
@@ -151,5 +143,13 @@
       * 點擊 (編輯狀態下)
 
 * #### 預覧畫面
+
+  * Android
+
+    ![image](./image/android/componentTextEditing.png)
+
+  * IOS
+
+    ![image](./image/ios/componentTextEditing.png)
 
 * #### 作業流程

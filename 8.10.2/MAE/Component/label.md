@@ -32,18 +32,10 @@
     * 寬度(%)
       * 不含 <外邊距>的左邊距/右邊距：(DKS_單元樣式_外邊距_左邊距/右邊距)
     * 當裝置的大小不同時，可能導致元件寬高會改變
-  * 元件示意圖
-    * Android
-
-        ![image](./image/android/componentLabel.png)
-
-    * IOS
-
-        ![image](./image/ios/componentLabel.png)
 
 * #### 元件樣式
 
-  * [致能(Apps_Enable)](../General/style.md#致能Apps_Enable)
+  * [致能](../General/style.md#致能Apps_Enable)
   * 預設樣式
 
 * #### 加註
@@ -118,5 +110,13 @@
     * 點擊（有超連結時)
 
 * #### 預覧畫面
+
+  * Android
+
+    ![image](./image/android/componentLabel.png)
+
+  * IOS
+
+    ![image](./image/ios/componentLabel.png)
 
 * #### 作業流程
