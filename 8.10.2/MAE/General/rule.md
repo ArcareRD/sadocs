@@ -12,7 +12,21 @@
   * __標題__
     * 顯示標題
       * 有
+        * [文字方塊](../Component/text.md)
+        * [多行文字](../Component/mulitText.md)
+        * [下拉選項](../Component/dropList.md)
+        * [清單選項](../Component/list.md)
+        * [按鈕群組](../Component/radioGroup.md)
+        * [按鈕選項](../Component/radioButton.md)
+        * [核取方塊](../Component/checkedBox.md)
+        * [圖片](../Component/image.md)
+        * [畫布](../Component/canvas.md)
+        * [嵌入物件](../Component/embed.md)
       * 無
+        * [標題](../Component/label.md)
+        * [容器元件](../Component/container.md)
+        * [框線](../Component/border.md)
+        * [功能按鈕](../Component/button.md)
     * 位置
       * 上
       * 下
@@ -119,20 +133,24 @@
     * - [x] 不支援
   * __元件隱藏__
     * 資料隱藏：DKS_編輯能力_資料隱藏(條件式)
-          1. 有設<對應欄位>才支援
-          2. 不支援資料隱藏的元件類型：元件容器/嵌入物件/按鈕群組
-      * [文字標題](..\Component\label.md)
-      * [文字方塊](..\Component\text.md)
-      * [多行文字](..\Component\mulitText.md)
-      * [下拉選項](..\Component\dropList.md)
-      * [清單選項](..\Component\list.md)
-      * [按鈕選項](..\Component\radioButton.md)
-      * [核取方塊](..\Component\checkedBox.md)
-      * [圖片](..\Component\image.md)
-      * [畫布](..\Component\canvas.md)
+            有設<對應欄位>才支援
+      * 支援
+        * [文字標題](..\Component\label.md)
+        * [文字方塊](..\Component\text.md)
+        * [多行文字](..\Component\mulitText.md)
+        * [下拉選項](..\Component\dropList.md)
+        * [清單選項](..\Component\list.md)
+        * [按鈕選項](..\Component\radioButton.md)
+        * [核取方塊](..\Component\checkedBox.md)
+        * [圖片](..\Component\image.md)
+        * [畫布](..\Component\canvas.md)
+      * 不支援
+        * [元件容器](../Component/container.md)
+        * [嵌入物件](../Component/embed.md)
+        * [按鈕群組](../Component/button.md)
     * 元件隱藏
-          1. DKS_編輯能力_元件隱藏(條件式)/IDE_按鍵_執行限制(執行時機＝隱藏/顯示)
-          2. 隱藏會不佔位子：後面的元件會往上移
+          DKS_編輯能力_元件隱藏(條件式)/IDE_按鍵_執行限制(執行時機＝隱藏/顯示)
+          隱藏會不佔位子：後面的元件會往上移
       * [文字標題](..\Component\label.md)
       * [文字方塊](..\Component\text.md)
       * [多行文字](..\Component\mulitText.md)
@@ -147,14 +165,15 @@
       * [嵌入物件](..\Component\embed.md)
       * [功能按鈕](..\Component\button.md)
   * __元件駐留__
-        1. 只有文字方塊(編輯狀態)和多行文字(編輯狀態)才有支援
-        2. 當原駐留元件<>此元件時，原駐留元件執行 unFocus 的動作
-        3. 當點擊按鍵時，原駐留元件執行 unFocus 的動作
-        4. 當原駐留元件有設定必要項且有異動資料=無資料時，原駐留元件顯示錯誤同時駐留在原駐留元件
-        5. 駐留元件套用< onFocus >的效果 (目前不支援)
-        6. 原駐留元件套用非< onFocus >的效果 (目前不支援)
+    * 支援
       * [文字方塊](..\Component\text.md)
       * [多行文字](..\Component\mulitText.md)
+    * 流程
+      1. 當原駐留元件<>此元件時，原駐留元件執行 unFocus 的動作
+      2. 當點擊按鍵時，原駐留元件執行 unFocus 的動作
+      3. 當原駐留元件有設定必要項且有異動資料=無資料時，原駐留元件顯示錯誤同時駐留在原駐留元件
+      4. 駐留元件套用< onFocus >的效果 (目前僅支援顏色)
+      5. 原駐留元件套用非< onFocus >的效果
   * __操作__
     * 點擊
           當點擊<內容區>時，駐留至該元件上(onFocus)。
@@ -166,13 +185,13 @@
           * 指定元件(顯示在元件下方)
             * 支援的元件類型：除了在<元件容器>元件𥚃的子元件不支援外。其餘的元件皆支援
             * 類型
-              * 錯誤：樣式為紅色粗體
-              * 警告：樣式為橘色粗體
-              * 清除的時機點
-                    1. 再次顯示錯誤訊息時
-                    2. 執行元件檢錯時
+                  錯誤：樣式為紅色粗體
+                  警告：樣式為橘色粗體
+            * 清除的時機點
+                  1. 再次顯示錯誤訊息時
+                  2. 執行元件檢錯時
           * 彈出訊息盒
-              * 錯誤：顯示紅色
-              * 警告：顯示黃色
+                錯誤：顯示紅色
+                警告：顯示黃色
       * 詢問
             彈出詢問訊息盒
