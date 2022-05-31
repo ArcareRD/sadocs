@@ -55,10 +55,10 @@
 
 * #### 駐留(Apps_OnFocus)
 
-  * 暫不支援，因為更新樣式需要重繪，會導至鍵盤連續開關
+  * 目前暫只支援駐留樣式的顏色，和字型及大小相關的設定因為更新需要重繪，會導至鍵盤連續開關或不顯示
   * 元件類型
-    * ~~[文字方塊](../Component/text.md)~~
-    * ~~[多行文字](../Component/mulitText.md)~~
+    * [文字方塊](../Component/text.md)
+    * [多行文字](../Component/mulitText.md)
 
 * #### 標題(Apps_Title)
 
