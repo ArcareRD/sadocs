@@ -38,6 +38,7 @@
   * [致能](../general/style#致能Apps_Enable)
   * [顯示致能](../general/style#顯示致能Apps_Display_Enable)
   * [駐留](../general/style#駐留Apps_onFocus)
+    * 目前僅支援背景顏色及框線顏色設定，其他設定套用致能樣式
   * [標題](../general/style#標題Apps_Title)
   * 預設樣式
 
