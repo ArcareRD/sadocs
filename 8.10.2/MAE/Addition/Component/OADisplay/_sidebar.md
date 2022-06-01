@@ -2,8 +2,4 @@
 * [上一頁]({back})
   * [執行條件](README.md#logical)
   * [內容處理](README.md#context)
-    * [僅變更顏色](README.md#change_color)
-    * [填入行號](README.md#fill_in_the_line_number)
   * [顏色](README.md#color)
-    * [字體顏色](README.md#font_color)
-    * [背景顏色](README.md#background_color)
