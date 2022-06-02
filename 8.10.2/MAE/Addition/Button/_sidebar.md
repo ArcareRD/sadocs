@@ -9,6 +9,6 @@
 * [外部執行](execute)
 * [裝置支援](deviceSupport)
 * [表單特效](formEffects/README.md)
-* [連結物件]
+* [連結物件](linkObject/README.md)
 * [檔案傳輸](fileTransfer)
 * [推播通知](pushNotification/README.md)
