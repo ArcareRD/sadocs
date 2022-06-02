@@ -80,7 +80,7 @@
   
   * 系統推播記錄查看功能
 
-    ![Notification Record button](./image/notification_record_button.png)
+    ![Notification Record button](./image/notification_system_device.png)
 
 #### <div id="workflow">作業流程</div>
 
