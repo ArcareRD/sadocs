@@ -12,6 +12,7 @@
         * [Token認證](README.md#syncaccounttokenflow)
         * [Server to server](README.md#syncaccountserverflow)
 * [系統狀態查詢](README.md#service)
+    * [Server to server](README.md#serviceflow)
 * [MAE登入](README.md#applogin)
 * [MAE登出](README.md#applogout)
 * [MAE使用驗證碼取得Token](README.md#appgettoken)
