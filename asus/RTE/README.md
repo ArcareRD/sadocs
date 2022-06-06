@@ -79,7 +79,7 @@
     ![新增企業組織(Token)流程圖]
 
 ### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
-* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* 限制 : 呼叫端的IP須在信任的IP清單中
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body(JSON)
         * areaId : 服務區，type int
