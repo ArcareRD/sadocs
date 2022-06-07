@@ -6,10 +6,10 @@
 * 其它
     * [網頁](WebPage)
     * [地圖](Map)
-    * [影片](Film)
+    * [影片](Movie)
     * [圖表](Chart)
     * [系統內表單](InSystemForm)
-    * [檔案櫃圖檔](FileCabinet)
+    * [檔案櫃圖檔](FileCabinetImage)
     * [檔案容器控制](FileContainerControl)
     * [行事曆](Calendar)
 * [history](history)
