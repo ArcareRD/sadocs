@@ -13,18 +13,13 @@
 
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
-    * Body(JSON)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/add/token)
+    * Body
         * token_type : token的格式， type string
         * token : access token， type string
-        * action : 固定為new, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
-        * {
-            token_type : "BEARER",
-            token : "1234567898asdasdasd",
-            action : "new"
-          }
+        * URL : https:// {{ API Host }} /maintain/enterprise/add/token
+        * Body : token_type=BEARER&token=1234567898asdasdasd
 
 * Response
     * Body (JSON)
@@ -36,18 +31,13 @@
 
 ### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body(JSON)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/add/server)
+    * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定為new, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * {
-            areaId : 1,
-            commercialId : 123456789,
-            action : "new"
-          }
+        * URL : https:// {{ API Host }} /maintain/enterprise/add/server
+        * Body : areaId=1&commercialId=123456789
 * Response
     * Body (JSON)
         * { receive : true }
@@ -61,18 +51,13 @@
 
 ### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body(JSON)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/delete/server)
+    * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定為delete, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * {
-            areaId : 1,
-            commercialId : 123456789,
-            action : "delete"
-          }
+        * URL : https:// {{ API Host }} /maintain/enterprise/delete/server
+        * Body : areaId=1&commercialId=123456789
 * Response
     * Body (JSON)
         * { receive : true }
@@ -88,18 +73,13 @@
 
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
-    * Body(JSON)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/sync/token)
+    * Body
         * token_type : token的格式， type string
         * token : access token， type string
-        * action : 固定為sync, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
-        * {
-            token_type : "BEARER",
-            token : "1234567898asdasdasd",
-            action : "sync"
-          }
+        * URL : https:// {{ API Host }} /maintain/enterprise/sync/token
+        * Body : token_type=BEARER&token=1234567898asdasdasd
 * Response
     * Body (JSON)
         * { receive : true }
@@ -109,18 +89,13 @@
 
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body(JSON)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/sync/server)
+    * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定為sync, type string
     * Example
-        * https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * {
-            areaId : 1,
-            commercialId : 123456789,
-            action : "sync"
-          }
+        * URL : https:// {{ API Host }} /maintain/enterprise/sync/server
+        * Body : areaId=1&commercialId=123456789
 * Response
     * Body (JSON)
         * { receive : true }
@@ -135,7 +110,7 @@
 
 ### <div id="serviceflow">Server to server <path>(系統狀態查詢)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/ServiceStatus)
+* Request : (HTTP GET; https:// {{ API Host }} /maintain/ServiceStatus)
     * Parameter
         * 無
 * Response
