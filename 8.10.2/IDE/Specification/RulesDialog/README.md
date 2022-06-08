@@ -431,6 +431,13 @@
 
 ## <p id="ruledialog19">操作邏輯函數表格通則</p>
 ![pic][image_ruleDialog6]
+* `(1)函數名稱`
+    * 用途說明
+    * 規格說明
+        * 參照 [挑選函數通則][link_ruledialog16], 限定: 依下列引用位置說明, 進行函數挑選, 回傳: 函數名稱, 並呼叫`(10)載入鍵`
+            * [元件加註_嵌入物件/圖表][link_Chart]: 表單用圖表的邏輯函數
+            * [按鍵加註_邏輯函數][link_BALogicalFunction]: 非圖表用邏輯函數
+            * [報表元件加註/圖表][link_ReportObjectAnnotation]: 報表用圖表的邏輯函數
 * `(2)參數名稱`
     * 用途說明
     * 規格說明
@@ -502,6 +509,12 @@
     * 用途說明
     * 規格說明
         * 當有本欄位, 選項 升冪/降冪; 預設 升冪; `(6)來源型態`=欄位排序, 致能, 否則清空除能
+* `(10)載入鍵`
+    * 用途說明
+    * 規格說明
+        * 依`(1)函數名稱`至[邏輯函數][link_LogicalFunction]中, 取得參數並依參數順序載入`(11)參數表格`中
+        * 依`(1)函數名稱`及`(2)參數名稱`至[邏輯函數][link_LogicalFunction]判斷, 不存在`(11)參數表格`中, 則新增
+        * 依`(1)函數名稱`及`(2)參數名稱`至[邏輯函數][link_LogicalFunction]判斷, 於`(11)參數表格`中存在無效參數, 則刪除
 
 <!-- 圖示 -->
 [image_ruleDialog1]:attachment/ruleDialog1.png
@@ -538,4 +551,8 @@
 [link_ruledialog13]:#ruledialog13 "挑選表單按鍵通則"
 [link_ruledialog9]:#ruledialog9 "挑選參數通則"
 [link_ruledialog18]:#ruledialog18 "操作運算式通則"
+[link_ruledialog16]:#ruledialog16 "操作函數通則"
 [link_SystemFunction]:../SystemFunction/README "系統函數"
+[link_Chart]:../OADisplayEmbed/Chart "元件加註_嵌入物件/圖表"
+[link_ReportObjectAnnotation]:../ReportObjectAnnotation/README "報表元件加註"
+[link_BALogicalFunction]:../BALogicalFunction/README "按鍵加註_邏輯函數"

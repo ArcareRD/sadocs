@@ -7,7 +7,7 @@
 * [基本設定](basicSettings)
 * [執行限制](implementationRestrictions)
 * [開啟他單](openForm)
-* [影響內容](influenceContent)
+* [影響內容(資料交易)](influenceContent)
 * [資料過濾](dataFilter)
 * [外部執行](execute)
 * [裝置支援](deviceSupport)

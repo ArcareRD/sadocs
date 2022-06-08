@@ -20,14 +20,14 @@
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
 
     * ![pic][image_oaudate_block1]
-    * `(1)按鈕名稱`
+    * `(1)元件名稱`
         * 用途說明
         * 規格說明
-            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示
+            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:元件多語內容並顯示
     * `(2)料號`
         * 用途說明
         * 規格說明
-            * 顯示前單傳入的按鍵料號
+            * 顯示前單傳入的元件料號
     * `(3)執行條件`
         * 用途說明
         * 規格說明

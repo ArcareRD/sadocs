@@ -7,7 +7,7 @@
 ## 欄位設定
 * <p id="fieldbreak1" style="color:blue;">地圖區塊</p>
 
-    ![pic][image_fieldbreak1]
+    ![pic][image_block1]
     * `(1)地址資訊`
         * 用途說明
         * 規格說明
@@ -123,7 +123,7 @@
 
 <!-- 圖片 -->
 [image_map]:attachment/map.png
-[image_fieldbreak1]:attachment/map_fieldbreak1.png
+[image_block1]:attachment/map_block1.png
 
 <!-- 超連結 -->
 [link_ruledialog1]:../RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
