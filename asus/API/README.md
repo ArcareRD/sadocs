@@ -110,7 +110,7 @@
 
 ### <div id="serviceflow">Server to server <path>(系統狀態查詢)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP GET; https:// {{ API Host }} /maintain/ServiceStatus)
+* Request : (HTTP GET; https:// {{ API Host }} /maintain/status)
     * Parameter
         * 無
 * Response
