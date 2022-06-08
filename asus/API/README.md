@@ -89,7 +89,7 @@
 
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/sync/server)
+* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/sync/server)
     * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
