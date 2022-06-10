@@ -205,6 +205,33 @@
 
     ![首頁畫面修正]
 
+### <div id="asusconfig">RTE設定</div>
+* 設定檔案路徑 : {Tomcat Path}\conf\asus_api.properties
+* 參數清單
+| 參數名稱        | 參數說明           |
+| ------------- |:-------------:|
+| rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
+| rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
+| rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
+| maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
+| maeIosClientIdVersion      | MAE向ASUS Account Service 申請的 IOS 版 Client ID Version|
+| maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
+| maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
+| maeAndroidClientIdVersion      | MAE向ASUS Account Service 申請的 Android 版 Client ID Version|
+| maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
+| asusAccountServiceLoginUrl      | ASUS Account Service Login Page URL|
+| asusAccountServiceLogoutUrl      | ASUS Account Service Logout API URL |
+| asusAccountServiceAccessTokenUrl      | ASUS Account Service Get/Refresh Access Token API URL |
+| asusAccountServiceUserInfoUrl      | ASUS Account Service Get User Info API URL |
+| asusAccountServiceWFBMemberListUrl      | ASUS Account Service Get WFB MemberList API URL |
+| projectId      | 雲端寶盒-系統代號 |
+| companyId      | 雲端寶盒-範本組織代號 |
+| adminGroupNo      | 雲端寶盒系統-權限管理者角色代號 |
+| userGroupNo      | 雲端寶盒系統-權限使用者角色代號 |
+| orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
+| whiteList      | 信任的IP來源，可接受多組位置以,連接在一起。如: 192.168.1.1,192.168.22.11 |
+
+
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
 [首頁畫面修正]:attachment/sa_brainworkNew.png "首頁畫面修正"

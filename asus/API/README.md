@@ -13,13 +13,14 @@
 
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/add/token)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body
         * token_type : token的格式， type string
         * token : access token， type string
+        * action : 固定字串 new
     * Example
-        * URL : https:// {{ API Host }} /maintain/enterprise/add/token
-        * Body : token_type=BEARER&token=1234567898asdasdasd
+        * URL : https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=new
 
 * Response
     * Body (JSON)
@@ -31,13 +32,14 @@
 
 ### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/add/server)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
+        * action : new
     * Example
-        * URL : https:// {{ API Host }} /maintain/enterprise/add/server
-        * Body : areaId=1&commercialId=123456789
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=new
 * Response
     * Body (JSON)
         * { receive : true }
@@ -51,13 +53,14 @@
 
 ### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/delete/server)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
+        * action : 固定字串 delete
     * Example
-        * URL : https:// {{ API Host }} /maintain/enterprise/delete/server
-        * Body : areaId=1&commercialId=123456789
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=delete
 * Response
     * Body (JSON)
         * { receive : true }
@@ -73,13 +76,14 @@
 
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/sync/token)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body
         * token_type : token的格式， type string
         * token : access token， type string
+        * action : 固定字串 sync
     * Example
-        * URL : https:// {{ API Host }} /maintain/enterprise/sync/token
-        * Body : token_type=BEARER&token=1234567898asdasdasd
+        * URL : https:// {{ RTE Host }} /ArcareEng/enterprise/sync/token
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=sync
 * Response
     * Body (JSON)
         * { receive : true }
@@ -89,13 +93,14 @@
 
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP POST; https:// {{ API Host }} /maintain/enterprise/sync/server)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
+        * action : 固定字串 sync
     * Example
-        * URL : https:// {{ API Host }} /maintain/enterprise/sync/server
-        * Body : areaId=1&commercialId=123456789
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=sync
 * Response
     * Body (JSON)
         * { receive : true }
@@ -110,7 +115,7 @@
 
 ### <div id="serviceflow">Server to server <path>(系統狀態查詢)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* Request : (HTTP GET; https:// {{ API Host }} /maintain/status)
+* Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/ServiceStatus)
     * Parameter
         * 無
 * Response
@@ -126,24 +131,15 @@
     ![系統狀態查詢流程圖]
 
 ### <div id="asusconfig">API設定</div>
-* 設定檔案路徑 : {Tomcat Path}\conf\asus_api.properties
+* 設定檔案路徑 : {Tomcat Path}\conf\asus.properties
 * 參數清單
 | 參數名稱        | 參數說明           |
 | ------------- |:-------------:|
 | rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
 | rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
 | rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
-| maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
-| maeIosClientIdVersion      | MAE向ASUS Account Service 申請的 IOS 版 Client ID Version|
-| maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
-| maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
-| maeAndroidClientIdVersion      | MAE向ASUS Account Service 申請的 Android 版 Client ID Version|
-| maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
-| asusAccountServiceLoginUrl      | ASUS Account Service Login Page URL|
-| asusAccountServiceLogoutUrl      | ASUS Account Service Logout API URL |
-| asusAccountServiceAccessTokenUrl      | ASUS Account Service Get/Refresh Access Token API URL |
 | asusAccountServiceUserInfoUrl      | ASUS Account Service Get User Info API URL |
-| asusAccountServiceWFBInfoUrl      | ASUS Account Service Get WFB Info API URL |
+| asusAccountServiceWFBMemberListUrl      | ASUS Account Service Get WFB MemberList API URL |
 | projectId      | 雲端寶盒-系統代號 |
 | companyId      | 雲端寶盒-範本組織代號 |
 | adminGroupNo      | 雲端寶盒系統-權限管理者角色代號 |
@@ -151,7 +147,7 @@
 | orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
 | whiteList      | 信任的IP來源，可接受多組位置以,連接在一起。如: 192.168.1.1,192.168.22.11 |
 
-* 注意事項 : 需在API程式啟動前將此設定檔案填寫完畢並放到{Tomcat Path}\conf，否則當API啟動時，讀不到此設定檔案會將服務停止。
+* 注意事項 : 需在RTE程式啟動前將此設定檔案填寫完畢並放到{Tomcat Path}\conf，否則當RTE啟動時，讀不到此設定檔案相關API會無法動作。
 
 [新增企業組織(Token)流程圖]:attachment/sd_addenterprise(Token).png "新增企業組織(Token)流程圖"
 [新增企業組織(ServerToServer)流程圖]:attachment/sd_syncaccount(ServertoServer).png "新增企業組織(ServerToServer)流程圖"
