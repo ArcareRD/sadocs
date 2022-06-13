@@ -205,6 +205,138 @@
 
     ![首頁畫面修正]
 
+### <div id="enterprise">企業組織資料維護</div>
+* 說明 : 提供給ASUS Account Service呼叫，用來進行企業組織資料維護
+    * 新增企業組織
+    * 刪除企業組織
+    * 帳號資料同步
+* 備註 : 採非同步方式呼叫，API僅回傳已接收給ASUS Account Service，背景執行資料維護的動作。
+
+### <div id="addenterpriseflow">新增企業組織 <path>(企業組織資料維護)</div>
+* 說明 : 採非同步方式提供給ASUS Account Service呼叫，用來新增企業組織，並依據token取得管理員帳號資料新增至該企業組織，再將該管理員下的memberlist作為使用者帳號加入企業組織。
+* 支援以下兩種模式
+    * 使用Token呼叫
+    * Server to Server呼叫
+
+### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
+* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+    * Body
+        * token_type : token的格式， type string
+        * token : access token， type string
+        * action : 固定字串 new
+    * Example
+        * URL : https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=new
+
+* Response
+    * Body (JSON)
+        * { receive : true }
+
+* 新增企業組織(Token)流程圖
+
+    ![新增企業組織(Token)流程圖]
+
+### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Body
+        * areaId : 服務區，type int
+        * commercialId : 組織編號，type long
+        * action : new
+    * Example
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=new
+* Response
+    * Body (JSON)
+        * { receive : true }
+* 新增企業組織(ServerToServer)流程圖
+
+    ![新增企業組織(ServerToServer)流程圖]
+
+### <div id="deleteenterpriseflow">刪除企業組織 <path>(企業組織資料維護)</div>
+* 說明 : 提供給ASUS Account Service呼叫，用來刪除企業組織，當呼叫此API時，會刪除該企業組織下所有企業資料、帳號資料以及組織資料庫。
+* 僅支援Server to Server呼叫
+
+### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Body
+        * areaId : 服務區，type int
+        * commercialId : 組織編號，type long
+        * action : 固定字串 delete
+    * Example
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=delete
+* Response
+    * Body (JSON)
+        * { receive : true }
+* 刪除企業組織流程圖
+
+    ![刪除企業組織流程圖]
+
+### <div id="syncaccountflow">帳號資料同步 <path>(企業組織資料維護)</div>
+* 說明 : 提供給ASUS Account Service呼叫，用來執行帳號資料同步，當呼叫此API時，會依據WFB Member list資料進行帳號同步。
+* 支援以下兩種模式
+    * 使用Token呼叫
+    * Server to Server呼叫
+
+### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
+* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+    * Body
+        * token_type : token的格式， type string
+        * token : access token， type string
+        * action : 固定字串 sync
+    * Example
+        * URL : https:// {{ RTE Host }} /ArcareEng/enterprise/sync/token
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=sync
+* Response
+    * Body (JSON)
+        * { receive : true }
+* 帳號資料同步(Token)流程圖
+
+    ![帳號資料同步(Token)流程圖]
+
+### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Body
+        * areaId : 服務區，type int
+        * commercialId : 組織編號，type long
+        * action : 固定字串 sync
+    * Example
+        * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
+        * Body : areaId=1&commercialId=123456789&action=sync
+* Response
+    * Body (JSON)
+        * { receive : true }
+* 帳號資料同步(ServerToServer)流程圖
+
+    ![帳號資料同步(ServerToServer)流程圖]
+
+### <div id="service">系統狀態查詢</div>
+* 說明 : 提供給ASUS Account Service呼叫，用來確認AP Server是否可正常連線
+* Server to Server呼叫
+* 採同步呼叫，確認資料庫連線狀態後回傳給ASUS Account Service。
+
+### <div id="serviceflow">Server to server <path>(系統狀態查詢)</div>
+* 限制 : 呼叫端的IP須在信任的IP清單中
+* Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/ServiceStatus)
+    * Parameter
+        * 無
+* Response
+    * Body (JSON)
+        * { status : 狀態碼 }
+        * 狀態碼清單
+        | 狀態碼        | 代碼說明           |
+        | ------------- |:-------------:|
+        | 200      | 執行成功 |
+        | 1002      | 建立資料庫連線失敗      |
+* 系統狀態查詢流程圖
+
+    ![系統狀態查詢流程圖]
+    
 ### <div id="asusconfig">RTE設定</div>
 * 設定檔案路徑 : {Tomcat Path}\conf\asus_api.properties
 * 參數清單
@@ -235,3 +367,9 @@
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
 [首頁畫面修正]:attachment/sa_brainworkNew.png "首頁畫面修正"
+[新增企業組織(Token)流程圖]:attachment/sd_addenterprise(Token).png "新增企業組織(Token)流程圖"
+[新增企業組織(ServerToServer)流程圖]:attachment/sd_syncaccount(ServertoServer).png "新增企業組織(ServerToServer)流程圖"
+[刪除企業組織流程圖]:attachment/sd_deleteenterprise.png "刪除企業組織流程圖"
+[帳號資料同步(Token)流程圖]:attachment/sd_syncaccount(Token).png "帳號資料同步(Token)流程圖"
+[帳號資料同步(ServerToServer)流程圖]:attachment/sd_syncaccount(ServertoServer).png "帳號資料同步(ServerToServer)流程圖"
+[系統狀態查詢流程圖]:attachment/sd_service.png "系統狀態查詢流程圖"
