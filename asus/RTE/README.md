@@ -56,7 +56,6 @@
     {							
         result : (boolean)執行結果,						
         error : (String)錯誤訊息,
-        isactive : (Boolean)該使用者所屬的雲端寶盒組織資料庫初始化完成否
     #回傳資訊_start								
         userId : (Long)使用者序號,						
         enterpriseId : (String)企業唯一號,						
@@ -92,6 +91,12 @@
         tokenType : (String)token type,
         accessToken : (String)access token,						
         refreshToken : (String)refresh token,
+        maintain : {
+            maintainAction : (String)該使用者所屬的雲端寶盒組織正在執行的維護動作(新增組織=new/刪除組織=delete/帳號同步=sync)
+            areaId : (Int) 服務區，用來取得系統初始化狀態的參數,
+            commercialId : (Long) 組織編號，用來取得系統初始化狀態的參數
+        }    
+        
     #回傳資訊_end								
     }
 ```
@@ -189,14 +194,17 @@
     {							
         csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
         languageId : (String)語系,						
-        enterpriseNo : (String)企業代碼
+        areaId : (Int)服務區,
+        commercialId : (Long)組織編號
     }
 ```
 * Response
     * Body (JSON)
 ```Json
     {							
-        result : (boolean)執行結果,
+        finish : (boolean)執行完成否,
+        success : (boolean)執行成功否,
+        error : (String)錯誤訊息,當success=false時出現
     }
 ```
 
@@ -221,13 +229,14 @@
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
-    * Body
+    * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
         * action : 固定字串 new
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
         * Body : token_type=BEARER&token=1234567898asdasdasd&action=new
+
 
 * Response
     * Body (JSON)
@@ -243,7 +252,7 @@
     * Body
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : new
+        * action : 固定字串 new
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
         * Body : areaId=1&commercialId=123456789&action=new
