@@ -362,7 +362,14 @@
 | userGroupNo      | 雲端寶盒系統-權限使用者角色代號 |
 | orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
 | whiteList      | 信任的IP來源，可接受多組位置以,連接在一起。如: 192.168.1.1,192.168.22.11 |
-
+| newDBFilePath      | 新增的企業組織資料庫檔案資料夾路徑，範例: D:\test\ |
+| newDBFileInitSize      | 新增的企業組織資料庫檔案初始化大小，單位為MB。範例: 1024 |
+| newDBFileGrowthSize      | 新增的企業組織資料庫檔案自動成長大小，單位為MB。範例: 10 |
+| newDBFileMaxSize      | 新增的企業組織資料庫檔案限制大小，單位為MB。範例: 10240 |
+| newDBLogPath      | 新增的企業組織資料庫交易紀錄檔資料夾路徑，範例: D:\test\ |
+| newDBLogInitSize      | 新增的企業組織資料庫交易紀錄檔初始化大小，單位為MB。範例: 1024 |
+| newDBLogGrowthSize      | 新增的企業組織資料庫交易紀錄檔自動成長大小，單位為MB。範例: 10 |
+| newDBLogMaxSize      | 新增的企業組織資料庫交易紀錄檔限制大小，單位為MB。範例: 10240 |
 
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
