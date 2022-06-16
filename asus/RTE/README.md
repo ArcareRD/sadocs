@@ -351,12 +351,15 @@
 * 參數清單
 | 參數名稱        | 參數說明           |
 | ------------- |:-------------:|
+| rteRedirectUri   | RTE呼叫ASUS Account Service 指定的 redirect_uri |
 | rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
 | rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
 | rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
+| maeIosRedirectUri   | MAE呼叫ASUS Account Service 指定的 IOS 版 redirect_uri |
 | maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
 | maeIosClientIdVersion      | MAE向ASUS Account Service 申請的 IOS 版 Client ID Version|
 | maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
+| maeAndroidRedirectUri   | MAE呼叫ASUS Account Service 指定的 Android 版 redirect_uri |
 | maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
 | maeAndroidClientIdVersion      | MAE向ASUS Account Service 申請的 Android 版 Client ID Version|
 | maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
