@@ -94,8 +94,8 @@
         maintain : {
             action : (String)該使用者所屬的雲端寶盒組織正在執行的維護動作(新增組織=new/刪除組織=delete/帳號同步=sync)
             areaId : (Int) 服務區，用來取得系統初始化狀態的參數,
-            commercialId : (Long) 組織編號，用來取得系統初始化狀態的參數
-        }    
+            commercialId : (Long) 組織編號，用來取得系統初始化狀態的參數,
+        }
         
     #回傳資訊_end								
     }
