@@ -375,11 +375,11 @@
 | orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
 | maintainWorkerCount      | 同時可執行維護動作的執行緒數量，請填入比0大的數字 |
 | whiteList      | 信任的IP來源，可接受多組位置以,連接在一起。如: 192.168.1.1,192.168.22.11 |
-| newDBFilePath      | 新增的企業組織資料庫檔案資料夾路徑，範例: D:\test\ |
+| newDBFilePath      | 新增的企業組織資料庫檔案資料夾路徑 |
 | newDBFileInitSize      | 新增的企業組織資料庫檔案初始化大小，單位為MB。範例: 1024 |
 | newDBFileGrowthSize      | 新增的企業組織資料庫檔案自動成長大小，單位為MB。範例: 10 |
 | newDBFileMaxSize      | 新增的企業組織資料庫檔案限制大小，單位為MB。範例: 10240 |
-| newDBLogPath      | 新增的企業組織資料庫交易紀錄檔資料夾路徑，範例: D:\test\ |
+| newDBLogPath      | 新增的企業組織資料庫交易紀錄檔資料夾路徑 |
 | newDBLogInitSize      | 新增的企業組織資料庫交易紀錄檔初始化大小，單位為MB。範例: 1024 |
 | newDBLogGrowthSize      | 新增的企業組織資料庫交易紀錄檔自動成長大小，單位為MB。範例: 10 |
 | newDBLogMaxSize      | 新增的企業組織資料庫交易紀錄檔限制大小，單位為MB。範例: 10240 |
