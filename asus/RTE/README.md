@@ -439,7 +439,7 @@
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
 [首頁畫面修正]:attachment/sa_brainworkNew.png "首頁畫面修正"
 [新增企業組織(Token)流程圖]:attachment/sd_addenterprise(Token).png "新增企業組織(Token)流程圖"
-[新增企業組織(ServerToServer)流程圖]:attachment/sd_syncaccount(ServertoServer).png "新增企業組織(ServerToServer)流程圖"
+[新增企業組織(ServerToServer)流程圖]:attachment/sd_addenterprise(ServertoServer).png "新增企業組織(ServerToServer)流程圖"
 [刪除企業組織流程圖]:attachment/sd_deleteenterprise.png "刪除企業組織流程圖"
 [帳號資料同步(Token)流程圖]:attachment/sd_syncaccount(Token).png "帳號資料同步(Token)流程圖"
 [帳號資料同步(ServerToServer)流程圖]:attachment/sd_syncaccount(ServertoServer).png "帳號資料同步(ServerToServer)流程圖"
