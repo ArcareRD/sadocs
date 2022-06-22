@@ -8,6 +8,10 @@
 
       008.010.002004 以上(含)
 
+  008.010.002022 以上(含)
+
+  * [滑動區域](../../UPDATE/ITEM_10/MAE/README.md)
+
 * #### 元件代碼
 
       wCtnr
@@ -254,5 +258,14 @@
           * 元件高度 < 區塊高度 => 可上下滑動
 
             ![image](./Image/container_block_horizontal_over.png)
+
+    * 類型=單列式
+      * 滑動區域=全螢幕
+
+        ![image](./Image/container_scrolling_full_screen.png)
+
+      * 滑動區域=元件容器
+
+        ![image](./Image/container_scrolling_container.png)
 
 * #### 作業流程

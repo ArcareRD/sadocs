@@ -36,6 +36,8 @@
       * [文字方塊](../../Component/text.md)
         * 僅供顯示＝是
         * 撥號功能=否
+      * [元件容器](../../Component/container.md)
+        * [詳細規格](../../../UPDATE/ITEM_9/MAE/README.md)
       * [圖片](../../Component/image.md)
       * [框線](../../Component/border.md)
   * __撥號功能__
