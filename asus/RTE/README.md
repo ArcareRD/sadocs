@@ -216,8 +216,23 @@
 ### <div id="enterprise">企業組織資料維護</div>
 * 說明 : 提供給ASUS Account Service呼叫，用來進行企業組織資料維護
     * 新增企業組織
+        * 功能說明 : 
+            * 建立指定的企業組織資料庫
+            * 呼叫ASUS Account Service取得企業組織相關成員並自動新增帳號以及相關權限
+            * 依據參數設定建立[資料庫備份維護計畫](README.md#dbbackup)
+            * 建立資料庫備份檔案
     * 刪除企業組織
+        * 功能說明 : 
+            * 刪除指定的企業組織資料庫 / 該企業組織下所有成員帳號
+            * 刪除已建立的[資料庫備份維護計畫](README.md#dbbackup)
+            * 此處無法刪除資料庫備份檔案，檔案須由人工手動搬遷或刪除
     * 帳號資料同步
+        * 功能說明 : 
+            * 呼叫ASUS Account Service取得企業組織相關成員帳號資料
+                * 帳號存在於企業組織資料庫，依據資料進行更新帳號
+                * 帳號不存在於企業組織資料庫，依據資料進行新增帳號
+                * 企業組織資料庫有不存在於ASUS Account Service的帳號，刪除帳號
+
 * 備註 : 採非同步方式呼叫，API僅回傳已接收給ASUS Account Service，背景執行資料維護的動作。
 
 ### <div id="addenterpriseflow">新增企業組織 <path>(企業組織資料維護)</div>
@@ -227,7 +242,7 @@
     * Server to Server呼叫
 
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
-* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body(encoded body)
         * token_type : token的格式， type string
@@ -291,7 +306,7 @@
     * Server to Server呼叫
 
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
-* 限制 : 透過token取得WFB Info，type=admin 且 supportRuru=1
+* 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body
         * token_type : token的格式， type string
@@ -345,12 +360,12 @@
 * 系統狀態查詢流程圖
 
     ![系統狀態查詢流程圖]
-    
+
 ### <div id="asusconfig">RTE設定</div>
-* 設定檔案路徑 : {Tomcat Path}\conf\asus_api.properties
+* 設定檔案路徑 : { Tomcat Path } \conf\asus_api.properties
 * 參數清單
 | 參數名稱        | 參數說明           |
-| ------------- |:-------------:|
+| ------------- |:-------------|
 | rteRedirectUri   | RTE呼叫ASUS Account Service 指定的 redirect_uri |
 | rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
 | rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
@@ -383,6 +398,42 @@
 | newDBLogInitSize      | 新增的企業組織資料庫交易紀錄檔初始化大小，單位為MB。範例: 1024 |
 | newDBLogGrowthSize      | 新增的企業組織資料庫交易紀錄檔自動成長大小，單位為MB。範例: 10 |
 | newDBLogMaxSize      | 新增的企業組織資料庫交易紀錄檔限制大小，單位為MB。範例: 10240 |
+| newDBBackupPath      | 新增的企業組織資料庫備份檔案路徑 |
+| newDBFullBackupType      | 新增的企業組織資料庫備份方式，1.僅初始系統後完整備份一次，後續由差異備份定時執行 / 2.週期性備份(覆蓋原完整備份檔案) |
+| newDBFullBackupCircle      | 備份週期當備份類型=2時有效，以每週為單位，填入數字，表示週數(幾週執行一次完整備份並覆蓋原完整備份檔案) |
+| newDBFullBackupDay      | 備份週期當備份類型=2時有效，當備份類型=2時有效，表示週幾進行備份，1.週一 / 2.週二 / 3.週三 / 4.週四 / 5.週五 / 6.週六 / 7.週日 |
+| newDBFullBackupStartTime      | 當備份類型=2時有效，完整備份的開始時間，格式為 hhmmss |
+| newDBDiffBackupCircle  | 填入數字，表示每隔多少小時進行差異備份 |
+| newDBDiffBackupStartTimeOnFullBackupDay | 當備份類型=2時有效，表示完整備份日的差異備份起始時間，格式為 hhmmss |
+
+### <div id="dbbackup">資料庫備份維護排程</div>
+* 僅透過企業組織資料維護所產生的資料庫才會自動套用此項功能
+* 執行限制條件 : 
+    * SQL Server 必須啟用 Agent XPs 伺服器組態選項
+    * 修改參數僅影響後續新建立的資料庫，已建立的資料庫請由人工手動修改
+* 採循環備份機制 : 依據參數newDBFullBackupType來決定備份機制，共有以下兩種
+    * 1.僅初始系統後完整備份一次，後續由差異備份定時執行 : 僅建立差異備份排程，一直附加到資料庫備份檔案中。
+        * 差異備份會以附加方式加入到備份檔案
+            *  每日從 00:00 - 11:59 執行，依據以下參數建立
+                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次 
+                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
+    * 2.週期性備份 : 會自動產生完整備份以及差異備份排程
+        * 完整備份排程執行時會覆蓋原本的備份檔案。
+            * 依據下列參數建立 :
+                * newDBBackupPath : 指定備份檔案路徑
+                * newDBFullBackupCircle : 以週為單位，表示幾週執行一次
+                * newDBFullBackupDay : 指定星期幾為完整備份日
+                * newDBFullBackupStartTime : 指定完整備份日的開始時間
+                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
+        * 差異備份共有兩個，各自會以附加方式加入到備份檔案
+            * 非完整備份日 : 從 00:00 - 11:59 執行， 依據以下參數建立
+                * newDBFullBackupDay : 一週當中除了這一天，都會執行差異備份
+                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次
+                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
+            * 完整備份日 : 依據以下參數建立
+                * newDBDiffBackupStartTimeOnFullBackupDay : 差異備份執行的開始時間，用來接續完整備份。
+                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次
+                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup_OnFullBackupDay】
 
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
