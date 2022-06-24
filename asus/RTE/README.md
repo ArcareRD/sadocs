@@ -247,10 +247,12 @@
     * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
-        * action : 固定字串 new
+        * action : 固定字串 new,
+        * notifyUrl : 回報執行結果的URL type string
+            * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
-        * Body : token_type=BEARER&token=1234567898asdasdasd&action=new
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=new&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 
 
 * Response
@@ -264,13 +266,15 @@
 ### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body
+    * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定字串 new
+        * action : 固定字串 new,
+        * notifyUrl : 回報執行結果的URL type string
+            * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * Body : areaId=1&commercialId=123456789&action=new
+        * Body : areaId=1&commercialId=123456789&action=new&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
         * { receive : true }
@@ -285,13 +289,15 @@
 ### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body
+    * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
         * action : 固定字串 delete
+        * notifyUrl : 回報執行結果的URL type string
+            * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * Body : areaId=1&commercialId=123456789&action=delete
+        * Body : areaId=1&commercialId=123456789&action=delete&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
         * { receive : true }
@@ -308,13 +314,15 @@
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
-    * Body
+    * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
         * action : 固定字串 sync
+        * notifyUrl : 回報執行結果的URL type string
+            * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/enterprise/sync/token
-        * Body : token_type=BEARER&token=1234567898asdasdasd&action=sync
+        * Body : token_type=BEARER&token=1234567898asdasdasd&action=sync&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
         * { receive : true }
@@ -325,13 +333,15 @@
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
-    * Body
+    * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
         * action : 固定字串 sync
+        * notifyUrl : 回報執行結果的URL type string
+            * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
-        * Body : areaId=1&commercialId=123456789&action=sync
+        * Body : areaId=1&commercialId=123456789&action=sync&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
         * { receive : true }
