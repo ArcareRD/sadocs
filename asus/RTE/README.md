@@ -248,8 +248,8 @@
     * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
-        * action : 固定字串 new,
-        * notifyUrl : 回報執行結果的URL type string
+        * action : 固定字串 new， type string
+        * notifyUrl : 回報執行結果的URL， type string
             * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance
@@ -270,8 +270,8 @@
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定字串 new,
-        * notifyUrl : 回報執行結果的URL type string
+        * action : 固定字串 new， type string
+        * notifyUrl : 回報執行結果的URL， type string
             * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
@@ -293,8 +293,8 @@
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定字串 delete
-        * notifyUrl : 回報執行結果的URL type string
+        * action : 固定字串 delete， type string
+        * notifyUrl : 回報執行結果的URL， type string
             * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
@@ -318,8 +318,8 @@
     * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
-        * action : 固定字串 sync
-        * notifyUrl : 回報執行結果的URL type string
+        * action : 固定字串 sync， type string
+        * notifyUrl : 回報執行結果的URL， type string
             * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/enterprise/sync/token
@@ -337,8 +337,8 @@
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
-        * action : 固定字串 sync
-        * notifyUrl : 回報執行結果的URL type string
+        * action : 固定字串 sync， type string
+        * notifyUrl : 回報執行結果的URL， type string
             * 回傳參數依據 [ASUS Cloud API](https://docs.google.com/document/d/141kCcJeACvJSJC542driaCFVAkcqiEHcFNdlS8xGgO4/edit#heading=h.bnzrgv614wt)
     * Example
         * URL : https:// {{ RTE Host }} /ArcareEng/ServerMaintenance
