@@ -95,12 +95,70 @@
             action : (String)該使用者所屬的雲端寶盒組織正在執行的維護動作(新增組織=new/刪除組織=delete/帳號同步=sync)
             areaId : (Int) 服務區，用來取得系統初始化狀態的參數,
             commercialId : (Long) 組織編號，用來取得系統初始化狀態的參數,
-        },
-        expires : (Int) : APP從背景回到前景未動作需重新登入的時間限制
-        
+        }
     #回傳資訊_end								
     }
 ```
+### <div id="appchangesystem">MAE切換系統</div>
+* 說明 : 提供給MAE APP呼叫，用來切換系統。
+* 限制 : 無
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppChangeSystem)
+    * Body(JSON)
+```Json
+    {							
+        csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},
+        onlineId : (String)上線唯一號,
+        nowProjectId : (String)要登出的專案代號,
+        projectId : (String)登入專案代號 ,	
+        companyId : (String)登入分公司代號,						
+        languageId : (String)語系						
+    }						
+```
+* Response
+    * Body (JSON)
+```Json
+    {							
+        result : (boolean)執行結果,						
+        error : (String)錯誤訊息,
+    #回傳資訊_start								
+        projectVersion : (String)專案版本,						
+        userNo : (String)使用者代號,						
+        userAccessRoleType : (String)是否為系統管理員(1.是 2.否),						
+        userAccessType : (String)是否為最高權限否(1.是 2.否),						
+        userMail : (String)登入人員聯絡信箱,						
+        menu : (JSONArray)選單						
+            [					
+                {				
+                    id : (String)節點代號,			
+                    fid : (String)父節點代號,			
+                    name : (String)名稱,
+                    objGns : (String)流程表單OBJECTID,
+                    rightCount : (int)表單數量,
+                    count : (int)子節點數量,
+                    newyn : (String)新增的節點 (1.是 / 2.否),		
+                    rightNodes : 表單清單
+                        [
+                            [null, (String)表單OBJECTID, (String)表單名, (String)Hint, (String)新增的表單(1.是/2.否), (String)表單成品料號]
+                        ]				
+                }, …				
+            ],
+        sysAndUtcTimeDiff_Corp : (long)格林威治與分公司的時間差(分),
+        sysAndUtcTimeDiff_GLC : (long)格林威治與總公司的時間差(分),
+        bwId : (String)BWID (註.執行內鍵，須傳入),
+        autoCompleteCnt : (int)下拉元件的自動完成查詢筆數,						
+        currencyMapping : (JSONObject)貨幣對照表 { 貨幣代號 : 貨幣符號 }  ex.{HKD: "$", TWD: "$", EUR: "€", MYR: "RM", USD: "$", …},
+        defaultCurrencyId : (String)預設貨幣代號,
+        prototypingCount : (int)打樣記錄上限筆數,
+        multiSystem : (JSONObject)Server端現在系統日期時間
+            {							
+  				sysDateTime_UTC : (String)格林威治日期時間 (格式:yyyy/MM/dd HH:mm:ss.SSS)						
+  				sysDateTime : (String)日期時間 (格式:yyyy/MM/dd HH:mm:ss.SSS)						
+  			}
+        expires : (Int) : APP從背景回到前景未動作需重新登入的時間限制，單位為分鐘
+    #回傳資訊_end								
+    }
+```
+
 
 ### <div id="applogout">MAE登出</div>
 * 說明 : 提供給MAE APP呼叫，用來登出。
@@ -375,7 +433,7 @@
 ### <div id="asusconfig">RTE設定</div>
 * 設定檔案路徑 : { Tomcat Path } \conf\asus_api.properties
 * 參數清單
-| 參數名稱        | 參數說明           |
+| 參數名稱        | 參數說明    |
 | ------------- |:-------------|
 | rteRedirectUri   | RTE呼叫ASUS Account Service 指定的 redirect_uri |
 | rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
