@@ -474,6 +474,7 @@
 | newDBFullBackupStartTime      | 當備份類型=2時有效，完整備份的開始時間，格式為 hhmmss |
 | newDBDiffBackupCircle  | 填入數字，表示每隔多少小時進行差異備份 |
 | newDBDiffBackupStartTimeOnFullBackupDay | 當備份類型=2時有效，表示完整備份日的差異備份起始時間，格式為 hhmmss |
+| accessLogPath | access log 檔案路徑 |
 
 ### <div id="dbbackup">資料庫備份維護排程</div>
 * 僅透過企業組織資料維護所產生的資料庫才會自動套用此項功能
@@ -504,6 +505,36 @@
                 * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次
                 * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup_OnFullBackupDay】
 
+### <div id="accesslog">Access Log 紀錄</div>
+* 當API被呼叫時，會留下一筆資料
+* 可匯入統計軟體進行分析，各API均輸出到同一個檔案，有一定格式
+* 檔案路徑由參數accessLogPath進行設定
+* 欄位定義 : DateTime|LogKey|ID|API|ErrorCode|message|Client IP|ServerIP|ClientType|ClientVersion|X_Ver|SID|Manufacturer|ProductName|OS|SKUNumber|LastCommandLength|LastCommandResponseTime||
+* 欄位說明 :
+| 欄位名稱        | 欄位說明    |
+| ------------- |:-------------|
+| DateTime   | Log記錄的日期時間 |
+| LogKey   | UUID，Log記錄的unique key，跨log檔關聯查詢用的Key |
+| ID   | 使用者ID (User ID) |
+| API   | 執行的API名稱 |
+| ErrorCode   | 執行後回傳給客戶端的Status Code，例：0表示正常執行 |
+| Message   | 相關訊息。通常用於發生Exception時記錄錯誤訊息 |
+| Client IP   | 呼叫此API之用戶端IP位址 |
+| Server IP   | 執行API的伺服器端主機本身IP位址 |
+| Client Type   | 此欄位RTE為空 |
+| Client Version   | 此欄位RTE為空 |
+| X_Ver   | 此欄位RTE為空 |
+| SID   | 此欄位RTE為空 |
+| Manufacturer   | 此欄位RTE為空 |
+| Product Name   | 此欄位RTE為空 |
+| OS   | 此欄位RTE為空 |
+| SKUNumber   | 此欄位RTE為空 |
+| LastCommandLEngth   | 此欄位RTE為空 |
+| LastCommandResponseTime   | 此欄位RTE為空 |
+* 備註 : 以下為ASUS提供的原始文件以及LOG樣本
+    * <a href="asus/RTE/attachment/Accesslog規格20220623.docx" target="_blank">原始文件</a>
+    * <a href="asus/RTE/attachment/AccessLog樣本.txt" target="_blank">LOG樣本</a>
+    
 [登入流程圖]:attachment/sd_login.png "登入流程圖"
 [登出流程圖]:attachment/sd_logout.png "登出流程圖"
 [首頁畫面修正]:attachment/sa_brainworkNew.png "首頁畫面修正"
