@@ -397,10 +397,11 @@
 
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
-* 帳號同步狀態說明 : 當呼叫完 get member list api 後，依據 member state 不同動作
+* 帳號同步狀態說明 : 當呼叫完 get member list api 後，只針對 member 做資料比對。依據 member state 執行不同動作
     * 當 member state 為 64 時，即為 停用。
     * 當 member list 清單中未找到已存在 ruRU 資料庫中的 member，即為 刪除。
-    * 當 member state 為 2、4、8、16，即為 正常使用，執行啟動狀態並更新會員名稱以及會員郵件
+    * 當 member state 為 2、4、8、16，即為 正常使用，執行啟用狀態並更新會員名稱以及會員郵件
+    * 其餘 member state 同正常使用處理方式
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body(encoded body)
         * areaId : 服務區，type int
