@@ -346,7 +346,9 @@
 * 僅支援Server to Server呼叫
 
 ### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
-* 限制 : 呼叫端的IP須在信任的IP清單中
+* 限制 : 
+    * 呼叫端的IP須在信任的IP清單中
+    * 當呼叫完 get member list api 後，如 administrator state 為 32，才將執行 delete team 
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body(encoded body)
         * areaId : 服務區，type int
@@ -372,6 +374,10 @@
 
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
+* 帳號同步狀態說明 : 當呼叫完 get member list api 後，依據 member state 不同動作
+    * 當 member state 為 64 時，即為 停用。
+    * 當 member list 清單中未找到已存在 ruRU 資料庫中的 member，即為 刪除。
+    * 當 member state 為 2、4、8、16，即為 正常使用，執行啟動狀態並更新會員名稱以及會員郵件
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body(encoded body)
         * token_type : token的格式， type string
@@ -391,6 +397,10 @@
 
 ### <div id="syncaccountserverflow">Server to server <path>(企業組織資料維護/帳號資料同步)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
+* 帳號同步狀態說明 : 當呼叫完 get member list api 後，依據 member state 不同動作
+    * 當 member state 為 64 時，即為 停用。
+    * 當 member list 清單中未找到已存在 ruRU 資料庫中的 member，即為 刪除。
+    * 當 member state 為 2、4、8、16，即為 正常使用，執行啟動狀態並更新會員名稱以及會員郵件
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
     * Body(encoded body)
         * areaId : 服務區，type int
@@ -558,6 +568,7 @@
 | 1013          | 同步帳號失敗      |
 | 1014          | 企業已存在，無法新增      |
 | 1015          | 新增企業組織失敗      |
+| 1016          | administrator state 不為 32，停止刪除  |
 | 2001          | 查詢UserInfo失敗      |
 | 2013          | USER Info, Type <> admin      |
 | 2014          | USER Info, unsupport ruRu      |
