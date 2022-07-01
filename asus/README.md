@@ -23,7 +23,29 @@ MAE除了登入登出改以華碩的流程，其他功能則需同步
 ## 服務刪除
 ![服務刪除]
 
+## 架構說明
+![環境架構]
+
+* 上述為雲端寶盒環境架構圖，根據上圖可得到以下角色:
+    * Web user : 使用Web瀏覽器進入ASUS Web Storage以及使用雲端寶盒的使用者。
+    * App user : 使用App進入ASUS Web Storage以及使用雲端寶盒的使用者。
+    * ASUS WebStorage : 負責以下工作
+        * 呼叫master ruRu RTE執行企業資料維護
+        * Web user以及App user的帳號認證
+        * 將雲端寶盒使用者導向至 slave ruRu RTE
+        * 接受master ruRu RTE / slave ruRu RTE呼叫，取得企業相關資料以及帳號相關資料
+    * master ruRu RTE : 負責以下工作
+        * 執行雲端寶盒系統排程
+        * 接受ASUS WebStorage執行以下工作
+            * 新增企業組織
+            * 刪除企業組織
+            * 同步企業組織帳號
+    * slave ruRu RTE : 負責以下工作
+        * 作為Web user / App user使用雲端寶盒系統的AP Server
+    * SQL Server database : 雲端寶盒系統的資料庫
+
 [服務初始化]:image/ASUS-SERVICE-FLOW-INIT.png "服務初始化"
 [管理員成員清單同步]:image/ASUS-SERVICE-FLOW-AD.png "管理員成員清單同步"
 [成員執行自己資訊同步]:image/ASUS-SERVICE-FLOW-MB.png "成員執行自己資訊同步"
 [服務刪除]:image/ASUS-SERVICE-FLOW-DELETE.png "服務刪除"
+[環境架構]:image/architecture.png "環境架構"
