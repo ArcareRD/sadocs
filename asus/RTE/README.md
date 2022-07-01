@@ -48,6 +48,7 @@
         refreshToken : (String)refresh token,
         deviceType : (Integer)裝置類型 1.ios / 2.android
         deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
+        clientVersion : (String)MAE APP版本
     }						
 ```
 * Response
@@ -174,7 +175,10 @@
         tokenType : (String)token type,
         accessToken : (String)access token,						
         refreshToken : (String)refresh token,
-        deviceType : (Integer)裝置類型 1.ios / 2.android
+        deviceType : (Integer)裝置類型 1.ios / 2.android,
+        deviceName : (String)手機裝置名稱(提供給華碩API參數.x-asc-device-name),
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
+        clientVersion : (String)MAE APP版本,
     }							
 ```
 * Response
@@ -198,7 +202,8 @@
         code : (String)華碩提供的授權碼,
         deviceType : (Integer)裝置類型 1.ios / 2.android,
         deviceName : (String)裝置名稱,(提供給華碩API參數.x-asc-device-name),
-        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model),
+        clientVersion : (String)MAE APP版本
     }						
 ```
 * Response
@@ -227,7 +232,8 @@
         refreshToken : (String)refresh token,
         deviceType : (Integer)裝置類型 1.ios / 2.android,
         deviceName : (String)裝置名稱,(提供給華碩API參數.x-asc-device-name),
-        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model)
+        deviceModel : (String)裝置作業系統版本,(提供給華碩API參數.x-asc-device-model),
+        clientVersion : (String)MAE APP版本
     }
 ```
 * Response
