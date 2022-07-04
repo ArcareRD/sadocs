@@ -1,9 +1,9 @@
 ### <div id="login">RTE登入</div>
-* 說明 : 檢查是否已登入RTE系統，若尚未登入則檢查是否由ASUS Account Service轉向而來，若不是則將頁面導向至未登入的畫面
+* 說明 : 檢查是否已登入RTE系統，若尚未登入則檢查是否由ASUS WebStorage轉向而來，若不是則將頁面導向至未登入的畫面
 * 限制 : 無
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/login.jsp)
     * Parameter
-        * code : type string，授權碼，由ASUS Account Service轉向時傳入，RTE會使用此授權碼向ASUS Account Service取得以下資訊
+        * code : type string，授權碼，由ASUS WebStorage轉向時傳入，RTE會使用此授權碼向ASUS WebStorage取得以下資訊
             * token type
             * access token
             * refresh token
@@ -19,7 +19,7 @@
     ![登入流程圖]
 
 ### <div id="logout">RTE登出</div>
-* 說明 : 執行RTE的登出以及呼叫ASUS Account Service Logout API
+* 說明 : 執行RTE的登出以及呼叫ASUS WebStorage Logout API
 * 限制 : 無
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/logout.jsp)
     * Parameter : 無
@@ -279,11 +279,11 @@
     ![首頁畫面修正]
 
 ### <div id="enterprise">企業組織資料維護</div>
-* 說明 : 提供給ASUS Account Service呼叫，用來進行企業組織資料維護
+* 說明 : 提供給ASUS WebStorage呼叫，用來進行企業組織資料維護
     * 新增企業組織
         * 功能說明 : 
             * 建立指定的企業組織資料庫
-            * 呼叫ASUS Account Service取得企業組織相關成員並自動新增帳號以及相關權限
+            * 呼叫ASUS WebStorage取得企業組織相關成員並自動新增帳號以及相關權限
             * 依據參數設定建立[資料庫備份維護計畫](README.md#dbbackup)
             * 建立資料庫備份檔案
     * 刪除企業組織
@@ -293,21 +293,21 @@
             * 此處無法刪除資料庫備份檔案，檔案須由人工手動搬遷或刪除
     * 帳號資料同步
         * 功能說明 : 
-            * 呼叫ASUS Account Service取得企業組織相關成員帳號資料
+            * 呼叫ASUS WebStorage取得企業組織相關成員帳號資料
                 * 帳號存在於企業組織資料庫，依據資料進行更新帳號
                 * 帳號不存在於企業組織資料庫，依據資料進行新增帳號
-                * 企業組織資料庫有不存在於ASUS Account Service的帳號，刪除帳號
+                * 企業組織資料庫有不存在於ASUS WebStorage的帳號，刪除帳號
 
-* 備註 : 採非同步方式呼叫，API僅回傳已接收給ASUS Account Service，背景執行資料維護的動作。
+* 備註 : 採非同步方式呼叫，API僅回傳已接收給ASUS WebStorage，背景執行資料維護的動作。
 
 ### <div id="addenterpriseflow">新增企業組織 <path>(企業組織資料維護)</div>
-* 說明 : 採非同步方式提供給ASUS Account Service呼叫，用來新增企業組織，並依據token取得管理員帳號資料新增至該企業組織，再將該管理員下的memberlist作為使用者帳號加入企業組織。
+* 說明 : 採非同步方式提供給ASUS WebStorage呼叫，用來新增企業組織，並依據token取得管理員帳號資料新增至該企業組織，再將該管理員下的memberlist作為使用者帳號加入企業組織。
 * 支援以下兩種模式
     * 使用Token呼叫
     * Server to Server呼叫
 
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
-* 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
+* 限制 : 透過token向ASUS WebStorage取得User Info，User Info內的type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
     * Body(encoded body)
         * token_type : token的格式， type string
@@ -348,7 +348,7 @@
     ![新增企業組織(ServerToServer)流程圖]
 
 ### <div id="deleteenterpriseflow">刪除企業組織 <path>(企業組織資料維護)</div>
-* 說明 : 提供給ASUS Account Service呼叫，用來刪除企業組織，當呼叫此API時，會刪除該企業組織下所有企業資料、帳號資料以及組織資料庫。
+* 說明 : 提供給ASUS WebStorage呼叫，用來刪除企業組織，當呼叫此API時，會刪除該企業組織下所有企業資料、帳號資料以及組織資料庫。
 * 僅支援Server to Server呼叫
 
 ### <div id="deleteenterpriseserverflow">Server to server <path>(企業組織資料維護/刪除企業組織)</div>
@@ -373,13 +373,13 @@
     ![刪除企業組織流程圖]
 
 ### <div id="syncaccountflow">帳號資料同步 <path>(企業組織資料維護)</div>
-* 說明 : 提供給ASUS Account Service呼叫，用來執行帳號資料同步，當呼叫此API時，會依據WFB Member list資料進行帳號同步。
+* 說明 : 提供給ASUS WebStorage呼叫，用來執行帳號資料同步，當呼叫此API時，會依據WFB Member list資料進行帳號同步。
 * 支援以下兩種模式
     * 使用Token呼叫
     * Server to Server呼叫
 
 ### <div id="syncaccounttokenflow">Token驗證 <path>(企業組織資料維護/帳號資料同步)</div>
-* 限制 : 透過token向ASUS Account Service取得User Info，User Info內的type=admin 且 supportRuru=1
+* 限制 : 透過token向ASUS WebStorage取得User Info，User Info內的type=admin 且 supportRuru=1
 * 帳號同步狀態說明 : 當呼叫完 get member list api 後，依據 member state 不同動作
     * 當 member state 為 64 時，即為 停用。
     * 當 member list 清單中未找到已存在 ruRU 資料庫中的 member，即為 刪除。
@@ -426,9 +426,9 @@
     ![帳號資料同步(ServerToServer)流程圖]
 
 ### <div id="service">系統狀態查詢</div>
-* 說明 : 提供給ASUS Account Service呼叫，用來確認AP Server是否可正常連線
+* 說明 : 提供給ASUS WebStorage呼叫，用來確認AP Server是否可正常連線
 * Server to Server呼叫
-* 採同步呼叫，確認資料庫連線狀態後回傳給ASUS Account Service。
+* 採同步呼叫，確認資料庫連線狀態後回傳給ASUS WebStorage。
 
 ### <div id="serviceflow">Server to server <path>(系統狀態查詢)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
@@ -449,23 +449,20 @@
 * 參數清單
 | 參數名稱        | 參數說明    |
 | ------------- |:-------------|
-| rteRedirectUri   | RTE呼叫ASUS Account Service 指定的 redirect_uri |
-| rteClientId      | RTE向ASUS Account Service 申請的 Client ID |
-| rteClientIdVersion      | RTE向ASUS Account Service 申請的 Client ID Version|
-| rteClientSecret      | RTE向ASUS Account Service 申請的 Client Secret      |
-| maeIosRedirectUri   | MAE呼叫ASUS Account Service 指定的 IOS 版 redirect_uri |
-| maeIosClientId      | MAE向ASUS Account Service 申請的 IOS 版 Client ID      |
-| maeIosClientIdVersion      | MAE向ASUS Account Service 申請的 IOS 版 Client ID Version|
-| maeIosClientSecret      | MAE向ASUS Account Service 申請的 IOS 版 Client Secret |
-| maeAndroidRedirectUri   | MAE呼叫ASUS Account Service 指定的 Android 版 redirect_uri |
-| maeAndroidClientId      | MAE向ASUS Account Service 申請的 Android 版 Client ID |
-| maeAndroidClientIdVersion      | MAE向ASUS Account Service 申請的 Android 版 Client ID Version|
-| maeAndroidClientSecret      | MAE向ASUS Account Service 申請的 Android 版 Client Secret |
-| asusAccountServiceLoginUrl      | ASUS Account Service Login Page URL|
-| asusAccountServiceLogoutUrl      | ASUS Account Service Logout API URL |
-| asusAccountServiceAccessTokenUrl      | ASUS Account Service Get/Refresh Access Token API URL |
-| asusAccountServiceUserInfoUrl      | ASUS Account Service Get User Info API URL |
-| asusAccountServiceWFBMemberListUrl      | ASUS Account Service Get WFB MemberList API URL |
+| rteRedirectUri   | RTE呼叫ASUS WebStorage 指定的 redirect_uri |
+| rteClientId      | RTE向ASUS WebStorage 申請的 Client ID |
+| rteClientSecret      | RTE向ASUS WebStorage 申請的 Client Secret      |
+| maeIosRedirectUri   | MAE呼叫ASUS WebStorage 指定的 IOS 版 redirect_uri |
+| maeIosClientId      | MAE向ASUS WebStorage 申請的 IOS 版 Client ID      |
+| maeIosClientSecret      | MAE向ASUS WebStorage 申請的 IOS 版 Client Secret |
+| maeAndroidRedirectUri   | MAE呼叫ASUS WebStorage 指定的 Android 版 redirect_uri |
+| maeAndroidClientId      | MAE向ASUS WebStorage 申請的 Android 版 Client ID |
+| maeAndroidClientSecret      | MAE向ASUS WebStorage 申請的 Android 版 Client Secret |
+| asusAccountServiceLoginUrl      | ASUS WebStorage Login Page URL|
+| asusAccountServiceLogoutUrl      | ASUS WebStorage Logout API URL |
+| asusAccountServiceAccessTokenUrl      | ASUS WebStorage Get/Refresh Access Token API URL |
+| asusAccountServiceUserInfoUrl      | ASUS WebStorage Get User Info API URL |
+| asusAccountServiceWFBMemberListUrl      | ASUS WebStorage Get WFB MemberList API URL |
 | projectId      | 雲端寶盒-系統代號 |
 | companyId      | 雲端寶盒-範本組織代號 |
 | adminGroupNo      | 雲端寶盒系統-權限管理者角色代號 |
