@@ -36,12 +36,13 @@ MAE除了登入登出改以華碩的流程，其他功能則需同步
         * 接受master ruRu RTE / slave ruRu RTE呼叫，取得企業相關資料以及帳號相關資料
     * master ruRu RTE : 負責以下工作
         * 執行雲端寶盒系統排程
+        * 其餘工作同slave ruRu RTE
+    * slave ruRu RTE : 負責以下工作
+        * 作為Web user / App user使用雲端寶盒系統的AP Server
         * 接受ASUS WebStorage執行以下工作
             * 新增企業組織
             * 刪除企業組織
             * 同步企業組織帳號
-    * slave ruRu RTE : 負責以下工作
-        * 作為Web user / App user使用雲端寶盒系統的AP Server
     * SQL Server database : 雲端寶盒系統的資料庫
 
 [服務初始化]:image/ASUS-SERVICE-FLOW-INIT.png "服務初始化"
