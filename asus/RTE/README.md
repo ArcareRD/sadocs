@@ -309,6 +309,7 @@
 ### <div id="addenterprisetokenflow">Token認證 <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 透過token向ASUS WebStorage取得User Info，User Info內的type=admin 且 supportRuru=1
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+    * Content-Type： application/x-www-form-urlencoded
     * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
@@ -322,7 +323,7 @@
 
 * Response
     * Body (JSON)
-        * { receive : true }
+        * { receive : 接收request成功否, errorCode : 錯誤代碼(當receive=false時產生) }
 
 * 新增企業組織(Token)流程圖
 
@@ -331,6 +332,7 @@
 ### <div id="addenterpriseserverflow">Server to server <path>(企業組織資料維護/新增企業組織)</div>
 * 限制 : 呼叫端的IP須在信任的IP清單中
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Content-Type： application/x-www-form-urlencoded
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
@@ -342,7 +344,7 @@
         * Body : areaId=1&commercialId=123456789&action=new&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
-        * { receive : true }
+        * { receive : 接收request成功否, errorCode : 錯誤代碼(當receive=false時產生) }
 * 新增企業組織(ServerToServer)流程圖
 
     ![新增企業組織(ServerToServer)流程圖]
@@ -356,6 +358,7 @@
     * 呼叫端的IP須在信任的IP清單中
     * 當呼叫完 get member list api 後，如 administrator state 為 32，才將執行 delete team 
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Content-Type： application/x-www-form-urlencoded
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
@@ -367,7 +370,7 @@
         * Body : areaId=1&commercialId=123456789&action=delete&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
-        * { receive : true }
+        * { receive : 接收request成功否, errorCode : 錯誤代碼(當receive=false時產生) }
 * 刪除企業組織流程圖
 
     ![刪除企業組織流程圖]
@@ -385,6 +388,7 @@
     * 當 member list 清單中未找到已存在 ruRU 資料庫中的 member，即為 刪除。
     * 當 member state 為 2、4、8、16，即為 正常使用，執行啟動狀態並更新會員名稱以及會員郵件
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/CustomerMaintenance)
+    * Content-Type： application/x-www-form-urlencoded
     * Body(encoded body)
         * token_type : token的格式， type string
         * token : access token， type string
@@ -396,7 +400,7 @@
         * Body : token_type=BEARER&token=1234567898asdasdasd&action=sync&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
-        * { receive : true }
+       * { receive : 接收request成功否, errorCode : 錯誤代碼(當receive=false時產生) }
 * 帳號資料同步(Token)流程圖
 
     ![帳號資料同步(Token)流程圖]
@@ -409,6 +413,7 @@
     * 當 member state 為 2、4、8、16，即為 正常使用，執行啟用狀態並更新會員名稱以及會員郵件
     * 其餘 member state 同正常使用處理方式
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/ServerMaintenance)
+    * Content-Type： application/x-www-form-urlencoded
     * Body(encoded body)
         * areaId : 服務區，type int
         * commercialId : 組織編號，type long
@@ -420,7 +425,7 @@
         * Body : areaId=1&commercialId=123456789&action=sync&notifyUrl=https%3A%2F%2Ftest.asuswebstorage.com%2F
 * Response
     * Body (JSON)
-        * { receive : true }
+        * { receive : 接收request成功否, errorCode : 錯誤代碼(當receive=false時產生) }
 * 帳號資料同步(ServerToServer)流程圖
 
     ![帳號資料同步(ServerToServer)流程圖]
