@@ -8,3 +8,8 @@
 * #6340
 
 ### <div id="requirement">需求展開</div>
+* 文件位置
+    * [表報作業代號][link_FormAndReportOperationCode]
+
+<!-- 超連結 -->
+[link_FormAndReportOperationCode]:{3}/IDE/Specification/FormAndReportOperationCode/README
