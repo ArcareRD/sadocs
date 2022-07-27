@@ -28,4 +28,4 @@
 * 11.歷史版本資料刪除
   * [IDE](ITEM_11/IDE/README.md)
 * 12.表報作業代號
-  * [IDE](ITEM_12/IDEE/README.md)
+  * [IDE](ITEM_12/IDE/README.md)
