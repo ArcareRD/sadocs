@@ -8,3 +8,8 @@
 * #8946
 
 ### <div id="requirement">需求展開</div>
+* 文件位置
+    * [歷史版本資料清除][link_HistoryVersionClear]
+
+<!-- 超連結 -->
+[link_HistoryVersionClear]:{3}/IDE/Specification/HistoryVersionClear/README

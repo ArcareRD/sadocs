@@ -26,6 +26,7 @@
     * [自定函數](CustomFunction)
 * 輔助工具
     * [AT04.版本發行](Publish/README)
+    * [AT05.歷史版本資料清除](HistoryVersionClear/README)
     * [AT11.表格欄位清單](TableFields/README)
     * [AT21.規格複製](Copy/README)
     * [AT22.跨專案複製](CopyProject/README)
