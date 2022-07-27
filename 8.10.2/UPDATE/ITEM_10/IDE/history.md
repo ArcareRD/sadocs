@@ -3,17 +3,17 @@
 | 版本 |
 | :---: |
 | [old](#old) |
-| [8.10.0](#v8_10_0) |
+| [8.10.2](#v8_10_0) |
 
 ***
 
-### <a id='v8_10_0'></a>8.10.0
-* Added Prenkt 2021-05-05: IDE_因應MAE擴充推播功能相關擴充 ([Trac#8193])
+### <a id='v8_10_0'></a>8.10.2
+* Added Prenkt 2022-06-20: MAE_容器元件建議功能 ([Trac#9068])
 
  
 <!-- 圖片 -->
 
 
 <!-- 超連結 -->
-[Trac#8193]:http://trac.uneec.com/trac/neco/ticket/8193 "#8193"
+[Trac#9068]:http://trac.arcare.com.tw/trac/neco/ticket/9068 "#9068"
 
