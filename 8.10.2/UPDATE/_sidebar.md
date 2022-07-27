@@ -23,4 +23,9 @@
 * 9.元件加註-引用功能-支援元件容器
   * [MAE](ITEM_9/MAE/README.md)
 * 10.元件容器新增屬性-滑動區域
+  * [IDE](ITEM_10/IDE/README.md)
   * [MAE](ITEM_10/MAE/README.md)
+* 11.歷史版本資料刪除
+  * [IDE](ITEM_11/IDE/README.md)
+* 12.表報作業代號
+  * [IDE](ITEM_12/IDEE/README.md)
