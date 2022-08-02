@@ -9,7 +9,7 @@
 
 ### <div id="requirement">需求展開</div>
 * 文件位置
-    * [表報作業代號][link_FormAndReportOperationCode]
+    * [作業代號清單][link_OperationCodeList]
 
 <!-- 超連結 -->
-[link_FormAndReportOperationCode]:{3}/IDE/Specification/FormAndReportOperationCode/README
+[link_OperationCodeList]:{3}/IDE/Specification/OperationCodeList/README

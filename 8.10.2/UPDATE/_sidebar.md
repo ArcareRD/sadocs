@@ -27,5 +27,5 @@
   * [MAE](ITEM_10/MAE/README.md)
 * 11.歷史版本資料刪除
   * [IDE](ITEM_11/IDE/README.md)
-* 12.表報作業代號
+* 12.作業代號清單
   * [IDE](ITEM_12/IDE/README.md)
