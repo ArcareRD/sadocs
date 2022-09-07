@@ -89,6 +89,7 @@
             ],					
         onlineId : (String)使用者上線唯一號, (#7934),
         mainDeviceId : (String) 使用者主裝置代號，若未設定則給null,
+        account : (String)使用者帳號,
         tokenType : (String)token type,
         accessToken : (String)access token,						
         refreshToken : (String)refresh token,
@@ -442,7 +443,7 @@
         * 無
 * Response
     * Body (JSON)
-        * { status : 狀態碼 }
+        * 若成功則回傳ok,若失敗則回傳錯誤原因
         * 狀態碼清單
         
 * 系統狀態查詢流程圖
