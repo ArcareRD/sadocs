@@ -8,3 +8,8 @@
 * #6340
 
 ### <div id="requirement">需求展開</div>
+* 文件位置
+    * [作業代號清單][link_OperationCodeList]
+
+<!-- 超連結 -->
+[link_OperationCodeList]:{3}/IDE/Specification/OperationCodeList/README
