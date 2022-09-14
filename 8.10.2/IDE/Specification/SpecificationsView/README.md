@@ -11,7 +11,7 @@
 
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本</p>
 
-    * ![pic][image_fieldbreak2]
+    * ![pic][image_fieldbreak1]
     * `(1)視窗標題`
         * 用途說明
         * 規格說明
