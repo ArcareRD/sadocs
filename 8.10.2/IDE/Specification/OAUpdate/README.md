@@ -102,7 +102,7 @@
         * 規格說明
             * `(2)查表條件`為空 或 `(2)查表條件`未挑選表格, 顯示訊息 "請選擇查表帶值內容-條件式[條件式來源表格]"
             * `(2)查表條件`的查表類別=資料表, 則參照 [挑選資料表元件通則][link_ruledialog5], 限定: `(2)查表條件`的表格料號, 挑選並回傳資料表元件
-            * `(2)查表條件`的查表類別=檢視表, 則參照 [挑選檢視表元件通則][link_ruledialog4], 限定: `(2)查表條件`的表格料號, 挑選並回傳檢視表元件
+            * `(2)查表條件`的查表類別=檢視表, 則參照 [挑選檢視表元件通則][link_ruledialog8], 限定: `(2)查表條件`的表格料號, 挑選並回傳檢視表元件
             * 暫不支援個資解密，故不提供變色處理
     * `(8)來源排序表格`
         * 用途說明
@@ -113,7 +113,7 @@
         * 用途說明
         * 規格說明
             * `(2)查表條件`的查表類別=資料表, 則參照 [挑選資料表元件通則][link_ruledialog5], 限定: `(2)查表條件`的表格料號, 挑選並回傳資料表元件
-            * `(2)查表條件`的查表類別=檢視表, 則參照 [挑選檢視表元件通則][link_ruledialog4], 限定: `(2)查表條件`的表格料號, 挑選並回傳檢視表元件
+            * `(2)查表條件`的查表類別=檢視表, 則參照 [挑選檢視表元件通則][link_ruledialog8], 限定: `(2)查表條件`的表格料號, 挑選並回傳檢視表元件
             * 暫不支援個資解密，故不提供變色處理
     * `(10)升/降冪`
         * 用途說明
@@ -448,7 +448,7 @@
 [link_ruleother7]:{1}/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
 [link_ruleother8]:{1}/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
 [link_ruledialog5]:{1}/RulesDialog/README#ruledialog5 "共用通則_開啟單據/挑選資料表元件通則"
-[link_ruledialog4]:{1}/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表元件通則"
+[link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
 [link_ruleother4]:../RulesOther/README#ruleother4 "共用通則_其它/挑選表單檔區通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
