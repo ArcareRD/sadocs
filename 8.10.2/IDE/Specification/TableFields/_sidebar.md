@@ -1,4 +1,4 @@
-# 圖示設定
+# 表格欄位清單
 * [上一頁]({back})
 * [版面相關](README#layout)
 * [動作說明](README#form-action)

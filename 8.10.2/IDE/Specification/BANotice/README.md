@@ -19,7 +19,7 @@
     * ![pic][image_Open]
 
 
-## <div id="other-desc">設計注意事項說明</div>
+## <div id="design-desc">設計注意事項說明</div>
 * 推播訊息所有資料大小合計不可超過4k bytes (含系統保留大小: 500 bytes)，若超過此大小，可能造成發送失敗 
 
 ## <div id="object-desc">欄位說明</div>
@@ -278,7 +278,6 @@
 * 作業流程
     * ![pic][image_Save]
 
-
 <p id="tag1">註1: 推播來源欄位範圍</p>
 
 * [推播內容][link_fieldbreak3]: `來源欄位`
@@ -288,6 +287,9 @@
 * [連結內容_超連結網址][link_linkurl]: `網址給值內容`
 * [儲存連結資訊][link_savelinkinfo]: `給值內容`
 * [儲存推播資訊][link_savenoticeinfo]: `給值內容`
+
+## <div id="other-desc">其它</div>
+* [MAE加註儲存通則][link_ruleother5]
 
 
 <!-- 圖片 -->
@@ -314,13 +316,11 @@
 [link_linkgooglecalendar]:MAENotice-Link-GoogleCalendar.md "連結內容_超連結Google行事曆"
 [link_linkurl]:MAENotice-Link-URL.md "連結內容_超連結網址"
 [link_tag1]:#tag1 "註1"
-
 [link_rulebutton2]:{1}/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
 [link_rulebutton3]:{1}/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
-
 [link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_ruleother2]:{1}/RulesDialog/README#ruleother7 "共用通則_其它/按鍵加註-執行條件表格通則"
-
+[link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"
 [link_ruledialog1]:{1}/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog2]:{1}/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog4]:{1}/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
@@ -330,5 +330,4 @@
 [link_ruledialog10]:{1}/RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
 [link_ruledialog11]:{1}/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
 [link_parameter]:{1}/Parameter/README.md "共用通則_開啟單據/設定表單參數通則"
-
 [link_case1]:DesignCaseDesc.md#case1

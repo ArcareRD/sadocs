@@ -274,7 +274,8 @@
         * [更新變數][link_fieldbreak7]的`全域變數`內容重覆, 錯誤訊息內容: 全域變數不可重覆
         * [更新變數][link_fieldbreak7]的`更新變數表格`記錄筆數>**8**筆, 錯誤訊息內容: 更新變數，最多只能存在八筆給值紀錄
 
-
+## <div id="other-desc">其它</div>
+* [MAE加註儲存通則][link_ruleother5]
 
 
 <!-- 圖片 -->
@@ -305,22 +306,17 @@
 [link_fieldbreak7]:#fieldbreak7 "欄位說明/處理內容/更新變數"
 
 [link_GlobalVariable]:{3}/IDE/Specification/GlobalVariable/README.md "全域變數"
-
 [link_ruleother1]:{3}/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_ruleother7]:{3}/IDE/Specification/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
 [link_ruleother8]:{3}/IDE/Specification/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
 [link_ruleother11]:{3}/IDE/Specification/RulesOther/README#ruleother11 "共用通則_其它/個資加密提示通則"
-
-
-
+[link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"
 [link_rulebutton2]:{3}IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
 [link_rulebutton3]:{3}/IDE/Specification/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
-
 [link_ruledialog1]:{3}/IDE/Specification/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog3]:{3}/IDE/Specification/RulesDialog/README#ruledialog3 "共用通則_開啟單據/挑選資料表通則"
 [link_ruledialog4]:{3}/IDE/Specification/RulesDialog/README#ruledialog4 "共用通則_開啟單據/挑選檢視表通則"
 [link_ruledialog7]:{3}/IDE/Specification/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
 [link_ruledialog18]:{3}/IDE/Specification/RulesDialog/README#ruledialog18 "共用通則_開啟單據/操作運算式通則"
-
 [link_ruledialog11]:{3}/IDE/Specification/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
 [link_ruledialog13]:{3}/IDE/Specification/RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選表單按鍵通則"

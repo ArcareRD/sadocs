@@ -46,6 +46,9 @@
                 * 選項為 [檔案容器控制](FileContainerControl)
                 * 選項為 [行事曆](Calendar)
 
+## <div id="other-desc">其它</div>
+* [MAE加註儲存通則][link_ruleother5]
+
 <!-- 圖片 -->
 [image_OADisplayEmbed]:attachment/OADisplayEmbed.png
 [image_OADisplayEmbed_block1]:attachment/fieldbreak1_STD.png
@@ -56,3 +59,4 @@
 [link_AddFormReport_fieldbreak1]:../AddFormReport/README#fieldbreak1 "新增表單/報表/區塊1"
 [link_ruledialog1]:../RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"

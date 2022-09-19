@@ -46,7 +46,7 @@
     * `(7)OnlineHelp`
         * 用途說明
         * 規格說明
-            * [OnlineHelp通則][link_ruleother2], 指定錨點: EventFlowDefine
+            * [OnlineHelp通則][link_ruleother2]
     * `(8)打樣`
         * 用途說明
         * 規格說明

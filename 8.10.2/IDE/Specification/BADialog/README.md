@@ -172,6 +172,9 @@
 * 以下欄位符合條件時, 顯示訊息盒, 顯示規則參照 [存回其它檢控通則][link_ruleother8]
     * [基本][link_fieldbreak1]的`優先序`在同一按鍵下的各加註行為順序不允重複, 錯誤訊息內容: 同一按鍵的各加註內容順序不允重複
 
+## <div id="other-desc">其它</div>
+* [MAE加註儲存通則][link_ruleother5]
+
 <!-- 圖片 -->
 [image_badialog_STD]:attachment/BADialog_STD.png
 [image_badialog_APP]:attachment/BADialog_APP.png
@@ -187,14 +190,12 @@
 [link_ruledialog2]:{1}/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruleother7]:{1}/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
 [link_ruleother8]:{1}/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
-
 [link_rulebutton2]:{1}/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
 [link_rulebutton3]:{1}/RulesButton/README#rulebutton3 "共用通則_按鍵/操作表格記錄通則"
-
 [link_ruledialog1]:{1}/RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog6]:{1}/RulesDialog/README#ruledialog6 "共用通則_開啟單據/挑選表單通則"
 [link_ruledialog7]:{1}/RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
 [link_ruledialog8]:{1}/RulesDialog/README#ruledialog8 "共用通則_開啟單據/操作運算式通則"
 [link_ruledialog9]:{1}/RulesDialog/README#ruledialog9 "共用通則_開啟單據/挑選表單參數通則"
 [link_ruledialog11]:{1}/RulesDialog/README#ruledialog11 "共用通則_開啟單據/設定按鍵執行條件表格通則"
-
+[link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"
