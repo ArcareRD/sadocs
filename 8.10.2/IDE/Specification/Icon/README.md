@@ -21,7 +21,6 @@
         * 用途說明
         * 規格說明
             * [OnlineHelp通則][link_ruleother2]
-            * 錨點: Icon
     * `(2)搜尋區塊`
         * 用途說明
         * 規格說明
@@ -35,7 +34,6 @@
         * 用途說明
         * 規格說明
             * [單據異動資料按鍵操作通則][link_rulebutton2]
-            * [權限驗證通則][link_ruleother6]
     * `(4)刪除鍵`
         * 用途說明
         * 規格說明    
@@ -107,7 +105,6 @@
 [link_fieldbreak2]:#fieldbreak2 "設定內容區塊"
 [link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_ruleother2]:../RulesOther/README#ruleother2 "共用通則_其它/OnlineHelp通則"
-[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗証通則"
 [link_rulebutton1]:../RulesButton/README#rulebutton1 "共用通則_操作按鍵/搜尋區塊操作通則"
 [link_rulebutton2]:../RulesButton/README#rulebutton2 "共用通則_操作按鍵/單據異動資料按鍵操作通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"

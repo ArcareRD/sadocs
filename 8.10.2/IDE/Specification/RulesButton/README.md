@@ -49,6 +49,7 @@
 * `(4)儲存鍵`
     * 用途說明
     * 規格說明
+        * [權限驗証通則][link_ruleother6]
         * 單據編輯狀態, 致能
         * 儲存後, 針對搜尋區塊, 執行以下動作
           * 1.以 專案語系文字內容 做為[搜尋區塊操作通則][link_rulebutton1]`(1)關鍵字`
@@ -118,3 +119,4 @@
 
 <!-- 超連結 -->
 [link_rulebutton1]:#rulebutton1 "搜尋區塊操作通則"
+[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗証通則"

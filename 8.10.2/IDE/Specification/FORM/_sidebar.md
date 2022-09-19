@@ -46,7 +46,7 @@
     * [推播通知](../../Specification/BANotice/README.md)
 * 加註功能
     * [表單規格定義](../../Specification/SpecificationsView/README.md)
-    * [新增資料來源]()
+    * [新增資料來源](../../Specification/AddDataAreaForm/README.md)
     * [元件行為選項](../../Specification/ObjectBehavior/README.md)
     * [元件加註複製]()
     * [新增隱藏元件](../../Specification/AddHiddenObject/README.md)

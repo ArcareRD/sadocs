@@ -58,6 +58,7 @@
             * 依駐留功能按鈕, 新增本次選取的行為選項
             * 檢控下列條件:
                 * 當按鍵類型存在【wMBASave.新增存回(選單列)、wMBESave.修改存回(選單列)、wMBDelete.刪除(選單列)】且該按鍵已存在資料交易的行為選項, 顯示訊息盒【標題：系統訊息 / 訊息內容: 系統按鈕:新增存回/修改存回/刪除，只允存在一筆資料交易。】
+            * [權限驗証通則][link_ruleother6]
         * 作業流程
             * ![pic][image_ButtonBehavior_Save]
     * (3)`重設`
@@ -66,11 +67,6 @@
             * 除了基本設定, 清除所有行為選項勾項目
         * 作業流程
             * ![pic][image_ButtonBehavior_Reset]                
-
-
-
-
-
 
 <!-- 圖片 -->
 [image_button_STD]:attachment/ButtonBehavior_STD.png
@@ -84,4 +80,5 @@
 
 
 <!-- 超連結 -->
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗証通則"

@@ -4,7 +4,7 @@
 
 ## <p id="ruleother2">OnlineHelp通則</p>
 * 依登入之平台語系, 開啟對應語系的OnlineHelp檔案
-* 依指定錨點, 駐留至該錨點下的內容
+* 依指定錨點, 駐留至該錨點下的內容 <!-- 錨點清單: SD文件/Integrated_statistics.xlsx/OnlineHelp -->
 
 ## <p id="ruleother4">挑選表單檔區通則</p>
 * 下拉選項挑選

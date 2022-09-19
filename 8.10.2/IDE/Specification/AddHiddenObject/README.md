@@ -10,8 +10,9 @@
 * [版面資訊通則][link_ruleother1]
 
 ## <div id="form-action">動作說明</div>
-* 依規格定義-主畫面 結構清單駐留表單元件, 執行按鍵.設定，進入本單
-
+* 依規格定義-主畫面 結構清單駐留節點 表單隱藏元件
+    * 執行按鍵.新增, 進入本單
+    * 執行滑鼠右鍵.新增, 進入本單
 
 ## <div id="object-desc">欄位說明</div>
 
@@ -21,8 +22,7 @@
     * `(1)元件名稱`
         * 用途說明
         * 規格說明
-            * 本欄位唯讀
-            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示
+            * 自行輸入
     * `(2)行為選項`
         * 用途說明
         * 規格說明
@@ -35,23 +35,19 @@
     * `(3)儲存`
         * 用途說明
         * 規格說明
-            * 判斷隱藏元件是存否在表單隱藏元件中, 若不存在, 則新增
-            * 若駐留元件, 不存在行為選項:1.基本設定, 系統自動新增該行為選項            
-            * 依駐留元件, 新增本次選取的行為選項
+            * 存回時, 元件名稱, 新增多語詞庫
+            * 存回時, 新增本次選取的行為選項
             * 判斷隱藏元件是存否在[駐留及執行順序][link_WidgetOrder]
                 * 不存在, 則 取得專案語系清單, 及表單駐留及執行順序最大號+1, 將隱藏元件新增[駐留及執行順序][link_WidgetOrder] 
+            * [權限驗証通則][link_ruleother6]
     * `(4)重設`
         * 用途說明
         * 規格說明
             * 除了基本設定, 清除所有已勾選行為選項
 
-
 ## <div id="save-action">儲存檢控</div>
-	
 * 以下欄位符合條件時, 顯示訊息盒, 顯示規則參照 [存回其它檢控通則][link_ruleother8]
-	* 當`元件名稱`的內容已存在表單中, 錯誤訊息內容: 參數名:同表單下, 元件名稱不允重複    
-
-
+	* 當`元件名稱`的內容已存在表單中, 錯誤訊息內容: 參數名:同表單下, 元件名稱不允重複
 
 <!-- 圖片 -->
 [image_AddHiddenObject_STD]:attachment/AddHiddenObject_STD.png
@@ -60,14 +56,8 @@
 [image_AddHiddenObject_Suppert]:attachment/AddHiddenObject_Suppert.png
 
 <!-- 超連結 -->
-[link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
-
-[link_WidgetOrder]:{3}/IDE/Specification/WidgetOrder/README "版面設計/駐留順序"
-
-[link_ruleother1]:/8.10.0/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruleother7]:/8.10.0/IDE/Specification/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
-[link_ruleother8]:/8.10.0/IDE/Specification/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
-
-[link_rulebutton2]:/8.10.1/IDE/Specification/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
-
-[link_ruledialog2]:{4}/IDE/Specification/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
+[link_WidgetOrder]:../WidgetOrder/README "版面設計/駐留順序"
+[link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
+[link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
+[link_ruleother8]:../RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
+[link_ruleother6]:../RulesOther/README#ruleother6 "共用通則_其它/權限驗証通則"

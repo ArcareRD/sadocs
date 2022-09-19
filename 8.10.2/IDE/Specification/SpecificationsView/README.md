@@ -149,6 +149,7 @@
         * 用途說明
         * 規格說明
             * 當駐留節點為 根節點、元件單元、按鍵單元、隱藏元件單元、隱藏按鍵單元、加註行為 則按鍵致能, 否則 除能
+            * [OnlineHelp通則][link_ruleother2]
             * 依駐留節點開啟對應的線上說明文件
     * `(9)相關元件`
         * 用途說明
@@ -175,6 +176,10 @@
             * 依駐留加註行為整筆複製
             * 若複製的節點為 按鍵加註_執行限制, 則執行序取最大號+1
             * 若複製的節點為 按鍵加註_其它加註行為, 則優先序取最大號+1
+    * `(14)單據異動記錄按鍵群`
+        * 用途說明
+        * 規格說明
+            * [單據異動資料按鍵操作通則][link_rulebutton2]
 
 <!-- 圖片 -->
 [image_spec_form]:attachment/SpecificationsView.png
@@ -194,3 +199,5 @@
 [link_CopyButtonAnnotationForm]:../CopyButtonAnnotationForm/README "按鍵加註複製"
 [link_FAConnect]:../FAConnect/README "元件對應"
 [link_FormAndReportComponents]:../FormAndReportComponents/README "元件欄位清單"
+[link_ruleother2]:../RulesOther/README#ruleother2 "共用通則_其它/OnlineHelp通則"
+[link_rulebutton2]:../RulesButton/README#rulebutton2 "共用通則_操作按鍵/單據異動資料按鍵操作通則"
