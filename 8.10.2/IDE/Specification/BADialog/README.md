@@ -43,8 +43,11 @@
 
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">開單內容</p>
 
-    * ![pic][image_badialog_block2]
-     * `(1)表單名稱`
+    * STD、RWD</br>
+        ![pic][image_badialog_block2]
+    * MAE</br>
+        ![pic][image_badialog_block2_APP]
+    * `(1)表單名稱`
         * 用途說明
             * 指定要開啟的表單
         * 規格說明
@@ -100,10 +103,28 @@
             * 開啟的表單呈現方式
                 * 分頁: 以分頁(即頁籤)開啟表單
                 * 視窗: 以另一個視窗開啟表單. 此開啟方式, 系統要求`(10)互動模式`只允為被動
+                * 訊息: 儘MAE支援, 依彈跳訊息盒的模式開啟表單
         * 規格說明
-            * 當表單設計類型=APP, 則 顯示, 否則 隱藏
-            * 單一選項: 分頁 / 視窗
+            * 單一選項: 分頁 / 視窗 / 訊息盒
             * 系統預設: 分頁
+            * 當表單設計類型=STD、RWD, 顯示選項 分頁 / 視窗
+            * 當表單設計類型=APP, 顯示選項 分頁 / 訊息盒
+    * `(11)寬度比例`
+        * 用途說明
+            * 開啟訊息盒表單時, 表單寬度依此比例(相對於手機螢幕), 顯示
+        * 規格說明
+            * 當表單設計類型=STD、RWD, 隱藏
+            * 當`(9)開單模式`=訊息盒, 致能, 否則 除能
+            * 系統預設: 70
+            * 限制最大輸入值: 100; 限制不允輸入負值
+    * `(12)高度比例`
+        * 用途說明
+            * 開啟訊息盒表單時, 表單高度依此比例(相對於手機螢幕), 顯示
+        * 規格說明
+            * 當表單設計類型=STD、RWD, 隱藏
+            * 當`(9)開單模式`=訊息盒, 致能, 否則 除能
+            * 系統預設: 50
+            * 限制最大輸入值: 100; 限制不允輸入負值
     * `(10)互動模式`
         * 用途說明
             * 設定開啟的表單與本單的互動
@@ -168,6 +189,8 @@
         * 當[傳遞參教][link_fieldbreak3]的`參數名`=空值
         * 當[傳遞參教][link_fieldbreak3]的`給值類別`=空值
         * 當[傳遞參教][link_fieldbreak3]的`給值類別`<>空值, 且`給值內容`=空值
+    * 當[開單內容][link_fieldbreak2]的`開單模式`=訊息盒 且 `寬度比例`=空值
+    * 當[開單內容][link_fieldbreak2]的`開單模式`=訊息盒 且 `高度比例`=空值
 
 * 以下欄位符合條件時, 顯示訊息盒, 顯示規則參照 [存回其它檢控通則][link_ruleother8]
     * [基本][link_fieldbreak1]的`優先序`在同一按鍵下的各加註行為順序不允重複, 錯誤訊息內容: 同一按鍵的各加註內容順序不允重複
@@ -180,6 +203,7 @@
 [image_badialog_APP]:attachment/BADialog_APP.png
 [image_badialog_block1]:attachment/BADialog_block1.png
 [image_badialog_block2]:attachment/BADialog_block2.png
+[image_badialog_block2_APP]:attachment/BADialog_block2_APP.png
 [image_badialog_block3]:attachment/BADialog_block3.png
 
 <!-- 超連結 -->
