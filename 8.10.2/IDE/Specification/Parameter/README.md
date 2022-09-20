@@ -14,7 +14,6 @@
         * 用途說明
         * 規格說明
             * 參照 [OnlineHelp通則][link_ruleother2]
-            * 錨點: PassParameters
     * `(2)參數類別`
         * 用途說明
         * 規格說明

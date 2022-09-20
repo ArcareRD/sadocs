@@ -13,7 +13,7 @@
     * `(1)OnlineHelp`
         * 用途說明
         * 規格說明
-			* [OnlineHelp通則][link_ruleother2], 錨點: ProduceDocument
+			* [OnlineHelp通則][link_ruleother2]
 	* `(2)文件類型`
         * 用途說明
         * 規格說明
