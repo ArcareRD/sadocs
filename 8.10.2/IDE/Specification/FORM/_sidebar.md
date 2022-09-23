@@ -10,7 +10,7 @@
     * [資料區](../../Specification/FADataSource/README.md)
     * [元件對應](../../Specification/FAConnect/README.md)
 * 元件加註
-    * [基本設定](ObjectAnnotation)
+    * [基本設定](../../Specification/ObjectAnnotation/README.md)
     * [顯示設定](OADisplay)
     * [預設給值](OAInitial)
     * [選項清單](../../Specification/OAList/README.md)

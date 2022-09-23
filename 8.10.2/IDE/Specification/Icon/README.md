@@ -6,12 +6,7 @@
 ## <div id="form-action">動作說明</div>
 * 由各呼叫端開啟 以Dailog on Top 的方式開啟		
 * 由 架構節點 開啟, 直接開單, 不執行任何動作		
-* 由 前單頁面欄位 開啟, 且該欄位有值, 則執行以下動作</br>
-    ![pic][image_action1]
-    * 1.以 前單頁面欄位 的圖示名稱為`(1)關鍵字`
-	* 2.執行`(2)搜尋`, 並載入`(3)清單`
-	* 3.駐留至 前單頁面欄位 指定之圖示
-	* 4.顯示該圖示的資料內容	    
+* [開單搜尋挑選單據動作通則][link_ruleother13]
 
 ## <div id="object-desc">欄位說明</div>
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">搜尋與其它操作區塊</p>
@@ -25,19 +20,15 @@
         * 用途說明
         * 規格說明
             * [搜尋區塊操作通則][link_rulebutton1]
-    * `(5)搜尋鍵`
+    * `(3)清單`
         * 用途說明
         * 規格說明
-            * 由 架構/系統資源/SR06.圖示設定 開啟, 過濾共用資料庫的資料
-            * 其餘, 過濾專案資料庫下的資料
-    * `(3)單據異動記錄按鍵群`
+            * 顯示 "表單名稱(按鍵名稱)"
+    * `(4)單據異動記錄按鍵群`
         * 用途說明
         * 規格說明
             * [單據異動資料按鍵操作通則][link_rulebutton2]
-    * `(4)刪除鍵`
-        * 用途說明
-        * 規格說明    
-            * 用途類別=2:Wizard用, 跳訊息"該圖示為表單精靈使用，不允刪除"
+
 * <p id="fieldbreak2" style="color:blue;font-weight:bold">設定內容區塊</p>
 
     ![pic][image_fieldbreak2]
@@ -97,7 +88,6 @@
 
 <!-- 圖片 -->
 [image_icon]:attachment/Icon.png
-[image_action1]:attachment/action1.png
 [image_fieldbreak1]:attachment/fieldbreak1.png
 [image_fieldbreak2]:attachment/fieldbreak2.png
 
@@ -108,5 +98,4 @@
 [link_rulebutton1]:../RulesButton/README#rulebutton1 "共用通則_操作按鍵/搜尋區塊操作通則"
 [link_rulebutton2]:../RulesButton/README#rulebutton2 "共用通則_操作按鍵/單據異動資料按鍵操作通則"
 [link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
-
-
+[link_ruleother13]:../RulesOther/README#ruleother13 "共用通則_其它/開單搜尋挑選單據動作通則"

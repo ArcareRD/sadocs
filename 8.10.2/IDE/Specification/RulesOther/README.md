@@ -150,14 +150,22 @@
             * 來源型態/長度: bigint.整數(bigint)/16 
             * 目的型態/長度: numeric.數字/20.6 
             * 計算: 16 > (20-6) , 檢錯結果: 16 > 14  => **不合法**
-      * 3.其餘型態群組不需檢查長度      
+      * 3.其餘型態群組不需檢查長度
 
+## <p id="ruleother13">開單搜尋挑選單據動作通則</p>
+![pic][image_ruleother13]
+* 由 前單頁面欄位 開啟, 且該欄位有值, 則執行以下動作
+  * 1.以 前單頁面欄位 的記錄名稱為`(1)關鍵字`
+	* 2.執行`(2)搜尋`, 並載入`(3)清單`
+	* 3.駐留至 前單頁面欄位 指定之查詢記錄
+	* 4.顯示該記錄的資料內容	
 
 <!-- 圖示 -->
 [image_editAuthority1]:attachment/editAuthority1.png
 [image_editAuthority2]:attachment/editAuthority2.png
 [image_nodeAuthority]:attachment/nodeAuthority.png
 [image_QRCode]:attachment/PrototypingQRCode.png
+[image_ruleother13]:attachment/ruleother13.png
 
 <!-- 超連結 -->
 [link_AddFormReport]:../AddFormReport/README "新增表單/報表"
