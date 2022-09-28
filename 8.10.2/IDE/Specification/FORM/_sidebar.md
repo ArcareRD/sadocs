@@ -11,10 +11,10 @@
     * [元件對應](../../Specification/FAConnect/README.md)
 * 元件加註
     * [基本設定](../../Specification/ObjectAnnotation/README.md)
-    * [顯示設定](OADisplay)
-    * [預設給值](OAInitial)
+    * [顯示設定](../../Specification/OADisplay/README.md)
+    * [預設給值](../../Specification/OAInitial/README.md)
     * [選項清單](../../Specification/OAList/README.md)
-    * [開窗參照](OAPopup)
+    * [開窗參照](../../Specification/OAPopup/README.md)
     * [檢控限制](OAValidate)
     * [更新給值](../../Specification/OAUpdate/README.md)
     * [編輯能力](OAEdit)

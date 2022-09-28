@@ -25,7 +25,7 @@
     * `(1)按鈕名稱`
         * 用途說明
         * 規格說明
-            * 參照 [使用多語詞庫通則][link_ruledialog2], 回傳:按鍵多語內容並顯示
+            * 依專案語系, 顯示按鍵多語名稱
     * `(2)料號`
         * 用途說明
         * 規格說明
@@ -211,7 +211,6 @@
 [link_fieldbreak2]:#fieldbreak2 "開單內容"
 [link_fieldbreak3]:#fieldbreak3 "傳遞參數"
 [link_ruleother1]:{1}/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
-[link_ruledialog2]:{1}/RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruleother7]:{1}/RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
 [link_ruleother8]:{1}/RulesOther/README#ruleother8 "共用通則_其它/存回其它檢控通則"
 [link_rulebutton2]:{1}/RulesButton/README#rulebutton2 "共用通則_按鍵/單據異動資料按鍵操作通則"
