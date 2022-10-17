@@ -32,3 +32,5 @@
 * 13.MAE擴充_開啟它單_增加訊息盒開單模式
   * [IDE](ITEM_13/IDE/README.md)
   * [MAE](ITEM_13/MAE/README.md)
+* 14.RTE_提供帳號自動生效 
+  * [RTE](ITEM_14/RTE/README.md)

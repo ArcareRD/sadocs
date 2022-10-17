@@ -13,3 +13,5 @@
 * [企業系統設定](enterprisesystem/README.md)
 * [帳號清單](accountindex/README.md)
 * [郵件伺服器](parametermailsetting/README.md)
+* [帳號生效參數設定](accounteffectparamsetting/README.md)
+* [帳號生效參數查詢](accounteffectparamquery/README.md)
