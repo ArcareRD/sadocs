@@ -4,4 +4,5 @@
     * [環境設定](SETTING/README.md)
     * [Site管理](SITE/README.md)
     * [系統(System)](SYSTEM/README.md)
+    * [設計規範](DESIGNRULES/README.md)
 * [IDE設計](IDE/README.md)
