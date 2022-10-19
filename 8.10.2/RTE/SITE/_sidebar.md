@@ -7,7 +7,8 @@
     * [Site管理員](siteManager.md)
     * [企業管理員](enterprisesiteManager.md)
     * [系統管理員](systemManager.md)
-* [其他參數](parameterothersetting/README.md)
+* 參數設定
+    * [其他參數](parameterothersetting/README.md)
 * [匯入資料](importdata/README.md)
 * [企業設定](enterpriseindex/README.md)
 * [企業資料](enterprisedetail/README.md)
@@ -16,3 +17,5 @@
 * [郵件伺服器](parametermailsetting/README.md)
 * [帳號生效參數設定](accounteffectparamsetting/README.md)
 * [帳號生效參數查詢](accounteffectparamquery/README.md)
+* [選單權限建置作業](RoleOfPeopleSet/README.md)
+* [取得連結](getRoleURL/README.md)
