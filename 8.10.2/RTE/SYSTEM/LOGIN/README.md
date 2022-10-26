@@ -28,6 +28,7 @@
 * 待補
 
 ### <div id="applyaccount">申請帳號 <path>(畫面說明)</path></div>
+* 當瀏覽器的連結網址存在帳號生效參數設定的唯一號，即使Site系統服務介面.**其他參數**的欄位.**開放帳號申請**未勾選，畫面仍顯示**申請新帳號**的連結
 * 開啟表單.[申請帳號](../APPLYACCOUNT/README.md)
 
 ### <div id="login">登入 <path>(畫面說明)</path></div>
