@@ -18,6 +18,7 @@
     * 顯示 角色名稱
 * 欄位.連結URL
     * 本欄唯讀並除能    
+    * 當[組織權限維護作業]未生效，則本欄 不可複製，且執行 Ctrl+V 無效
     * 顯示 網址+參數唯一號。參考下列URL顯示範例:
             https://ide-2.arcare-robot.com/ArcareEng/login.jsp?_=A5CCBF73-A509-42D7-97B0-D6E02DB5363C
 * 按鈕.連結失效/連結生效 
