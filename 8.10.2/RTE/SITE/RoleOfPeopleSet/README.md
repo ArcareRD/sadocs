@@ -13,7 +13,7 @@
 * 按鈕.取得連結
     * 無條件 致能
     * 點擊按鈕，執行下列動作
-        * 依系統+組織+角色，判斷連結URL是否存在，不存在，則新增
+        * 依駐留筆的系統+組織+角色，判斷連結URL是否存在，不存在，則新增
             * 當[組織權限維護作業]未生效，預設狀態=連結失效
             * 當[組織權限維護作業]生效，預設狀態=連結生效
         * 開啟介面.[取得連結][link_getRoleURL], 傳入.系統、組織、角色
@@ -22,8 +22,15 @@
 
 ### <div id="action">動作流程</div>
 
-* <ps>待補</ps>
+* <ps>待補原規格</ps>
+
+
+* 點擊按鈕.取得連結
+
+    ![link_get_role_url]
 
 
 [表單畫面]:attachment/role_of_people_set.png "表單畫面"
 [link_getRoleURL]:{3}/RTE/SITE/getRoleURL/README
+
+[link_get_role_url]:attachment/click_get_role_url.png "取得連結" 

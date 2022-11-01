@@ -31,8 +31,27 @@
 
 
 ### <div id="action">動作流程</div>
-* <ps>待補</ps>
+* 開啟畫面
+
+    ![link_url_openform]
+
+* 點擊按鈕.連結失效    
+
+    ![link_url_click_invalid]
+
+* 點擊按鈕.連結生效
+
+    ![link_url_click_effective]
+
+* 點擊按鈕.複製連結
+
+    ![link_url_click_copy]
 
 
 [表單畫面]:attachment/get_role_url.png "表單畫面"
 [link_RoleOfPeopleSet]:{3}/RTE/SITE/RoleOfPeopleSet/README
+
+[link_url_openform]:attachment/get_role_url_openform.png "開啟畫面"
+[link_url_click_invalid]:attachment/click_url_Invalid.png "點擊連結失效"
+[link_url_click_effective]:attachment/click_url_effective.png "點擊連結生效"
+[link_url_click_copy]:attachment/click_url_copy.png "點擊複製連結"

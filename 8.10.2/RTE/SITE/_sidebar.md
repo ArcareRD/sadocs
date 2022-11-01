@@ -15,9 +15,12 @@
 * [企業系統設定](enterprisesystem/README.md)
 * [帳號清單](accountindex/README.md)
 * [郵件伺服器](parametermailsetting/README.md)
+* [權限維護作業](ListOfPermissions/README.md)
+* [角色名單](RoleList/README.md)
 * [角色對應選單設定](RoleOfPeopleSet/README.md)
 * [取得連結](getRoleURL/README.md)
 
+--------
 * 以下未施工
     * [帳號生效參數設定](accounteffectparamsetting/README.md)
     * [帳號生效參數查詢](accounteffectparamquery/README.md)

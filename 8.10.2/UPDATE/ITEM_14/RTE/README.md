@@ -45,6 +45,7 @@
     * 異動按鈕.刪除，刪除權限時，須依 **系統+組織+角色** 將對應的 [取得連結][link_getRoleURL] 資料一併刪除    
     * 異動按鈕.生效，權限生效時，須依 **系統+組織+角色** 將對應的 [取得連結][link_getRoleURL] 資料進行連結生效
     * 擴充排程: 當權限失效時，須依 **系統+組織+角色** 將對應的 [取得連結][link_getRoleURL] 資料進行連結失效  
+    * 規格文件，請看[權限維護作業][link_listofpermissions]
   * 異動介面.角色名單
     * 異動按鈕.刪除，刪除角色時，須依 **系統+組織+角色** 將對應的 [取得連結][link_getRoleURL] 資料一併刪除
 
@@ -143,3 +144,4 @@ ___
 [link_RoleOfPeopleSet]:{3}/RTE/SITE/RoleOfPeopleSet/README
 [link_getRoleURL]:{3}/RTE/SITE/getRoleURL/README
 [link_enterprisedetail]:{3}/RTE/SITE/enterprisedetail/README
+[link_listofpermissions]:{3}/RTE/SITE/ListOfPermissions/README
