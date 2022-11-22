@@ -32,7 +32,7 @@
         * 下拉選項: 單位主管 / 交辦窗口
     * 欄位.特定對象
         * 當`簽核對象`<>特定對象，則 本欄勿駐
-        * 開啟[簽核人員設定]，挑選簽核人員，顯示: 人員姓名
+        * 開啟[簽核人員設定][link_SignoffUserSet]，挑選簽核人員，顯示: 人員姓名
         * 檢控: 可自行輸入的人員代號，若代號不存在，顯示訊息: ※輸入錯誤※ 人員代號不存在!        
     * 欄位.摘要說明
         * 自行輸入
@@ -182,3 +182,4 @@
 [image_signoff_flow_setting_level_conditions]:attachment/signoff_flow_setting_level_conditions.png "關卡條件"
 [image_signoff_flow_setting_parameters]:attachment/signoff_flow_setting_parameters.png "流程參數"
 [link_FRProcessSetting]:{1}/FRProcessSetting/README.md
+[link_SignoffUserSet]:{1}/SignoffUserSet/README.md
