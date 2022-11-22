@@ -10,7 +10,7 @@
         * 簽核專案編制設定
     * 簽核流程
         * [簽核流程定義](./SignoffFlowSetting/README.md)
-        * 表報流程設定
+        * [表報流程設定](./FRProcessSetting/README.md)
         * 催簽設定
         * 待簽核清單
         * 單據加簽作業
