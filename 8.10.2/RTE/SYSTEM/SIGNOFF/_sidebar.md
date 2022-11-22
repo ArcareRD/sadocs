@@ -3,11 +3,9 @@
 * [架構介紹](README.md)
 * 表單說明
     * 組織架構
-        * 簽核人員設定
-        * 簽核組織單位
-        * 簽核組織編制
-        * 簽核組織編制結構
-        * 簽核專案編制設定
+        * [簽核人員設定](./SignoffUserSet/README.md)
+        * [簽核人員清單](./SignoffUserList/README.md)
+        * [簽核專案編制設定](./SignoffProjectOrganize/README.md)
     * 簽核流程
         * [簽核流程定義](./SignoffFlowSetting/README.md)
         * [表報流程設定](./FRProcessSetting/README.md)
