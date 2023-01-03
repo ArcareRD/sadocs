@@ -450,6 +450,28 @@
 
     ![系統狀態查詢流程圖]
 
+### <div id="maintainstart">進入維護狀態</div>
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎進入維護狀態，並將所有企業組織標示為未更新完成。在進入維護狀態期間，所有Request都需查表更新確認共用/所屬組織資料庫已維護完成，否則跳轉至提示目前在維護狀態的畫面。
+* 限制 : 必須在本機端呼叫
+* Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainStart)
+    * Parameter
+        * 無
+* Response
+    * Body (JSON)
+        * 若成功則回傳ok,若失敗則回傳錯誤原因
+        * 狀態碼清單
+
+### <div id="maintainfinish">退出維護狀態</div>
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎退出維護狀態。
+* 限制 : 必須在本機端呼叫
+* Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainFinish)
+    * Parameter
+        * 無
+* Response
+    * Body (JSON)
+        * 若成功則回傳ok,若失敗則回傳錯誤原因
+        * 狀態碼清單
+
 ### <div id="asusconfig">RTE設定</div>
 * 設定檔案路徑 : { Tomcat Path } \conf\asus_api.properties
 * 參數清單
