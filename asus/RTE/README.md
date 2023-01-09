@@ -462,7 +462,7 @@
         * 狀態碼清單
 
 ### <div id="maintainfinish">退出維護狀態</div>
-* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎退出維護狀態。
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎需檢查是否所有企業組織標示皆為更新完成，若是則可退出維護狀態並重新啟動排程，若否則回傳錯誤訊息。
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainFinish)
     * Parameter
