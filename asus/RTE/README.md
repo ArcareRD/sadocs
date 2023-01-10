@@ -462,7 +462,12 @@
         * 狀態碼清單
 
 ### <div id="maintainfinish">退出維護狀態</div>
-* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎需檢查是否所有企業組織標示皆為更新完成，若是則可退出維護狀態並重新啟動排程，若否則回傳錯誤訊息。
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎需檢查是否所有企業組織標示皆為更新完成，若是則可執行以下動作
+    * 退出維護狀態
+    * 重新啟動排程
+    * 背景執行CACHE檔案的全刪全增
+        * 刪除 Tomcat安裝路徑\webapps\ArcareEng\Cache\ 整個資料夾的內容
+        * 背景重新產生Cache檔案(請參考 CreateProjectCache_Servlet 執行緒啟動產生Cache的作法)
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainFinish)
     * Parameter
