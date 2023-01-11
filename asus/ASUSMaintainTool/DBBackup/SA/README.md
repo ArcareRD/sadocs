@@ -21,18 +21,22 @@
         * 舉例，若查詢站台管理資料庫後，各資料庫的備份路徑共有6組，表示上述兩個備份排程會各自啟動6個執行緒，依據各分組清單循序執行備份。
 * 備份執行的結果需要依據[華碩ACCESSLOG的格式](../../../../asus/RTE/README?id=accesslog)寫到LOG檔案中，華碩會有LOG管理的程式將LOG檔案彙整後，針對異常的部分通知維運人員。
 ### <div id="flow">作業流程</div>
-* 啟動服務
 
-    ![資料庫備份服務-啟動服務]
+![DBBackup_before]
 
-    * 資料庫完整備份排程
+![DBBackup_ServiceStart]
 
-    ![資料庫備份服務-完整備份排程]
+![DBBackup_Database]
 
-    * 資料庫交易紀錄備份排程
+![DBBackup_DatabaseLog]
 
-    ![資料庫備份服務-交易紀錄檔備份排程]
+![DBBackup_DeleteLog]
 
 [資料庫備份服務-啟動服務]:attachment/資料庫備份服務-啟動服務.png "資料庫備份服務-啟動服務"
 [資料庫備份服務-完整備份排程]:attachment/資料庫備份服務-完整備份排程.png "資料庫備份服務-完整備份排程"
 [資料庫備份服務-交易紀錄檔備份排程]:attachment/資料庫備份服務-交易紀錄檔備份排程.png "資料庫備份服務-交易紀錄檔備份排程"
+[DBBackup_before]:attachment/DBBackup_before.png "資料庫備份服務-維護人員設定"
+[DBBackup_ServiceStart]:attachment/DBBackup_ServiceStart.png "資料庫備份服務-服務啟動"
+[DBBackup_Database]:attachment/DBBackup_Database.png "資料庫備份服務-完整備份排程"
+[DBBackup_DatabaseLog]:attachment/DBBackup_DatabaseLog.png "資料庫備份服務-交易紀錄檔備份排程"
+[DBBackup_DeleteLog]:attachment/DBBackup_DeleteLog.png "資料庫備份服務-刪除log排程"
