@@ -451,7 +451,7 @@
     ![系統狀態查詢流程圖]
 
 ### <div id="maintainstart">進入維護狀態</div>
-* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎進入維護狀態，並將所有企業組織標示為未更新完成。在進入維護狀態期間，所有Request都需查表更新確認共用/所屬組織資料庫已維護完成，否則跳轉至提示目前在維護狀態的畫面。
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎進入維護狀態，並將所有共用/企業組織資料庫標示為未更新完成。在進入維護狀態期間，所有Request都需查表更新確認共用/所屬組織資料庫已維護完成，否則跳轉至提示目前在維護狀態的畫面。
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainStart)
     * Parameter
@@ -462,7 +462,12 @@
         * 狀態碼清單
 
 ### <div id="maintainfinish">退出維護狀態</div>
-* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎退出維護狀態。
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎需檢查是否所有共用/企業組織資料庫標示皆為更新完成，若是則可執行以下動作
+    * 退出維護狀態
+    * 重新啟動排程
+    * 背景執行CACHE檔案的全刪全增
+        * 刪除 Tomcat安裝路徑\webapps\ArcareEng\Cache\ 整個資料夾的內容
+        * 背景重新產生Cache檔案(請參考 CreateProjectCache_Servlet 執行緒啟動產生Cache的作法)
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainFinish)
     * Parameter
