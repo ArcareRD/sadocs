@@ -12,3 +12,9 @@
 
 ### <div id="notice">注意事項</div>
 * 權限資料檔的更新目前只支援更新組織資料庫。
+
+
+
+### <div id="flowchart">作業流程</div>
+<iframe height=1100 width=95% src="{0}/attachment/MDBUpdate.html"  frameborder=0  allowfullscreen></iframe>
+
