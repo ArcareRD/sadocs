@@ -124,7 +124,8 @@
   				sysDateTime : (String)日期時間 (格式:yyyy/MM/dd HH:mm:ss.SSS)						
   			}
         expires : (Int) : APP從背景回到前景未動作需重新登入的時間限制，單位為分鐘
-    #回傳資訊_end								
+    #回傳資訊_end
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -184,7 +185,7 @@
         tokenType : (String)token type,
         accessToken : (String)access token,						
         refreshToken : (String)refresh token
-    #回傳資訊_end									
+    #回傳資訊_end								
     }
 ```
 
@@ -322,7 +323,8 @@
     #endif								
     #if method = transMapsPosition								
         value : (字串) 轉換後結果							
-    #endif								
+    #endif	
+        upgrade : (Boolean) : 是否正在更新維護中							
     }	
 ```
 
@@ -379,7 +381,8 @@
             [函數] FunctionApi_IsSuccess			
             [傳入] 無			
             [回傳] (boolean) API的執行結果			
-    #endif					
+    #endif			
+            upgrade : (Boolean) : 是否正在更新維護中		
     }
 ```
 
@@ -440,7 +443,8 @@
                     recNo : (long)位居第n筆 (固定回傳-1)					
                     value : (JSONArray)欄位值 [欄位值1, …]  註.欄位值的順序以欄位結構的順序 / 二進位欄位永遠給空字串 /  (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS)					
                 }						
-            ]
+            ],
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -490,7 +494,8 @@
 ```Json
     {			
         result : (boolean)執行結果,		
-        error : (String)錯誤訊息		
+        error : (String)錯誤訊息,
+        upgrade : (Boolean) : 是否正在更新維護中		
     }	
 ```
 
@@ -542,7 +547,8 @@
     {										
         result : (boolean)執行結果,									
         error : (String)錯誤訊息									
-        filePath : (JSONArray) 多個檔案所在位置									
+        filePath : (JSONArray) 多個檔案所在位置,
+        upgrade : (Boolean) : 是否正在更新維護中									
     }										
 ```
 
@@ -633,7 +639,8 @@
                         ]						
                     }							
                 }, …								
-            }								
+            },
+        upgrade : (Boolean) : 是否正在更新維護中								
     }	
 ```
 
@@ -717,7 +724,8 @@
 					recNo : (long)位居第n筆										
 					value : (JSONArray)欄位值 [欄位值1, …]  註.欄位值的順序以欄位結構的順序 / 二進位欄位永遠給空字串 /  (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS)										
 				}											
-			]												
+			],
+        upgrade : (Boolean) : 是否正在更新維護中												
 	}														
 #endif
 ```
@@ -857,7 +865,8 @@
 					recNo : (long)位居第n筆				
 					value : (JSONArray)欄位值 [欄位值1, …]  註.欄位值的順序以欄位結構的順序 / 二進位欄位永遠給空字串 /  (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS)				
 				}					
-			]						
+			],
+        upgrade : (Boolean) : 是否正在更新維護中						
 	}								
 #endif
 ```
@@ -883,7 +892,8 @@
 	byte[]	
 #else		
 	{	
-		error : (String)錯誤訊息
+		error : (String)錯誤訊息,
+        upgrade : (Boolean) : 是否正在更新維護中
 	}	
 #endif
 ```
@@ -908,13 +918,14 @@
 ```Json
     {							
         result : (boolean)執行結果,						
-        error : (String)錯誤訊息
+        error : (String)錯誤訊息,
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
 ### <div id="appgethyperlinkdata">MAE 取得超連結資訊</div>
 * 說明 : 提供給MAE APP呼叫，用來取得超連結資訊。
-* 限制 : 需在使用者已登入的狀態下執行
+* 限制 : 無
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetHyperlinkData)
     * Body(JSON)
 ```Json
@@ -989,78 +1000,42 @@
 ```
 
 ### <div id="appgetpushmessagedata">MAE 取得推撥通知資料</div>
-* 說明 : 提供給MAE APP呼叫，用來取得超連結資訊。
-* 限制 : 需在使用者已登入的狀態下執行
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetHyperlinkData)
+* 說明 : 提供給MAE APP呼叫，使用者在通知列點擊訊息時呼叫用，不登入可使用，僅驗證該訊息以及裝置是否歸屬同一個使用者，若是則回傳訊息資料。
+* 限制 : 無
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetPushMesageData)
     * Body(JSON)
 ```Json
-    {
-        csrf : (String)cookie[csrf],
-        deviceId : (String)手機MAC IMEI,
-        deviceName : (String)手機裝置名稱,
-        projectId : (String)專案代號,
-        companyId : (String)分公司代號,
-        languageId : (String)登入語系,
-        srlid : (String)超連結唯一號,
-        type : (String)類型(get:取得超連結資訊,returnSuccess:回報執行成功)(註.無傳入時，表示get),
-        clientVersion : (String)MAE APP版本 
+    {							
+        csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
+        languageId : (String)語系,						
+        messageId : 訊息ID,
+        deviceId : 裝置代號
     }
 ```
 * Response
     * Body(JSON)
 ```Json
     {							
-        result : (boolean)執行結果,
-        error : (String)錯誤訊息,
-    #if 傳入參數.type=get
-        data : (JSONObject)資訊,
-        {
-                needLogin  : (boolean)需要驗證(若為true時,MAE須轉至登入頁面，要求使用者登入),
-        #if needLogin=false                
-                type : (String)類型(prototyping:打樣預覽,openForm:開啟表單,runFunckeyApi:呼叫開放按鍵),
-            #if type=prototyping
-                prototyping :
-                {
-                    prototypingType : (String)打樣類型(form:表單 / event:事件),
-                #if prototypingType=form
-                    prototypingMTID : (String)表單成品料號,
-                #else prototypingType=event
-                    prototypingMTID :  (String)事件料號,
-                #endif
-                #if 執行系統=自動登入 && 登入狀態=未登入
-                    login : {
-                        內容同【AppRuntimeLogin(登入)】回傳
-                    },
-                    註.因api會自動登入，所以關閉預覽時，MAE須執行【AppRuntimeLogout(登出)】
-                #endif
-                    loginSystem : {
-                        內容同【AppChangeSystem(登入系統)】回傳
-                    }
+        result : (boolean)執行結果,						
+        error : (String)錯誤訊息，result=false才有,
+        message : result=true才有
+            {
+                exist : (boolean)訊息存在否,
+                projName : (String)系統名稱,
+                sender : (String)推播人,
+                sendDate : (String)發送日期, 以 yyyy/MM/dd hh:mm:ss 格式,
+                sendStatus : (boolean)發送狀態,
+                readStatus : (boolean)讀取狀態,
+                error : (String)發送失敗原因,
+                title : (String)訊息主旨,
+                content : (String)訊息內文,
+                data : { 超連結相關資訊
+                    messageid : 訊息代號,
+                    linktype :　超連結類型 1.超連結表單/2.超連結按鍵/3.超連結Google行事曆/4.超連結網址,
+                    srlid : 超連結唯一號,
+                    url : 超連結網址 / google行事曆網址
                 }
-            #else if type=openForm
-                openForm : 
-                {
-                    formMTID : (String)表單成品料號,
-                    formParam : (JSONArray)表單傳入參數 [{ key:(String)參數名, valueType : (String)值的型態(0.Null/1.字串/2.日期時間/3.數值/4.布林), value : (Object)值 (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS) }, … ]	,
-                #if 執行系統=自動登入 && 登入狀態=未登入
-                    login : {
-                        內容同【AppRuntimeLogin(登入)】回傳
-                    },
-                    註.因api會自動登入，所以關閉預覽時，MAE須執行【AppRuntimeLogout(登出)】
-                #endif    
-                    loginSystem : {
-                        內容同【AppChangeSystem(登入系統)】回傳
-                    }
-                }
-            #else if type=runFunckeyApi
-                runFunckeyApi : 
-                {
-                    successMsg : (String)成功訊息(執行成功時，才會有此參數)
-                }
-            #endif
-        #endif    
-        }
-    #endif
+            }
     }
 ```
 
@@ -1102,7 +1077,8 @@
                         url : 超連結網址 / google行事曆網址
                     }
                 }
-            }
+            },
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -1139,7 +1115,8 @@
                 ids : [訊息ID陣列],
                 read : 已讀筆數,
                 unread : 未讀筆數
-            }
+            },
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -1166,7 +1143,8 @@
             [
                 推播人名稱, 
                 ...
-            ]
+            ],
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -1193,7 +1171,8 @@
             [{
                 strProjectId : (String)系統代號,
                 strProjectName : (String)系統名稱
-            }]
+            }],
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
@@ -1216,7 +1195,8 @@
 ```Json
     {							
         result : (boolean)執行結果,						
-        error : (String)錯誤訊息，result=false才有
+        error : (String)錯誤訊息，result=false才有,
+        upgrade : (Boolean) : 是否正在更新維護中
     }
 ```
 
