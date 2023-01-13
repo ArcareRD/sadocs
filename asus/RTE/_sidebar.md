@@ -25,6 +25,8 @@
     * [MAE 查詢推播通知紀錄所屬推播人清單](README.md#appgetpushmessagesenderlist)
     * [MAE 查詢推播通知紀錄所屬系統清單](README.md#appgetpushmessagesystemlist)
     * [MAE 設定推播通知清單已讀](README.md#appsetpushmessagelistreaded)
+    * [MAE 取得企業組織更新狀態](README.md#appgetcorpupgradestatus)
+    * [MAE 測試連線狀態](README.md#apptestconnection)
 * RTE API
     * [RTE登入](README.md#login)
     * [RTE登出](README.md#logout)

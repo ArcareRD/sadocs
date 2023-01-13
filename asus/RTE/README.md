@@ -856,7 +856,7 @@
 					encryptType : (String)1.密碼 / 2.個資加密 (當有加密時，才會給)				
 					pdpDecrypt : (boolean)個資解密 (當為個資料密，才會給)				
 				},…					
-			]						
+			]
 	#endif								
 		count : (long)總筆數							
 		record: (JSONArray)記錄  註.欄位值的順序以欄位結構的順序 / 二進位欄位永遠給NULL /  (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS)							
@@ -1194,9 +1194,50 @@
     * Body(JSON)
 ```Json
     {							
-        result : (boolean)執行結果,						
+        finish : (boolean)執行結果,						
         error : (String)錯誤訊息，result=false才有,
         upgrade : (Boolean) : 是否正在更新維護中
+    }
+```
+
+### <div id="appgetcorpupgradestatus">MAE 取得企業組織更新狀態</div>
+* 說明 : 提供給MAE APP呼叫，用來取得企業組織更新狀態。
+* 限制 : 無
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetCorpUpgradeStatus)
+    * Body(JSON)
+```Json
+    {							
+        csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
+        userId : (Long)使用者序號,
+        clientVersion : (String)MAE APP版本
+    }
+```
+* Response
+    * Body(JSON)
+```Json
+    {							
+        finish : (boolean)是否完成更新,						
+        success : (boolean)api執行成功否,
+        error : (String)錯誤訊息,當success=false時出現
+    }
+```
+
+### <div id="apptestconnection">MAE 測試連線狀態</div>
+* 說明 : 提供給MAE APP呼叫，用來測試連線狀態。
+* 限制 : 無
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppTestConnection)
+    * Body(JSON)
+```Json
+    {							
+        clientVersion : (String)MAE APP版本
+    }
+```
+* Response
+    * Body(JSON)
+```Json
+    {							
+        showApplyAccount : (boolean)是否啟用帳號申請,						
+        version : (String)RTE版本
     }
 ```
 
