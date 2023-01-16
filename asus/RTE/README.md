@@ -263,7 +263,8 @@
 ```Json
     {	
         result : (boolean)執行結果,
-        error : (String)錯誤訊息
+        error : (String)錯誤訊息,
+        upgrade : (Boolean) : 是否正在更新維護中
     }	
 ```
 
@@ -839,7 +840,8 @@
 				},…					
 			]						
 		fieldValue : (JSONArray)欄位值 [ 欄位值1, … ] 註.欄位值的順序以欄位結構的順序 / 二進位欄位永遠給空字串 /  (日期時間以字串表示，格式:yyyy/MM/dd HH:mm:ss.SSS)		
-	#endif								
+	#endif
+        upgrade : (Boolean) : 是否正在更新維護中									
 	}								
 #elseif method = Multiple									
 	{								
