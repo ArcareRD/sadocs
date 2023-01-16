@@ -242,7 +242,8 @@
         error : (String)錯誤訊息,當success=false時出現
     }
 ```
-### <div id="appdeletetempData">MAE 刪除資料表的暫存資料</div>
+
+### <div id="appdeletetempdata">MAE 刪除資料表的暫存資料</div>
 * 說明 : 提供給MAE APP呼叫，用來刪除資料表的暫存資料。
 * 限制 : 需在使用者已登入的狀態下執行
 * Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppDeleteTempData)
@@ -1009,7 +1010,8 @@
         csrf : (String)cookie[csrf] ex.{AAAA1310-83C6-44A3-A6AF-3329F5B44EEE},						
         languageId : (String)語系,						
         messageId : 訊息ID,
-        deviceId : 裝置代號
+        deviceId : 裝置代號,
+        clientVersion : (String)MAE APP版本
     }
 ```
 * Response

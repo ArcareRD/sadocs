@@ -7,7 +7,7 @@
     * [MAE使用驗證碼取得Token](README.md#appgettoken)
     * [MAE Refresh Token](README.md#apprefreshtoken)
     * [MAE 取得系統初始化狀態](README.md#appgetinitstatus)
-    * [MAE 刪除資料表的暫存資料](README.md#appdeletetempData)
+    * [MAE 刪除資料表的暫存資料](README.md#appdeletetempdata)
     * [MAE GPS相關](README.md#appgps)
     * [MAE 執行按鍵](README.md#apprunfunckeyitem)
     * [MAE 嵌入物件_檔案容器控制_讀取資料](README.md#appgetfilecontainerdata)
