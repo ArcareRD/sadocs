@@ -1003,7 +1003,7 @@
 ### <div id="appgetpushmessagedata">MAE 取得推撥通知資料</div>
 * 說明 : 提供給MAE APP呼叫，使用者在通知列點擊訊息時呼叫用，不登入可使用，僅驗證該訊息以及裝置是否歸屬同一個使用者，若是則回傳訊息資料。
 * 限制 : 無
-* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetPushMesageData)
+* Request : (HTTP POST; https:// {{ RTE Host }} /ArcareEng/AppGetPushMessageData)
     * Body(JSON)
 ```Json
     {							
