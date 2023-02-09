@@ -1,9 +1,12 @@
 ### <div id="flowchart">更新MDB檔案程式-循序圖</div>
 
+---
 ## <div id="view">● 視窗介面動作 </div>
 
+---
 ## <div id="check-db-in-no-update">● 勾選未完成更新的資料庫 </div>
 
+---
 ## <div id="execute-import-object">● 執行系統更新 </div>
 #### - BtnExecuteImportObjectListener (執行系統更新)
 ![img_import_object_1]
@@ -29,7 +32,7 @@
 
 
 
-
+---
 ## <div id="restore-db">● 還原組織資料庫 </div>
 
 
