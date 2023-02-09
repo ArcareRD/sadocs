@@ -46,6 +46,5 @@
     * [進入維護模式](README.md#maintainstart)
     * [退出維護模式](README.md#maintainfinish)
 * [RTE設定](README.md#asusconfig)
-* [資料庫備份維護排程](README.md#dbbackup)
 * [Access Log 紀錄](README.md#accesslog)
 * [狀態碼一覽表](README.md#codelist)

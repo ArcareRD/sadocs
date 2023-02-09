@@ -1456,7 +1456,7 @@
     ![系統狀態查詢流程圖]
 
 ### <div id="maintainstart">進入維護狀態</div>
-* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎進入維護狀態，並將所有共用/企業組織資料庫標示為未更新完成。在進入維護狀態期間，所有Request都需查表更新確認共用/所屬組織資料庫已維護完成，否則跳轉至提示目前在維護狀態的畫面。
+* 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎進入維護狀態，並將所有共用/企業組織資料庫標示為未更新完成以及刪除 Tomcat安裝路徑\webapps\ArcareEng\Cache\ 整個資料夾的內容。在進入維護狀態期間，所有Request都需查表更新確認共用/所屬組織資料庫已維護完成，否則跳轉至提示目前在維護狀態的畫面。
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainStart)
     * Parameter
@@ -1469,9 +1469,7 @@
 ### <div id="maintainfinish">退出維護狀態</div>
 * 說明 : 提供給維護人員呼叫，呼叫後，RTE引擎需檢查是否所有共用/企業組織資料庫標示皆為更新完成，若是則可執行以下動作
     * 退出維護狀態
-    * 重新啟動排程
     * 背景執行CACHE檔案的全刪全增
-        * 刪除 Tomcat安裝路徑\webapps\ArcareEng\Cache\ 整個資料夾的內容
         * 背景重新產生Cache檔案(請參考 CreateProjectCache_Servlet 執行緒啟動產生Cache的作法)
 * 限制 : 必須在本機端呼叫
 * Request : (HTTP GET; https:// {{ RTE Host }} /ArcareEng/MaintainFinish)
@@ -1508,7 +1506,7 @@
 | orgPlanNo      | 雲端寶盒系統-權限組織編制計畫代號 |
 | maintainWorkerCount      | 同時可執行維護動作的執行緒數量，請填入比0大的數字 |
 | whiteList      | 信任的IP來源，可接受多組位置以,連接在一起。如: 192.168.1.1,192.168.22.11 |
-| newDBFilePath      | 新增的企業組織資料庫檔案資料夾路徑 |
+| newDBFilePath.流水序號      | 新增的企業組織資料庫檔案資料夾路徑，可多組，依據流水序號由1-100，如:newDBFilePath.1 表示第一組，資料夾路徑需存在於DB Server上，且須用資料夾分隔符號結尾並注意逃脫字元，路徑格式範例: D:\\\\BAK\\\\ |
 | newDBFileInitSize      | 新增的企業組織資料庫檔案初始化大小，單位為MB。範例: 1024 |
 | newDBFileGrowthSize      | 新增的企業組織資料庫檔案自動成長大小，單位為MB。範例: 10 |
 | newDBFileMaxSize      | 新增的企業組織資料庫檔案限制大小，單位為MB。範例: 10240 |
@@ -1516,48 +1514,21 @@
 | newDBLogInitSize      | 新增的企業組織資料庫交易紀錄檔初始化大小，單位為MB。範例: 1024 |
 | newDBLogGrowthSize      | 新增的企業組織資料庫交易紀錄檔自動成長大小，單位為MB。範例: 10 |
 | newDBLogMaxSize      | 新增的企業組織資料庫交易紀錄檔限制大小，單位為MB。範例: 10240 |
-| newDBBackupPath      | 新增的企業組織資料庫備份檔案路徑 |
-| newDBFullBackupType      | 新增的企業組織資料庫備份方式，1.僅初始系統後完整備份一次，後續由差異備份定時執行 / 2.週期性備份(覆蓋原完整備份檔案) |
-| newDBFullBackupCircle      | 備份週期當備份類型=2時有效，以每週為單位，填入數字，表示週數(幾週執行一次完整備份並覆蓋原完整備份檔案) |
-| newDBFullBackupDay      | 備份週期當備份類型=2時有效，當備份類型=2時有效，表示週幾進行備份，1.週一 / 2.週二 / 3.週三 / 4.週四 / 5.週五 / 6.週六 / 7.週日 |
-| newDBFullBackupStartTime      | 當備份類型=2時有效，完整備份的開始時間，格式為 hhmmss |
-| newDBDiffBackupCircle  | 填入數字，表示每隔多少小時進行差異備份 |
-| newDBDiffBackupStartTimeOnFullBackupDay | 當備份類型=2時有效，表示完整備份日的差異備份起始時間，格式為 hhmmss |
+| newDBBackupPath.流水序號      | 新增的企業組織資料庫備份檔案路徑，可多組，依據流水序號由1-100，如:newDBBackupPath.1 表示第一組，資料夾路徑需存在於DB Server上，且須用資料夾分隔符號結尾並注意逃脫字元，路徑格式範例: D:\\\\BAK\\\\ |
 | accessLogPath | access log 檔案路徑 |
-
-### <div id="dbbackup">資料庫備份維護排程</div>
-* 僅透過企業組織資料維護所產生的資料庫才會自動套用此項功能
-* 執行限制條件 : 
-    * SQL Server 必須啟用 Agent XPs 伺服器組態選項
-    * 修改參數僅影響後續新建立的資料庫，已建立的資料庫請由人工手動修改
-* 採循環備份機制 : 依據參數newDBFullBackupType來決定備份機制，共有以下兩種
-    * 1.僅初始系統後完整備份一次，後續由差異備份定時執行 : 僅建立差異備份排程，一直附加到資料庫備份檔案中。
-        * 差異備份會以附加方式加入到備份檔案
-            *  每日從 00:00 - 11:59 執行，依據以下參數建立
-                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次 
-                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
-    * 2.週期性備份 : 會自動產生完整備份以及差異備份排程
-        * 完整備份排程執行時會覆蓋原本的備份檔案。
-            * 依據下列參數建立 :
-                * newDBBackupPath : 指定備份檔案路徑
-                * newDBFullBackupCircle : 以週為單位，表示幾週執行一次
-                * newDBFullBackupDay : 指定星期幾為完整備份日
-                * newDBFullBackupStartTime : 指定完整備份日的開始時間
-                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
-        * 差異備份共有兩個，各自會以附加方式加入到備份檔案
-            * 非完整備份日 : 從 00:00 - 11:59 執行， 依據以下參數建立
-                * newDBFullBackupDay : 一週當中除了這一天，都會執行差異備份
-                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次
-                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup】
-            * 完整備份日 : 依據以下參數建立
-                * newDBDiffBackupStartTimeOnFullBackupDay : 差異備份執行的開始時間，用來接續完整備份。
-                * newDBDiffBackupCircle : 以小時為單位，表示幾小時執行一次
-                * 資料庫備份排程名稱為【資料庫名稱_Diff_Backup_OnFullBackupDay】
+| osType | AP Server作業系統類型設定，1.windows/2.centos/3.unbutu |
+| taskLogPath | 系統排程 log 檔案路徑 |
+| tempFileKeepDay | 暫存檔保留天數，請填入比0大的數字 |
+| logFileKeepDay | log檔案保留天數，請填入比0大的數字 |
 
 ### <div id="accesslog">Access Log 紀錄</div>
 * 當API被呼叫時，會留下一筆資料
 * 可匯入統計軟體進行分析，各API均輸出到同一個檔案，有一定格式
 * 檔案路徑由參數accessLogPath進行設定
+* 1小時產生1個檔案
+* 若1小時內檔案超過50mb則產生該小時的第2個檔案(1小時內產生檔案上限為20個)
+* 檔案保留天數由參數logFileKeepDay決定
+* 檔案編碼為UTF-8
 * 欄位定義 : DateTime|LogKey|ID|API|ErrorCode|message|Client IP|ServerIP|ClientType|ClientVersion|X_Ver|SID|Manufacturer|ProductName|OS|SKUNumber|LastCommandLength|LastCommandResponseTime||
 * 欄位說明 :
 | 欄位名稱        | 欄位說明    |
@@ -1595,7 +1566,6 @@
 | 502          | 來源IP不在信任的白名單中，IP:[xxx.xxx.xxx.xxx]      |
 | 1000          | 本機台非主要中間台，無法執行維護API功能      |
 | 1001          | 作業類型不合法      |
-| 1002          | 建立資料庫連線失敗      |
 | 1002          | 建立資料庫連線失敗      |
 | 1003          | 取得密鑰資訊發生錯誤      |
 | 1004          | 建立新帳務失敗      |
