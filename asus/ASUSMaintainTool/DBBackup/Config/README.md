@@ -25,7 +25,7 @@
             * db.WellWareProject.dbname
                 * 用途說明：WellWareProject的資料庫名，預設 WellWareProject
             * backup.db.cycle
-                * 用途說明：資料庫完整備份週期(單位=小時)，預設 24
+                * 用途說明：資料庫完整備份週期(單位=小時)，預設 168
             * backup.log.cycle
                 * 用途說明：資料庫交易記錄備份週期(單位=分鐘)，預設 10
             * log.delete.check.cycle=1
@@ -47,8 +47,10 @@
     * 可能原因：
         * config 資料夾下的檔案【config.properties】參數設定錯誤，以下範例為 db.account、db.password 未設定的錯誤訊息
             * ![image_message_startError1]
-        * 資料庫連線失敗，以下範例為 db.account、db.password 設定錯誤，而無法連線資料庫
+        * config 資料夾下的檔案【config.properties】遺失的錯誤訊息
             * ![image_message_startError2]
+        * 資料庫連線失敗，以下範例為 db.account、db.password 設定錯誤，而無法連線資料庫
+            * ![image_message_startError3]
 * accesslog錯誤訊息說明
     * 以下為【資料庫完整備份】可能會產生的錯誤說明
 
@@ -84,3 +86,4 @@
 [image_message_startError]:attachment/message_startError.png "啟動失敗_查看訊息"
 [image_message_startError1]:attachment/message_startError1.png "啟動失敗_錯誤1"
 [image_message_startError2]:attachment/message_startError2.png "啟動失敗_錯誤2"
+[image_message_startError3]:attachment/message_startError3.png "啟動失敗_錯誤3"
