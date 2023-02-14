@@ -28,11 +28,9 @@
                 * 用途說明：資料庫完整備份週期(單位=小時)，預設 168
             * backup.log.cycle
                 * 用途說明：資料庫交易記錄備份週期(單位=分鐘)，預設 10
-            * log.delete.check.cycle=1
-                * 用途說明：刪除log檔檢查週期(單位=天)，預設 1
-            * log.keep.day=365
+            * log.keep.day
                 * 用途說明：log檔保留天數(單位=天)，預設 365
-            * log.accesslog.path=.\\\logs
+            * log.accesslog.path
                 * 用途說明：accesslog檔案路徑
                 * 注意事項：資料夾路徑需存在於DB Server上，且資料夾分隔符號須注意逃脫字元，路徑格式範例: D:\\\logs 或 .\\\logs
     * 執行【install.bat】進行安裝 (安裝完成視窗會自動關閉)
