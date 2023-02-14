@@ -6,16 +6,15 @@
 * 操作說明
     * 在目錄下(示範範例為C:\ArcareRobot)，直接解壓縮檔案【DatabaseBackupService_版本.zip】可產生 DatabaseBackupService 資料夾
         * ![image_install_step1]
-    * 至【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備
-    份路徑)】確認備份檔案路徑存在於DB Server上
+    * 至【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備份路徑)】確認備份檔案路徑存在於DB Server上
         * ![image_install_step2]
     * 請編輯 config 資料夾下的檔案【config.properties】並儲存
         * ![image_install_step3]
         * 以下說明各參數用途及注意事項
             * db.connection.count
                 * 用途說明：資料庫連線數上限
-                * 注意事項：請設定 (備份路徑數\*2)+5 的連線數 (若 備份路徑數 = 5，則 連線數 = (5\*2)+5=15
-                    * 備份路徑數 = 【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備份路徑)】備份路徑去除重覆後的總數
+                * 注意事項：請設定 (資料庫備份路徑數\*2)+5 的連線數 (若 資料庫備份路徑數 = 5，則 連線數 = (5\*2)+5=15
+                    * 資料庫備份路徑數 = 【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備份路徑)】備份路徑去除重覆後的總數
             * db.port
                 * 用途說明：資料庫連線port，預設 1433
             * db.account
