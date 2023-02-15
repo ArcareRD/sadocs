@@ -20,7 +20,7 @@
             * db.account
                 * 用途說明：資料庫連線帳號
             * db.password
-                * 用途說明：資料庫連線密碼
+                * 用途說明：資料庫連線密碼(明碼)
             * db.WellWareProject.dbname
                 * 用途說明：WellWareProject的資料庫名，預設 WellWareProject
             * backup.db.cycle
