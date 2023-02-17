@@ -54,28 +54,28 @@
     |API |ErrorCode |錯誤說明 |
     | --- | --- | --- |
     |/FullDatabaseBackupSchedule |0 |排程，執行成功 |
-    |/FullDatabaseBackupSchedule | |排程，執行失敗 |
-    |/FullDatabaseBackupSchedule/GetBackupPath | |取得備份路經清單，查詢失敗 |
-    |/FullDatabaseBackupSchedule/GetDBNameList | |取得分組資料庫清單，查詢失敗 |
+    |/FullDatabaseBackupSchedule |A10001 |排程，執行失敗 |
+    |/FullDatabaseBackupSchedule/GetBackupPath |B00001 |取得備份路經清單，查詢失敗 |
+    |/FullDatabaseBackupSchedule/GetDBNameList |B00001 |取得分組資料庫清單，查詢失敗 |
     |/FullDatabaseBackupThread |0 |備份執行緒，執行成功 |
-    |/FullDatabaseBackupThread | |備份執行緒，執行失敗 |
-    |/FullDatabaseBackupThread/CheckIsDBNeverBackup | |備份前，查詢資料庫是否從未執行過備份，查詢失敗 |
-    |/FullDatabaseBackupThread/backupFullDatabase | |執行完整備份，失敗
-    |/FullDatabaseBackupThread/backupTransactionLog | |執行交易記錄備份，失敗 |
+    |/FullDatabaseBackupThread |A10001 |備份執行緒，執行失敗 |
+    |/FullDatabaseBackupThread/CheckIsDBNeverBackup |B00001 |備份前，查詢資料庫是否從未執行過備份，查詢失敗 |
+    |/FullDatabaseBackupThread/backupFullDatabase |B00001 |執行完整備份，失敗
+    |/FullDatabaseBackupThread/backupTransactionLog |B00001 |執行交易記錄備份，失敗 |
 
     * 以下為【資料庫交易記錄備份】會產生的ErrorCode說明
 
     |API |ErrorCode |錯誤說明 |
     | --- | --- | --- |
     |/TransactionLogBackupSchedule |0 |排程，執行成功 |
-    |/TransactionLogBackupSchedule | |排程，執行失敗 |
-    |/TransactionLogBackupSchedule/GetBackupPath | |取得備份路經清單，查詢失敗 |
-    |/TransactionLogBackupSchedule/GetDBNameList | |取得分組資料庫清單，查詢失敗 |
+    |/TransactionLogBackupSchedule |A10001 |排程，執行失敗 |
+    |/TransactionLogBackupSchedule/GetBackupPath |T00001 |取得備份路經清單，查詢失敗 |
+    |/TransactionLogBackupSchedule/GetDBNameList |T00001 |取得分組資料庫清單，查詢失敗 |
     |/TransactionLogBackupThread |0 |備份執行緒，執行成功 |
-    |/TransactionLogBackupThread | |備份執行緒，執行失敗 |
-    |/TransactionLogBackupThread/CheckIsDBNeverBackup | |備份前，查詢資料庫是否從未執行過備份，查詢失敗 |
-    |/TransactionLogBackupThread/backupFullDatabase | |執行完整備份，失敗
-    |/TransactionLogBackupThread/backupTransactionLog | |執行交易記錄備份，失敗 |
+    |/TransactionLogBackupThread |A10001 |備份執行緒，執行失敗 |
+    |/TransactionLogBackupThread/CheckIsDBNeverBackup |T00001 |備份前，查詢資料庫是否從未執行過備份，查詢失敗 |
+    |/TransactionLogBackupThread/backupFullDatabase |T00001 |執行完整備份，失敗
+    |/TransactionLogBackupThread/backupTransactionLog |T00001 |執行交易記錄備份，失敗 |
 
 
 [image_install_step1]:attachment/install_step1.png "安裝步驟1"
