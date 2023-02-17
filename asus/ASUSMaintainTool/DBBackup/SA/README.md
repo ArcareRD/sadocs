@@ -31,8 +31,6 @@
 
 ![DBBackup_DatabaseLog]
 
-![DBBackup_DeleteLog]
-
 [資料庫備份服務-啟動服務]:attachment/資料庫備份服務-啟動服務.png "資料庫備份服務-啟動服務"
 [資料庫備份服務-完整備份排程]:attachment/資料庫備份服務-完整備份排程.png "資料庫備份服務-完整備份排程"
 [資料庫備份服務-交易紀錄檔備份排程]:attachment/資料庫備份服務-交易紀錄檔備份排程.png "資料庫備份服務-交易紀錄檔備份排程"
@@ -40,4 +38,3 @@
 [DBBackup_ServiceStart]:attachment/DBBackup_ServiceStart.png "資料庫備份服務-服務啟動"
 [DBBackup_Database]:attachment/DBBackup_Database.png "資料庫備份服務-完整備份排程"
 [DBBackup_DatabaseLog]:attachment/DBBackup_DatabaseLog.png "資料庫備份服務-交易紀錄檔備份排程"
-[DBBackup_DeleteLog]:attachment/DBBackup_DeleteLog.png "資料庫備份服務-刪除log排程"

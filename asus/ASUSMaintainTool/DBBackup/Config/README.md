@@ -14,7 +14,7 @@
             * db.connection.count
                 * 用途說明：資料庫連線數上限
                 * 注意事項：請設定 (資料庫備份路徑數\*2)+5 的連線數 (若 資料庫備份路徑數 = 5，則 連線數 = (5\*2)+5=15
-                    * 資料庫備份路徑數 = 【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備份路徑)】備份路徑去除重覆後的總數
+                    * 資料庫備份路徑數 =【資料庫.WellWareProject/資料表.SYS_DBMAINTAINCHECKLIST/欄位.BACKUPPATH(備份路徑)】備份路徑去除重覆後的總數
             * db.port
                 * 用途說明：資料庫連線port，預設 1433
             * db.account
@@ -28,7 +28,7 @@
             * backup.log.cycle
                 * 用途說明：資料庫交易記錄備份週期(單位=分鐘)，預設 10
             * log.keep.day
-                * 用途說明：log檔保留天數(單位=天)，預設 365
+                * 用途說明：log歷史記錄檔保留天數(單位=天)，當產生log歷史記錄檔時，即判斷log歷史記錄檔若超過保留天數則自動刪除，預設 365
             * log.accesslog.path
                 * 用途說明：accesslog檔案路徑
                 * 注意事項：資料夾路徑需存在於DB Server上，且資料夾分隔符號須注意逃脫字元，路徑格式範例: D:\\\logs 或 .\\\logs
