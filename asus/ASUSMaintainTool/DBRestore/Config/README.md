@@ -66,3 +66,18 @@
 * 啟動失敗可能原因說明
     * 如何查看訊息：至 accesslogs 資料夾下的檔案【accesslog_日期.log】查看
     * 如何查看詳細訊息：至 logs 資料夾下的檔案【restorelog_日期.log】查看
+* logs錯誤簡述如下 :
+| API   | ErrorCode | Message  | 說明   |
+| ------------- | ------------- | ------------- |------------- |
+| initLog4j()   | A20001    | error message | 關於工具開啟前的log4j的錯誤    | 
+| chkDbConn()   | A20001    | error message | 關於db connection的錯誤    | 
+| run() | R00001    | UPDATE SYS_DBMAINTAINCHECKLIST有錯誤  | 
+| ThreadJob.run() <dbname>  | R00001    | Database <dbname> not ONLINE (iState=xx)  | 即DB為不可用狀態  | 
+| ThreadJob.run() <dbname>	| R00001	| restore <dbname> file <bkpath>*.DBK NOT existed for <bkdate>  | 即備份檔不存在    | 
+| ThreadJob.run() chkRestoreSP(..)	| A20001	| chkRestoreSP(..) error!!, <dbname>, <bakfullfile> | 即備份檔所對應的還原目錄有問題    | 
+| ThreadJob.run() <dbname>	| R00001	| restore database <dbname> with recovery (iState=xx)   | 即還原有誤，恢復至還原前之狀態    | 
+| ThreadJob.run() <dbname>	| R00001	| Restore <dbname> for <還原日期時間> Error: xxx    | 即還原確定有誤    | 
+| killWhoUsing(..) <pid> <DbName>	| R00001 | kill pid error   | 即DB仍被他人開啟中    | 
+| chkRestoreSP(..) <call_sp> | A20001	| SQLException  | 即備份檔不存在或者備份檔的對應還原目錄有問題  | 
+| ThreadJob.getDbState() <chkSql>	| R00001	| SQLException  | 
+
