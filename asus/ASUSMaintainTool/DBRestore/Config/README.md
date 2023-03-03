@@ -1,10 +1,10 @@
-### <div id="preStep">安裝前提</div>
-* 使用還原工具前，請務必滿足下列要求：
+### <div id="preStep">使用前提</div>
+* 使用還原工具前（尤其是災後復原時），請務必滿足下列要求：
     1.	資料庫WellwareProject是存在的
     2.	要確認已取得由ArcareDBbackup所產出的備份檔(.bak&.trn)，並確實將其存放至原本備份檔案的原本位置上
     3.	確實已建立存放DB資料庫的對應目錄
     4.	機台確實已安裝過JAVA jre
-        * 簡易檢查方法: 開啟”命令提示字元”後，執行java –version，有確實顯示出java version.
+        * ![Alt text](attachment/preStep-1.png)
 
 ### <div id="installStep">安裝步驟</div>
 * 作業目的：安裝資料庫還原工具
