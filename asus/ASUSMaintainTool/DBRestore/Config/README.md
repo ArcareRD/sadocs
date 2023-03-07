@@ -1,4 +1,4 @@
-### \<div id="preStep">使用前提\</div>
+### <div id="preStep">使用前提</div>
 * 使用還原工具前（尤其是災後復原時），請務必滿足下列要求：
     1.	資料庫WellwareProject是存在的
     2.	要確認已取得由ArcareDBbackup所產出的備份檔(.bak&.trn)，並確實將其存放至原本備份檔案的原本位置上
@@ -6,7 +6,7 @@
     4.	機台確實已安裝過JAVA jre
         * ![Alt text](attachment/preStep-1.png)
 
-### \<div id="installStep">安裝步驟\</div>
+### <div id="installStep">全新安裝步驟</div>
 * 作業目的：安裝資料庫還原工具
 * 安裝檔案：asus-t-r-版本.zip
 * 操作說明
@@ -23,7 +23,7 @@
                 * 用途說明：資料庫連線帳號
             * db_pass
                 * 用途說明：資料庫連線密碼(明碼)
-            * db_._wellware
+            * db.wellware
                 * 用途說明：WellWareProject的資料庫名，預設 WellWareProject
             * accesslog_path
                 * 用途說明：accesslog檔案路徑
@@ -34,7 +34,10 @@
             * logKeepDay
                 * 用途說明：log歷史記錄檔保留天數(單位=天)，當產生log歷史記錄檔時，即判斷log歷史記錄檔若超過保留天數則自動刪除，預設 365
 
-### \<div id="logs">logs紀錄\</div>
+### <div id="installStep">升級步驟</div>
+* 操作說明：升級步驟，同<u>全新安裝步驟</u>，即直接解壓縮檔案【asus-t-r-版本.zip】，覆蓋至 ArcareDBRestore 資料夾下：但是，要注意<span style="color:red;">不允覆蓋config目錄下的檔案!!</span>
+
+### <div id="logs">logs紀錄</div>
 * 還原工具有輸出兩個Log file，進行系統事件追蹤之用
     * 第一個是Accesslog，預設存放在”安裝目錄”下的子目錄accesslogs裡。
     * 第二個是Restorelog，預設存放在”安裝目錄”下的子目錄logs裡。
@@ -62,7 +65,7 @@
 | LastCommandLEngth   | 此欄位留空 |
 | LastCommandResponseTime   | 此欄位留空 |
 
-### \<div id="message">訊息說明\</div>
+### <div id="message">訊息說明</div>
 * 啟動失敗可能原因說明
     * 如何查看訊息：至 accesslogs 資料夾下的檔案【accesslog_日期.log】查看
     * 如何查看詳細訊息：至 logs 資料夾下的檔案【restorelog_日期.log】查看
