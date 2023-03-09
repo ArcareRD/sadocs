@@ -72,7 +72,7 @@
 * logs錯誤簡述如下 :
 | API   | ErrorCode | Message  | 說明   |
 | ------------- | ------------- | ------------- |------------- |
-| initLog4j() | 120001    | error message | 關於工具開啟前的log4j的錯誤    | 
+| initLog4j() | 120001  | error message | 關於工具開啟前的log4j的錯誤    | 
 | chkDbConn() | 120001    | error message | 關於db connection的錯誤    | 
 | run() | 600001    | UPDATE SYS_DBMAINTAINCHECKLIST有錯誤  | 
 | ThreadJob.run() \<dbname> | 600001    | Database \<dbname> not ONLINE (iState=xx)  | 即DB為不可用狀態  | 
