@@ -72,17 +72,17 @@
 * logs錯誤簡述如下 :
 | API   | ErrorCode | Message  | 說明   |
 | ------------- | ------------- | ------------- |------------- |
-| initLog4j() | A20001    | error message | 關於工具開啟前的log4j的錯誤    | 
-| chkDbConn() | A20001    | error message | 關於db connection的錯誤    | 
-| run() | R00001    | UPDATE SYS_DBMAINTAINCHECKLIST有錯誤  | 
-| ThreadJob.run() \<dbname> | R00001    | Database \<dbname> not ONLINE (iState=xx)  | 即DB為不可用狀態  | 
-| ThreadJob.run() \<dbname> | R00001	| restore \<dbname> file \<bkpath\>*.DBK NOT existed for \<bkdate>  | 即備份檔不存在    | 
-| ThreadJob.run() chkRestoreSP(..) | A20001	| chkRestoreSP(..) error!!, \<dbname>, \<bakfullfile> | 即備份檔所對應的還原目錄有問題    | 
-| ThreadJob.run() \<dbname> | R00001	| restore database \<dbname> with recovery (iState=xx)   | 即還原有誤，恢復至還原前之狀態    | 
-| ThreadJob.run() \<dbname> | R00001	| Restore \<dbname> for \<bkdate> Error: xxx    | 即還原確定有誤    | 
-| killWhoUsing(..) \<pid> \<dbname> | R00001 | kill pid error   | 即DB仍被他人開啟中    | 
-| chkRestoreSP(..) \<call_sp> | A20001	| SQLException  | 即備份檔不存在或者備份檔的對應還原目錄有問題  | 
-| ThreadJob.getDbState() \<chkSql> | R00001	| SQLException  |
+| initLog4j() | 120001    | error message | 關於工具開啟前的log4j的錯誤    | 
+| chkDbConn() | 120001    | error message | 關於db connection的錯誤    | 
+| run() | 600001    | UPDATE SYS_DBMAINTAINCHECKLIST有錯誤  | 
+| ThreadJob.run() \<dbname> | 600001    | Database \<dbname> not ONLINE (iState=xx)  | 即DB為不可用狀態  | 
+| ThreadJob.run() \<dbname> | 600001	| restore \<dbname> file \<bkpath\>*.DBK NOT existed for \<bkdate>  | 即備份檔不存在    | 
+| ThreadJob.run() chkRestoreSP(..) | 120001	| chkRestoreSP(..) error!!, \<dbname>, \<bakfullfile> | 即備份檔所對應的還原目錄有問題    | 
+| ThreadJob.run() \<dbname> | 600001	| restore database \<dbname> with recovery (iState=xx)   | 即還原有誤，恢復至還原前之狀態    | 
+| ThreadJob.run() \<dbname> | 600001	| Restore \<dbname> for \<bkdate> Error: xxx    | 即還原確定有誤    | 
+| killWhoUsing(..) \<pid> \<dbname> | 600001 | kill pid error   | 即DB仍被他人開啟中    | 
+| chkRestoreSP(..) \<call_sp> | 120001	| SQLException  | 即備份檔不存在或者備份檔的對應還原目錄有問題  | 
+| ThreadJob.getDbState() \<chkSql> | 600001	| SQLException  |
 
     * iState 內容定義 (可參考sql server中，表格master.sys.databases的欄位state的定義)
 	    * = 0	ONLINE
