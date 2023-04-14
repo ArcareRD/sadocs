@@ -1,5 +1,8 @@
 # 授權中心網站
 * [上一頁](../../README.md)
+* [網站地圖](README.md#map)
+* [網站權限表](README.md#auth)
+* [初始化資料](README.md#init)
 * 畫面
     * [登入畫面](login/README.md)
     * [授權首頁](homepage/README.md)
