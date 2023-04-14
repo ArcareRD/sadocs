@@ -36,5 +36,8 @@
   * [RTE](ITEM_14/RTE/README.md)
 * 15.WFS_簽核系統規格異動
   * [RTE](ITEM_15/RTE/README.md)
-* 16.MAE擴充_伺服器清單掃瞄QRCode異動
+* 16.MAE擴充_伺服器清單掃瞄QRCode異動   
   * [MAE](ITEM_16/MAE/README.md)
+* 17.RTE授權管理
+  * [授權中心網站](ITEM_17/LICENSE/README.md)
+  * [RTE](ITEM_17/RTE/README.md)

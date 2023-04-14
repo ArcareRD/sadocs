@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-04-14T08:07:07.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="1H69dPocF0s9ymuULJ54" version="21.1.2" type="device">
+  <diagram name="網站地圖" id="iCJpIUxrMi_6zdbCjfXb">
+    <mxGraphModel dx="1016" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-140" width="820" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-1" target="5cf98Y_YTSAafCUj2TGP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-1" value="管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-2" target="5cf98Y_YTSAafCUj2TGP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-2" target="5cf98Y_YTSAafCUj2TGP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-2" value="客戶端維護人員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-5" target="5cf98Y_YTSAafCUj2TGP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-5" value="登入畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-7" target="5cf98Y_YTSAafCUj2TGP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-7" target="5cf98Y_YTSAafCUj2TGP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-7" target="5cf98Y_YTSAafCUj2TGP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-7" value="授權首頁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-9" target="5cf98Y_YTSAafCUj2TGP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-9" value="企業設定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-11" value="系統設定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-13" value="帳號管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-15" value="密碼變更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-18" value="離線啟用頁面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-19" value="線上啟用API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5cf98Y_YTSAafCUj2TGP-21" target="5cf98Y_YTSAafCUj2TGP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-21" value="RTE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5cf98Y_YTSAafCUj2TGP-25" value="授權中心網站" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="-120" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
