@@ -36,7 +36,9 @@
 
 ### <P id="iis">Internet Information Services (IIS) 環境設定 </P>
 
-`※注意※ 請先確認該機台已安裝IIS，再依下列步驟設定`
+`※注意1※ 請先確認該機台已安裝IIS，再依下列步驟設定`
+`※注意2※ win 10機台，請由程式與功能->開啟或關閉windows功能, 進入設定`
+        ![alt IIS設定_1](attachment/IIS_win10.png)    
 
 1-1. 進入伺服器管理員/IIS，駐留選取新增角色及功能 <br>
 ![alt IIS設定_1](attachment/IIS_1.png)

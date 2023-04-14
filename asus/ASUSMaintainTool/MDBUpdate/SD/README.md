@@ -2,6 +2,7 @@
 
 ---
 ## <div id="view">● 視窗介面動作 </div>
+![img_mdbupdate_1]
 
 ---
 ## <div id="check-db-in-no-update">● 勾選未完成更新的資料庫 </div>
@@ -53,5 +54,7 @@
 
 [img_import_object_6]:attachment/ImportObject.Backup(備份資料庫).jpg
 [img_import_object_7]:attachment/ImportObject.Restore(還原資料庫).jpg
+
+[img_mdbupdate_1]:attachment/MDBUpdate(開啟介面).jpg
 
 
