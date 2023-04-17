@@ -3,6 +3,7 @@
 * [IDE](IDE/README.md)
 * [RTE](RTE/README.md)
 * [MAE](MAE/README.md)
+* [授權中心網站](LICENSE/README.md)
 * [單元樣式](STYLE/README.md)
 * [本版異動](UPDATE/README.md)
 
