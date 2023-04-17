@@ -10,10 +10,14 @@
 ### <div id="requirement">需求展開</div>
 
 * 異動項目如下表
-<iframe height=1020 width=100% src="{0}/attachment/9164.htm"  frameborder=0  allowfullscreen></iframe>
+    ![img_item]
+
 
 * 文件位置
     * [簽核][link_SIGNOFF]
 
 <!-- 超連結 -->
 [link_SIGNOFF]:{3}/RTE/SYSTEM/SIGNOFF/README
+
+[img_item]:attachment/signoff_change_item.png
+
