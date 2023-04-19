@@ -35,8 +35,8 @@
 
 
 <!-- 圖片 -->
-[image_historyVersionClear]:attachment/historyVersionClear.png
-[image_historyVersionClear_block1]:attachment/historyVersionClear_block1.png
+[image_historyVersionClear]:attachment/HistoryVersionClear.png
+[image_historyVersionClear_block1]:attachment/HistoryVersionClear_block1.png
 
 <!-- 超連結 -->
 [link_ruleother1]:{4}/IDE/Specification/RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"

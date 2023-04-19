@@ -14,4 +14,21 @@
         * 簽核系統_刪除送簽紀錄 : 可執行【刪除送簽】
     
 * 簽核流程如下: 
-    <iframe height=1020 width=95% src="{0}/attachment/signoff.html"  frameborder=0  allowfullscreen></iframe>
+
+![img_flow_1]
+
+![img_flow_2]
+
+![img_flow_3]
+
+![img_flow_4]
+
+
+
+
+
+
+[img_flow_1]:attachment/flow_1.png "簽核"
+[img_flow_2]:attachment/flow_2.png "送簽流程"
+[img_flow_3]:attachment/flow_3.png "關卡簽核"
+[img_flow_4]:attachment/flow_4.png "簽核回覆"
