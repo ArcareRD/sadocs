@@ -1,3 +1,5 @@
-# 授權中心網站 登入畫面
-* [上一頁](../../README.md)
-* [畫面](README.md#view)
+# 認證授權中心 帳號管理
+* [上一頁]({back})
+* 畫面
+    * [帳號管理](README.md#view)
+    * [新增帳號](README.md#addaccount)

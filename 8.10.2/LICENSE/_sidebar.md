@@ -5,9 +5,9 @@
 * [初始化資料](README.md#init)
 * 畫面
     * [登入畫面](login/README.md)
-    * [授權首頁](homepage/README.md)
-    * [企業設定](enterprise/README.md)
-    * [系統設定](system/README.md)
+    * [共用導覽列](header/README.md)
+    * [站台授權](homepage/README.md)
+    * [系統授權](system/README.md)
     * [帳號管理](account/README.md)
     * [密碼變更](password/README.md)
     * [離線啟用畫面](offlineactive/README.md)
