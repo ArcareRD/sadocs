@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2023-04-21T03:06:14.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="Bko-q675LhBEwSXk2Lbi" version="21.1.2" type="device">
+  <diagram name="站台啟用流程" id="8tgOfT1SxzMqSUsRuWok">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-2" target="x3B8Q7A1Zujr4kUleA3o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-2" value="建立RTE運行環境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-3" target="x3B8Q7A1Zujr4kUleA3o-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-3" value="首次登入站台管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-5" target="x3B8Q7A1Zujr4kUleA3o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-5" value="開啟站台啟用畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-21" target="x3B8Q7A1Zujr4kUleA3o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-21" value="進行站台授權認證" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-23" target="x3B8Q7A1Zujr4kUleA3o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-23" value="輸入國別資料" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-25" target="x3B8Q7A1Zujr4kUleA3o-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-25" value="變更站台管理員密碼" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-27" target="x3B8Q7A1Zujr4kUleA3o-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-27" value="站台管理員資料變更" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x3B8Q7A1Zujr4kUleA3o-29" target="x3B8Q7A1Zujr4kUleA3o-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-29" value="設定服務中間台" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3B8Q7A1Zujr4kUleA3o-31" value="啟用完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
