@@ -25,7 +25,17 @@
         * 1.標題列 : 點擊後可收合表單清單畫面
         * 2.系統表單清單 : 
 
-* 後續待補
+* 當系統授權到期日已經為30天內時，顯示提示訊息【系統授權剩餘XX天將到期，請聯絡系統管理員】，如下圖所示
+  
+  ![系統授權到期前30天]
+
+* 當系統授權到期日已到期但還在為30天的寬限期內時，顯示提示訊息【系統授權已到期，寬限期剩餘XX天，請聯絡系統管理員更新系統授權】，如下圖所示
+  
+  ![系統授權到期後30天]
+
+* 當系統授權已到期且超過30天的寬限期後，顯示提示訊息【系統授權已到期，請聯絡系統管理員】並且無法使用該系統，如下圖所示
+
+  ![系統授權到期]
 
 ### <div id="changesystem">切換系統</div>
 待補
@@ -77,3 +87,6 @@
 [樣式主題點擊確定]:attachment/styletheme_clickok.png "樣式主題點擊確定"
 [樣式主題點擊取消]:attachment/styletheme_clickcancel.png "樣式主題點擊取消"
 [樣式主題點擊返回]:attachment/styletheme_clickreturn.png "樣式主題點擊返回"
+[系統授權到期前30天]:attachment/system_auth.png "系統授權到期前30天"
+[系統授權到期後30天]:attachment/system_auth_expire1.png "系統授權到期後30天"
+[系統授權到期]:attachment/system_auth_expire.png "系統授權到期"
