@@ -9,23 +9,43 @@
 
 ### <div id="requirement">需求展開</div>
 
-  * 新增伺服器清單掃瞄QRCode種類
-
-    1. 原掃瞄網址的部份增加為掃瞄文字
-    2. QRCode類別為純文字
-    3. 資料為json格式
-
-            {"server":"https://user-a.arcare-robot.com/","server name":"user-a","leading":true}
-
-        格式說明如下
-       1. key=server 伺服器路徑(必要)，未包含時不作任何處理
-       2. key=server name 伺服器名稱(非必要)
-       3. key=leading 設定為主要伺服器(非必要)，當有此項設定時，會直接新增伺服器並直接設定為主要伺服器
+  * 配合授權中心進行授權管理
+    * 顯示時機如下
+      * 登入系統時
+        * RTE站台的系統授權期間，登入時會跳出提示訊息
+          * 前期前一個月間顯示<span style="color:blue">"系統即將過期，請儘速聯絡系統管理員!"</span>
+          * 到期後一個月間顯示<span style="color:blue">"系統已過期，請儘速聯絡系統管理員!"</span>
+          * 超過期限後則顯示<span style="color:blue">"系統已過期，請儘速聯絡系統管理員!"</span><span style="color:red">且無法登入該站台</span>
+      * 登入站台時
+        * RTE站台的站台授權期間，登入時會跳出提示訊息
+          * 到期前一個月間顯示<span style="color:blue">"站台即將過期，請儘速聯絡系統管理員!"</span>
+          * 到期後一個月間顯示<span style="color:blue">"站台已過期，請儘速聯絡系統管理員!"</span>
+          * 超過期限後則顯示<span style="color:blue">"站台已過期，請儘速聯絡系統管理員!"</span><span style="color:red">且無法登入該系統</span>
+      * 由背景返回前景時
+        * 依RTE站台的授權期限來判斷顯示提示訊息
+          * 當<span style="color:red">系統</span>到期前一個月間
+            * 當<span style="color:red">站台</span>到期前一個月間
+              * 顯示<span style="color:blue">"系統與站台即將過期，請儘速聯絡系統管理員!"</span>
+            * 當<span style="color:red">站台</span>到期後一個月間
+              * 顯示<span style="color:blue">"系統即將過期且站台已過期，請儘速聯絡系統管理員!"</span>
+            * 當<span style="color:red">站台</span>超過期限
+              * 顯示<span style="color:blue">"系統即將過期且站台已過期，請儘速聯絡系統管理員!"</span><span style="color:red">且返回站台登入畫面</span>
+          * 當<span style="color:red">系統</span>到期後一個月間
+            * 當<span style="color:red">站台</span>到期前一個月間
+              * 顯示<span style="color:blue">"系統已過期且站台即將過期，請儘速聯絡系統管理員!"</span>
+            * 當<span style="color:red">站台</span>到期後一個月間
+              * 顯示<span style="color:blue">"系統與站台已過期，請儘速聯絡系統管理員!"</span>
+            * 當<span style="color:red">站台</span>超過期限
+              * 顯示<span style="color:blue">"系統與站台已過期，請儘速聯絡系統管理員!"</span><span style="color:red">且返回站台登入畫面</span>
+          * 當<span style="color:red">系統</span>超過期限
+              * 顯示<span style="color:blue">"系統已過期，請儘速聯絡系統管理員!"</span><span style="color:red">且返回系統登入畫面</span>
           
+    
+  * 完整網站規劃連結 : [授權中心網站](../../../LICENSE/README.md)
       
-* #### 參考畫面
+<!--* #### 參考畫面
 
-    ![image](../../../MAE/Image/server_info_qrcode.png)
+   ![image](../../../MAE/Image/server_info_qrcode.png)-->
 
 
 <!-- 超連結 -->
