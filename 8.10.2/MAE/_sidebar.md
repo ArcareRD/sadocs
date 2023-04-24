@@ -8,3 +8,4 @@
 * [按鍵加註](Addition/Button/README.md)
 * [共通規則](General/README.md)
 * [系統設定](System/README.md)
+* [授權管理](AuthorizationManagement/README.md)
