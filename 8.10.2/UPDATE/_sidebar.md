@@ -42,3 +42,5 @@
   * [授權中心網站](ITEM_17/LICENSE/README.md)
   * [RTE](ITEM_17/RTE/README.md)
   * [MAE](ITEM_17/MAE/README.md)
+* 18.版本發行新增單據統計
+  * [IDE](ITEM_18/IDE/README.md)
