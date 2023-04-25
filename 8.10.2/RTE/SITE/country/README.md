@@ -1,4 +1,4 @@
-# RTE Site 國別設定
+# RTE Site 預設國別設定
 
 ### <div id="view">畫面</div>
 
