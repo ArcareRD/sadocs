@@ -1,4 +1,4 @@
-# 企業資料
+# 企業系統設定
 * [上一頁]({back})
 * [畫面說明](README.md#view)
   * [啟用授權](README.md#active)

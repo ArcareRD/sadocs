@@ -8,7 +8,10 @@
     * [企業管理員](enterprisesiteManager.md)
     * [系統管理員](systemManager.md)
 * 參數設定
-    * [其他參數](parameterothersetting/README.md)
+  * [國別設定](country/README.md)
+  * [服務中間台](middleserver/README.md)
+  * [其他參數](parameterothersetting/README.md)
+  * [站台授權設定](siteauth/README.md)
 * [匯入資料](importdata/README.md)
 * [企業設定](enterpriseindex/README.md)
 * [企業資料](enterprisedetail/README.md)

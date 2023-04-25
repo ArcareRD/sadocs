@@ -1,0 +1,249 @@
+<mxfile host="Electron" modified="2023-04-24T09:00:13.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="U4IGJwabvORMOpg2kaaa" version="21.1.2" type="device" pages="5">
+  <diagram name="點擊按鈕.新增" id="VzqDOyqYh4qZb_Yx5Hrs">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4dstgvP88UUwsVIZX0qH-1" value="服務中間台-新增" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270.00000000000045" width="430" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-1">
+          <mxGeometry y="20" width="200" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-5" value="點擊按鈕.新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-2">
+          <mxGeometry x="39.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-13" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-2">
+          <mxGeometry x="49.999999999999545" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-3" value="站台管理.服務中間台" style="swimlane;startSize=20;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-1">
+          <mxGeometry x="200" y="20" width="230" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4dstgvP88UUwsVIZX0qH-3" source="4dstgvP88UUwsVIZX0qH-7" target="4dstgvP88UUwsVIZX0qH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-7" value="於表格中&lt;br&gt;新增一筆紀錄" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-3">
+          <mxGeometry x="54.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4dstgvP88UUwsVIZX0qH-3" source="4dstgvP88UUwsVIZX0qH-9" target="4dstgvP88UUwsVIZX0qH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-9" value="該筆紀錄設定為&lt;br&gt;編輯狀態" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-3">
+          <mxGeometry x="54.999999999999545" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-11" value="其他筆紀錄&lt;br&gt;按鈕全除能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4dstgvP88UUwsVIZX0qH-3">
+          <mxGeometry x="54.999999999999545" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4dstgvP88UUwsVIZX0qH-1" source="4dstgvP88UUwsVIZX0qH-5" target="4dstgvP88UUwsVIZX0qH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4dstgvP88UUwsVIZX0qH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4dstgvP88UUwsVIZX0qH-1" source="4dstgvP88UUwsVIZX0qH-11" target="4dstgvP88UUwsVIZX0qH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jG7eglTssJrp6kD31Vsl" name="點擊按鈕.修改">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-1" value="服務中間台-修改" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-1">
+          <mxGeometry y="20" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-3" value="點擊按鈕.修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-2">
+          <mxGeometry x="39.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-2">
+          <mxGeometry x="39.999999999999545" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FVIEhH6bFLMR4S1Er8lO-1" source="FVIEhH6bFLMR4S1Er8lO-10" target="FVIEhH6bFLMR4S1Er8lO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-5" value="站台管理.服務中間台" style="swimlane;startSize=20;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-1">
+          <mxGeometry x="200" y="20" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FVIEhH6bFLMR4S1Er8lO-5" source="FVIEhH6bFLMR4S1Er8lO-9" target="FVIEhH6bFLMR4S1Er8lO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-9" value="該筆紀錄設定為&lt;br&gt;編輯狀態" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-5">
+          <mxGeometry x="54.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-10" value="其他筆紀錄&lt;br&gt;按鈕全除能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FVIEhH6bFLMR4S1Er8lO-5">
+          <mxGeometry x="54.999999999999545" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FVIEhH6bFLMR4S1Er8lO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FVIEhH6bFLMR4S1Er8lO-1" source="FVIEhH6bFLMR4S1Er8lO-3" target="FVIEhH6bFLMR4S1Er8lO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254.99999999999955" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ofgKOzNqDtD4NcPFJQaf" name="點擊按鈕.刪除">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lox3L3aFryifAgjmLbxu-1" value="服務中間台-刪除" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" width="535" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lox3L3aFryifAgjmLbxu-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-1">
+          <mxGeometry y="20" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lox3L3aFryifAgjmLbxu-3" value="點擊按鈕.刪除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-2">
+          <mxGeometry x="39.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lox3L3aFryifAgjmLbxu-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-2">
+          <mxGeometry x="39.999999999999545" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lox3L3aFryifAgjmLbxu-6" value="站台管理.服務中間台" style="swimlane;startSize=20;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-1">
+          <mxGeometry x="200" y="20" width="335" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="KBrCc9mA1Ng0amXKE9IG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lox3L3aFryifAgjmLbxu-6" source="KBrCc9mA1Ng0amXKE9IG-1" target="KBrCc9mA1Ng0amXKE9IG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KBrCc9mA1Ng0amXKE9IG-1" value="是否確定&lt;br&gt;刪除" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-6">
+          <mxGeometry x="75" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KBrCc9mA1Ng0amXKE9IG-4" value="刪除中間台資料" style="whiteSpace=wrap;html=1;" vertex="1" parent="lox3L3aFryifAgjmLbxu-6">
+          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBgv87Vme-2mVHrXfXoy-2" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lox3L3aFryifAgjmLbxu-6">
+          <mxGeometry x="137.5" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBgv87Vme-2mVHrXfXoy-1" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lox3L3aFryifAgjmLbxu-6">
+          <mxGeometry x="110" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lox3L3aFryifAgjmLbxu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lox3L3aFryifAgjmLbxu-1" source="lox3L3aFryifAgjmLbxu-3" target="KBrCc9mA1Ng0amXKE9IG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254.99999999999955" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBrCc9mA1Ng0amXKE9IG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lox3L3aFryifAgjmLbxu-1" source="KBrCc9mA1Ng0amXKE9IG-1" target="lox3L3aFryifAgjmLbxu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KBrCc9mA1Ng0amXKE9IG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lox3L3aFryifAgjmLbxu-1" source="KBrCc9mA1Ng0amXKE9IG-4" target="lox3L3aFryifAgjmLbxu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="592rbtqKqATmTeHRMj2X" name="點擊按鈕.儲存">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-1" value="服務中間台-儲存" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" width="570" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-1">
+          <mxGeometry y="20" width="200" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-3" value="點擊按鈕.刪除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-2">
+          <mxGeometry x="39.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-2">
+          <mxGeometry x="39.999999999999545" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-1" source="k4TKtMQyxi1IJbKs4qa_-3" target="k4TKtMQyxi1IJbKs4qa_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-5" value="站台管理.服務中間台" style="swimlane;startSize=20;html=1;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-1">
+          <mxGeometry x="200" y="20" width="370" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-5" source="k4TKtMQyxi1IJbKs4qa_-14" target="k4TKtMQyxi1IJbKs4qa_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-14" value="檢查必要欄位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-5" source="k4TKtMQyxi1IJbKs4qa_-16" target="k4TKtMQyxi1IJbKs4qa_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-5" source="k4TKtMQyxi1IJbKs4qa_-16" target="k4TKtMQyxi1IJbKs4qa_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-16" value="必要欄位&lt;br&gt;不為空" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="90" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-18" value="顯示錯誤訊息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-20" value="儲存中間台資料" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-26" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="160" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-25" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="k4TKtMQyxi1IJbKs4qa_-5">
+          <mxGeometry x="120" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-1" source="k4TKtMQyxi1IJbKs4qa_-18" target="k4TKtMQyxi1IJbKs4qa_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4TKtMQyxi1IJbKs4qa_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="k4TKtMQyxi1IJbKs4qa_-1" source="k4TKtMQyxi1IJbKs4qa_-20" target="k4TKtMQyxi1IJbKs4qa_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4qBZEydqgVWfDesh-GXJ" name="點擊按鈕.放棄">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ikGHVOiVey7VCsZivauL-1" value="服務中間台-刪除" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" width="610" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-1">
+          <mxGeometry y="20" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-3" value="點擊按鈕.刪除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-2">
+          <mxGeometry x="39.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-2">
+          <mxGeometry x="39.999999999999545" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-5" value="站台管理.服務中間台" style="swimlane;startSize=20;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-1">
+          <mxGeometry x="200" y="20" width="410" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ikGHVOiVey7VCsZivauL-5" source="ikGHVOiVey7VCsZivauL-7" target="ikGHVOiVey7VCsZivauL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ibGf4LviLctvUM9FbYhV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ikGHVOiVey7VCsZivauL-5" source="ikGHVOiVey7VCsZivauL-7" target="ibGf4LviLctvUM9FbYhV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-7" value="該筆資料&lt;br&gt;為新增" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-5">
+          <mxGeometry x="75" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ibGf4LviLctvUM9FbYhV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ikGHVOiVey7VCsZivauL-5" source="ikGHVOiVey7VCsZivauL-8" target="ibGf4LviLctvUM9FbYhV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-8" value="放棄該筆資料" style="whiteSpace=wrap;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-5">
+          <mxGeometry x="247" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-9" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikGHVOiVey7VCsZivauL-5">
+          <mxGeometry x="137.5" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikGHVOiVey7VCsZivauL-5">
+          <mxGeometry x="115" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ibGf4LviLctvUM9FbYhV-1" value="將所有資料&lt;br&gt;改為瀏覽模式" style="whiteSpace=wrap;html=1;" vertex="1" parent="ikGHVOiVey7VCsZivauL-5">
+          <mxGeometry x="55" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ikGHVOiVey7VCsZivauL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ikGHVOiVey7VCsZivauL-1" source="ikGHVOiVey7VCsZivauL-3" target="ikGHVOiVey7VCsZivauL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254.99999999999955" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ibGf4LviLctvUM9FbYhV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ikGHVOiVey7VCsZivauL-1" source="ibGf4LviLctvUM9FbYhV-1" target="ikGHVOiVey7VCsZivauL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

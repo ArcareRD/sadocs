@@ -1,5 +1,5 @@
 # Site 管理 啟用
-* [上一頁](../README.md)
+* [上一頁]({back})
 * [啟用流程](README.md#active)
   * [認證](README.md#auth)
   * [國別](README.md#country)
