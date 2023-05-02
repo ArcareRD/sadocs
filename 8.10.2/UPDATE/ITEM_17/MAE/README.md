@@ -54,9 +54,27 @@
     
   * 完整網站規劃連結 : [授權中心網站](../../../LICENSE/README.md)
       
-<!--* #### 參考畫面
+#### 訊息參考畫面
 
-   ![image](../../../MAE/Image/server_info_qrcode.png)-->
+   ![image](../../../MAE/Image/thePlatformIsAboutToExpireASAP.png)
+
+   ![image](../../../MAE/Image/thePlatformHasExpiredASAP.png)
+
+   ![image](../../../MAE/Image/thePlatformHasExpired.png)
+
+   ![image](../../../MAE/Image/theSystemIsAboutToExpireASAP.png)
+
+   ![image](../../../MAE/Image/theSystemHasExpiredASAP.png)
+
+   ![image](../../../MAE/Image/theSystemHasExpired.png)
+
+   ![image](../../../MAE/Image/thePlatformIsAboutToExpireASAPAndTheSystemIsAboutToExpireASAP.png)
+
+   ![image](../../../MAE/Image/thePlatformIsAboutToExpireASAPAndTheSystemHasExpiredASAP.png)
+
+   ![image](../../../MAE/Image/thePlatformHasExpiredASAPAndTheSystemIsAboutToExpireASAP.png)
+
+   ![image](../../../MAE/Image/thePlatformHasExpiredASAPAndTheSystemHasExpiredASAP.png)
 
 
 <!-- 超連結 -->
