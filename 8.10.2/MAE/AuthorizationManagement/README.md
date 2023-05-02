@@ -44,3 +44,25 @@
     ![image](../Image/authorization_background_to_foreground.jpg)
 
 * 完整網站規劃連結 : [授權中心網站](../../../LICENSE/README.md)
+
+#### 訊息參考畫面
+
+   ![image](../Image/thePlatformIsAboutToExpireASAP.png)
+
+   ![image](../Image/thePlatformHasExpiredASAP.png)
+
+   ![image](../Image/thePlatformHasExpired.png)
+
+   ![image](../Image/theSystemIsAboutToExpireASAP.png)
+
+   ![image](../Image/theSystemHasExpiredASAP.png)
+
+   ![image](../Image/theSystemHasExpired.png)
+
+   ![image](../Image/thePlatformIsAboutToExpireASAPAndTheSystemIsAboutToExpireASAP.png)
+
+   ![image](../Image/thePlatformIsAboutToExpireASAPAndTheSystemHasExpiredASAP.png)
+
+   ![image](../Image/thePlatformHasExpiredASAPAndTheSystemIsAboutToExpireASAP.png)
+
+   ![image](../Image/thePlatformHasExpiredASAPAndTheSystemHasExpiredASAP.png)
