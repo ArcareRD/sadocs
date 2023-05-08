@@ -1,0 +1,262 @@
+<mxfile host="Electron" modified="2023-04-24T09:46:10.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="BoV7A6tXpwCvgavH-Wfm" version="21.1.2" type="device" pages="6">
+  <diagram name="點擊按鈕.載入預設" id="lC8V9zTXtLd8Y2HDk8hq">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="12oAQuw015sHJnMv9rxm-1" value="國別設定 - 載入預設" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="12oAQuw015sHJnMv9rxm-1">
+          <mxGeometry y="20" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-5" value="點擊按鈕.載入預設" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="12oAQuw015sHJnMv9rxm-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-10" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="12oAQuw015sHJnMv9rxm-2">
+          <mxGeometry x="29.999999999999545" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-3" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="12oAQuw015sHJnMv9rxm-1">
+          <mxGeometry x="180" y="20" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-6" value="載入引擎預設的&lt;br&gt;國別資料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="12oAQuw015sHJnMv9rxm-3">
+          <mxGeometry x="49.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="12oAQuw015sHJnMv9rxm-1" source="12oAQuw015sHJnMv9rxm-5" target="12oAQuw015sHJnMv9rxm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12oAQuw015sHJnMv9rxm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="12oAQuw015sHJnMv9rxm-1" source="12oAQuw015sHJnMv9rxm-6" target="12oAQuw015sHJnMv9rxm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qu3h2WezixMolZDdhdEE" name="點擊按鈕.修改國別">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-1" value="國別設定 - 修改國別" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="390" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-1">
+          <mxGeometry y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-3" value="點擊按鈕.修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-2">
+          <mxGeometry x="29.999999999999545" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-5" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-1">
+          <mxGeometry x="180" y="20" width="210" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5ZlSRVJBcAoEHEhZg3Kj-5" source="5ZlSRVJBcAoEHEhZg3Kj-6" target="5ZlSRVJBcAoEHEhZg3Kj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-6" value="開啟修改國別畫面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-5">
+          <mxGeometry x="49.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-9" value="帶入本筆國別資料" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="5ZlSRVJBcAoEHEhZg3Kj-5">
+          <mxGeometry x="49.999999999999545" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5ZlSRVJBcAoEHEhZg3Kj-1" source="5ZlSRVJBcAoEHEhZg3Kj-3" target="5ZlSRVJBcAoEHEhZg3Kj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ZlSRVJBcAoEHEhZg3Kj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5ZlSRVJBcAoEHEhZg3Kj-1" source="5ZlSRVJBcAoEHEhZg3Kj-9" target="5ZlSRVJBcAoEHEhZg3Kj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ThiUGtbnXQXI46CEfXr2" name="點擊按鈕.新增國別">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u76Zp3UZRk63PPetbH43-1" value="國別設定 - 新增國別" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="390" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="u76Zp3UZRk63PPetbH43-1">
+          <mxGeometry y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-3" value="點擊按鈕.新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u76Zp3UZRk63PPetbH43-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u76Zp3UZRk63PPetbH43-2">
+          <mxGeometry x="29.999999999999545" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-5" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="u76Zp3UZRk63PPetbH43-1">
+          <mxGeometry x="180" y="20" width="210" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-7" value="開啟新增國別畫面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u76Zp3UZRk63PPetbH43-5">
+          <mxGeometry x="49.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u76Zp3UZRk63PPetbH43-1" source="u76Zp3UZRk63PPetbH43-3" target="u76Zp3UZRk63PPetbH43-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u76Zp3UZRk63PPetbH43-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u76Zp3UZRk63PPetbH43-1" target="u76Zp3UZRk63PPetbH43-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="290" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XX5owsbfgc4aH5whAkCQ" name="點擊按鈕.刪除國別">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LrdGb1v4i0biZzHxdkzv-1" value="國別設定 - 刪除國別" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LrdGb1v4i0biZzHxdkzv-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-1">
+          <mxGeometry y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LrdGb1v4i0biZzHxdkzv-3" value="點擊按鈕.刪除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrdGb1v4i0biZzHxdkzv-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-2">
+          <mxGeometry x="29.999999999999545" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LrdGb1v4i0biZzHxdkzv-5" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-1">
+          <mxGeometry x="180" y="20" width="330" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LrdGb1v4i0biZzHxdkzv-5" source="fOuYab60Q8FIOdZmluAY-1" target="fOuYab60Q8FIOdZmluAY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-1" value="確認刪除" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-5">
+          <mxGeometry x="70" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-3" value="刪除國別資料" style="whiteSpace=wrap;html=1;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-5">
+          <mxGeometry x="180" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-8" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-5">
+          <mxGeometry x="135" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-7" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LrdGb1v4i0biZzHxdkzv-5">
+          <mxGeometry x="110" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LrdGb1v4i0biZzHxdkzv-1" source="LrdGb1v4i0biZzHxdkzv-3" target="fOuYab60Q8FIOdZmluAY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LrdGb1v4i0biZzHxdkzv-1" source="fOuYab60Q8FIOdZmluAY-3" target="LrdGb1v4i0biZzHxdkzv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOuYab60Q8FIOdZmluAY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LrdGb1v4i0biZzHxdkzv-1" source="fOuYab60Q8FIOdZmluAY-1" target="LrdGb1v4i0biZzHxdkzv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RCFNeR-GpshNirW_lDEh" name="點擊按鈕.新增國別儲存">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b194jde8LMEn5y4k2nGi-1" value="國別設定 - 新增國別儲存" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="600" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-1">
+          <mxGeometry y="20" width="180" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-3" value="點擊按鈕.儲存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-2">
+          <mxGeometry x="29.999999999999545" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-5" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-1">
+          <mxGeometry x="180" y="20" width="420" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b194jde8LMEn5y4k2nGi-5" source="b194jde8LMEn5y4k2nGi-7" target="b194jde8LMEn5y4k2nGi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b194jde8LMEn5y4k2nGi-5" source="b194jde8LMEn5y4k2nGi-7" target="b194jde8LMEn5y4k2nGi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-7" value="必要欄位&lt;br&gt;都不為空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-5">
+          <mxGeometry x="100" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-8" value="新增國別資料" style="whiteSpace=wrap;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-5">
+          <mxGeometry x="260" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-9" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b194jde8LMEn5y4k2nGi-5">
+          <mxGeometry x="170" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b194jde8LMEn5y4k2nGi-5">
+          <mxGeometry x="160" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-14" value="顯示錯誤訊息" style="whiteSpace=wrap;html=1;" vertex="1" parent="b194jde8LMEn5y4k2nGi-5">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b194jde8LMEn5y4k2nGi-1" source="b194jde8LMEn5y4k2nGi-3" target="b194jde8LMEn5y4k2nGi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b194jde8LMEn5y4k2nGi-1" source="b194jde8LMEn5y4k2nGi-8" target="b194jde8LMEn5y4k2nGi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b194jde8LMEn5y4k2nGi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b194jde8LMEn5y4k2nGi-1" source="b194jde8LMEn5y4k2nGi-14" target="b194jde8LMEn5y4k2nGi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rltUJXMxyOogUiVRvp_d" name="點擊按鈕.修改國別儲存">
+    <mxGraphModel dx="1098" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-1" value="國別設定 - 修改國別儲存" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="600" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-2" value="站台管理員" style="swimlane;startSize=20;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-1">
+          <mxGeometry y="20" width="180" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-3" value="點擊按鈕.儲存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-2">
+          <mxGeometry x="29.999999999999545" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-4" value="顯示畫面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-2">
+          <mxGeometry x="29.999999999999545" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-5" value="站台管理.國別設定" style="swimlane;startSize=20;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-1">
+          <mxGeometry x="180" y="20" width="420" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v4fER0BmaLvqLc3Gc5SH-5" source="v4fER0BmaLvqLc3Gc5SH-8" target="v4fER0BmaLvqLc3Gc5SH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v4fER0BmaLvqLc3Gc5SH-5" source="v4fER0BmaLvqLc3Gc5SH-8" target="v4fER0BmaLvqLc3Gc5SH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-8" value="必要欄位&lt;br&gt;都不為空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-5">
+          <mxGeometry x="100" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-9" value="修改國別資料" style="whiteSpace=wrap;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-5">
+          <mxGeometry x="260" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-10" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-5">
+          <mxGeometry x="170" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-11" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-5">
+          <mxGeometry x="160" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-12" value="顯示錯誤訊息" style="whiteSpace=wrap;html=1;" vertex="1" parent="v4fER0BmaLvqLc3Gc5SH-5">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="v4fER0BmaLvqLc3Gc5SH-1" source="v4fER0BmaLvqLc3Gc5SH-3" target="v4fER0BmaLvqLc3Gc5SH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v4fER0BmaLvqLc3Gc5SH-1" source="v4fER0BmaLvqLc3Gc5SH-9" target="v4fER0BmaLvqLc3Gc5SH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v4fER0BmaLvqLc3Gc5SH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v4fER0BmaLvqLc3Gc5SH-1" source="v4fER0BmaLvqLc3Gc5SH-12" target="v4fER0BmaLvqLc3Gc5SH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
