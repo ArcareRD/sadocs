@@ -263,3 +263,4 @@
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開啟單據/挑選全域變數通則"
 [link_ruledialog13]:../RulesDialog/README#ruledialog13 "共用通則_開啟單據/挑選表單按鍵通則"
 [link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
+[link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"

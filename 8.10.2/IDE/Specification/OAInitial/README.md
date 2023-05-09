@@ -317,6 +317,7 @@
 <!-- 超連結 -->
 [link_ruleother1]:../RulesOther/README#ruleother1 "共用通則_其它/版面資訊通則"
 [link_rulebutton2]:../RulesButton/README#rulebutton2 "共用通則_按鍵操作/單據異動資料按鍵操作通則"
+[link_rulebutton3]:../RulesButton/README#rulebutton3 "共用通則_按鍵操作/操作表格記錄通則"
 [link_ruledialog1]:../RulesDialog/README#ruledialog1 "共用通則_開啟單據/操作條件式通則"
 [link_ruledialog7]:../RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
 [link_ruleother11]:../RulesOther/README#ruleother11 "共用通則_其它/個資加密提示通則"

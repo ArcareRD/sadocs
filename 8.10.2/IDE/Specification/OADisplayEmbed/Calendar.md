@@ -208,3 +208,5 @@
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開啟單據/挑選檢視表元件通則"
 [link_rulesbutton3]:../RulesButton/README#rulebutton3 "共用通則_其它/操作表格記錄通則"
 [link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
+[link_rulebutton3]:../RulesButton/README#rulebutton3 "共用通則_按鍵操作/操作表格記錄通則"
+[link_fieldbreak1]:#fieldbreak1 "欄位說明/基本"
