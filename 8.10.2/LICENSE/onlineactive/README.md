@@ -12,7 +12,7 @@
     * Header : 
         * Content-Type： application/x-www-form-urlencoded
         * Authorization：授權中心金鑰對-公鑰
-    * Body(encoded body) : 需經過x-www-form-urlencoded編碼過
+    * Body(JSON) : 
         * type : 授權類型，目前有以下類型
           * RTE_SITE : RTE站台授權
           * RTE_SYSTEM : RTE系統授權
@@ -64,8 +64,8 @@
         * Header : 
             * Content-Type： application/x-www-form-urlencoded
             * Authorization：MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmDJhaFXig73c1Ik8j
-        * Body : 參數內容需經過x-www-form-urlencoded編碼過
-            * type=RTE_SITE&source=RuBzbuK6APPT8ghKlr5E0h31TUdTvXh+L+ox7riSQudNxEe/HM1R0tTNt/ZA0w8T4ukAyG/&signature=ieHRp6vFxIt8cTnzVt4YksCh32Kj7BNMZstZ+sPlRNY5KP4hoo7ULPNzVq5cZXSCjw+jOU+BbH
+        * Body : 
+            * {"type":"RTE_SITE","source":"RuBzbuK6APPT8ghKlr5E0h31TUdTvXh+L+ox7riSQudNxEe/HM1R0tTNt/ZA0w8T4ukAyG/","signature":"ieHRp6vFxIt8cTnzVt4YksCh32Kj7BNMZstZ+sPlRNY5KP4hoo7ULPNzVq5cZXSCjw+jOU+BbH"}
 * Response
     * Body(JSON)
         * status : 狀態碼，0表示成功，其餘表示啟用失敗並提供失敗原因的狀態碼
