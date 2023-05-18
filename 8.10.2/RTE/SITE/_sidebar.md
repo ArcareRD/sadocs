@@ -30,7 +30,7 @@
   * [建立新帳務](newcorp/README.md)
   * [企業目前上線人數查詢](enterpriseonlineuser/README.md)
   * [系統目前上線人數查詢](systemonlineuser/README.md)
-  * [系統vs人員資訊](systemuser/README.md)
+  * [系統vs人員資訊](systemuserinfo/README.md)
   * [系統自動備份設定](systembackup/README.md)
   * [系統_管理員設定](systemadmin/README.md)
   * [系統_使用者設定](systemuser/README.md)
