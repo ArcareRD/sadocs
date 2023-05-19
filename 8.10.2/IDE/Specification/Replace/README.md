@@ -85,7 +85,7 @@
                 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(2)表格名稱`中, 過濾型態不為二進位、備註, 進行元件挑選
             * `(9)來源類型`=全域變數: 參照 [挑選全域變數通則][link_ruledialog10], 進行全域變數挑選
             * `(9)來源類型`=上層欄位: 參照 [挑選檢視表元件通則][link_ruledialog8], 從`(5)上層表格`中, 進行元件挑選
-            * `(9)來源類型`=回傳參數: 參照 [挑選開放按鍵回傳參數通則][link_ruledialog16], 從前單按鍵中, 過濾型態不為二進位、備註, 進行參數挑選
+            * `(9)來源類型`=回傳參數: 參照 [挑選開放按鍵回傳參數通則][link_ruledialog20], 從前單按鍵中, 過濾型態不為二進位、備註, 進行參數挑選
     * `(11)儲存`
         * 用途說明
         * 規格說明
@@ -123,5 +123,5 @@
 [link_ruledialog10]:../RulesDialog/README#ruledialog10 "共用通則_開單操作/挑選全域變數通則"
 [link_ruledialog5]:../RulesDialog/README#ruledialog5 "共用通則_開單操作/挑選資料表元件通則"
 [link_ruledialog8]:../RulesDialog/README#ruledialog8 "共用通則_開單操作/挑選檢視表元件通則"
-[link_ruledialog16]:../RulesDialog/README#ruledialog16 "共用通則_開單操作/挑選開放按鍵回傳參數通則"
+[link_ruledialog20]:../RulesDialog/README#ruledialog20 "共用通則_開單操作/挑選開放按鍵回傳參數通則"
 [link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_開單操作/存回不允空白檢控通則"
