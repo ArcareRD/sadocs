@@ -17,7 +17,7 @@
     * [開窗參照](../../Specification/OAPopup/README.md)
     * [檢控限制](../../Specification/OAValidate/README.md)
     * [更新給值](../../Specification/OAUpdate/README.md)
-    * [編輯能力](OAEdit)
+    * [編輯能力](../../Specification/OAEdit/README.md)
     * [樹狀控制](OATree)
     * [被動更新](OAAddition)
     * [嵌入物件](../../Specification/OADisplayEmbed/README.md)

@@ -13,7 +13,7 @@
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本區塊</p>
 
     ![pic][image_fieldbreak1]
-    * `(1)欄位名稱`
+    * `(1)元件名稱`
         * 用途說明
         * 規格說明
             * 依專案語系, 顯示元件多語名稱

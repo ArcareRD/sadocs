@@ -1,4 +1,4 @@
-# 元件加註_檢控限制
+# 元件加註_編輯能力
 * [上一頁]({back})
 * [版面相關](README#layout)
 * [動作說明](README#form-action)
