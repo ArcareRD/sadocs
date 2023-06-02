@@ -19,7 +19,7 @@
 * <p id="fieldbreak1" style="color:blue;font-weight:bold">基本區塊</p>
 
     ![pic][image_fieldbreak1]
-    * `(1)欄位名稱`
+    * `(1)元件名稱`
         * 用途說明
         * 規格說明
             * 依專案語系, 顯示元件多語名稱
@@ -218,7 +218,6 @@
 [link_ruledialog7]:../RulesDialog/README#ruledialog7 "共用通則_開啟單據/挑選表單元件通則"
 [link_ruleother11]:../RulesOther/README#ruleother11 "共用通則_其它/個資加密提示通則"
 [link_ruledialog21]:../RulesDialog/README#ruledialog21 "共用通則_開啟單據/挑選自定函數通則"
-[link_ruledialog2]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/使用多語詞庫通則"
 [link_ruledialog17]:../RulesDialog/README#ruledialog2 "共用通則_開啟單據/操作多語訊息及替代通則"
 [link_ruleother5]:../RulesOther/README#ruleother5 "共用通則_其它/MAE加註儲存通則"
 [link_ruleother7]:../RulesOther/README#ruleother7 "共用通則_其它/存回不允空白檢控通則"
