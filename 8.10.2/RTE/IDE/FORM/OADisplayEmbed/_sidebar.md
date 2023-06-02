@@ -37,6 +37,7 @@
                 * [嵌入物件元件_長條圖](barchart.md#chart-barchart)
                 * [嵌入物件元件_趨勢圖](linechart.md#chart-linechart)
                 * [嵌入物件元件_雙軸圖](combinchart.md#chart-combinchart)
+                * [嵌入物件元件_環圈圖](donutschart.md#chart-donutschart)
         * [系統內表單](form.md#form-content) 
             * [固定表單](form.md#form-fixed_form) 
                 * [表單名稱](form.md#form-fixed_form-name) 
