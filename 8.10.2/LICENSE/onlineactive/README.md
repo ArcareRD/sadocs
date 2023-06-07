@@ -60,6 +60,8 @@
               * 文字型態
             * computername : 啟用主機電腦的電腦名稱
               * 文字型態
+            * enterpriseid : 啟用該系統授權的企業全唯碼
+              * 文字型態
             * enterprise : 啟用該系統授權的企業名稱
               * 文字型態
         * signature : 數位簽章
