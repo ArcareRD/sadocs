@@ -42,6 +42,8 @@
           * 當 type = RTE_SYSTEM，資訊內容如下
             * systemid : 該筆系統授權的代號
             * 數字型態
+            * projid : 系統全唯碼
+              * 文字型態
             * mkpjid : 系統組裝全唯碼
               * 文字型態
             * name : 系統名稱
