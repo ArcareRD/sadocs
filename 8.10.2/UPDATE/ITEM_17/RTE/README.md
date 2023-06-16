@@ -66,11 +66,11 @@
       * 完整的規格文件請參照[行動裝置版首頁](../../../RTE/SYSTEM/MAINPAGE_MOBILE/README.md)
     * MAE API
       * 登入首頁增加回傳站台授權狀態以及授權提示訊息
-        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppRuntimeLogin]()
+        * 上述規格紀錄於ShareClass文件中，路徑為 : 8.10.2\RTE\MAE_API\AppRuntimeLogin
       * 登入系統增加回傳系統授權狀態以及授權提示訊息
-        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppChangeSystem]()
+        * 上述規格紀錄於ShareClass文件中，路徑為 : 8.10.2\RTE\MAE_API\AppChangeSystem
       * 新增API.檢查授權，提供給MAE呼叫用
-        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppGetLicenseStatus]()
+        * 上述規格紀錄於ShareClass文件中，路徑為 : 8.10.2\RTE\MAE_API\AppGetLicenseStatus
   * 現行客戶站台產生授權資料
     * 完整的規格文件請參照[授權產生程式](../../../RTE/CUSTOM/AUTH/README.md)
   
