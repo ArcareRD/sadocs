@@ -10,13 +10,12 @@
 * URL : /online/activate
 * Request :
     * Header : 
-        * Content-Type： application/x-www-form-urlencoded
         * Authorization：授權中心金鑰對-公鑰
-    * Body(JSON) : 
+    * Body : 
         * type : 授權類型，目前有以下類型
           * RTE_SITE : RTE站台授權
           * RTE_SYSTEM : RTE系統授權
-        * source : 使用RTE金鑰對-私鑰加密過的授權資料，未加密前的啟用授權資訊為JSON格式
+        * file : 使用RTE金鑰對-私鑰加密過的授權資料，未加密前的啟用授權資訊為JSON格式
           * 當 type = RTE_SITE，資訊內容如下
             * siteid : 該筆站台授權的代號
               * 數字型態
@@ -69,16 +68,15 @@
         * signature : 數位簽章
     * Example :
         * Header : 
-            * Content-Type： application/x-www-form-urlencoded
             * Authorization：MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmDJhaFXig73c1Ik8j
         * Body : 
-            * {"type":"RTE_SITE","source":"RuBzbuK6APPT8ghKlr5E0h31TUdTvXh+L+ox7riSQudNxEe/HM1R0tTNt/ZA0w8T4ukAyG/","signature":"ieHRp6vFxIt8cTnzVt4YksCh32Kj7BNMZstZ+sPlRNY5KP4hoo7ULPNzVq5cZXSCjw+jOU+BbH"}
+            * "type":"RTE_SITE"
+            * "file":"RuBzbuK6APPT8ghKlr5E0h31TUdTvXh+L+ox7riSQudNxEe/HM1R0tTNt/ZA0w8T4ukAyG/"+"\r\n"+"ieHRp6vFxIt8cTnzVt4YksCh32Kj7BNMZstZ+sPlRNY5KP4hoo7ULPNzVq5cZXSCjw+jOU+BbH"}
 * Response
-    * Body(JSON)
-        * status : 狀態碼，0表示成功，其餘表示啟用失敗並提供失敗原因的狀態碼
-        * error : 錯誤原因，當status不為0時出現，記錄錯誤訊息
-        * license : 認證啟用檔案內容, 包含以下兩部分
+    * Body
+        * 成功會取得認證啟用檔案內容, 包含以下兩部分
             * 使用授權中心金鑰對-私鑰加密後的啟用授權資訊 : 未加密前的啟用授權資訊為JSON格式，內容同傳入參數.source的內容
             * 數位簽章 : 使用未加密前的啟用授權資訊作為原始資料，產生數位簽章。
+        * 若有錯，則errorcode=500，可取得錯誤原因.
 
 [流程]:attachment/軟體授權碼連線啟用站台.png "流程"
