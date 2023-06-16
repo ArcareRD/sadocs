@@ -29,12 +29,6 @@
       * 完整的規格文件請參照[站台授權設定](../../../RTE/SITE/siteauth/README.md)
     * 企業設定系統
       * 增加向授權中心認證系統授權
-        * 當授權類型=同時連線數時
-          * 判斷所有企業系統授權數量總和不可超過站台授權數量總和
-            * 超過顯示錯誤訊息
-        * 當授權類型=帳號數
-          * 判斷該系統的授權數量不可超過站台授權數量總和
-            * 超過顯示錯誤訊息
         * 當站台授權=雲端服務平台
           * 該站台下所有系統不須再經過認證授權
       * 完整的規格文件請參照[企業設定系統](../../../RTE/SITE/enterprisesystem/README.md)
@@ -70,6 +64,13 @@
       * 當授權類型=同時連線數時
         * 若登入系統Request數量已滿，則顯示人數已滿的訊息
       * 完整的規格文件請參照[行動裝置版首頁](../../../RTE/SYSTEM/MAINPAGE_MOBILE/README.md)
+    * MAE API
+      * 登入首頁增加回傳站台授權狀態以及授權提示訊息
+        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppRuntimeLogin]()
+      * 登入系統增加回傳系統授權狀態以及授權提示訊息
+        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppChangeSystem]()
+      * 新增API.檢查授權，提供給MAE呼叫用
+        * 上述規格紀錄於ShareClass文件中，路徑為[8.10.2\RTE\MAE_API\AppGetLicenseStatus]()
   * 現行客戶站台產生授權資料
     * 完整的規格文件請參照[授權產生程式](../../../RTE/CUSTOM/AUTH/README.md)
   
