@@ -74,9 +74,11 @@
             * "file":"RuBzbuK6APPT8ghKlr5E0h31TUdTvXh+L+ox7riSQudNxEe/HM1R0tTNt/ZA0w8T4ukAyG/"+"\r\n"+"ieHRp6vFxIt8cTnzVt4YksCh32Kj7BNMZstZ+sPlRNY5KP4hoo7ULPNzVq5cZXSCjw+jOU+BbH"}
 * Response
     * Body
-        * 成功會取得認證啟用檔案內容, 包含以下兩部分
+        * 成功會取得認證啟用檔案內容（以換行符號進行分隔）, 包含以下兩部分
             * 使用授權中心金鑰對-私鑰加密後的啟用授權資訊 : 未加密前的啟用授權資訊為JSON格式，內容同傳入參數.source的內容
             * 數位簽章 : 使用未加密前的啟用授權資訊作為原始資料，產生數位簽章
-        * 若有錯，則errorcode=500，可取得錯誤原因.
+        * 若有錯，會setStatus為500，並利用setHeader方式（設定responseText為標題名稱、錯誤原因為值）回傳錯誤原因。
+        　　其中，錯誤原因還採用了URLEncoder以utf-8的格式，進行百分比編碼，以避免中文亂碼問題。
+        
 
 [流程]:attachment/軟體授權碼連線啟用站台.png "流程"
